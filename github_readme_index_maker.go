@@ -41,7 +41,6 @@ type Content struct {
 
 var ignores = []string{"tpl", ".git", ".gitignore", ".DS_STORE"}
 
-const HOST_ROOT = "https://github.com/inter-action/blog/blob/master/"
 const OUTPUT_FILE = "./README.md"
 
 // this func may cause stackoverflow, refractor this if needed
@@ -84,9 +83,7 @@ func join_contents(contents []Content, path string) string {
 
 	for _, c := range contents {
 		//todo: find a way to encodingURI in golang
-		// fullpath := filepath.Join(HOST_ROOT, path, c.title)
-		// subpath := url.QueryEscape(fullpath[len(HOST_ROOT)-1:])
-		r = append(r, fmt.Sprintf("[%s](%s)  ", c.title, filepath.Join(HOST_ROOT, path, url.QueryEscape(c.title))))
+		r = append(r, fmt.Sprintf("[%s](%s)  ", c.title, "./"+filepath.Join(path, url.QueryEscape(c.title))))
 	}
 
 	return strings.Join(r, "\n")
