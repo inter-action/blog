@@ -149,7 +149,8 @@ func main() {
 	context := template.FuncMap{
 		"GenIndex": GenIndex,
 	}
-	// t, err := template.New("readme").ParseFiles(filepath.Join(_filePath, "tpl/readme.md.tpl"))
+	//这个地方的文件名 new 和 parseFiles 这两个地方必须一致，涉及到golang 内部实现。太坑了！具体看下面链接
+	//http://stackoverflow.com/questions/10199219/go-template-function
 	t, err := template.New("_readme_tpl.md").Funcs(context).ParseFiles("./tpl/_readme_tpl.md")
 	if err != nil {
 		log.Fatal(err)
