@@ -39,7 +39,8 @@ type Content struct {
 	title string
 }
 
-var ignores = []string{"tpl", ".git", ".gitignore", ".DS_STORE"}
+// 默认隐藏所有以 .开头的 dir or file
+var ignores = []string{"tpl"}
 
 const OUTPUT_FILE = "./README.md"
 
@@ -54,7 +55,7 @@ func walk_file(path string) Entries {
 	entries.path = path
 
 	for _, fi := range files {
-		if contains(ignores, fi.Name()) {
+		if strings.HasPrefix(fi.Name(), ".") || contains(ignores, fi.Name()) {
 			continue
 		}
 
@@ -114,7 +115,7 @@ func GenIndex() string {
 
 	entries := walk_file("./")
 	_root := Root{entries: []Entries{entries}}
-	fmt.Println(_root)
+	// fmt.Println(_root)
 
 	return walk_root(_root)
 }
@@ -154,6 +155,7 @@ func main() {
 	}
 
 	outfile, err := os.Create(OUTPUT_FILE)
+	defer outfile.Close()
 	if err != nil {
 		log.Fatal(err)
 	}
