@@ -75,6 +75,13 @@
     [Learning.Android(2nd,2014.1)].Marko.Gargenta..文字版.pdf|2015.10:D
     [Building.Hybrid.Android.Apps.with.Java.and.JavaScript(2013.7)].Nizamettin.Gok.文字版|2015.11:D
 
+[golang]
+
+    [Packt.Mastering.Go.Web.Services.2015.4]|2015.11:D
+
+[nginx]
+
+    [Ngix Http Server]|2015.11:50%
 
 [NOVELS]
 
@@ -117,6 +124,6 @@
     [MongoDB: the definitive guide]|2014.09-2014.11:S:40%
     [Manning.Functional.Programming.in.Scala.2014.8.pdf] | 2015.06-~
     [赤裸裸的统计学]|2015.06-~
-    [Packt.Mastering.Go.Web.Services.2015.4]|2015.11~
+
 
 
