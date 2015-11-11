@@ -84,10 +84,20 @@ func join_contents(contents []Content, path string) string {
 
 	for _, c := range contents {
 		//todo: find a way to encodingURI in golang
-		r = append(r, fmt.Sprintf("[%s](%s)  ", c.title, "./"+filepath.Join(path, url.QueryEscape(c.title))))
+		e, err := UrlEncoded(c.title)
+		if err != nil {
+			log.Fatal(err)
+		}
+		r = append(r, fmt.Sprintf("[%s](%s)  ", c.title, "./"+filepath.Join(path, url.QueryEscape(e))))
 	}
 
 	return strings.Join(r, "\n")
+}
+
+// UrlEncoded encodes a string like Javascript's encodeURIComponent()
+func UrlEncoded(str string) (string, error) {
+	u, err := url.Parse(str)
+	return u.String(), err
 }
 
 func walk(entries []Entries, depth int) string {
