@@ -85,7 +85,7 @@ func join_contents(contents []Content, path string) string {
 	for _, c := range contents {
 		//todo: find a way to encodingURI in golang
 		e := encodeURI(c.title)
-		r = append(r, fmt.Sprintf("[%s](%s)  ", c.title, "./"+filepath.Join(path, url.QueryEscape(e))))
+		r = append(r, fmt.Sprintf("[%s](%s)  ", c.title, "./"+filepath.Join(path, e)))
 	}
 
 	return strings.Join(r, "\n")
