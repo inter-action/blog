@@ -1,0 +1,63 @@
+TODOS
+    DONE:
+        page70
+            func (h *StringService) Length(r *http.Request, arguments *RPCAPIArguments, reply *RPCAPIResponse) error { #func define
+                //定义 StringService 成员方法, Length 大写表示 public, 最后的 error 是什么意思
+
+        _ "github.com/go-sql-driver/mysql" #import, 这个表示 import 但是并不用这个
+
+        go int int64 的区别
+
+        CONSTRAINT `FK__users` FOREIGN KEY (`user_id`) REFERENCES
+           `users` (`user_id`) ON UPDATE NO ACTION ON DELETE NO ACTION #page 116
+                NO ACTION: A keyword from standard SQL. In MySQL, equivalent to RESTRICT.
+                The MySQL Server rejects the delete or update operation for the parent table
+
+                允许更新内容，但是涉及到 user_id 这列的时候，如果更新则会被拒绝
+
+                    https://dev.mysql.com/doc/refman/5.6/en/create-table-foreign-keys.html
+
+        mysql
+            int(13)
+                最多显示13位，INT 数据类型占4个字节，最多10位，
+                An int can be between -2147483648 and 2147483647 signed, or 0 and 4294967295 unsigned.
+                http://stackoverflow.com/questions/8892341/what-does-int5-in-mysql-mean
+            varchar(255) #表示最多存255个字符，少于255会动态截取
+
+        "INSERT INTO api_tokens set
+            application_user_id=" + appUID + ", user_id=" + dbUID + ",
+            api_token_key='" + requestToken + "' ON DUPLICATE KEY UPDATE
+            user_id=user_id" # ON DUPLICATE KEY:  的意思, page126
+
+            http://dev.mysql.com/doc/refman/5.7/en/insert-on-duplicate.html
+
+            如果有重复的数据在  UNIQUE index or PRIMARY KEY 列上，则执行更新
+
+
+        [golang sdk 安装]http://www.cnblogs.com/heinoc/p/3801161.html
+        go deferred
+
+        var em ErrMsg{} # page77, = var em = ErrMsg{}
+
+        how user relation works in mysql user table design
+            没有一条relation 请求插入一条数据, 这样比较好，能够知道谁发起的请求。如果只用一条记录维持各种关系会比较麻烦（屏蔽，拉黑，删除）
+
+        HATEOAS(Hypermedia as the Engine of Application State)
+            https://spring.io/understanding/HATEOAS
+            主要的意思就是返回的数据中携带对应的链接信息帮助用户去浏览 web service, 格式就是 links:[{rel:,href:}....]
+
+        /Users/adsage/Downloads/9781783981304_Code/Chapter03/ch_3_2_api.go
+
+
+    PENDING:
+        OAuth 2 implementation
+            书中的各个表中间的关系和意义
+            http://bozpy.sinaapp.com/blog/27
+            https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified
+            [OAuth2 specification]http://tools.ietf.org/html/draft-ietf-oauth-v2-31
+
+        store.Get(r, "service-session") #at page137
+        https://github.com/gorilla/sessions
+
+        You can find more information on Nginx and reverse proxy caching at http://nginx.com/resources/admin-guide/caching/.
+        Varnish and Squid are both built primarily for caching at this level as well. More detail on Varnish and Squid can be found at https:// www.varnish-cache.org/ and http://www.squid-cache.org/ respectively.
