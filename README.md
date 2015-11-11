@@ -6,6 +6,8 @@
 [README.md](./README.md)  
 [github_readme_index_maker.go](./github_readme_index_maker.go)  
 [reading-list.md](./reading-list.md)  
+#####booknotes
+[mastering go web service.txt](./booknotes/mastering+go+web+service.txt)  
 #####js
 
 ######js/algorithms
