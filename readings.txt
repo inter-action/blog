@@ -14,6 +14,10 @@
         [node js best practices](http://blog.risingstack.com/node-js-best-practices/)
         [node-best-practices](https://devcenter.heroku.com/articles/node-best-practices#use-npm-scripts-to-run-custom-build-steps)
 
+        [Browserify：浏览器加载Node.js模块](http://javascript.ruanyifeng.com/tool/browserify.html)
+        [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
+        [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
+
     ## Python
         [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
 
@@ -46,15 +50,22 @@
         [文件上传命名](http://programmers.stackexchange.com/questions/193834/whats-the-best-practice-for-naming-uploaded-images)
 
         [2015 前端[JS]工程师必知必会](http://zhuanlan.zhihu.com/FrontendMagazine/20002850)
+        [前端开发工程师如何在2013年里提升自己](http://oklai.name/2012/12/%E8%BD%AC%E8%BD%BD%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%A6%82%E4%BD%95%E5%9C%A82013%E5%B9%B4%E9%87%8C%E6%8F%90%E5%8D%87%E8%87%AA%E5%B7%B1/)
+
         [awesome-frontend](https://github.com/JingwenTian/awesome-frontend)
         [移动端网络优化](http://www.trinea.cn/android/mobile-performance-optimization/)
         [前段手册]https://dwqs.gitbooks.io/frontenddevhandbook/content/learning/dns.html
+        [webGL fundemantals](http://webglfundamentals.org/)
 
+        [SVG图标在移动端的应用](http://ued.ctrip.com/blog/?p=3893)
+
+        [前段代码加密](http://div.io/topic/1220)
 
 
         ### Resources
             [web项目下载 后台模板](http://www.jqueryfuns.com/)
             [free ui resources](http://www.graphberry.com/)
+            [每个设计师必知的40个设计素材站](http://www.uisdc.com/40-resources-designer-should-know)
 
         ###  bootstrap
 
@@ -75,6 +86,21 @@
             [web 学习博客](http://www.w3cplus.com/blogs/list.html)
             [center things](https://css-tricks.com/centering-css-complete-guide/)
 
+            [icons]
+                http://www.iconfont.cn/collections?personal=1
+
+            [!! the responsive web]
+                ! viewports fundementals
+                    [A tale of two viewports — part one](http://www.quirksmode.org/mobile/viewports.html)
+                    [A tale of two viewports — part two](http://www.quirksmode.org/mobile/viewports2.html)
+
+                [走向视网膜（Retina）的Web时代](http://www.w3cplus.com/css/towards-retina-web.html)
+
+                [!! 前端H5适配 ](https://github.com/amfe/article/issues/17)
+
+        ### mobile html5
+            [webview 调试]https://github.com/riskers/blog/issues/11
+
         ### JS
             [offsetwidth, scrollwidth, clientwidth..](http://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
             [detect javascript memory leak with chrome dev tools]
@@ -84,22 +110,29 @@
             http://javascript.info/tutorial/memory-leaks
             [export csv file in client side using js](http://stackoverflow.com/questions/4639372/export-to-csv-in-jquery)
 
-    ## libary
-        ### reactjs
-            [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
-            [深入浅出 React Native：使用 JavaScript 构建原生应用](http://zhuanlan.zhihu.com/FrontendMagazine/19996445)
-            http://www.tabforacause.org/blog/2015/01/29/using-reactjs-and-application-cache-fast-synced-app/
-            [谈谈React.js的核心入门知识](http://wwsun.me/posts/react-getting-started.html)
+            [JS 优化]
+                http://coding.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools/
+                http://coding.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/
 
-            react component
-                http://react-components.com/
+            libaries
 
-            Flux Pattern
-                [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243#!)
-                http://facebook.github.io/flux/docs/overview.html#content
+                reactjs
+                    [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
+                    [深入浅出 React Native：使用 JavaScript 构建原生应用](http://zhuanlan.zhihu.com/FrontendMagazine/19996445)
+                    http://www.tabforacause.org/blog/2015/01/29/using-reactjs-and-application-cache-fast-synced-app/
+                    [谈谈React.js的核心入门知识](http://wwsun.me/posts/react-getting-started.html)
+
+                    react component
+                        http://react-components.com/
+
+                    Flux Pattern
+                        [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243#!)
+                        http://facebook.github.io/flux/docs/overview.html#content
 
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
+        [Worktile中的实时消息推送服务实现](https://worktile.com/tech/basic/worktile-real-time-notice)
+        [Containers (Docker): A disruptive force in cloud computing](http://anandmanisankar.com/posts/container-docker-PaaS-microservices/)
 
         [centos haproxy install]
             http://www.centoscn.com/image-text/config/2013/0805/1056.html
@@ -131,7 +164,6 @@
             [apache traffic server - 文件缓存](http://trafficserver.apache.org/)
 
 
-
         ### web crawling
             [selenium]
             [PhantomJS]
@@ -142,14 +174,6 @@
             [Token-Based Authentication With AngularJS & NodeJS](http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543)
                 with same question to be resolved: 1. it doesnt make sense to decrypt jwt token on client side, 2. /me api is broken, see comments below. 3. is base64 is really needed.
 
-
-
-
-        [Worktile中的实时消息推送服务实现](https://worktile.com/tech/basic/worktile-real-time-notice)
-        [Containers (Docker): A disruptive force in cloud computing](http://anandmanisankar.com/posts/container-docker-PaaS-microservices/)
-
-        ### WEBGL
-            [webGL fundemantals](http://webglfundamentals.org/)
 
         ### database
             [cap theorem](http://en.wikipedia.org/wiki/CAP_theorem)
@@ -168,15 +192,14 @@
                 [struts2 and freemarker](http://viralpatel.net/blogs/struts2-freemarker-tempalte-ftl-integration-example/)
 
             hibernate
-                [jpa/hibernate id sequencing]http://en.wikibooks.org/wiki/Java_Persistence/Identity_and_Sequencing#Sequencing
 
             security
                 [Java security: Java security, Part 1: Crypto basics](http://www.ibm.com/developerworks/java/tutorials/j-sec1/j-sec1.html#padding)
 
 
-    [oracle database]
-        [security]
-            [project lockdown](http://www.oracle.com/technetwork/articles/project-lockdown-133916.pdf)
+        ### oracle database
+            [security]
+                [project lockdown](http://www.oracle.com/technetwork/articles/project-lockdown-133916.pdf)
 
 # version control
     ## git
@@ -186,8 +209,7 @@
         [Git 版本控制与工作流  ](http://www.jianshu.com/p/67afe711c731)
         [让你的Git水平更上一层楼的10个小贴士](http://blog.jobbole.com/75348/)
 
-# mobile
-    [webview 调试]https://github.com/riskers/blog/issues/11
+# native mobile
 
     # android
         [anroid 程序设计经验](http://blog.csdn.net/ahence/article/details/47154419)
@@ -199,9 +221,6 @@
     # hydrid mobile dev
         [cordova](http://cordova.apache.org/)
 
-# nodejs env
-    [Browserify：浏览器加载Node.js模块](http://javascript.ruanyifeng.com/tool/browserify.html)
-    [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
 
 # thoughts
     [Function Programming]: http://en.wikipedia.org/wiki/Functional_programming
@@ -232,25 +251,15 @@
     [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm)
     [如何选择开源许可证](http://oklai.name/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81%EF%BC%9F/)
 
-    [java api examples](http://www.programcreek.com/java-api-examples/)
-    [xpath tutorial](http://w3school.com.cn/xpath/)
-
-    [vi cheetsheet] (http://www.lagmonster.org/docs/vi.html)
-
     [collaborative filtering recommendation engine implementation in python](http://dataaspirant.com/2015/05/25/collaborative-filtering-recommendation-engine-implementation-in-python/)
-
 
     [python 统计入门教程](http://work.thaslwanter.at/Stats/html/)
     [python 科学入门](http://nbviewer.ipython.org/gist/rpmuller/5920182#)
     [python 算法教程](http://interactivepython.org/runestone/static/pythonds/index.html)
-
     [color in terminal](http://jafrog.com/2013/11/23/colors-in-terminal.html)
-    [前段代码加密](http://div.io/topic/1220)
-    [SVG图标在移动端的应用](http://ued.ctrip.com/blog/?p=3893)
     [force-files-to-download-not-open-in-browser](https://css-tricks.com/snippets/htaccess/force-files-to-download-not-open-in-browser/)
 
 
-    [每个设计师必知的40个设计素材站](http://www.uisdc.com/40-resources-designer-should-know)
 # BLOGS
     [前端周刊](http://feweekly.com/issues)
     [node weekly](http://nodeweekly.com/issues)
@@ -262,29 +271,16 @@
 # TODOs
     DONE:
         [TCP/IP] http://coolshell.cn/articles/11564.html
-
     DONE:
         ![Java 下一代: 混入和特征]
             https://www.ibm.com/developerworks/cn/views/global/libraryview.jsp?sort_by=&show_abstract=true&show_all=&search_flag=&contentarea_by=Java+technology&search_by=Java+%E4%B8%8B%E4%B8%80%E4%BB%A3&product_by=-1&topic_by=-1&type_by=%E6%89%80%E6%9C%89%E7%B1%BB%E5%88%AB&ibm-search=%E6%90%9C%E7%B4%A2
             (http://www.ibm.com/developerworks/cn/java/j-jn8/index.html)
-        [Hello.HTML5.and.CSS3(2012.10)].Rob.Crowther.文字版
-            css 布局, photoshop 切片 [finish this week]
-
     PENDING:
-        [前端开发工程师如何在2013年里提升自己](http://oklai.name/2012/12/%E8%BD%AC%E8%BD%BD%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%A6%82%E4%BD%95%E5%9C%A82013%E5%B9%B4%E9%87%8C%E6%8F%90%E5%8D%87%E8%87%AA%E5%B7%B1/)
         [understand tcp performance](http://apmblog.compuware.com/2014/06/26/understanding-application-performance-on-the-network-tcp-slow-start/)
 
         [redis-java](http://www.ibm.com/developerworks/java/library/j-javadev2-22/index.html)
 
         [IBM - Neal Ford- talks about java](http://www.ibm.com/developerworks/cn/views/java/libraryview.jsp?sort_by=&show_abstract=true&show_all=&search_flag=&contentarea_by=Java+technology&search_by=Neal+Ford&topic_by=-1&type_by=%E6%89%80%E6%9C%89%E7%B1%BB%E5%88%AB&ibm-search=%E6%90%9C%E7%B4%A2)
-        [演化架构和紧急设计: 使用 Groovy 构建 DSL](http://www.ibm.com/developerworks/cn/java/j-eaed15.html)
-        [Java 下一代: 没有继承性的扩展，第 1 部分](http://www.ibm.com/developerworks/cn/java/j-jn5/index.html)
-        [Activity](http://www.ibm.com/developerworks/cn/java/j-lo-activiti1/)
-        'python qq cartoon downloader' http://www.oschina.net/code/snippet_1395553_36856
-        [chrome vimium plugin](https://github.com/philc/vimium)
-            http://css-tricks.com/colorpeek-part-2-building-first-chrome-extension/
-
-        [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
 
         Css
             http://code.tutsplus.com/tutorials/build-a-twitter-clone-from-scratch-the-design--net-28438
@@ -299,10 +295,6 @@
 
         key book: a programmer's view: network section
 
-        [JS 优化]
-            http://coding.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools/
-            http://coding.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/
-
         python
             [python flask, get flask up running on ubuntu]
                 http://conra.dk/2012/05/06/flask-uwsgi-nginx-ubuntu.html
@@ -315,21 +307,13 @@
             http://blog.imaginea.com/understanding-lucene-boosting-part-1/
 
         upcomming week
-            reading redis
             [java optimazation]http://java.dzone.com/articles/dzones-200th-refcard-released
             [functional programming](http://www.defmacro.org/ramblings/fp.html)
             [](https://www.digitalocean.com/community/tutorials/5-common-server-setups-for-your-web-application)
             http://java.dzone.com/articles/best-dzone-july-29-august-5
             http://code.tutsplus.com/tutorials/easily-deploy-redis-backed-web-apps-with-docker--cms-20405
 
-            docker:
-                http://v.youku.com/v_show/id_XNzAwNDA1NzI0.html
-                http://v.youku.com/v_show/id_XNjgwMjIyMzYw.html
-
             http://webdesign.tutsplus.com/tutorials/designing-a-simple-instagram-based-portfolio-in-photoshop--cms-21402
-
-            http://www.oschina.net/question/1265349_162388
-            http://promotion.aliyun.com/act/aliyun/sem2landing/?spm=0.0.0.0.z93PGu
 
             [linux net cmds]
                 http://linux.vbird.org/linux_server/0140networkcommand.php
@@ -337,24 +321,11 @@
                 http://chrinux.blog.51cto.com/6466723/1188108
 
             [java tree map implementation] (http://blog.csdn.net/SpeedMe/article/details/22661671)
+
             [spark]
                 http://sparkjava.com/documentation.html#views-templates
+
             [gradle]
                 http://www.gradle.org/docs/current/userguide/tutorial_java_projects.html
 
             http://en.wikipedia.org/wiki/Bloom_filter#Examples
-
-
-            [react js](http://facebook.github.io/react/docs/reconciliation.html)
-            https://docs.trafficserver.apache.org/en/latest/admin/http-proxy-caching.en.html#understanding-http-web-proxy-caching
-
-            http://html5ify.com/fks/
-            https://github.com/defunkt/jquery-pjax
-
-
-            []https://github.com/sroze/ngInfiniteScroll
-
-            [](http://ourjs.com/detail/5417e6ea4f1286640f000002)
-
-        [java 服务器开发需要的知识]
-            http://blog.csdn.net/ithomer/article/details/10602469
