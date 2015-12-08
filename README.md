@@ -4,8 +4,8 @@
 ## Contents Index
 ####./
 [README.md](./README.md)  
+[book-list.md](./book-list.md)  
 [github_readme_index_maker.go](./github_readme_index_maker.go)  
-[reading-list.md](./reading-list.md)  
 [readings.txt](./readings.txt)  
 #####booknotes
 [mastering go web service.txt](./booknotes/mastering%20go%20web%20service.txt)  
