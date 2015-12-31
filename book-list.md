@@ -124,6 +124,8 @@
     [MongoDB: the definitive guide]|2014.09-2014.11:S:40%
     [Manning.Functional.Programming.in.Scala.2014.8.pdf] | 2015.06-~
     [赤裸裸的统计学]|2015.06-~
+    [machine learning in action]|2015.11.13-~
+    [OReilly.using docker]|2015.12-~
 
 
 

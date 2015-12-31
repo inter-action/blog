@@ -5,6 +5,7 @@
 
     ## scala
         [Understanding Scala Streams through Fibonacci](http://derekwyatt.org/2011/07/29/understanding-scala-streams-through-fibonacci.html)
+        [5 years of Scala and counting – debunking some myths about the language and its environment](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
 
     ## nodejs
         [nodejs 模块加载机制]
@@ -73,7 +74,6 @@
             [bootstrap grid system, difference within col-lg col-md col-sm](http://stackoverflow.com/questions/19865158/what-is-the-difference-among-col-lg-col-md-and-col-sm-in-twitter-bootstra)
 
         ### CSS
-
             [animate 动画]
                 animate.css http://daneden.github.io/animate.css/
                 [css-animation-for-beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
@@ -130,10 +130,13 @@
                         [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243#!)
                         http://facebook.github.io/flux/docs/overview.html#content
 
+        ### libs
+            [reactjs]
+                [react flux](http://www.infoq.com/cn/articles/react-flux)
+
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
         [Worktile中的实时消息推送服务实现](https://worktile.com/tech/basic/worktile-real-time-notice)
-        [Containers (Docker): A disruptive force in cloud computing](http://anandmanisankar.com/posts/container-docker-PaaS-microservices/)
 
         [centos haproxy install]
             http://www.centoscn.com/image-text/config/2013/0805/1056.html
@@ -148,6 +151,8 @@
                 [redis mysql haproxy 快速架构](http://www.oschina.net/translate/the-easy-way-of-building-a-growing-startup-architecture)
 
         ## HTTPS:
+            [! 关于启用 HTTPS 的一些经验分享](https://imququ.com/post/sth-about-switch-to-https.html)
+            [! 免费签发证书](https://letsencrypt.org/)
             [正向代理与反向代理的区别](http://bigc.at/reverse-proxy.orz)
             [HTTPS的七个误解](http://www.ruanyifeng.com/blog/2011/02/seven_myths_about_https.html)
             [HTTPS 证书申请] (http://www.startssl.com/)
@@ -175,12 +180,24 @@
             [Token-Based Authentication With AngularJS & NodeJS](http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543)
                 with same question to be resolved: 1. it doesnt make sense to decrypt jwt token on client side, 2. /me api is broken, see comments below. 3. is base64 is really needed.
 
+            [http api guide]
+                https://geemus.gitbooks.io/http-api-design/content/
+                ！https://github.com/ZhangBohan/http-api-design-ZH_CN
+                ！https://devcenter.heroku.com/articles/platform-api-reference#ranges
+
+                后端 支持Etag缓存 策略
+
 
         ### database
+
             [cap theorem](http://en.wikipedia.org/wiki/CAP_theorem)
 
             [The problem with Backing Stores, or what is NoSQL and why would you use it anyway](http://blog.isotoma.com/2014/06/the-problem-with-backing-stores-or-what-is-nosql-and-why-would-you-use-it-anyway/)
             [分布式系统的事务处理](http://coolshell.cn/articles/10910.html)
+
+            oracle database:
+                [security]
+                    [project lockdown](http://www.oracle.com/technetwork/articles/project-lockdown-133916.pdf)
 
         ### network
             # TCP/IP
@@ -198,9 +215,9 @@
                 [Java security: Java security, Part 1: Crypto basics](http://www.ibm.com/developerworks/java/tutorials/j-sec1/j-sec1.html#padding)
 
 
-        ### oracle database
-            [security]
-                [project lockdown](http://www.oracle.com/technetwork/articles/project-lockdown-133916.pdf)
+        ### docker
+            [Containers (Docker): A disruptive force in cloud computing](http://anandmanisankar.com/posts/container-docker-PaaS-microservices/)
+
 
 # version control
     ## git
@@ -217,6 +234,8 @@
         [android 技术开发应用堆栈](http://www.jianshu.com/p/c8c6dbe00787)
         [Jenkin+Git+Gradle为Android项目搭建CI环境](http://blogs.cyning.me/2015/08/16/jenkins-CI-android/)
         [移动端前端开发真机调试攻略](http://www.anchengjian.com/post/3217ba_8c8e9f1)
+        [!The Busy Coder's Guide to Android Development](https://github.com/commonsguy/cw-omnibus)
+        [! android 资源列表](http://www.jianshu.com/p/e961f1633d7a)
 
 
     # hydrid mobile dev
@@ -238,7 +257,11 @@
 
 # 面试
     [前端]
+        https://github.com/AutumnsWind/Front-end-questions-to-the-interview-stage
 
+
+# linux
+    [linux 工具速查手册](http://linuxtools-rst.readthedocs.org/zh_CN/latest/index.html)
 
 # others
     java 性能优化
