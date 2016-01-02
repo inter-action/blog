@@ -75,10 +75,14 @@
 
         ### CSS
             [animate 动画]
-                animate.css http://daneden.github.io/animate.css/
                 [css-animation-for-beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
                 [css translate3d](http://www.w3cplus.com/css3/css3-3d-transform.html)
                 [keyframe-animation-syntax](https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
+
+            libs
+                animate
+                    http://daneden.github.io/animate.css/
+                    http://info.9iphp.com/top-9-animation-libraries-use-2016/
 
             [2d 转换和 3d转换详解](http://blog.csdn.net/xiaoguang44/article/details/8275396)
             [vertical-align] http://phrogz.net/CSS/vertical-align/index.html
