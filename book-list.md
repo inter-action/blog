@@ -126,6 +126,6 @@
     [赤裸裸的统计学]|2015.06-~
     [machine learning in action]|2015.11.13-~
     [OReilly.using docker]|2015.12-~
-
+    [深入浅出nodejs]|2015-~
 
 
