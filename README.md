@@ -1,6 +1,9 @@
 # blog
 个人博客
 
+## About Me
+男, 27, 目前从事 angularjs 的web端开发
+
 ## Contents Index
 ####./
 [README.md](./README.md)  
@@ -20,4 +23,6 @@
 ######js/web
 [元编程与js表单校验.md](./js/web/%E5%85%83%E7%BC%96%E7%A8%8B%E4%B8%8Ejs%E8%A1%A8%E5%8D%95%E6%A0%A1%E9%AA%8C.md)  
 [工作日志-JS分页实现.md](./js/web/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97-JS%E5%88%86%E9%A1%B5%E5%AE%9E%E7%8E%B0.md)  
+#####scala
+[scala-tips.md](./scala/scala-tips.md)  
 
