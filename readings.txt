@@ -134,6 +134,10 @@
                         [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243#!)
                         http://facebook.github.io/flux/docs/overview.html#content
 
+
+        ### scalajs
+            [! introduction to scalajs, the next generation of the FE](https://www.youtube.com/watch?v=n1GgVWOThhY)
+
         ### libs
             [reactjs]
                 [react flux](http://www.infoq.com/cn/articles/react-flux)
