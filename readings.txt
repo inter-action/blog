@@ -6,6 +6,7 @@
     ## scala
         [Understanding Scala Streams through Fibonacci](http://derekwyatt.org/2011/07/29/understanding-scala-streams-through-fibonacci.html)
         [5 years of Scala and counting – debunking some myths about the language and its environment](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
+        [scala 魔法函数](http://colobu.com/2016/01/04/Scala-magic-functions/)
 
     ## nodejs
         [nodejs 模块加载机制]
@@ -62,6 +63,9 @@
 
         [前段代码加密](http://div.io/topic/1220)
 
+        ### perspective
+            [近几年前端技术盘点以及 2016 年技术发展方向](http://www.barretlee.com/blog/2015/12/10/after-framework-we-gonna-to-hug-data/)
+            [2015前端生态发展回顾 ](https://github.com/kuitos/kuitos.github.io/issues/32)
 
         ### Resources
             [web项目下载 后台模板](http://www.jqueryfuns.com/)
@@ -133,14 +137,15 @@
                     Flux Pattern
                         [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243#!)
                         http://facebook.github.io/flux/docs/overview.html#content
+                        [react flux](http://www.infoq.com/cn/articles/react-flux)
 
 
         ### scalajs
             [! introduction to scalajs, the next generation of the FE](https://www.youtube.com/watch?v=n1GgVWOThhY)
 
-        ### libs
-            [reactjs]
-                [react flux](http://www.infoq.com/cn/articles/react-flux)
+        ### others
+            [chrome dev tools](http://ljinkai.github.io/2015/12/26/chrome-dev-tools/)
+
 
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
@@ -207,6 +212,9 @@
                 [security]
                     [project lockdown](http://www.oracle.com/technetwork/articles/project-lockdown-133916.pdf)
 
+            redis:
+                [Redis 集群的合纵与连横](https://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=402004912&idx=1&sn=7517696a86f54262e60e1b5636d6cbe0)
+
         ### network
             # TCP/IP
                 http://coolshell.cn/articles/11564.html
@@ -225,6 +233,21 @@
 
         ### docker
             [Containers (Docker): A disruptive force in cloud computing](http://anandmanisankar.com/posts/container-docker-PaaS-microservices/)
+            [在 Docker 中完整部署 Web 应用](http://fuzhii.com/2015/12/25/docker-web-app/)
+                docker file 写的并不是特别规范, mysql 最好用 docker compose 来做, 方便扩容
+
+
+
+        ### others
+            [自己动手开发网络服务器（三）](http://codingpy.com/article/build-a-simple-web-server-part-three/)
+                python fork 会复制文件描述符, 子进程需要及时关闭从父进程copy过来的 file descriptor
+                父进程需要等待子进程的关闭(os.wait, os.waitpid), 否则会出现僵尸进程
+                    > 僵尸进程其实是已经结束了的进程，但是它的父进程并没有等待进程结束，所以没有接收到进程结束的状态信息。当子进程在父进程之前退出，系统就会将子进程变成一个僵尸进程，保留原子进程的部分信息，方便父进程之后获取。系统所保留的信息通常包括进程ID、进程结束状态和进程的资源使用情况。
+                ulimit 查看系统进程默认可以使用的资源
+                python signal 处理可能会引起的主进程的 interrupted error.
+                进程 pid 和 ppid 的关系, 子进程创建会有一个 ppid 指向父进程
+
+
 
 
 # version control
