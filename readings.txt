@@ -270,6 +270,8 @@
 
 # linux
     [linux 工具速查手册](http://linuxtools-rst.readthedocs.org/zh_CN/latest/index.html)
+    [ulimit](https://www.ibm.com/developerworks/cn/linux/l-cn-ulimit/)
+    
 
 # others
     java 性能优化

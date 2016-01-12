@@ -43,6 +43,9 @@
     [Learning.JavaScript.Design.Patterns(Early.Release,2012.4)].Addy.Osmani|2013-2014.06:D
     [AngularJS(2013.4)].Brad.Green|2014.05-2014.06:D
     [Node.js.the.Right.Way(2013.11)].Jim.R.Wilson.文字版.pdf|2014.12-:D
+    [深入浅出nodejs]|2015-2016.10
+        buffer, fork child process, cluster, bench mark, load test(ab). server side logging & alert
+
 
 [CSS]
 
@@ -118,7 +121,7 @@
     [Redis.in.Action(2013.6)].Josiah.L.Carlson|2014.05-~|44%
     [MongoDB.Applied.Design.Patterns(2013.3)].Rick.Copeland|2014.06-~:S
     The Game of Life Florence Scovel Shinn Touchstone|2014.04-~:S
-    [你的第一本哲学书]|2104.11-~
+    [你的第一本哲学书]|2014.11-~
     On china.Henry Kissinger|2014.10-~
     [Scala.in.Depth(2012.5)].Joshua.D.Suereth.文字版.pdf|2014.08-~:S
     [MongoDB: the definitive guide]|2014.09-2014.11:S:40%
@@ -126,6 +129,6 @@
     [赤裸裸的统计学]|2015.06-~
     [machine learning in action]|2015.11.13-~
     [OReilly.using docker]|2015.12-~
-    [深入浅出nodejs]|2015-~
+
 
 
