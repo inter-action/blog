@@ -26,7 +26,7 @@ We all know scala has a complex system. Most of the time we simply refer to its 
 Covariant, Contra Variant ... But how to efficently use its type constructor is another thing you may need to
 consider.
 
-Let's look at the code from `Functional Programming In Scala`. The `Id[A]` type contructor is a tricky one.
+Let's look at the code from book `Functional Programming In Scala`. The `Id[A]` type contructor is a tricky one.
 In order to implement the map method with traverse method, he contructs the `Id` type, and use it created
 an Monad[Id]  (Since all Monads are Applicative).
 
@@ -70,7 +70,7 @@ Syntax of Type Lambda:
 
 Look the use case below:
 Applicative only take a Type that accept one Type Param. But `Validation` Type takes two.
-So here he use Type Lambda dynamically create new wrap type `f`. Defination and usage in one line.
+So here he use Type Lambda dynamically create new wrapper type `f`. Defination and usage in one line.
     
     object Applicative{
       def validationApplicative[E]: Applicative[({type f[x] = Validation[E,x]})#f] =
