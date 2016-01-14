@@ -28,7 +28,7 @@ consider.
 
 Let's look at the code from book `Functional Programming In Scala`. The `Id[A]` type contructor is a tricky one.
 In order to implement the map method with traverse method, he contructs the `Id` type, and use it created
-an Monad[Id]  (Since all Monads are Applicative).
+an `Monad[Id]`  (Since all Monads are Applicative).
 
 
     trait Traverse[F[_]] extends Functor[F] with Foldable[F] { self =>
