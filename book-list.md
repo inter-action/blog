@@ -3,7 +3,7 @@
 [STATUS]
 
     PARTIAL: P
-    RECOMMEND: R
+    RECOMMEND: R, !
     COMPLETE | DONE :C, :D
     ONGOING: O
     SUSPEND:S
@@ -13,6 +13,7 @@
     Core Java. Volume I. Fundamentals, 8th Edition
     Core Java. Volume II. Advanced Features, 8th Edition
     Functional.Programming.for.Java.Developers.Dean.Wampler.文字版:P:S
+    ! [The.Well-Grounded.Java.Developer(2012.7)].Benjamin.J.Evans|2014:D
 
 [GRAILS]
 
@@ -72,6 +73,7 @@
     Thinking In Java 4th:P:S
     [Pro.Java.7.NIO.2].Anghel.Leonard:P:S
     Oreilly. Http the Definitive Guide| 2014.08-2015|:D:80%
+    software-architecture-patterns.pdf | 2015 | :D
 
 [android]
 
@@ -125,10 +127,11 @@
     On china.Henry Kissinger|2014.10-~
     [Scala.in.Depth(2012.5)].Joshua.D.Suereth.文字版.pdf|2014.08-~:S
     [MongoDB: the definitive guide]|2014.09-2014.11:S:40%
-    [Manning.Functional.Programming.in.Scala.2014.8.pdf] | 2015.06-~
+    ! [Manning.Functional.Programming.in.Scala.2014.8.pdf] | 2015.06-~
     [赤裸裸的统计学]|2015.06-~
     [machine learning in action]|2015.11.13-~
     [OReilly.using docker]|2015.12-~
+    ! [Manning.Go.in.Action.2015.11]|2016.01.18-~
 
 
 

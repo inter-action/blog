@@ -237,6 +237,12 @@
                 docker file 写的并不是特别规范, mysql 最好用 docker compose 来做, 方便扩容
 
 
+        ### encrptions
+            [](http://security.stackexchange.com/questions/20129/how-and-when-do-i-use-hmac)
+                 You use HMAC whenever you want integrity of the data maintained (and authenticity)
+            https://en.wikipedia.org/wiki/Hash-based_message_authentication_code#Design_principles
+
+
 
         ### others
             [自己动手开发网络服务器（三）](http://codingpy.com/article/build-a-simple-web-server-part-three/)
@@ -247,6 +253,10 @@
                 python signal 处理可能会引起的主进程的 interrupted error.
                 进程 pid 和 ppid 的关系, 子进程创建会有一个 ppid 指向父进程
 
+            [Json Web Token (JWT)]
+                ! [使用JWT](http://haomou.net/2014/08/13/2014_web_token/)
+                [JWT introduction](https://jwt.io/introduction/)
+                [node simple jwt implemetation](https://github.com/hokaccha/node-jwt-simple/blob/master/lib/jwt.js)
 
 
 
