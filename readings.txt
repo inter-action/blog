@@ -1,3 +1,12 @@
+=============================================
+
+    这个文件收藏了我自己阅读过的链接
+
+    Annation Explained:
+
+        ! high value resource
+
+=============================================
 
 # web
 
@@ -86,6 +95,7 @@
                     [深入浅出 React Native：使用 JavaScript 构建原生应用](http://zhuanlan.zhihu.com/FrontendMagazine/19996445)
                     http://www.tabforacause.org/blog/2015/01/29/using-reactjs-and-application-cache-fast-synced-app/
                     [谈谈React.js的核心入门知识](http://wwsun.me/posts/react-getting-started.html)
+                    [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)
 
                     react component
                         http://react-components.com/
@@ -154,6 +164,8 @@
             [一些REST最佳实践](http://weibo.com/p/1001603873537160306692)
             [Token-Based Authentication With AngularJS & NodeJS](http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543)
                 with same question to be resolved: 1. it doesnt make sense to decrypt jwt token on client side, 2. /me api is broken, see comments below. 3. is base64 is really needed.
+                1. 问题已经解决.  阅读下面 JWT 一节的链接和开源的一个简单实现
+
 
             [http api guide]
                 https://geemus.gitbooks.io/http-api-design/content/
@@ -198,6 +210,10 @@
             [在 Docker 中完整部署 Web 应用](http://fuzhii.com/2015/12/25/docker-web-app/)
                 docker file 写的并不是特别规范, mysql 最好用 docker compose 来做, 方便扩容
 
+
+        ### NodeJS
+            [](https://blog.risingstack.com/nodejs-production-environment-for-startups/)
+            ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
 
         ### encrptions
             [](http://security.stackexchange.com/questions/20129/how-and-when-do-i-use-hmac)
@@ -318,6 +334,7 @@
         [Browserify：浏览器加载Node.js模块](http://javascript.ruanyifeng.com/tool/browserify.html)
         [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
         [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
+
 
     ## Python
         [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
