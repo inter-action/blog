@@ -1,7 +1,7 @@
 
 ## Function vs Method
 
-Function is instance extends FunctionX, while method is just a type, not a value or 
+Function is instance extends FunctionX, while method is just a type, not a value or
 anything so it cant be assign to a variable.
 
 convert a method to a function instance:
@@ -65,13 +65,13 @@ an `Monad[Id]`  (Since all Monads are Applicative).
 Another use case is Type Lambda, which dyamically create a new type.
 
 Syntax of Type Lambda:
-    
+
     ({type f[x] = Validation[E,x]})#f
 
 Look the use case below:
 Applicative only take a Type that accept one Type Param. But `Validation` Type takes two.
 So here he use Type Lambda dynamically create new wrapper type `f`. Defination and usage in one line.
-    
+
     object Applicative{
       def validationApplicative[E]: Applicative[({type f[x] = Validation[E,x]})#f] =
         new Applicative[({type f[x] = Validation[E,x]})#f] {
@@ -99,6 +99,11 @@ So here he use Type Lambda dynamically create new wrapper type `f`. Defination a
     case class Failure[E](head: E, tail: Vector[E]) extends Validation[E, Nothing]
 
     case class Success[A](a: A) extends Validation[Nothing, A]
+
+Evaluation of Type constraint
+
+    // in this case, type U constraint is  U>:T &&  U <% Ordered[U]
+    def addValue[U >: T <% Ordered[U]](x: U): Tree[U]
 
 
 
