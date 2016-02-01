@@ -66,14 +66,20 @@
                 ! viewports fundementals
                     [A tale of two viewports — part one](http://www.quirksmode.org/mobile/viewports.html)
                     [A tale of two viewports — part two](http://www.quirksmode.org/mobile/viewports2.html)
-
+                    [meta view port](http://www.quirksmode.org/mobile/metaviewport/)
+                    [A pixel is not a pixel is not a pixel](http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html)
                 [走向视网膜（Retina）的Web时代](http://www.w3cplus.com/css/towards-retina-web.html)
 
-                [!! 前端H5适配 ](https://github.com/amfe/article/issues/17)
+
 
         ### mobile html5
             [webview 调试]https://github.com/riskers/blog/issues/11
             [](http://www.smashingmagazine.com/2013/04/build-fast-loading-mobile-website/)
+
+            移动端适配:
+                ![移动端高清、多屏适配方案](http://div.io/topic/1092)
+                [移动端适配方案(下)](https://github.com/riskers/blog/issues/18)
+                ![前端H5适配 ](https://github.com/amfe/article/issues/17)
 
         ### JS
             [offsetwidth, scrollwidth, clientwidth..](http://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
@@ -82,7 +88,6 @@
             [javascript memory leak pattern] (http://www.ibm.com/developerworks/web/library/wa-memleak/?S_TACT=105AGX52&S_CMP=cn-a-wa)
             http://www.slideshare.net/gonzaloruizdevilla/finding-and-debugging-memory-leaks-in-javascript-with-chrome-devtools
             http://javascript.info/tutorial/memory-leaks
-            [export csv file in client side using js](http://stackoverflow.com/questions/4639372/export-to-csv-in-jquery)
 
             [JS 优化]
                 http://coding.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools/
