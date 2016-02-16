@@ -7,6 +7,14 @@
         ! high value resource
 
 =============================================
+# BLOGS
+    [node weekly](http://nodeweekly.com/issues)
+    [programming tips](https://coderwall.com/)
+
+    ## JS
+        [](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
+        [NODEJS](http://www.bennadel.com/)
+
 
 # web
 
@@ -43,6 +51,8 @@
             [bootstrap grid system, difference within col-lg col-md col-sm](http://stackoverflow.com/questions/19865158/what-is-the-difference-among-col-lg-col-md-and-col-sm-in-twitter-bootstra)
 
         ### CSS
+            [CSS Modules 详解及 React 中实践](http://zhuanlan.zhihu.com/purerender/20495964)
+
             [animate 动画]
                 [css-animation-for-beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
                 [css translate3d](http://www.w3cplus.com/css3/css3-3d-transform.html)
@@ -310,12 +320,7 @@
     [force-files-to-download-not-open-in-browser](https://css-tricks.com/snippets/htaccess/force-files-to-download-not-open-in-browser/)
 
 
-# BLOGS
-    [node weekly](http://nodeweekly.com/issues)
 
-    ## JS
-        [](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
-        [NODEJS](http://www.bennadel.com/)
 
 
 # PROGRAMMING LANGUAGE
