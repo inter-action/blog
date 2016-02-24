@@ -13,3 +13,51 @@
 
 * 了解 interface 内部的数据结构 和 method set 概念.
 
+
+
+
+
+## gorountine Pattern
+
+* 作为后台任务运行
+
+    // 这个函数返回一个 WSConn Type Pointer, 然后用 goroutine 作为后台任务, 用channel接受数据, 然后不断 write 到 
+    // socket connection 中
+    
+    func newWSConn(conn *websocket.Conn, pendingWriteNum int, maxMsgLen uint32) *WSConn {
+        wsConn := new(WSConn)
+        wsConn.conn = conn
+        wsConn.writeChan = make(chan []byte, pendingWriteNum)
+        wsConn.maxMsgLen = maxMsgLen
+
+        // 这种编程的 Pattern 需要注意下, close by do a writeChan <- nil
+        go func() {
+            for b := range wsConn.writeChan {// reading op blocks here
+                if b == nil {
+                    break
+                }
+
+                err := conn.WriteMessage(websocket.BinaryMessage, b)
+                if err != nil {
+                    break
+                }
+            }
+
+            conn.Close()
+            wsConn.Lock()
+            wsConn.closeFlag = true
+            wsConn.Unlock()
+        }()
+
+        return wsConn
+    }
+
+
+
+
+
+
+
+
+
+
