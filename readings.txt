@@ -7,6 +7,14 @@
         ! high value resource
 
 =============================================
+# BLOGS
+    [node weekly](http://nodeweekly.com/issues)
+    [programming tips](https://coderwall.com/)
+
+    ## JS
+        [](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
+        [NODEJS](http://www.bennadel.com/)
+
 
 # web
 
@@ -52,6 +60,7 @@
 
             ! [CSS Modules 详解及 React 中实践](http://zhuanlan.zhihu.com/purerender/20495964)
                 https://github.com/css-modules/icss
+
 
             [animate 动画]
                 [css-animation-for-beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
@@ -316,12 +325,7 @@
     [force-files-to-download-not-open-in-browser](https://css-tricks.com/snippets/htaccess/force-files-to-download-not-open-in-browser/)
 
 
-# BLOGS
-    [node weekly](http://nodeweekly.com/issues)
 
-    ## JS
-        [](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
-        [NODEJS](http://www.bennadel.com/)
 
 
 # PROGRAMMING LANGUAGE
