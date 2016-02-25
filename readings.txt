@@ -258,6 +258,16 @@
 
 
 
+# Tools
+
+    IDEA
+        http://laobie.github.io/android/2016/02/14/android-studio-tips.html
+
+    [wire shark]
+        http://fangxin.blog.51cto.com/1125131/735178
+        http://www.cnblogs.com/TankXiao/archive/2012/10/10/2711777.html
+
+
 # version control
     ## git
         [undo-the-last-git-commit] http://stackoverflow.com/questions/927358/undo-the-last-git-commit
@@ -308,10 +318,6 @@
     java 性能优化
         http://item.jd.com/11099999.html
     [程序的本质复杂性和元语言抽象] http://coolshell.cn/articles/10652.html#more-10652
-
-    [wire shark]
-        http://fangxin.blog.51cto.com/1125131/735178
-        http://www.cnblogs.com/TankXiao/archive/2012/10/10/2711777.html
 
     [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm)
     [如何选择开源许可证](http://oklai.name/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81%EF%BC%9F/)
@@ -437,3 +443,10 @@
                 http://www.gradle.org/docs/current/userguide/tutorial_java_projects.html
 
             http://en.wikipedia.org/wiki/Bloom_filter#Examples
+
+
+
+
+
+
+

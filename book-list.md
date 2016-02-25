@@ -63,6 +63,12 @@
 
     Wrox.Beginning MySQL:P
 
+[Web Service]
+
+    [Build.APIs.You.Wont.Hate.2015.8]|2016.02.16-2016.02.24:D
+
+
+
 [other tech related]
 
     [Web编程入门经典：HTML、XHTML和CSS].杜静.敖富江:D
@@ -107,12 +113,12 @@
 
     [道路与梦想：我与万科（1983~1999）] 2015.05-2015.06:D
     [逃不开的经济周期：历史，理论与投资现实] 2015.04-2015.10:D
+    Basic Economics-Thomas Sowell|2012-~|2016.02:D
 
 [ONGOING]
 
     ActiveMQ in Action(Manning-2011)|2013-~|:S
     Introduction to Algorithms(3rd)|2012.12-~|
-    Basic Economics-Thomas Sowell|2012-~|
     叔本华的人生智慧|2014.02-~|:S
     Java Network Programming(4th)|2013-~|:S
     Being Geek|2013-~:S
@@ -132,6 +138,8 @@
     [machine learning in action]|2015.11.13-~
     [OReilly.using docker]|2015.12-~
     ! [Manning.Go.in.Action.2015.11]|2016.01.18-~
+    [跟任何人都聊得来.迈克·贝克特尔]|2016.01-~
+    [101 classic short stories]|2015-~
 
 
 
