@@ -80,6 +80,7 @@
     [Pro.Java.7.NIO.2].Anghel.Leonard:P:S
     Oreilly. Http the Definitive Guide| 2014.08-2015|:D:80%
     software-architecture-patterns.pdf | 2015 | :D
+    [Building.and.Testing.with.Gradle]|2016.03.13-2016.03.16|:D
 
 [android]
 

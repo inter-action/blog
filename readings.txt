@@ -24,9 +24,6 @@
         [js  异步文件上传](http://stackoverflow.com/questions/166221/how-can-i-upload-files-asynchronously)
         [文件上传命名](http://programmers.stackexchange.com/questions/193834/whats-the-best-practice-for-naming-uploaded-images)
 
-        [2015 前端[JS]工程师必知必会](http://zhuanlan.zhihu.com/FrontendMagazine/20002850)
-        [前端开发工程师如何在2013年里提升自己](http://oklai.name/2012/12/%E8%BD%AC%E8%BD%BD%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%A6%82%E4%BD%95%E5%9C%A82013%E5%B9%B4%E9%87%8C%E6%8F%90%E5%8D%87%E8%87%AA%E5%B7%B1/)
-
         [awesome-frontend](https://github.com/JingwenTian/awesome-frontend)
         [移动端网络优化](http://www.trinea.cn/android/mobile-performance-optimization/)
         [前段手册]https://dwqs.gitbooks.io/frontenddevhandbook/content/learning/dns.html
@@ -37,8 +34,13 @@
         [前段代码加密](http://div.io/topic/1220)
 
         ### perspective
+            [2015 前端[JS]工程师必知必会](http://zhuanlan.zhihu.com/FrontendMagazine/20002850)
             [近几年前端技术盘点以及 2016 年技术发展方向](http://www.barretlee.com/blog/2015/12/10/after-framework-we-gonna-to-hug-data/)
             [2015前端生态发展回顾 ](https://github.com/kuitos/kuitos.github.io/issues/32)
+            [2015年末必备前端工具集](http://zxc0328.github.io/2015/12/28/2015-javascript-tools/)
+
+            [前端开发工程师如何在2013年里提升自己](http://oklai.name/2012/12/%E8%BD%AC%E8%BD%BD%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%A6%82%E4%BD%95%E5%9C%A82013%E5%B9%B4%E9%87%8C%E6%8F%90%E5%8D%87%E8%87%AA%E5%B7%B1/)
+            !! [State of the Art JavaScript in 2016](https://medium.com/javascript-and-opinions/state-of-the-art-javascript-in-2016-ab67fc68eb0b#.cxd4lhuhi)
 
         ### Resources
             [web项目下载 后台模板](http://www.jqueryfuns.com/)
@@ -55,6 +57,10 @@
             [2d 转换和 3d转换详解](http://blog.csdn.net/xiaoguang44/article/details/8275396)
             [vertical-align] http://phrogz.net/CSS/vertical-align/index.html
             [Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
+            [flex box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+                [flex-basis 0 vs auto](http://www.w3.org/TR/css3-flexbox/images/rel-vs-abs-flex.svg)
+                [flex-basis demo](http://codepen.io/HugoGiraudel/pen/qIAwr)
+
             [web 学习博客](http://www.w3cplus.com/blogs/list.html)
             [center things](https://css-tricks.com/centering-css-complete-guide/)
 
@@ -98,11 +104,12 @@
 
         ### JS
             [offsetwidth, scrollwidth, clientwidth..](http://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
+
             [detect javascript memory leak with chrome dev tools]
-            [google official explaination] (https://developer.chrome.com/devtools/docs/javascript-memory-profiling)
-            [javascript memory leak pattern] (http://www.ibm.com/developerworks/web/library/wa-memleak/?S_TACT=105AGX52&S_CMP=cn-a-wa)
-            http://www.slideshare.net/gonzaloruizdevilla/finding-and-debugging-memory-leaks-in-javascript-with-chrome-devtools
-            http://javascript.info/tutorial/memory-leaks
+                [google official explaination] (https://developer.chrome.com/devtools/docs/javascript-memory-profiling)
+                [javascript memory leak pattern] (http://www.ibm.com/developerworks/web/library/wa-memleak/?S_TACT=105AGX52&S_CMP=cn-a-wa)
+                http://www.slideshare.net/gonzaloruizdevilla/finding-and-debugging-memory-leaks-in-javascript-with-chrome-devtools
+                http://javascript.info/tutorial/memory-leaks
 
             [JS 优化]
                 http://coding.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools/
@@ -128,6 +135,10 @@
 
         ### scalajs
             [! introduction to scalajs, the next generation of the FE](https://www.youtube.com/watch?v=n1GgVWOThhY)
+
+
+        ### blogs
+            http://pinggod.com/
 
         ### others
             [chrome dev tools](http://ljinkai.github.io/2015/12/26/chrome-dev-tools/)
@@ -229,11 +240,11 @@
             [Containers (Docker): A disruptive force in cloud computing](http://anandmanisankar.com/posts/container-docker-PaaS-microservices/)
             [在 Docker 中完整部署 Web 应用](http://fuzhii.com/2015/12/25/docker-web-app/)
                 docker file 写的并不是特别规范, mysql 最好用 docker compose 来做, 方便扩容
-
+            [](http://developerblog.redhat.com/2016/02/24/10-things-to-avoid-in-docker-containers/)
 
         ### NodeJS
             [](https://blog.risingstack.com/nodejs-production-environment-for-startups/)
-            ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
+            
 
         ### encrptions
             [](http://security.stackexchange.com/questions/20129/how-and-when-do-i-use-hmac)
@@ -275,6 +286,8 @@
         [atlassian git tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
         [Git 版本控制与工作流  ](http://www.jianshu.com/p/67afe711c731)
         [让你的Git水平更上一层楼的10个小贴士](http://blog.jobbole.com/75348/)
+        [git flow]
+            [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
 
 # native mobile
 
@@ -313,6 +326,8 @@
     [linux 工具速查手册](http://linuxtools-rst.readthedocs.org/zh_CN/latest/index.html)
     [ulimit](https://www.ibm.com/developerworks/cn/linux/l-cn-ulimit/)
 
+# economics
+    [经济学书籍推荐]http://mp.weixin.qq.com/s?__biz=MzI4OTEwOTQ3MA==&mid=402562477&idx=1&sn=6cab2420c95317a692f0c96a66b4654f&scene=4#wechat_redirect
 
 # others
     java 性能优化
@@ -372,6 +387,7 @@
     #javascript
         [requirejs] require js [http://www.ruanyifeng.com/blog/2012/11/require_js.html]
         [javascript inheritance]http://javascript.info/tutorial/inheritance
+        ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
 
     ## Rust
         http://killercup.github.io/trpl-ebook/
