@@ -117,20 +117,26 @@
 
             libaries
 
-                reactjs
-                    [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
-                    [深入浅出 React Native：使用 JavaScript 构建原生应用](http://zhuanlan.zhihu.com/FrontendMagazine/19996445)
-                    http://www.tabforacause.org/blog/2015/01/29/using-reactjs-and-application-cache-fast-synced-app/
-                    [谈谈React.js的核心入门知识](http://wwsun.me/posts/react-getting-started.html)
-                    [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)
+                react
+                    !! [redux vedio tutorial](https://egghead.io/series/getting-started-with-redux)
 
-                    react component
-                        http://react-components.com/
 
                     Flux Pattern
                         [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243#!)
                         http://facebook.github.io/flux/docs/overview.html#content
                         [react flux](http://www.infoq.com/cn/articles/react-flux)
+                        
+                    reactjs
+                        [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
+                        [深入浅出 React Native：使用 JavaScript 构建原生应用](http://zhuanlan.zhihu.com/FrontendMagazine/19996445)
+                        http://www.tabforacause.org/blog/2015/01/29/using-reactjs-and-application-cache-fast-synced-app/
+                        [谈谈React.js的核心入门知识](http://wwsun.me/posts/react-getting-started.html)
+                        [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)
+
+                        react component
+                            http://react-components.com/
+
+                    
 
 
         ### scalajs
