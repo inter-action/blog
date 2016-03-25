@@ -1,7 +1,10 @@
 
 # All
 
+
   # FE
+    css
+      [skeleton](https://github.com/dhg/Skeleton/)
 
     #yoman
       https://github.com/yeoman/generator-webapp#readme
@@ -14,22 +17,30 @@
     # React Native
       https://github.com/SFantasy/WeiboReactNative
 
+    # ios
+      [v2ex ios 3rd party client]https://github.com/Finb/V2ex-Swift
+
+    # android
+      https://github.com/izzyleung/ZhihuDailyPurify
+
 
   # BE
     golang:
       https://github.com/jolestar/go-commons-pool
 
     scala:
-      https://github.com/lihaoyi/utest
-
+      https://github.com/lihaoyi/utest # too hard for me now
 
     java:
       https://github.com/airbnb/airpal
 
+  # Fullstack
 
+    scala
+      [scala blog]https://github.com/longcao/merseyside
 
-  # MEAN stack
-    https://github.com/DaftMonk/fullstack-demo
+    MEAN stack
+      https://github.com/DaftMonk/fullstack-demo
 
   # blogs
     https://github.com/xitu/gold-miner

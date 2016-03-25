@@ -87,6 +87,8 @@
 
     [Learning.Android(2nd,2014.1)].Marko.Gargenta..文字版.pdf|2015.10:D
     [Building.Hybrid.Android.Apps.with.Java.and.JavaScript(2013.7)].Nizamettin.Gok.文字版|2015.11:D
+    [Android.Programming.Pushing.the.Limits][2013.11].Erik.Hellman.文字版|2016.03.17-2016.03.20:P(finish 10 chapter)
+
 
 [golang]
 
@@ -142,6 +144,6 @@
     ! [Manning.Go.in.Action.2015.11]|2016.01.18-~
     [跟任何人都聊得来.迈克·贝克特尔]|2016.01-~
     [101 classic short stories]|2015-~
-
-
+    [sbt-reference]|2016.03.22-~
+    
 

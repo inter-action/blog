@@ -108,17 +108,85 @@ So here he use Type Lambda dynamically create new wrapper type `f`. Defination a
     case class Success[A](a: A) extends Validation[Nothing, A]
 
 Evaluation of Type constraint
+    // https://twitter.github.io/scala_school/zh_cn/advanced-types.html
+  
+    //is same as `def foo[A](implicit x: Ordered[A]) {}`
+    def foo[A : Ordered] {...}  
+
+    // type A can be view as Int, which is same as `add[A](a: A)(implicit: F:A=>Int)
+    def add[A <% Int]() = A + 3
 
     // in this case, type U constraint is  U>:T &&  U <% Ordered[U]
     def addValue[U >: T <% Ordered[U]](x: U): Tree[U]
+    
+
+    
+other type constraint:
+
+* `A =:= B` A is same type with B
+* `A <:< B` A is the sub type of B
+* `A <%< B` A can be view as B
+
+extract implicit defination with implicitly
+    
+    //define a func type `String=>Int` instance strToInt
+    implicity def strToInt(x: String)=x.toInt
+
+    //then you can get strToInt func back with implicitly
+    val _strToInt = implicitly[String=>Int]
 
 
+structural types, (match behavour instead of Type)
+    
+    def foo(x: { def get: Int }) = 123 + x.get
+    foo(new { def get = 10 })
+
+abstract class memembr type
+
+    trait Foo { type A; val x: A; def getX: A = x }
+    (new Foo { type A = Int; val x = 123 }).getX
+    
+
+    //You can refer to an abstract type variable using the hash-operator:
+
+    trait Foo[M[_]] { type t[A] = M[A] }
+    val x: Foo[List]#t[Int] = List(1) # same to `val x:list[Int] = List(1)`
+
+    
 
 
+F-界多态性: todo!
+
+### TypeTags and Manifests:
+
+http://docs.scala-lang.org/overviews/reflection/typetags-manifests.html
+http://stackoverflow.com/questions/12218641/scala-what-is-a-typetag-and-how-do-i-use-it
+
+>As with other JVM languages, Scala’s types are erased at compile time.  
+>Like scala.reflect.Manifest, **TypeTags can be thought of as objects which carry along all type 
+information available at compile time, to runtime**. For example, TypeTag[T] encapsulates the 
+runtime type representation of some compile-time type T. Note however, that **TypeTags should 
+be considered to be a richer replacement of the pre-2.10 notion of a Manifest**, that are 
+additionally fully integrated with Scala reflection.    
+>In Scala 2.10, scala.reflect.ClassManifests are deprecated
 
 
+Safely convert variable instance by desire type
+    
+    case class Yaml(map: Map[String, AnyRef]) {
+      def get[T: ClassTag](key: String): Option[T] = {
+        val ct = implicitly[ClassTag[T]]// class Tag of T
 
-
+        map.get(key).flatMap {
+          // ct is a instance of ClassTag[T]
+          // ct.runTimeClass return java.lang.class
+          case t if ct.runtimeClass.isInstance(t) => Some(t.asInstanceOf[T])
+          case other =>
+            Logger.warn("Ignoring value for key " + key + ", expected " + ct + " but was " + other)
+            None
+        }
+      }
+    }
 
 
 
