@@ -5,6 +5,8 @@
     Annation Explained:
 
         ! high value resource
+        - low value (shold i remove it ?)
+
 
 =============================================
 # BLOGS
@@ -14,6 +16,8 @@
     ## JS
         [](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
         [NODEJS](http://www.bennadel.com/)
+        [scotch io](https://scotch.io/)
+
 
 
 # web
@@ -60,6 +64,7 @@
             [flex box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
                 [flex-basis 0 vs auto](http://www.w3.org/TR/css3-flexbox/images/rel-vs-abs-flex.svg)
                 [flex-basis demo](http://codepen.io/HugoGiraudel/pen/qIAwr)
+            ! [guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
             [web 学习博客](http://www.w3cplus.com/blogs/list.html)
             [center things](https://css-tricks.com/centering-css-complete-guide/)
@@ -83,7 +88,7 @@
             [icons]
                 http://www.iconfont.cn/collections?personal=1
 
-            [!! the responsive web]
+            !! [the responsive web]
                 ! viewports fundementals
                     [A tale of two viewports — part one](http://www.quirksmode.org/mobile/viewports.html)
                     [A tale of two viewports — part two](http://www.quirksmode.org/mobile/viewports2.html)
@@ -302,8 +307,9 @@
         [android 技术开发应用堆栈](http://www.jianshu.com/p/c8c6dbe00787)
         [Jenkin+Git+Gradle为Android项目搭建CI环境](http://blogs.cyning.me/2015/08/16/jenkins-CI-android/)
         [移动端前端开发真机调试攻略](http://www.anchengjian.com/post/3217ba_8c8e9f1)
-        [!The Busy Coder's Guide to Android Development](https://github.com/commonsguy/cw-omnibus)
-        [! android 资源列表](http://www.jianshu.com/p/e961f1633d7a)
+        ! [The Busy Coder's Guide to Android Development](https://github.com/commonsguy/cw-omnibus)
+        ! [android 资源列表](http://www.jianshu.com/p/e961f1633d7a)
+        ! [android cheetsheet](http://inthecheesefactory.com/aca/The%20Android%20Cheese%20Sheet%20rev%204.pdf)
 
 
     # hydrid mobile dev
@@ -331,6 +337,10 @@
 # linux
     [linux 工具速查手册](http://linuxtools-rst.readthedocs.org/zh_CN/latest/index.html)
     [ulimit](https://www.ibm.com/developerworks/cn/linux/l-cn-ulimit/)
+    [cmds]
+        nc - http://www.computerhope.com/unix/nc.htm
+            用于网络连接测试, tcp, udp, UNIX-domain stream socket, port scanning
+
 
 # economics
     [经济学书籍推荐]http://mp.weixin.qq.com/s?__biz=MzI4OTEwOTQ3MA==&mid=402562477&idx=1&sn=6cab2420c95317a692f0c96a66b4654f&scene=4#wechat_redirect
@@ -364,6 +374,21 @@
         [Understanding Scala Streams through Fibonacci](http://derekwyatt.org/2011/07/29/understanding-scala-streams-through-fibonacci.html)
         [5 years of Scala and counting – debunking some myths about the language and its environment](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
         [scala 魔法函数](http://colobu.com/2016/01/04/Scala-magic-functions/)
+        [The Neophyte's Guide to Scala Part 2: Extracting Sequences](http://danielwestheide.com/blog/2012/11/28/the-neophytes-guide-to-scala-part-2-extracting-sequences.html)
+        [A Deep Dive into Scalac — Chris Birchall](https://www.youtube.com/watch?v=2742pWdUm6c)
+        [implicit parameter precedence](http://eed3si9n.com/implicit-parameter-precedence-again)
+        ! [The Neophyte's Guide to Scala]http://danielwestheide.com/scala/neophytes.html
+
+        [scala type class](http://www.cakesolutions.net/teamblogs/demystifying-implicits-and-typeclasses-in-scala)
+            http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
+
+        ! scala cake pattern
+            http://www.cakesolutions.net/teamblogs/2011/12/19/cake-pattern-in-depth
+            https://coderwall.com/p/t_rapw/cake-pattern-in-scala-self-type-annotations-explicitly-typed-self-references-explained
+
+        ! scala style guide
+            http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html
+
 
     ## nodejs
         [nodejs 模块加载机制]

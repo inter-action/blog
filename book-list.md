@@ -119,8 +119,8 @@
     [逃不开的经济周期：历史，理论与投资现实] 2015.04-2015.10:D
     Basic Economics-Thomas Sowell|2012-~|2016.02:D
 
-[ONGOING]
-
+[SUSPENDED]
+    [sbt-reference]|2016.03.22-~
     ActiveMQ in Action(Manning-2011)|2013-~|:S
     Introduction to Algorithms(3rd)|2012.12-~|
     叔本华的人生智慧|2014.02-~|:S
@@ -137,13 +137,18 @@
     On china.Henry Kissinger|2014.10-~
     [Scala.in.Depth(2012.5)].Joshua.D.Suereth.文字版.pdf|2014.08-~:S
     [MongoDB: the definitive guide]|2014.09-2014.11:S:40%
-    ! [Manning.Functional.Programming.in.Scala.2014.8.pdf] | 2015.06-~
     [赤裸裸的统计学]|2015.06-~
     [machine learning in action]|2015.11.13-~
     [OReilly.using docker]|2015.12-~
     ! [Manning.Go.in.Action.2015.11]|2016.01.18-~
     [跟任何人都聊得来.迈克·贝克特尔]|2016.01-~
     [101 classic short stories]|2015-~
-    [sbt-reference]|2016.03.22-~
+
+[ONGOING]
+
+    ! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
+    [Manning.Amazon.Web.Services.in.Action.2015.9] | 2015.04.15-~
+    
+
     
 
