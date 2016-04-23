@@ -50,4 +50,55 @@ Type Class 的主要目的是为了对现有对象进行行为上的扩展。当
 http://www.cakesolutions.net/teamblogs/demystifying-implicits-and-typeclasses-in-scala
 http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
 
+## Lifting
+
+    trait Lift[F] {
+      def apply(value: F):(Int, Int)
+    }
+
+    case class Point(x: Int, y: Int)
+    object Point{
+      implicit def liftable = new Lift[Point] {
+        override def apply(value: Point) = (value.x, value.y)
+      }
+    }
+
+    def testLift[T](v: T)(implicit conv: Lift[T]) = {
+      val result: (Int, Int) = conv(v)
+      println("after lift", result)
+    }
+
+    testLift(Point(1, 2))
+
+
+
+## Procedure Recording
+    
+
+1. Simple recording: https://github.com/47deg/macroid/blob/master/macroid-core/src/main/scala/macroid/ToastDsl.scala
+
+    // Loaf is an operation mutate Toast
+    case class Loaf(f: Toast ⇒ Unit) {
+      def apply(t: Toast) = f(t)
+    }
+
+    val loaf = Loaf(_.setDuration(Toast.LENGTH_LONG))
+    loaf(new Toast(getActivity()))
+
+2. More complex one, with flatMap
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
