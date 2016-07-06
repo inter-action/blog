@@ -12,12 +12,19 @@
 # BLOGS
     [node weekly](http://nodeweekly.com/issues)
     [programming tips](https://coderwall.com/)
+    [lihaoyi blog](http://www.lihaoyi.com/)
+    [](https://www.smashingmagazine.com/)
+    [](http://sourcey.com/archives/)
 
     ## JS
         [](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
         [NODEJS](http://www.bennadel.com/)
         [scotch io](https://scotch.io/)
 
+# Design Resource
+
+    https://dribbble.com/hzlzh/projects/380016-WeFlow
+    [产品之器・ Sketch](https://zhuanlan.zhihu.com/p/21386019)
 
 
 # web
@@ -57,7 +64,7 @@
             [bootstrap grid system, difference within col-lg col-md col-sm](http://stackoverflow.com/questions/19865158/what-is-the-difference-among-col-lg-col-md-and-col-sm-in-twitter-bootstra)
 
         ### CSS
-
+            ! [ How To Keep Your Footer At The Bottom Of The Page With CSS](http://cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/)
             [2d 转换和 3d转换详解](http://blog.csdn.net/xiaoguang44/article/details/8275396)
             [vertical-align] http://phrogz.net/CSS/vertical-align/index.html
             [Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
@@ -72,6 +79,10 @@
             ! [CSS Modules 详解及 React 中实践](http://zhuanlan.zhihu.com/purerender/20495964)
                 https://github.com/css-modules/icss
 
+            ! [第二天，谈谈【line-height】](http://www.html-js.com/article/A-day-to-learn-CSS-and-on-the-second-day-talk-about-lineheight)
+
+            [svg]
+                http://www.w3cplus.com/svg/svg-fill-stroke.html
 
             [animate 动画]
                 [css-animation-for-beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
@@ -98,6 +109,7 @@
 
 
 
+
         ### mobile html5
             [webview 调试]https://github.com/riskers/blog/issues/11
             [](http://www.smashingmagazine.com/2013/04/build-fast-loading-mobile-website/)
@@ -107,7 +119,13 @@
                 [移动端适配方案(下)](https://github.com/riskers/blog/issues/18)
                 ![前端H5适配 ](https://github.com/amfe/article/issues/17)
 
+
+        ### svgs
+            http://qianduan.guru/2016/04/17/How-to-work-with-SVG-icons/        
+
+            
         ### JS
+            ! [Philip Roberts: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
             [offsetwidth, scrollwidth, clientwidth..](http://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
 
             [detect javascript memory leak with chrome dev tools]
@@ -153,6 +171,7 @@
 
         ### others
             [chrome dev tools](http://ljinkai.github.io/2015/12/26/chrome-dev-tools/)
+            [CDN缓存那些事](https://www.qcloud.com/doc/product/228/CDN%E7%BC%93%E5%AD%98%E9%82%A3%E4%BA%9B%E4%BA%8B)
 
 
             #### Grid system
@@ -160,6 +179,9 @@
                 [网页的栅格系统设计](http://ued.taobao.org/blog/2008/09/grid_systems/)
                 ! [Bootstrap 栅格系统的精妙之处](http://segmentfault.com/a/1190000000743553)
 
+        ### tools
+            [css animate]
+                http://cssanimate.com/
 
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
@@ -178,6 +200,7 @@
                 [redis mysql haproxy 快速架构](http://www.oschina.net/translate/the-easy-way-of-building-a-growing-startup-architecture)
 
         ## HTTPS:
+            [Mozilla SSL Config Center](https://mozilla.github.io/server-side-tls/ssl-config-generator/)
             [! 关于启用 HTTPS 的一些经验分享](https://imququ.com/post/sth-about-switch-to-https.html)
             [! 免费签发证书](https://letsencrypt.org/)
             [正向代理与反向代理的区别](http://bigc.at/reverse-proxy.orz)
@@ -195,6 +218,11 @@
 
             [一些安全相关的HTTP响应头](https://www.imququ.com/post/web-security-and-response-header.html)
             [apache traffic server - 文件缓存](http://trafficserver.apache.org/)
+
+            ! [wireshark in https]
+                [wireshare 分析 https 协议]
+                    https://www.centos.bz/2015/12/why-wireshark-can-not-decrypt-https-data/
+                    https://imququ.com/post/http2-traffic-in-wireshark.html
 
 
         ### web crawling
@@ -300,6 +328,8 @@
         [git flow]
             [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
 
+        ! [闯过这 54 关，点亮你的 Git 技能树 ](https://codingstyle.cn/topics/181)
+
 # native mobile
 
     # android
@@ -346,6 +376,8 @@
     [经济学书籍推荐]http://mp.weixin.qq.com/s?__biz=MzI4OTEwOTQ3MA==&mid=402562477&idx=1&sn=6cab2420c95317a692f0c96a66b4654f&scene=4#wechat_redirect
 
 # others
+    ! [各种 cheatsheet](http://overapi.com/javascript/)
+
     java 性能优化
         http://item.jd.com/11099999.html
     [程序的本质复杂性和元语言抽象] http://coolshell.cn/articles/10652.html#more-10652
@@ -361,6 +393,10 @@
     [color in terminal](http://jafrog.com/2013/11/23/colors-in-terminal.html)
     [force-files-to-download-not-open-in-browser](https://css-tricks.com/snippets/htaccess/force-files-to-download-not-open-in-browser/)
 
+    [涉及 工作方面的思想](http://open.leancloud.cn/)
+
+    Reactive Programming:
+        [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 
 
 
