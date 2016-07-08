@@ -148,6 +148,8 @@
 
     ! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
     [Manning.Amazon.Web.Services.in.Action.2015.9] | 2015.04.15-~
+    [Manning.Building.the.Web.of.Things.2016.6] | 2016.07.01-~
+    [Android.Programming.The.Big.Nerd.Ranch.Guide.2nd.Edition.2015.8] | 2016.05.01-~ 
     
 
     

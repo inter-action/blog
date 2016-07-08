@@ -179,6 +179,9 @@
                 [网页的栅格系统设计](http://ued.taobao.org/blog/2008/09/grid_systems/)
                 ! [Bootstrap 栅格系统的精妙之处](http://segmentfault.com/a/1190000000743553)
 
+        ### workflow
+            [如何 10 倍提高你的 Webpack 构建效率](http://eternalsky.me/ru-he-10-bei-ti-gao-ni-de-webpack-gou-jian-xiao-lu/)
+
         ### tools
             [css animate]
                 http://cssanimate.com/
@@ -340,6 +343,7 @@
         ! [The Busy Coder's Guide to Android Development](https://github.com/commonsguy/cw-omnibus)
         ! [android 资源列表](http://www.jianshu.com/p/e961f1633d7a)
         ! [android cheetsheet](http://inthecheesefactory.com/aca/The%20Android%20Cheese%20Sheet%20rev%204.pdf)
+        [Android Studio插件整理](https://ydmmocoo.github.io/2016/06/28/Android-Studio%E6%8F%92%E4%BB%B6%E6%95%B4%E7%90%86/)
 
 
     # hydrid mobile dev
