@@ -120,6 +120,7 @@
     Basic Economics-Thomas Sowell|2012-~|2016.02:D
 
 [SUSPENDED]
+
     [sbt-reference]|2016.03.22-~
     ActiveMQ in Action(Manning-2011)|2013-~|:S
     Introduction to Algorithms(3rd)|2012.12-~|
@@ -150,7 +151,8 @@
     [Manning.Amazon.Web.Services.in.Action.2015.9] | 2015.04.15-~
     [Manning.Building.the.Web.of.Things.2016.6] | 2016.07.01-~
     [Android.Programming.The.Big.Nerd.Ranch.Guide.2nd.Edition.2015.8] | 2016.05.01-~ 
-    
+    [Manning.Scalatra.in.Action.2016.5] | 2016.07.22-~
+
 
     
 

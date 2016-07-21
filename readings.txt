@@ -126,6 +126,7 @@
             
         ### JS
             ! [Philip Roberts: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+            ! [requestAnimationFrame](http://creativejs.com/resources/requestanimationframe/)
             [offsetwidth, scrollwidth, clientwidth..](http://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
 
             [detect javascript memory leak with chrome dev tools]
