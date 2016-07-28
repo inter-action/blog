@@ -144,7 +144,9 @@
     ! [Manning.Go.in.Action.2015.11]|2016.01.18-~
     [跟任何人都聊得来.迈克·贝克特尔]|2016.01-~
     [101 classic short stories]|2015-~
+    [Manning.Amazon.Web.Services.in.Action.2015.9] | 2015.04.15-~
 
+    
 [ONGOING]
 
     ! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
@@ -152,7 +154,7 @@
     [Manning.Building.the.Web.of.Things.2016.6] | 2016.07.01-~
     [Android.Programming.The.Big.Nerd.Ranch.Guide.2nd.Edition.2015.8] | 2016.05.01-~ 
     [Manning.Scalatra.in.Action.2016.5] | 2016.07.22-~
-
+    [OReilly.Beautiful.JavaScript.2015.8.pdf] | 2016.04.23-~
 
     
 

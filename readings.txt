@@ -405,6 +405,8 @@
 
 
 
+# Functional Programming
+    [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
 
 # PROGRAMMING LANGUAGE
     ## JAVA
