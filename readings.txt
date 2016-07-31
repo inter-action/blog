@@ -311,6 +311,9 @@
                 [node simple jwt implemetation](https://github.com/hokaccha/node-jwt-simple/blob/master/lib/jwt.js)
 
 
+# Operating System
+
+    [locale的设定及LANG、LC_CTYPE、LC_ALL环境变量](http://www.cnblogs.com/xlmeng1988/archive/2013/01/16/locale.html)
 
 # Tools
 

@@ -23,6 +23,7 @@
     # android
       https://github.com/izzyleung/ZhihuDailyPurify
       [豆瓣material](https://github.com/DreaminginCodeZH/Douya)
+      [scala android]https://github.com/shadowsocks/shadowsocks-android
 
 
   # BE
