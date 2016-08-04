@@ -36,6 +36,9 @@
     java:
       https://github.com/airbnb/airpal
 
+    nodejs:
+      https://github.com/nodejitsu/node-http-proxy
+
   # Fullstack
 
     scala

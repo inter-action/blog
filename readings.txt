@@ -438,6 +438,8 @@
         
         ! [Functional Programming is Terrible](https://www.youtube.com/watch?v=hzf3hTUKk8U)
 
+    ## Rust
+        [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg    )
     ## nodejs
         [nodejs 模块加载机制]
             http://www.infoq.com/cn/articles/nodejs-module-mechanism
@@ -449,7 +451,7 @@
         [Browserify：浏览器加载Node.js模块](http://javascript.ruanyifeng.com/tool/browserify.html)
         [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
         [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
-
+        [stream handbook](https://github.com/substack/stream-handbook)
 
     ## Python
         [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
@@ -467,6 +469,7 @@
         [requirejs] require js [http://www.ruanyifeng.com/blog/2012/11/require_js.html]
         [javascript inheritance]http://javascript.info/tutorial/inheritance
         ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
+        [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
 
     ## Rust
         http://killercup.github.io/trpl-ebook/

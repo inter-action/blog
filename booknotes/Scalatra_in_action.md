@@ -5,7 +5,7 @@ brew instsall wget
 then install conscript
 then g8
 
-
+g8 scalatra/scalatra-sbt 
 
 
 ## Chapter 6 - Handling files
