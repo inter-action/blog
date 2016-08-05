@@ -14,7 +14,7 @@ anyway, 最近的状况就是, 原本定的限制自己的·繁杂兴趣·变成
 而且koa的demo也很多，不像scalatra我搜都搜不到。所以我决心投身nodejs web开发了。但是js本身呢，有些问题，
 弱类型的语言，导致很多问题不能在编译期间发现，还好typescript这门语言这几年的火热，让我看到了node环境中应用
 强类型语言的曙光。我自己也比较过scalajs, 我觉得scalajs哪方面都应该比typescript要吊，无奈社区没有typescript
-强大(导致好多type defination没有typescript新)，加上typescript是javascript超集，这两个特性让我决定还
+强大(导致好多type defination没有typescript全)，加上typescript是javascript超集，这两个特性让我决定还
 是好好学习应用typescript来做nodejs应用。
 
 Java的优势我觉得在于生态的强大, 加上多年在服务端多年的应用，让它应用场景很多, 所以Java我还是会持续关注的，
