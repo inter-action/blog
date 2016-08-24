@@ -2,10 +2,9 @@
 
     这个文件收藏了我自己阅读过的链接
 
-    Annation Explained:
-
+    Annotation Explained:
         ! high value resource
-        - low value (shold i remove it ?)
+        - low value (should i remove it ?)
 
 
 =============================================
@@ -26,8 +25,13 @@
     https://dribbble.com/hzlzh/projects/380016-WeFlow
     [产品之器・ Sketch](https://zhuanlan.zhihu.com/p/21386019)
 
+# Security & Hacks
+    [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
+
 
 # web
+    [2016/2017 MUST-KNOW WEB DEVELOPMENT TECH](https://www.youtube.com/watch?v=sBzRwzY7G-k)
+
 
     ## front
         [shadow dom](http://www.html5rocks.com/zh/tutorials/webcomponents/shadowdom/)
@@ -121,9 +125,9 @@
 
 
         ### svgs
-            http://qianduan.guru/2016/04/17/How-to-work-with-SVG-icons/        
+            http://qianduan.guru/2016/04/17/How-to-work-with-SVG-icons/
 
-            
+
         ### JS
             ! [Philip Roberts: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
             ! [requestAnimationFrame](http://creativejs.com/resources/requestanimationframe/)
@@ -149,7 +153,7 @@
                         [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243#!)
                         http://facebook.github.io/flux/docs/overview.html#content
                         [react flux](http://www.infoq.com/cn/articles/react-flux)
-                        
+
                     reactjs
                         [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
                         [深入浅出 React Native：使用 JavaScript 构建原生应用](http://zhuanlan.zhihu.com/FrontendMagazine/19996445)
@@ -160,7 +164,7 @@
                         react component
                             http://react-components.com/
 
-                    
+
 
 
         ### scalajs
@@ -232,6 +236,7 @@
         ### web crawling
             [selenium]
             [PhantomJS]
+            ! [The Ultimate Introduction to Web Scraping and Browser Automation](https://www.youtube.com/watch?v=1UYBAn69Qrk)
 
         ### web service
             [撰写合格的REST API](http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208060670&idx=1&sn=ce67b8896985e8448137052b338093e0)
@@ -287,7 +292,7 @@
 
         ### NodeJS
             [](https://blog.risingstack.com/nodejs-production-environment-for-startups/)
-            
+
 
         ### encrptions
             [](http://security.stackexchange.com/questions/20129/how-and-when-do-i-use-hmac)
@@ -378,6 +383,8 @@
     [cmds]
         nc - http://www.computerhope.com/unix/nc.htm
             用于网络连接测试, tcp, udp, UNIX-domain stream socket, port scanning
+    [make file introductions]
+      http://www.ruanyifeng.com/blog/2015/03/build-website-with-make.html
 
 
 # economics
@@ -407,6 +414,8 @@
         [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 
 
+# music Fundamentals
+    [Introduction To Music Theory - Understanding Notes, Major/Minor Keys And Chords - Part 1](https://www.youtube.com/watch?v=RfEx7sEMWd4)
 
 # Functional Programming
     [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
@@ -435,11 +444,13 @@
         ! scala style guide
             http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html
 
-        
+
         ! [Functional Programming is Terrible](https://www.youtube.com/watch?v=hzf3hTUKk8U)
 
-    ## Rust
-        [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg    )
+
+        ## scalaz
+          [scalaz Task](http://timperrett.com/2014/07/20/scalaz-task-the-missing-documentation/)
+
     ## nodejs
         [nodejs 模块加载机制]
             http://www.infoq.com/cn/articles/nodejs-module-mechanism
@@ -452,6 +463,7 @@
         [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
         [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
         [stream handbook](https://github.com/substack/stream-handbook)
+        [详解Node.js的http模块之http模块概述](http://itbilu.com/nodejs/core/N1okQ7Eh.html)
 
     ## Python
         [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
@@ -468,12 +480,17 @@
     #javascript
         [requirejs] require js [http://www.ruanyifeng.com/blog/2012/11/require_js.html]
         [javascript inheritance]http://javascript.info/tutorial/inheritance
-        ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
-        [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
+        generators & async/await
+            https://ponyfoo.com/articles/es6-generators-in-depth#generators-the-del-weird-del-ins-awesome-ins-parts
+            ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
+            [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
 
     ## Rust
         http://killercup.github.io/trpl-ebook/
         [Rust语言入门、关键技术与实战经验](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=405037902&idx=1&sn=97d9af490eefc5d6158cb6b6a70f67e5)
+        [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/)
+        [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg)
+
 
     ## Programming Methology
         [Replacing_Recursion_With_a_Stack](http://haacked.com/archive/2007/03/04/Replacing_Recursion_With_a_Stack.aspx/)
@@ -482,7 +499,7 @@
 
     ## golang
         [go by example](https://gobyexample.com/)
-        
+
 
 # TODOs
     DONE:
@@ -545,10 +562,3 @@
                 http://www.gradle.org/docs/current/userguide/tutorial_java_projects.html
 
             http://en.wikipedia.org/wiki/Bloom_filter#Examples
-
-
-
-
-
-
-
