@@ -174,10 +174,11 @@
         ### blogs
             http://pinggod.com/
 
+
         ### others
             [chrome dev tools](http://ljinkai.github.io/2015/12/26/chrome-dev-tools/)
             [CDN缓存那些事](https://www.qcloud.com/doc/product/228/CDN%E7%BC%93%E5%AD%98%E9%82%A3%E4%BA%9B%E4%BA%8B)
-
+            [浅谈 WebVR](https://aotu.io/notes/2016/08/24/2016-8-24-webvr/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
             #### Grid system
                 https://github.com/amfe/lib-flexible
@@ -190,7 +191,8 @@
         ### tools
             [css animate]
                 http://cssanimate.com/
-
+        ## three.js
+            [Ricardo Cabello (Mr doob) - 5 years of three.js](https://www.youtube.com/watch?v=57P8julAaRE)
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
         [Worktile中的实时消息推送服务实现](https://worktile.com/tech/basic/worktile-real-time-notice)

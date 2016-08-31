@@ -1,4 +1,4 @@
->说实在的我真是个懒人，大三之前就没有怎么好好的看过书，真正好好看书也才是从这两年开始。在此做个记录。也算是对我的人生钉下一些锚点吧。 
+>说实在的我真是个懒人，大三之前就没有怎么好好的看过书，真正好好看书也才是从这两年开始。在此做个记录。也算是对我的人生钉下一些锚点吧。
 
 [STATUS]
 
@@ -23,7 +23,7 @@
 [SCALA]
 
     [OReilly.Functional.Thinking.2014.6.pdf] | 2015.06-2015.06:D
-    [Manning.Scalatra.in.Action.2016.5] | 2016.07.22-2016.08.01
+    [Manning.Scalatra.in.Action.2016.5] | 2016.07.22-2016.08.01:D
 
 [struts2]
 
@@ -84,6 +84,7 @@
     Oreilly. Http the Definitive Guide| 2014.08-2015|:D:80%
     software-architecture-patterns.pdf | 2015 | :D
     [Building.and.Testing.with.Gradle]|2016.03.13-2016.03.16|:D
+    [Three.js入门指南-http://www.ituring.com.cn/minibook/792] | 2016.08.27-2016.08.28:D
 
 [android]
 
@@ -161,4 +162,5 @@
     [Manning.Grokking.Algorithms.2016.5] | 2016.08.01 - ~
     [The Rust Programming Language] | 2016.08.01-~
       https://doc.rust-lang.org/book/README.html
-    [Algorithms of the Intelligent Web] | 2014 - ~
+    [Algorithms of the Intelligent Web]|2014 - ~
+    [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31-~

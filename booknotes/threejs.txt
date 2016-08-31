@@ -1,0 +1,128 @@
+
+THREE.AxisHelper - create a AxisHelper
+
+# Lights
+
+
+  AmbientLight
+    When you create an AmbientLight source, the color is applied globally. There isn't
+    a specific direction that this light comes from and the AmbientLight source doesn't contribute to any shadows. You don't use an AmbientLight as the single source
+    of light in a scene. You will use it together with the other light sources, such as a SpotLight or a DirectionalLight, to soften the shadows or add some color to the scene.
+
+  SpotLight
+
+    properties:
+      target
+        spotLight.target = plane;
+
+
+
+
+
+
+  HemisphereLight
+    This is a special light and can be used to create more natural-looking outdoor lighting by simulating a reflective surface and a faintly emanating sky.
+
+    When you're outdoors, not all the light comes directly from above; much is diffused by the atmosphere, reflected by the ground, and reflected by other objects. The HemisphereLight source in the Three.js library is created for this scenario.
+
+  AreaLight
+    With this light source you can specify an area that emanates light, instead of a single point in space.
+
+  LensFlare
+    Not a light source, but with a lens flare you can add a LensFlare effect to the lights in your scene.
+
+
+# Materials
+
+MeshLambertMaterial - 不反光
+
+MeshPhongMaterial - 反光体
+
+
+# cameras
+
+  perspective camera:
+
+    properties:
+
+      fov - fov stands for field of view.
+        Good default: 45
+      aspect - Good default: window.innerWidth/window.innerHeight
+      near - Good default: 0.1
+      far - Good default: 1000
+
+
+
+# Scene
+
+  The THREE.Scene() object serves as the container for all these different objects.
+
+  methods:
+    Scene.getChildByName(name) # get obj by name
+
+  properties:
+    scene.fog=new THREE.Fog( 0xffffff, 0.015, 100 );
+    scene.overrideMaterial = new THREE.MeshLambertMaterial({color: 0xffffff}); # overrides all the materials in this scene
+
+
+
+
+# Terms:
+Geometry - is basically a collection of points in a 3D space and a number of faces connecting all those points together.
+
+vertices - 3d 物体的每个顶点
+
+face - 每个面，eg. cube 有6个面
+
+Mesh -  Mesh = Geometry + Material
+
+
+
+
+Notes:
+
+  the Three.js library assumes that the geometry of a mesh won't change during its lifetime.
+    mesh.geometry.vertices=vertices;
+    mesh.geometry.verticesNeedUpdate=true;
+    mesh.geometry.computeFaceNormals();
+
+
+  THREE.Color() vs hex color value:
+    If you want to change the color after construction, you'll have to create a new THREE.Color() object (once again by using a hex string or value) or modify the internal properties of the current THREE.Color() object.
+
+
+cast shadows:
+  book-1 @ 25
+
+
+  renderer.setClearColorHex(0xEEEEEE, 1.0);
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.shadowMapEnabled = true;
+
+  plane.receiveShadow = true;
+  ...
+  cube.castShadow = true;
+  ...
+  sphere.castShadow = true;
+
+  spotLight.castShadow = true;
+
+
+
+
+setInterval vs requestAnimationFrame
+
+  setInterval:
+
+    If you were browsing another tab, this function would still be fired every couple of milliseconds
+    the setInterval() method isn't synchronized with the redrawing of the screen
+
+
+tools:
+  dat-gui
+    book-1 @ 32
+
+
+
+book:
+[1] Learning Three.js The JavaScript 3D Library for WebGL
