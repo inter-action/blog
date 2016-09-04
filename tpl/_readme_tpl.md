@@ -3,13 +3,12 @@
 
 ## About Me
 男, 27岁。目前在北京从事前端开发工作。主要应用AngularJS, ReactJS。个人主要的编程语言是 JS.从事过近2年的 java web 方面的开发。
-技术兴趣广泛，喜欢前沿的技术和知识，想成为一枚合格的全栈码农。编程语言涉猎过 python, scala, golang。
-目前的兴趣是 scala, android
+技术兴趣广泛，喜欢前沿的技术和知识，想成为一枚合格的全栈码农。目前的兴趣是 Machine Learning.
 
 ##### keywords
-language: javascript, java, scala, python, golang
+language: javascript, java, scala, python, golang, typescript, rust, nodejs
 
-FE-frameworks or libs: jquery, reactjs, angularjs1.x, underscore
+FE-frameworks or libs: jquery, reactjs, angularjs1.x, underscore, three.js, rxjs,
 
 build tool: gulp, grunt, maven, sbt
 

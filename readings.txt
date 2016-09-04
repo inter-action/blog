@@ -449,9 +449,12 @@
 
         ! [Functional Programming is Terrible](https://www.youtube.com/watch?v=hzf3hTUKk8U)
 
+        ! [Function Method and eta expression](https://gleichmann.wordpress.com/2011/01/09/functional-scala-turning-methods-into-functions/)
 
+        [scala compiler options](http://pedrorijo.com/blog/scala-compiler-review-code-warnings/)
         ## scalaz
           [scalaz Task](http://timperrett.com/2014/07/20/scalaz-task-the-missing-documentation/)
+
 
     ## nodejs
         [nodejs 模块加载机制]

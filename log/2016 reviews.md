@@ -1,5 +1,27 @@
 我会在这里分享一些个人的事情，尽可能的不涉及个人的情感和隐私
 
+### 2016.09.04 - 22:20
+该从何说起呢,
+
+这一个月情绪还算稳定.
+
+android 代码彻底停滞了, 我现在对搭界面这种实在没太多兴趣了。觉得界面搭的再多都是细节上的优化点，没有什么技术含量。
+这一个月我又重新捡起 Machine Learning 相关的书籍在看, 有些难啃。 不过还好，还能坚持。这一个月，无意在 reddit 上
+看到three.js做的篮球游戏，勾起了我对three.js的兴趣, 这个月（上个月）将three.js入门的书籍看了，有些初步的应用。
+未来看有没有兴趣，做个游戏，不过至少将*Learning Three.js The JavaScript 3D Library for WebGL*书籍读完。
+至于8月份的计划也停滞了, 主要还是没有好的兴趣点，去应用这些。未来的一段时间我会继续focus on
+*Algorithms of the Intelligent Web* 的阅读, 首先完成第四章, 然后用scala重写里边的代码。 Rust lang 我还在
+继续, 不过以比较慢的节奏进行, 首要的是把自己仓库fork的 rustlings 练习题做完。
+typescript 由于未来的某个时间会进行一个相关的分享, 我会在相应的时间应用typescript做些小的东西, 以加深我对typescript
+的理解( 毕竟4天看完的:( )。
+
+工作上，最近节奏还好，没有以前的那种压迫感了至少。环境也在逐渐适应。
+
+生活方面, 自己还是有很多问题, 尽管好多问题不愿面对，但是该来的还是要来, 坦然面对些许会好些。(谁知道呢，没准又是空话)
+
+segments:
+  babaylon.js, tensorflow,
+  fear, honest with yourself, try to light up little
 
 ### 2016.08.05 - 00:03
 
@@ -53,7 +75,7 @@ check不到了 。而且前期需要写大量的Tweak(虽然 47seg 提供了对�
 ### 2016.07.01
 不知不觉已经来到7月份了, 时间真是过得好快。近2个月的快节奏工作，疲惫感到现在仍没有消除。
 最近断断续续地持续着安卓开发的学习, macroid框架从刚开始的混乱无序，到渐渐可以使用。不得不说, android开发
-远没有web开发的规则那么一致顺手。除了一些quirk情况外, 频繁的代码编译安装就让我不可耐烦。我不知道目前google 
+远没有web开发的规则那么一致顺手。除了一些quirk情况外, 频繁的代码编译安装就让我不可耐烦。我不知道目前google
 新出的instant run 现在情况如何。不论怎么说, 我觉得react-native 开发的方式将是我非常喜欢的。我想等我
 尝试做一个原生的app之后, 打算切到react-natvie上, 加以 gradle+scala compiler plugin来开发android 应用。
 
@@ -76,7 +98,7 @@ functional programming in scala 一书之后, 觉得里边的api倍感亲切。�
 的兴趣。但这本书太难啃，囫囵吞枣的啃到差最后一章。所以今年要把最后一章读完。然后看情况在今年或者明年再重读
 一遍(yeah it will be frustrating)
 
-一直在看 scala 没有真正的好好应用过, 所以几年会用scala写个android app(初步打算做一个rss阅读器), 
+一直在看 scala 没有真正的好好应用过, 所以几年会用scala写个android app(初步打算做一个rss阅读器),
 争取能部署到应用商店上。
 
 其次, 今年会抽时间把 *OReilly.Beautiful.JavaScript* 这本书读完, 今年不会再看其他技术方向的书籍
@@ -84,9 +106,3 @@ functional programming in scala 一书之后, 觉得里边的api倍感亲切。�
 ，书中的标注太多了 不见得能搞定)。主要的想法就是专注下算法，不再追求些乱七杂八的书籍了。
 
 明年? 明年会来的很快
-
-
-
-
-
-

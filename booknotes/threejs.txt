@@ -38,6 +38,9 @@ MeshLambertMaterial - 不反光
 
 MeshPhongMaterial - 反光体
 
+LineDashedMaterial
+  The only difference here is that you have to call the computeDistances() method. If you don't do this, the gaps won't be shown.
+
 
 # cameras
 
@@ -63,6 +66,13 @@ MeshPhongMaterial - 反光体
   properties:
     scene.fog=new THREE.Fog( 0xffffff, 0.015, 100 );
     scene.overrideMaterial = new THREE.MeshLambertMaterial({color: 0xffffff}); # overrides all the materials in this scene
+
+
+# Geometry
+
+
+  Advanced:
+
 
 
 
