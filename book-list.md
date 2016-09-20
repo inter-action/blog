@@ -150,17 +150,20 @@
     [Manning.Amazon.Web.Services.in.Action.2015.9] | 2015.04.15-~
 
     !! [Learning.Web.Design(4th,2012.8).Jennifer.Niederst.Robbins]
-
-
-[ONGOING]
-
-    ! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
     [Manning.Amazon.Web.Services.in.Action.2015.9] | 2015.04.15-~:S
     [Manning.Building.the.Web.of.Things.2016.6] | 2016.07.01-~
     ! [Android.Programming.The.Big.Nerd.Ranch.Guide.2nd.Edition.2015.8] | 2016.05.01-~
+
+[ONGOING]
+    ! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
     [Linux.in.a.Nutshell(6th.2009).D.Ellen.Siever] | 2016-08-01-~
     [Manning.Grokking.Algorithms.2016.5] | 2016.08.01 - ~
     [The Rust Programming Language] | 2016.08.01-~
       https://doc.rust-lang.org/book/README.html
     [Algorithms of the Intelligent Web]|2014 - ~
     [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31-~
+    [Programming in Scala - Third Edition] | 2016.09.06-~
+    [angular2 guide] | 2016.09.20-~
+      https://angular.io/docs/ts/latest/guide/
+    [Manning.Netty.in.Action.2015.12] | 2016.09.20-~
+    [OReilly.Building.Isomorphic.JavaScript.Apps.2016.9] | 2016.09.20-~

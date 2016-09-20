@@ -31,6 +31,7 @@
 
 # web
     [2016/2017 MUST-KNOW WEB DEVELOPMENT TECH](https://www.youtube.com/watch?v=sBzRwzY7G-k)
+    [Journey to HTTP/2](http://kamranahmed.info/blog/2016/08/13/http-in-depth/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
 
 
     ## front
@@ -42,7 +43,6 @@
         [awesome-frontend](https://github.com/JingwenTian/awesome-frontend)
         [移动端网络优化](http://www.trinea.cn/android/mobile-performance-optimization/)
         [前段手册]https://dwqs.gitbooks.io/frontenddevhandbook/content/learning/dns.html
-        [webGL fundemantals](http://webglfundamentals.org/)
 
         [SVG图标在移动端的应用](http://ued.ctrip.com/blog/?p=3893)
 
@@ -170,6 +170,9 @@
         ### scalajs
             [! introduction to scalajs, the next generation of the FE](https://www.youtube.com/watch?v=n1GgVWOThhY)
 
+        ### angularjs
+            [A high level look at Angular 2](http://www.developerhandbook.com/angular/high-level-look-angular-2/)
+
 
         ### blogs
             http://pinggod.com/
@@ -191,8 +194,18 @@
         ### tools
             [css animate]
                 http://cssanimate.com/
-        ## three.js
-            [Ricardo Cabello (Mr doob) - 5 years of three.js](https://www.youtube.com/watch?v=57P8julAaRE)
+
+
+        ### webgl & three.js
+
+            [webGL fundemantals](http://webglfundamentals.org/)
+            [The Future of WebGL and Gaming](https://www.youtube.com/watch?v=6lnEmAYVziA)
+
+            ### three.js
+              [Ricardo Cabello (Mr doob) - 5 years of three.js](https://www.youtube.com/watch?v=57P8julAaRE)
+
+        ### performance
+            [](https://css-tricks.com/case-study-boosting-front-end-performance/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
         [Worktile中的实时消息推送服务实现](https://worktile.com/tech/basic/worktile-real-time-notice)
@@ -434,6 +447,8 @@
         [The Neophyte's Guide to Scala Part 2: Extracting Sequences](http://danielwestheide.com/blog/2012/11/28/the-neophytes-guide-to-scala-part-2-extracting-sequences.html)
         [A Deep Dive into Scalac — Chris Birchall](https://www.youtube.com/watch?v=2742pWdUm6c)
         [implicit parameter precedence](http://eed3si9n.com/implicit-parameter-precedence-again)
+
+        [scala-partial-functions](http://blog.bruchez.name/2011/10/scala-partial-functions-without-phd.html)
         ! [The Neophyte's Guide to Scala]http://danielwestheide.com/scala/neophytes.html
 
         [scala type class](http://www.cakesolutions.net/teamblogs/demystifying-implicits-and-typeclasses-in-scala)
@@ -450,6 +465,7 @@
         ! [Functional Programming is Terrible](https://www.youtube.com/watch?v=hzf3hTUKk8U)
 
         ! [Function Method and eta expression](https://gleichmann.wordpress.com/2011/01/09/functional-scala-turning-methods-into-functions/)
+
 
         [scala compiler options](http://pedrorijo.com/blog/scala-compiler-review-code-warnings/)
         ## scalaz
@@ -495,6 +511,11 @@
         [Rust语言入门、关键技术与实战经验](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=405037902&idx=1&sn=97d9af490eefc5d6158cb6b6a70f67e5)
         [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/)
         [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg)
+
+        Language itself:
+          [](https://blog.rust-lang.org/2015/05/11/traits.html)
+
+        [A Critique of Rust's `std::collections`](http://ticki.github.io/blog/horrible/)
 
 
     ## Programming Methology

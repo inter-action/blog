@@ -74,6 +74,10 @@ LineDashedMaterial
   Advanced:
 
 
+# Animation
+
+  requestAnimationFrame
+  Tween.js - https://github.com/sole/tween.js/
 
 
 
@@ -99,6 +103,11 @@ Notes:
 
   THREE.Color() vs hex color value:
     If you want to change the color after construction, you'll have to create a new THREE.Color() object (once again by using a hex string or value) or modify the internal properties of the current THREE.Color() object.
+
+
+  select object using `Raycaster`
+
+
 
 
 cast shadows:
@@ -136,3 +145,9 @@ tools:
 
 book:
 [1] Learning Three.js The JavaScript 3D Library for WebGL
+
+
+
+others:
+
+  https://github.com/pixijs/pixi.js
