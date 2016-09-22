@@ -153,6 +153,7 @@ docker-compose.yml
 * 创建 docker 实例中的以 node_module 目录的 named volumn。这步是为了不同步宿主机器和docker实例的node binary.
 比如mac和linux就是不同的内核，binary会彼此不兼容。
 * 在Dockerfile写入对应的开发命令， 比如 npm run dev。
+* 处理好services之间的依赖关系
 
 这部分, 有机会我会将对应代码贴出来。
 
