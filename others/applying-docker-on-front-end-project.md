@@ -48,8 +48,8 @@ dnsmasq可以让你的本机成为一个dns服务器, 这样可以免于你每�
 [Mac 下安装 dnsmasq 来配置开发环境](https://www.goodspb.net/mac-%E4%B8%8B%E5%AE%89%E8%A3%85-dnsmasq-%E6%9D%A5%E9%85%8D%E7%BD%AE%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/)
 [The Perfect Web Development Environment for Your New Mac](https://mallinson.ca/osx-web-development/)
 
-`>brew install dnsmasq`
-`>cp /usr/local/opt/dnsmasq/dnsmasq.conf.example /usr/local/etc/dnsmasq.conf`
+    >brew install dnsmasq
+    >cp /usr/local/opt/dnsmasq/dnsmasq.conf.example /usr/local/etc/dnsmasq.conf
 
 open `/usr/local/etc/dnsmasq.conf` in your editor, search for `address=`, and append following content to below
 
@@ -142,7 +142,7 @@ docker-compose.yml
     > docker-compose stop # or ctrl/cmd+c
 
 
-打开浏览器 http://open.alpha.dev,应该就能看到你创建的实例结果。
+打开浏览器 http://open.alpha.dev, 应该就能看到你创建的实例结果。
 
 
 ### 后语

@@ -271,7 +271,7 @@
 
         ### database
 
-            [cap theorem](http://en.wikipedia.org/wiki/CAP_theorem)
+            ! [cap theorem](http://en.wikipedia.org/wiki/CAP_theorem)
 
             [The problem with Backing Stores, or what is NoSQL and why would you use it anyway](http://blog.isotoma.com/2014/06/the-problem-with-backing-stores-or-what-is-nosql-and-why-would-you-use-it-anyway/)
             [分布式系统的事务处理](http://coolshell.cn/articles/10910.html)
@@ -282,6 +282,8 @@
 
             redis:
                 [Redis 集群的合纵与连横](https://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=402004912&idx=1&sn=7517696a86f54262e60e1b5636d6cbe0)
+
+            ! [Why CouchDB](http://guide.couchdb.org/draft/why.html)
 
         ### network
             # TCP/IP
@@ -304,6 +306,7 @@
             [在 Docker 中完整部署 Web 应用](http://fuzhii.com/2015/12/25/docker-web-app/)
                 docker file 写的并不是特别规范, mysql 最好用 docker compose 来做, 方便扩容
             [](http://developerblog.redhat.com/2016/02/24/10-things-to-avoid-in-docker-containers/)
+            [David Blurton: Full-stack JavaScript development with Docker - JSConf Iceland 2016](https://www.youtube.com/watch?v=zcSbOl8DYXM)
 
         ### NodeJS
             [](https://blog.risingstack.com/nodejs-production-environment-for-startups/)
@@ -394,10 +397,11 @@
 
 # linux
     [linux 工具速查手册](1)
-    [ulimit](https://www.ibm.com/developerworks/cn/linux/l-cn-ulimit/)
-    [cmds]
-        nc - http://www.computerhope.com/unix/nc.htm
-            用于网络连接测试, tcp, udp, UNIX-domain stream socket, port scanning
+      [ulimit](https://www.ibm.com/developerworks/cn/linux/l-cn-ulimit/)
+      [cmds]
+          nc - http://www.computerhope.com/unix/nc.htm
+              用于网络连接测试, tcp, udp, UNIX-domain stream socket, port scanning
+
     [make file introductions]
       http://www.ruanyifeng.com/blog/2015/03/build-website-with-make.html
 
