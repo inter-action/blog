@@ -116,6 +116,7 @@ docker-compose.yml
         server_name  open.alpha.dev;
 
         location / {
+            try_files $uri $uri.html /index.html;
             root /htmls;
             index  index.html index.htm;
 
@@ -130,19 +131,81 @@ docker-compose.yml
 
     }
 
+
  
 这里我本就创建了一个dev的alpha环境的nginx实例, 以此类推, 你可以创建更多的类似的nginx Docker 实例(docker compose service)
 
 启动(在 docker-compose.yml 目录下):
 
-    > docker-compose up
+    > docker-compose up    #这步是必须的, 这条命令创建了网络, volumns...etc.
 
 关闭:
 
-    > docker-compose stop # or ctrl/cmd+c
+    > docker-compose down # or ctrl/cmd+c
+
 
 
 打开浏览器 http://open.alpha.dev, 应该就能看到你创建的实例结果。
+
+
+
+####多service map同一port冲突导致的问题
+
+由于我创建了, 两个nginx service, 一个proxy_pass map 到 alpha, 一个 map 到beta.但是这两个服务，共享了一个端口
+, 导致第二个不能正常启动.
+
+方法一: 利用 `docker-compose ps` 查看启动的服务, 然后关闭对应的, 再启动目标服务就好了。
+
+
+
+    > docker-compose ps
+
+                    Name                          Command               State               Ports
+    ----------------------------------------------------------------------------------------------------
+    openapiweb_nginx-dev-alpha_1   nginx.sh /bin/bash -c ngin ...   Up       443/tcp, 0.0.0.0:80->80/tcp
+    openapiweb_nginx-dev-beta_1    nginx.sh /bin/bash -c ngin ...   Exit 0
+
+
+    > docker-compose stop nginx-dev-alpha
+    > docker-compose start nginx-dev-beta
+
+新增加的beta服务的配置
+
+
+    nginx-dev-beta:
+      extends:
+        service: nginx-dev-alpha #继承上个服务的配置
+      volumes:
+       - ./docker-build/nginx.beta.conf:/etc/nginx/conf.d/mysite.conf
+       - ./app:/htmls
+      command: /bin/bash -c "nginx -g 'daemon off;'"
+
+方法二: 不同的service绑定不同的port, 对应的nginx配置也需要改下，推荐: less work.
+
+docker-compose.yml
+
+    version: '2'
+    services:
+      nginx-dev-alpha:
+        image: dperson/nginx
+        volumes:
+        - ./docker-build/nginx.alpha.conf:/etc/nginx/conf.d/mysite.conf
+        - ./app:/htmls
+        ports:
+        - "8080:8080"
+        command: /bin/bash -c "nginx -g 'daemon off;'"
+
+      nginx-dev-beta:
+        image: dperson/nginx
+        volumes:
+        - ./docker-build/nginx.beta.conf:/etc/nginx/conf.d/mysite.conf
+        - ./app:/htmls
+        ports:
+        - "8081:8081"
+        command: /bin/bash -c "nginx -g 'daemon off;'"
+
+
+
 
 
 ### 后语
