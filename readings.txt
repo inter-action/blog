@@ -172,6 +172,9 @@
 
         ### angularjs
             [A high level look at Angular 2](http://www.developerhandbook.com/angular/high-level-look-angular-2/)
+            [zone.js introduction](https://www.youtube.com/watch?v=3IqtmUscE_U)
+
+
 
 
         ### blogs
@@ -267,6 +270,8 @@
                 ！https://devcenter.heroku.com/articles/platform-api-reference#ranges
 
                 后端 支持Etag缓存 策略
+
+            ! [How to build a REST API with Akka Http](https://danielasfregola.com/2016/02/07/how-to-build-a-rest-api-with-akka-http/)
 
 
         ### database
