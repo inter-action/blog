@@ -347,20 +347,20 @@ cmd + p + ?
 
 ## Looking ahead / Future Sharing :
 
-Functional Programming:
-for anyone interested in functional programming:   
+* Functional Programming:
+for anyone interested in functional programming,   
 *the red book* [Functional programming in scala](http://www.salttiger.com/functional-programming-in-scala/)
 
 
-  key elements:
-    immutable Objects
-    recursive data structure
-    lazy evaluation
-    tail call elimination - http://stackoverflow.com/questions/1240539/what-is-tail-recursion-elimination
-    combinators
-      applicator & monad
+key elements:
+* immutable Objects
+* recursive data structure
+* lazy evaluation
+* tail call elimination - http://stackoverflow.com/questions/1240539/what-is-tail-recursion-elimination
+* combinators
+    applicator & monad
 
-Angularjs2 or RxJS:
+* Angularjs2 or RxJS:
 
 
 
