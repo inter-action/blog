@@ -12,8 +12,8 @@
 >to be a better progammer
 
 * things are connected  
-  Rx = functional combinators + nodejs stream
-  typescript opens new door to a strong type language, angularjs2.
+  Rx = functional combinators + nodejs stream  
+  typescript can help with you enter into a strong type language(if u never do a language before), angularjs2.
 * help you think differently
   OOP, functional, Procedure
 * battery included features
