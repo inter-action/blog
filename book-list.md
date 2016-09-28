@@ -155,6 +155,7 @@
     ! [Android.Programming.The.Big.Nerd.Ranch.Guide.2nd.Edition.2015.8] | 2016.05.01-~
 
 [ONGOING]
+
     ! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
     [Linux.in.a.Nutshell(6th.2009).D.Ellen.Siever] | 2016-08-01-~
     [Manning.Grokking.Algorithms.2016.5] | 2016.08.01 - ~
