@@ -360,7 +360,19 @@ key elements:
 * combinators
     applicator & monad
 
-* Angularjs2 or RxJS:
+* Angularjs2:
+  key elements:
+  * RxJS
+  * zone.js
+  * typescript
+
+
+NodeJS:
+  key elements:
+  * EventEmiter
+  * stream
+
+
 
 
 
