@@ -68,11 +68,11 @@ Notes:
 
 
 important sections:
-2.2.3 Actor Best Practices
-2.2.4 Blocking Needs Careful Management
+* 2.2.3 Actor Best Practices
+* 2.2.4 Blocking Needs Careful Management
 
 ## akka packaging:
-    http://doc.akka.io/docs/akka/2.4.10/intro/deployment-scenarios.html
+http://doc.akka.io/docs/akka/2.4.10/intro/deployment-scenarios.html
 
 ##General Notes:
 

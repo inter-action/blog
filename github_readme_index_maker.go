@@ -40,7 +40,7 @@ type Content struct {
 }
 
 // 默认隐藏所有以 .开头的 dir or file
-var ignores = []string{"tpl"}
+var ignores = []string{"tpl", "assets"}
 
 const OUTPUT_FILE = "./README.md"
 
