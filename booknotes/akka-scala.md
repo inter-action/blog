@@ -18,6 +18,10 @@ what is actor:
 actor not automactically destroyed itself:
 >One noteworthy aspect is that actors have an explicit lifecycle, they are not automatically destroyed when no longer referenced; after having created one, it is your responsibility to make sure that it will eventually be terminated as well
 
+> An actor system will during its creation start at least three actors,
+* /user: The Guardian Actor
+* /system: The System Guardian 
+* /: The Root Guardian
 
 Actor Core components:
 
@@ -29,7 +33,11 @@ Actor Core components:
 
 * Child Actors:
     >Each actor is potentially a supervisor: if it creates children for delegating sub-tasks, it will automatically supervise them. The list of children is maintained within the actor’s context and the actor has access to it.
+* paths
+    * logical
+    * physical
 
+    
 Notes:
 
 * --
@@ -70,6 +78,9 @@ Notes:
 important sections:
 * 2.2.3 Actor Best Practices
 * 2.2.4 Blocking Needs Careful Management
+* 2.4.2 The Top-Level Supervisors
+* 2.5.1 What is an Actor Reference?
+
 
 ## akka packaging:
 http://doc.akka.io/docs/akka/2.4.10/intro/deployment-scenarios.html

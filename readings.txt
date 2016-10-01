@@ -488,12 +488,13 @@
         [深入浅出Nodejs读书笔记](http://tw93.github.io/2015-03-01/shen-ru-qian-chu-nodejs-reading-mind-map.html)
         [node js best practices](http://blog.risingstack.com/node-js-best-practices/)
         [node-best-practices](https://devcenter.heroku.com/articles/node-best-practices#use-npm-scripts-to-run-custom-build-steps)
-
         [Browserify：浏览器加载Node.js模块](http://javascript.ruanyifeng.com/tool/browserify.html)
         [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
         [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
         [stream handbook](https://github.com/substack/stream-handbook)
         [详解Node.js的http模块之http模块概述](http://itbilu.com/nodejs/core/N1okQ7Eh.html)
+        [npm best practice](https://blog.risingstack.com/nodejs-at-scale-npm-best-practices/)
+
 
     ## Python
         [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)

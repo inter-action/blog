@@ -37,7 +37,7 @@
 
 #### Programming Paradiam
 > almost every other language can do some multi paradiam programming, but some language just feel natrual & easy
- 
+
 * OOP:
   java, c++
 * Procedure
@@ -61,7 +61,7 @@
 
 ### Why Javascript/Flexiable is Bad.
 more info, see #Links - 1, 3
-> most these problem are born with the language interited natrue which is dynamic language 
+> most these problem are born with the language interited natrue which is dynamic language
 
 * too dynamic.
 
@@ -85,7 +85,7 @@ more info, see #Links - 1, 3
   *  the web programming language, with popular platform, de facto "write once run everywhere"
   *  simple
   * ...
-  
+
 
 ## Types:
 
@@ -95,7 +95,7 @@ more info, see #Links - 1, 3
 * type as document:
   https://github.com/CrazyFork/xceptor
     you have no idea what `res, resp` really is & what you can do with it.
-  
+
   xceptor's handler object:
     /Users/interaction/workspace/work/projects/eleme-dep/xceptor
       line: 28
@@ -340,7 +340,7 @@ write pure types
 
 [introduction of vs code](https://www.youtube.com/watch?v=e3tPWAq74v4)
 
-existing project add typing hint //todo: 
+existing project add typing hint //todo:
 
 cmd + p + ?
 
@@ -371,6 +371,11 @@ NodeJS:
   key elements:
   * EventEmiter
   * stream
+
+
+Docker:
+
+
 
 
 
