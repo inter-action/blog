@@ -89,5 +89,67 @@ http://doc.akka.io/docs/akka/2.4.10/intro/deployment-scenarios.html
 
 > [Do not use -optimize Scala compiler flag](http://doc.akka.io/docs/akka/2.4.10/intro/getting-started.html)
 
-# Akka-Http:
-http://doc.akka.io/docs/akka/2.4.10/scala/http/index.html
+# [Akka-Http](http://doc.akka.io/docs/akka/2.4.11/scala/http/):
+
+## [Introduction](http://doc.akka.io/docs/akka/2.4.11/scala/http/introduction.html)
+akka-http模块分为:
+
+* akka-http
+* akka-http-core
+* akka-http-testkit
+* akka-http-spray-json
+* akka-http-xml
+
+##! [Http Model](http://doc.akka.io/docs/akka/2.4/scala/http/common/http-model.html):
+http model 是akka-http最核心的部分，定义了http模型, 包括:
+
+* HttpRequest
+* HttpResponse
+* HttpEntity 
+    > An HttpEntity carries the data bytes of a message together with its Content-Type and, if known, its Content-Length. 
+    HttpEntity 下面又细分了5中类型, 使用不同场景
+    HttpEntity 分为request&response两种类型, 而且akka-http默认会限制HttpEntity的大小,以防备DDos攻击
+    限制大小的配置为: max-content-length
+* Special processing for HEAD requests
+    这一节也需要注意下, 如果跟Head请求, 1xx, 204, 304有关的
+
+* Header Model
+    akka提供了常用的Header定义, 没有定义的部分以(string, string)键值对存储到了RawHeader中
+
+    HTTP Headers:
+    >When the Akka HTTP server receives an HTTP request it tries to parse all its headers into their respective model classes. Independently of whether this succeeds or not, the HTTP layer will always pass on all received headers to the application. Unknown headers as well as ones with invalid syntax (according to the header parser) will be made available as RawHeader instances. 
+
+* Custom Headers: 自定义header
+* Registering Custom Media Types
+    自定义Media Types改如何解析
+
+* The URI model: 默认URI是自动escape掉然后解析, 如果你需要obtain原始的URI,可以通过设置` akka.http.server.raw-request-uri-header`达到目的
+
+
+
+### Marshalling
+akka-http complete 参数是 m => ToResponseMarshallable
+
+而官方所有的implicit定义在这里:
+http://doc.akka.io/docs/akka/2.4.11/scala/http/common/marshalling.html
+
+顺便说下这个章节很重要, 这节定义了你可以如何调用complete方法。
+
+
+
+
+
+
+
+
+todo:
+
+    scala symbol
+    using the "magnet" pattern.
+    http://doc.akka.io/docs/akka/2.4.2/scala/http/client-side/connection-level.html 
+
+
+    
+
+
+

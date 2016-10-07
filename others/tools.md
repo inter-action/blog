@@ -12,8 +12,8 @@ wireshark 抓本机网络没啥意思就不写了。
 能抱怨吗？后端都是爷，你得明确定位问题，后端才能抬出他的手去改！
 
 wireshark 抓 iphone 的流量:
-https://dingtwo.github.io/2016/03/17/mac%E4%B8%8B%E4%BD%BF%E7%94%A8WireShark%E6%8A%93%E5%8C%85/
-https://ask.wireshark.org/questions/17559/packet-capturing-application-for-the-iphone
+* https://dingtwo.github.io/2016/03/17/mac%E4%B8%8B%E4%BD%BF%E7%94%A8WireShark%E6%8A%93%E5%8C%85/
+* https://ask.wireshark.org/questions/17559/packet-capturing-application-for-the-iphone
 
 
       * Connect your iOS device to your Mac via USB.

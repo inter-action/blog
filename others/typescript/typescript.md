@@ -59,7 +59,7 @@
 ## Javascript: good & bad parts
   [jslint]()  got removed, cant find it anymore :(
 
-### Why Javascript/Flexiable is Bad.
+### Why Javascript/Flexiable/dynamic is Bad.
 more info, see #Links - 1, 3
 > most these problem are born with the language interited natrue which is dynamic language
 
@@ -84,7 +84,7 @@ more info, see #Links - 1, 3
   *  no compile time
   *  the web programming language, with popular platform, de facto "write once run everywhere"
   *  simple
-  * ...
+  *  ...
 
 
 ## Types:
@@ -103,7 +103,7 @@ more info, see #Links - 1, 3
       (request, response)=> Boolean | Promise
 
 
-* fit for small & large project  
+* fit for medium & large project  
   do crazy stuff & get compiler check it for you.
 
 * type means safer, the reason most backend language are static types
@@ -121,6 +121,7 @@ see link #4
 * tedious & rigid
 * have compile time
 * you may get bunch of problem related to types realm
+* strong type language tend to complicated your code, (since you got advanced tool to abstract things)
 * all come down to learning curve...
 
 in spite of all these...,  
@@ -359,6 +360,8 @@ key elements:
 * tail call elimination - http://stackoverflow.com/questions/1240539/what-is-tail-recursion-elimination
 * combinators
     applicator & monad
+* building a recipe
+  http://doc.akka.io/docs/akka/2.4.11/scala/http/common/marshalling.html
 
 * Angularjs2:
   key elements:

@@ -92,6 +92,7 @@
                 [css-animation-for-beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
                 [css translate3d](http://www.w3cplus.com/css3/css3-3d-transform.html)
                 [keyframe-animation-syntax](https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
+                [A Guide to Browser Scroll Animations](http://developer.telerik.com/featured/guide-browser-scroll-animations/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
 
             libs
                 animate

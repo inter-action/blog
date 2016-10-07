@@ -153,9 +153,9 @@
     [Manning.Amazon.Web.Services.in.Action.2015.9] | 2015.04.15-~:S
     [Manning.Building.the.Web.of.Things.2016.6] | 2016.07.01-~
     ! [Android.Programming.The.Big.Nerd.Ranch.Guide.2nd.Edition.2015.8] | 2016.05.01-~
+    [Manning.Netty.in.Action.2015.12] | 2016.09.20-~
 
 [ONGOING]
-
     ! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
     [Linux.in.a.Nutshell(6th.2009).D.Ellen.Siever] | 2016-08-01-~
     [Manning.Grokking.Algorithms.2016.5] | 2016.08.01 - ~
@@ -164,6 +164,7 @@
     [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31-~
     [Programming in Scala - Third Edition] | 2016.09.06-~
     [angular2 guide](https://angular.io/docs/ts/latest/guide/) | 2016.09.20-~
-    [Manning.Netty.in.Action.2015.12] | 2016.09.20-~
+
     [OReilly.Building.Isomorphic.JavaScript.Apps.2016.9] | 2016.09.20-~
     [akka-scala](http://doc.akka.io/docs/akka/2.4.10/scala.html) | 2016.09.28-~
+    [Lucene 4 Cookbook] | 2016.10.06-~
