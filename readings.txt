@@ -30,9 +30,10 @@
 
 
 # web
-    [2016/2017 MUST-KNOW WEB DEVELOPMENT TECH](https://www.youtube.com/watch?v=sBzRwzY7G-k)
-    [Journey to HTTP/2](http://kamranahmed.info/blog/2016/08/13/http-in-depth/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
-
+    ## middle ground
+        [2016/2017 MUST-KNOW WEB DEVELOPMENT TECH](https://www.youtube.com/watch?v=sBzRwzY7G-k)
+        [Journey to HTTP/2](http://kamranahmed.info/blog/2016/08/13/http-in-depth/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
+        [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 
     ## front
         [shadow dom](http://www.html5rocks.com/zh/tutorials/webcomponents/shadowdom/)
@@ -575,6 +576,11 @@
 
         [lucene]
             http://blog.imaginea.com/understanding-lucene-boosting-part-1/
+            [](http://makble.com/how-to-do-lucene-search-highlight-example)
+            [term vector](http://makble.com/what-is-term-vector-in-lucene)
+
+
+
 
         upcomming week
             [java optimazation]http://java.dzone.com/articles/dzones-200th-refcard-released
