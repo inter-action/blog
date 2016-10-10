@@ -1,0 +1,50 @@
+# About this File
+这个文件会记录自己了解过的各个语言的常规依赖lib
+
+
+## nodejs
+* unidecode: ASCII transliterations of Unicode text
+  >unidecode("に間違いがないか、再度確認してください。再読み込みしてください。");
+  >'niJian Wei iganaika, Zai Du Que Ren sitekudasai. Zai Du miIp misitekudasai. '
+* cheerio: jquery like api to manipulate html
+* intl-messageformat: 处理i18n format的
+* intl: ECMA 国际化规范的api实现
+  > In December 2012, ECMA International published the first edition of Standard ECMA-402,
+  better known as the ECMAScript Internationalization API. This specification provides
+  the framework to bring long overdue localization methods to ECMAScript implementations.
+* moment-timezone: 处理时区时间转换的
+* moment: manipulate time/date
+* fs-extra: drop replacement for node fs module
+* nconf : Hierarchical node.js configuration with files, environment variables, command-line arguments, and atomic object merging.
+  用来处理环境变量配置的, 很高级很好的库
+* loadash: common utillity
+
+
+## scala
+
+* akka: high level concurrency / fault tolerant libaries
+* joda: manipulate time/date
+* scalaz: scala functional programming utility belt
+
+## rustlang
+
+
+
+## python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
