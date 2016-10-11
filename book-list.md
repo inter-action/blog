@@ -156,7 +156,8 @@
     [Manning.Netty.in.Action.2015.12] | 2016.09.20-~
 
 [ONGOING]
-    ! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
+
+    !! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
     [Linux.in.a.Nutshell(6th.2009).D.Ellen.Siever] | 2016-08-01-~
     [Manning.Grokking.Algorithms.2016.5] | 2016.08.01 - ~
     [The Rust Programming Language](https://doc.rust-lang.org/book/README.html) | 2016.08.01-~
@@ -168,3 +169,5 @@
     [OReilly.Building.Isomorphic.JavaScript.Apps.2016.9] | 2016.09.20-~
     [akka-scala](http://doc.akka.io/docs/akka/2.4.10/scala.html) | 2016.09.28-~
     [Lucene 4 Cookbook] | 2016.10.06-~
+    ! [learning scalaz] | 2016.08 - ~
+        (http://eed3si9n.com/learning-scalaz/)
