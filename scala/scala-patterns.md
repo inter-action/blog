@@ -39,7 +39,9 @@ http://www.cakesolutions.net/teamblogs/2011/12/19/cake-pattern-in-depth
 
 
 ## Type Class
-Type Class 的主要目的是为了对现有对象进行行为上的扩展。当然用传统的 implicit conversion 也可以扩展。
+Type Class 的主要目的是为了对现有Type进行行为上的扩展, 通过将现有Type动态转换成另一个Type Class
+实现来达到ad-hoc type polymorphism（type的多态）。当然用传统的 implicit conversion 也可以扩展。
+
 但是implicit有3个根本的问题：
   1.搜索方式的规则复杂
   2.只是根据 type 去区分, 很容易两个同样的 implicit 冲突
@@ -47,8 +49,38 @@ Type Class 的主要目的是为了对现有对象进行行为上的扩展。当
 
 这就是 Type class 处理的问题
 
+创建type class的规则就是
+* 定义好对应type的trait行为
+* 创建不同的type的implicit object实现继承这个 trait.
+* import 对应的implicit object.
+
+
 http://www.cakesolutions.net/teamblogs/demystifying-implicits-and-typeclasses-in-scala
 http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
+
+
+! http://stackoverflow.com/questions/5408861/what-are-type-classes-in-scala-useful-for
+! http://eed3si9n.com/learning-scalaz/a+Yes-No+typeclass.html
+
+type class 定义了装饰在不同type上的行为, 达到动态添加行为的目的, dynamically lift some types。
+
+```scala
+trait Addable[T] {
+  def zero: T
+  def append(a: T, b: T): T
+}
+
+implicit object IntIsAddable extends Addable[Int] {
+  def zero = 0
+  def append(a: Int, b: Int) = a + b
+}
+
+def sum[T](xs: List[T])(implicit addable: Addable[T]) =
+  xs.FoldLeft(addable.zero)(addable.append)
+
+```
+
+
 
 ## Lifting
 

@@ -20,6 +20,11 @@
         [NODEJS](http://www.bennadel.com/)
         [scotch io](https://scotch.io/)
 
+    ## machine learning:
+        ! http://blog.christianperone.com/
+
+
+
 # Design Resource
 
     https://dribbble.com/hzlzh/projects/380016-WeFlow
@@ -399,7 +404,12 @@
         http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
 
 # data structure:
+    ![](https://www.tutorialspoint.com/data_structures_algorithms)
     [trie](https://www.youtube.com/watch?v=RIUY7ieyH40)
+
+# machine learning:
+    http://blog.christianperone.com/2011/09/machine-learning-text-feature-extraction-tf-idf-part-i/
+
 
 # 面试
     [前端]
