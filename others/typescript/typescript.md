@@ -251,17 +251,17 @@ reason: bad language design, semantics mixed up, we're human and we are lazy by 
 
    /Users/interaction/workspace/typescript/typescript-samples
 
-      // consider this:
-      // read user input, and parse it to Int, add 1.
-      read():Option[String]
-      parse():Option[Int]
-      addOne(x: Int):Int
-      val value = read().map(e=>parse(e)).map(addOne).getOrElse(0)
+        // consider this:
+        // read user input, and parse it to Int, add 1.
+        read():Option[String]
+        parse():Option[Int]
+        addOne(x: Int):Int
+        val value = read().map(e=>parse(e)).map(addOne).getOrElse(0)
 
-      // consider the alternative
-      read():String|null
-      parse():Int|null
-      addOne(x: Int):Int
+        // consider the alternative
+        read():String|null
+        parse():Int|null
+        addOne(x: Int):Int
 
       
 
