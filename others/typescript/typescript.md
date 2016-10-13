@@ -146,13 +146,13 @@ what is OOP - the essence of OOP in its simplistic form:
 
 * you basically dont have to manualy check variable's type anymore
 
-      function dosomething(a, b){
-        if (typeof a === 'string')
-        if (typeof a === number)
-      }
+        function dosomething(a, b){
+          if (typeof a === 'string')
+          if (typeof a === number)
+        }
 
-      function dosomething(a: String, b: Int)
-      function dosomething(a: number, b: Int)
+        function dosomething(a: String, b: Int)
+        function dosomething(a: number, b: Int)
 
 core difference between static typed language and dynamic language:
 > write first, debug later
@@ -192,6 +192,8 @@ what is it, how to eliminate it:
 
 reason: bad language design, semantics mixed up, we're human and we are lazy by default:
 
+#### when null is used:
+
 * null as nothing
 
   `string = "", int = -1, list = [] ...`
@@ -200,6 +202,8 @@ reason: bad language design, semantics mixed up, we're human and we are lazy by 
 
   `var a: String = null`
 
+
+#### the way it got handled:
 
 * go approach:
 
@@ -220,10 +224,12 @@ reason: bad language design, semantics mixed up, we're human and we are lazy by 
     ```
 
 * typescript, swift:
-
+    ```
     hero?.fullName
+    ```
 
-since typescript 2.0, typescript add a strict null complier option.    
+
+! since typescript 2.0, typescript add a strict null complier option.
 
 
 ### The modern language: Option Type,  deconstruct , Pattern matching, for comprehension
