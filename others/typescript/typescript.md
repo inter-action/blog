@@ -6,7 +6,7 @@
 # Outlines:
   * why learn new language
   * general language introduction
-  * typescript
+  * typescript (this may be omitted)
 
 
 #  why learning another language:
@@ -14,10 +14,10 @@
 >to be a better progammer
 
 * things are connected  
-  Rx = functional combinators + nodejs stream  
-  typescript can help with you enter into a strong type language(if u havent played a static typed language before)
+  * Rx = functional combinators + nodejs stream  
+  * typescript can help with you enter into a strong type language(if u havent played a static typed language before)
 * help you think differently, each language has some kind programming paradiam
-  OOP, functional, Procedure, Meta(write program to generate program )...etc
+  * OOP, functional, Procedure, Meta(write program to generate program )...etc
 * battery included features
     * Immutable Objects
     * builted-in full fledged collections
@@ -157,11 +157,11 @@ core difference between static typed language and dynamic language:
 > write first, debug later
 
 
-### when to apply a strong type language
+### when to apply a strong typed language
 more info, see link #4
 ![when_to_use_type_checker](./assets/when_to_use_type_checker.png)
 
-### Type headache:
+### Type System Headaches:
 
 * type system can be simple, yet can be extreme complex
 * tedious & rigid
@@ -175,7 +175,7 @@ what type really means is more constraint on programmer to write better structur
 
 
 
-### the notorious * null pointer exception *:
+### the notorious ... null pointer exception:
 
 what is it, how to eliminate it:
 
