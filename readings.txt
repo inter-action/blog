@@ -14,6 +14,7 @@
     [lihaoyi blog](http://www.lihaoyi.com/)
     [](https://www.smashingmagazine.com/)
     [](http://sourcey.com/archives/)
+    [function programming & scala](http://blog.higher-order.com/)
 
     ## JS
         [](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
@@ -345,6 +346,10 @@
                 [JWT introduction](https://jwt.io/introduction/)
                 [node simple jwt implemetation](https://github.com/hokaccha/node-jwt-simple/blob/master/lib/jwt.js)
 
+            [Oauth 2]
+                ! [](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2) - you only need this to understand oauth2
+
+
 
 # Operating System
 
@@ -408,7 +413,7 @@
     [trie](https://www.youtube.com/watch?v=RIUY7ieyH40)
 
 # machine learning:
-    http://blog.christianperone.com/2011/09/machine-learning-text-feature-extraction-tf-idf-part-i/
+    ![Machine Learning :: Text feature extraction (tf-idf) – Part I](http://blog.christianperone.com/2011/09/machine-learning-text-feature-extraction-tf-idf-part-i/)
 
 
 # 面试
@@ -556,3 +561,9 @@
 # hacking:
 
     [Hack WPA/WPA2 Wi-Fi with Fluxion tool](https://www.youtube.com/watch?v=xzv5Vy9ghrg)
+
+
+
+---------------------------------------------------------------------------------
+下面是我阅读过, 但是感觉已经过时, 或者没啥大意义的链接, 纯粹是为了记录用
+---------------------------------------------------------------------------------

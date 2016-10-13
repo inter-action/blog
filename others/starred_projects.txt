@@ -62,3 +62,6 @@
 
     [strider - ci tools](https://github.com/Strider-CD/strider)
     [数据埋点的开源-一整套](https://github.com/mixpanel)
+    [](https://github.com/jwasham/google-interview-university)
+    [aws](https://github.com/open-guides/og-aws)
+    
