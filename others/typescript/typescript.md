@@ -1,12 +1,16 @@
-# Title: General introduction to Programming language ?
+# Title: 听我吹牛B, typescript 只是个幌子 :) ?
+// General introduction to Programming language
 
 # why the heck is this written in english:
 *lazy guy*, hate to type, hate to translate things in my head 
 
 # Outlines:
+  * NodeJS - this is where typescript matters, believe me you dont want debug error on server.
   * why learn new language
   * general language introduction
   * typescript (this may be omitted)
+  * vscode
+  * looking ahead....
 
 
 #  why learning another language:
@@ -25,13 +29,13 @@
 * different language excel at different application domain
 
 
-          python:               data mining & machine learning & system administration & devops & almost everything
+          python:               data mining & machine learning(Tensor Flow) & system administration & devops & almost everything
           scala:                big data, java alternative
           java, golang:         backend
           c:                    embeded systems
           js:                   front end.
           nodejs:               IoT & backend
-          swift & object c:     ios related
+          swift & object c:     ios related, swift now seems able to do backend job also.
           R:                    data sci
 
 * abstract your code in more elegant ways
@@ -316,6 +320,8 @@ reason: bad language design, semantics mixed up, we're human and we are lazy by 
     ```
 
 * Type Ops:
+    type phoneNumber: String | null
+
         Or, Union, Algreba Types
 
 
@@ -388,7 +394,7 @@ https://www.scala-js.org/
 * not so complex
 * better fullstack dev, combinded with nodejs & angular
 * es6 superset & with most capability to interop with js
-
+* working with existing tools, compiler is a npm package 
 
 ###  Language itself:
 
@@ -399,29 +405,80 @@ namespace vs modules:
 * namespace: com.github.interaction, a prefix mechanism to avoid confliction
 * modules: single file or bunch of files as a single unit
 
+
+typescript 1.8 & 2.0
+* typings got removed, now you install typings via `npm install @types/node`
+
+    npm install -g typescript
+
 ### tools
 [ts-node](https://www.npmjs.com/package/ts-node)
+
+    >ts-node
+    >let x:String = "3"
 
 
 ###  Application demos:
 //todo:
-load types
 write type for existing js
 write pure types
   Option Type:
 
 ## VSCode:
 
+* demo vscode, debugging, nodejs hints, git integration
+* existing project add typing hint
+
+
+
+! [working with javascript project](https://code.visualstudio.com/docs/languages/javascript#_javascript-project-jsconfigjson)
+
+* create jsconfig.json
+  https://code.visualstudio.com/docs/languages/javascript#_javascript-project-jsconfigjson
+  https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
+* install typings
+    npm install -g @types/node
+    npm install @types/loadash --save-dev
+
+[vs code official doc]
+* https://code.visualstudio.com/docs
+* https://code.visualstudio.com/updates
 [introduction of vs code](https://www.youtube.com/watch?v=e3tPWAq74v4)
-
-existing project add typing hint //todo:
-
-cmd + p + ?
 
 
 ## Looking ahead / Future Sharing :
 
-* Functional Programming:
+### NodeJS - (I may or may not share it):
+未来高阶前端的方向:
+* 精通css, animation, webgl视觉方向
+  * vr & online gaming
+  * 精品前端项目, 各种细节, 各种动画, 各种duang, duang特效 - 这种项目一般是大公司顶尖前端团队(UX, 设计)通力合作的产物
+
+* able to build mobile app(ios, android) using (react-native, native script)
+  * still you need to understand some basic knowledage of native platform
+* JS fullstack - this is due to the rise of micro service architecture
+  * building Isomorphic/Universal javascript app
+  * building realtime app
+  * construct front-end automated workflow (minify resources (js, image, css), upload, add md5 hash tag...etc) 
+    * nodescript + makefile - why this ? you get the ultimate control of things
+
+key elements:
+* event loop - this is nodejs's way of achieving concurrency
+  * blocking & non-blocking io.
+  * async vs sync call
+* EventEmiter
+* stream
+* Buffer
+
+  
+books:
+* [Node.js.the.Right.Way(2013.11)].Jim.R.Wilson
+* 深入浅出nodejs - 扑灵
+* OReilly.Building.Isomorphic.JavaScript.Apps.2016.9
+
+
+### Functional Programming:
 preferred languages:
   Haskell, F#, scala, swift
 
@@ -487,20 +544,16 @@ key elements:
 
         ```
 
-* Angularjs2:
+* Angularjs2 - the modern framework:
   key elements:
   * RxJS
   * zone.js
   * typescript
 
 
-NodeJS:
-  key elements:
-  * EventEmiter
-  * stream
-
 
 Docker:
+
   
 
 I probably would goto nodejs.
@@ -514,3 +567,8 @@ I probably would goto nodejs.
 4. [flow vs typescript](http://djcordhose.github.io/flow-vs-typescript/flow-typescript-2.html#/39)
     comparison, why types, null types, type variantion
 5. [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
+
+
+todo:
+  Type Ops
+  https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript#typescript-20
