@@ -24,14 +24,15 @@
     * elegant ways to handling errors
 * different language excel at different application domain
 
-      python:               data mining & machine learning & system administration & devops & almost everything
-      scala:                big data, java alternative
-      java, golang:         backend
-      c:                    embeded systems
-      js:                   front end.
-      nodejs:               IoT & backend
-      swift & object c:     ios related
-      R:                    data sci
+
+          python:               data mining & machine learning & system administration & devops & almost everything
+          scala:                big data, java alternative
+          java, golang:         backend
+          c:                    embeded systems
+          js:                   front end.
+          nodejs:               IoT & backend
+          swift & object c:     ios related
+          R:                    data sci
 
 * abstract your code in more elegant ways
 * reads lots of books
