@@ -1,5 +1,5 @@
-# Title: 听我吹牛B, typescript 只是个幌子 :) ?
-// General introduction to Programming language
+# Title: 听我吹牛B ?
+sub title - General introduction to Programming language
 
 # why the heck is this written in english:
 *lazy guy*, hate to type, hate to translate things in my head 
@@ -18,14 +18,15 @@
 >to be a better progammer
 
 * things are connected  
-  * Rx = functional combinators + nodejs stream  
+  * RxJS = functional combinators + nodejs stream  
   * typescript can help with you enter into a strong type language(if u havent played a static typed language before)
-* help you think differently, each language has some kind programming paradiam
+* help you think differently, each language has some kind of programming paradiams
   * OOP, functional, Procedure, Meta(write program to generate program )...etc
 * battery included features
     * Immutable Objects
     * builted-in full fledged collections
     * elegant ways to handling errors
+    * advanced tools to do concurrency job/multi-threading.
 * different language excel at different application domain
 
 
@@ -78,6 +79,10 @@
 * coding structual mechanism:
 
   module, namespace
+* abstraction tools:
+
+  class, trait, module...
+* core language libs
 * others.... programming design patterns :
 
   inheritance
@@ -319,10 +324,17 @@ reason: bad language design, semantics mixed up, we're human and we are lazy by 
     val x = 3
     ```
 
-* Type Ops:
-    type phoneNumber: String | null
+* adevanced type:
+  * Union Types
 
-        Or, Union, Algreba Types
+    ```
+      type phoneNumber: String | null
+    ```
+  * Intersection Types - An intersection type combines multiple types into one. This allows you to add together existing types to get a single type that has all the features you need.
+
+    ```
+      let result = <T & U>{};
+    ```
 
 
 * Type alias:
@@ -345,6 +357,11 @@ reason: bad language design, semantics mixed up, we're human and we are lazy by 
     List
     ```
     def get[T](idx: Int): T
+
+    //binary tree - http://aperiodic.net/phil/scala/s-99/
+    sealed abstract class Tree[+T]
+    case class Node[+T](value: T, left: Tree[T], right: Tree[T]) extends Tree[T]
+    case object End extends Tree[Nothing]
     ```
 
 *  High Order Types:
@@ -450,9 +467,9 @@ write pure types
 ## Looking ahead / Future Sharing :
 
 ### NodeJS - (I may or may not share it):
-未来高阶前端的方向:
-* 精通css, animation, webgl视觉方向
-  * vr & online gaming
+未来/当前高阶前端的方向:
+* 精通css, animation, canvas, webgl视觉方向
+  * vr & online gaming - 可能需要计算机图形学基础, opengl
   * 精品前端项目, 各种细节, 各种动画, 各种duang, duang特效 - 这种项目一般是大公司顶尖前端团队(UX, 设计)通力合作的产物
 
 * able to build mobile app(ios, android) using (react-native, native script)
@@ -460,8 +477,13 @@ write pure types
 * JS fullstack - this is due to the rise of micro service architecture
   * building Isomorphic/Universal javascript app
   * building realtime app
-  * construct front-end automated workflow (minify resources (js, image, css), upload, add md5 hash tag...etc) 
-    * nodescript + makefile - why this ? you get the ultimate control of things
+  
+所有的这些方向, 你可能都需要熟悉nodejs, why:
+
+* construct front-end automated workflow (minify resources (js, image, css), upload, add md5 hash tag...etc) 
+    * nodescript + makefile - why this ? some edge cases & you get the ultimate control of things
+
+
 
 key elements:
 * event loop - this is nodejs's way of achieving concurrency
@@ -544,7 +566,7 @@ key elements:
 
         ```
 
-* Angularjs2 - the modern framework:
+* Angularjs2 - the modern front-end framework:
   key elements:
   * RxJS
   * zone.js
@@ -567,7 +589,11 @@ I probably would goto nodejs.
 4. [flow vs typescript](http://djcordhose.github.io/flow-vs-typescript/flow-typescript-2.html#/39)
     comparison, why types, null types, type variantion
 5. [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
-
+6. [The Algebra of Algebraic Data Types](http://chris-taylor.github.io/blog/2013/02/10/the-algebra-of-algebraic-data-types/)
+7. OOP
+  * http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html
+  * http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html
+  * http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance_continued.html
 
 todo:
   Type Ops
