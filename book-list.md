@@ -2,11 +2,12 @@
 
 [STATUS]
 
-    PARTIAL: P
-    RECOMMEND: R, !
-    COMPLETE | DONE :C, :D
-    ONGOING: O
-    SUSPEND:S
+    PARTIAL           :       P
+    RECOMMEND         :       R, !
+    COMPLETE | DONE   :       C, :D
+    ONGOING           :       O
+    SUSPEND           :       S
+    NOT-RECOMMENDED   :       -
 
 [Java]
 
@@ -15,26 +16,10 @@
     Functional.Programming.for.Java.Developers.Dean.Wampler.文字版:P:S
     ! [The.Well-Grounded.Java.Developer(2012.7)].Benjamin.J.Evans|2014:D
 
-[GRAILS]
-
-    [Apress] The Definitive Guide to Grails 2|2014.04-~:D
-    [Programming.Grails(2013.4)].Burt.Beckwith|2014.04-~:D
-
 [SCALA]
 
     [OReilly.Functional.Thinking.2014.6.pdf] | 2015.06-2015.06:D
     [Manning.Scalatra.in.Action.2016.5] | 2016.07.22-2016.08.01:D
-
-[struts2]
-
-    [Apress.J2EE系列].Apress.Practical.Apache.Struts2.Web.2.0.Projects:D
-    [Manning.系列图书].Manning.Struts2.In.Action:D
-    [Manning.系列图书].Manning.Java.Persistence.with.Hibernate:D
-    [Spring实战(第3版)].(Spring.in.Action.3rd.Edition).Craig.Walls:P
-    轻量级JavaEE企业应用实战:D
-    JUnit in Action 2nd Edition:P:S
-    Ant in Action 2nd Edition:P:S
-    [Apress.J2EE系列].Beginning.JSP.JSF.and.Tomcat.Web.Development.From.Novice.to.Professional:P:S
 
 [Javascript]
 
@@ -58,18 +43,17 @@
 
 [PYTHON]
 
-    [Learning.Python(5th,2013.6)].Mark.Lutz.文字版:P
     Expert.Python.Programming:P
     Oreilly Flask Web Development|2014.07-2014-11:D
 
-[Mysql]
+[Database]
 
     Wrox.Beginning MySQL:P
+    ![Learning Neo4j]|2016.10.17-2016.10.18|:D
 
 [Web Service]
 
     [Build.APIs.You.Wont.Hate.2015.8]|2016.02.16-2016.02.24:D
-
 
 
 [other tech related]
@@ -78,13 +62,13 @@
     [Computer.Science：An.Overview.(11th.2011)].J.Glenn.Brookshear:P
     [Wiley.Linux.Bible.2010.Edition].Christopher.Negus:P
     Groovy.in.Action:P
-    [Manning.系列图书].Manning.AspectJ.In.Action:P:S
+    
     Thinking In Java 4th:P:S
     [Pro.Java.7.NIO.2].Anghel.Leonard:P:S
     Oreilly. Http the Definitive Guide| 2014.08-2015|:D:80%
-    software-architecture-patterns.pdf | 2015 | :D
+    ! software-architecture-patterns.pdf | 2015 | :D
     [Building.and.Testing.with.Gradle]|2016.03.13-2016.03.16|:D
-    [Three.js入门指南-http://www.ituring.com.cn/minibook/792] | 2016.08.27-2016.08.28:D
+    [Three.js入门指南-http://www.ituring.com.cn/minibook/792] | 2016.08.27-2016.08.28|:D
 
 [android]
 
@@ -103,41 +87,37 @@
 
 [NOVELS]
 
-    冰与火之歌-卷二-列王的纷争|2010-2012:D
-    冰与火之歌-卷三-冰雨的风暴|2010-2012:D
-    冰与火之歌-卷四-群鸦盛宴|2010-2012:D
-    A song of ice and fire_book5_A DANCE WITH DRAGONS|2012-2014.02:D
-    白夜行|2013.10:D
-    猜火车|2013.10-11:D
-    幻夜-东野奎吾|2014:D
-    新参者-东野奎吾|2014:D
-    嫌疑犯x的献身-东野奎吾|2014:D
-    恶意-东野奎吾|2014:D
-    放学后-东野奎吾|2014:D
-    The Girl Who Kicked the Hornet's Nest: Book 3 of the Millennium Trilogy - Stieg Larsson | 2014.06(14DAYS) :D:R
+    冰与火之歌-卷二-列王的纷争|2010-2012|:D:R
+    冰与火之歌-卷三-冰雨的风暴|2010-2012|:D:R
+    冰与火之歌-卷四-群鸦盛宴|2010-2012|:D:R
+    A song of ice and fire_book5_A DANCE WITH DRAGONS|2012-2014.02|:D:R
+    白夜行|2013.10|:D:R
+    猜火车|2013.10-11|:D
+    幻夜-东野奎吾|2014|:D
+    新参者-东野奎吾|2014|:D
+    嫌疑犯x的献身-东野奎吾|2014|:D
+    恶意-东野奎吾|2014|:D
+    放学后-东野奎吾|2014|:D
+    The Girl Who Kicked the Hornet's Nest: Book 3 of the Millennium Trilogy - Stieg Larsson | 2014.06(14DAYS) |:D:R
 
 [OHTERS]
 
-    [道路与梦想：我与万科（1983~1999）] 2015.05-2015.06:D
-    [逃不开的经济周期：历史，理论与投资现实] 2015.04-2015.10:D
-    Basic Economics-Thomas Sowell|2012-~|2016.02:D
+    [道路与梦想：我与万科（1983~1999）] 2015.05-2015.06|:D
+    [逃不开的经济周期：历史，理论与投资现实] 2015.04-2015.10|:D
+    Basic Economics-Thomas Sowell|2012-~|2016.02|:D:R
 
-[SUSPENDED]
+[SUSPENDED] - clean books that is no more appealing
 
     [sbt-reference]|2016.03.22-~
     ActiveMQ in Action(Manning-2011)|2013-~|:S
     Introduction to Algorithms(3rd)|2012.12-~|
     叔本华的人生智慧|2014.02-~|:S
-    Java Network Programming(4th)|2013-~|:S
+    
     Being Geek|2013-~:S
     Lucene in Action(2nd, 2010.7)|2013-~|:S
     [Think.Stats(第1版)].(Think.Stats).Allen.B.Downey |2014.05-~:S
-    [Scala.in.Action(2013.4)].Nilanjan.Raychaudhuri|2014.05-~
-    [Programming.Groovy.2(2013.7)].Venkat.Subramaniam|2014.02-~:S
     [Redis.in.Action(2013.6)].Josiah.L.Carlson|2014.05-~|44%
     [MongoDB.Applied.Design.Patterns(2013.3)].Rick.Copeland|2014.06-~:S
-    The Game of Life Florence Scovel Shinn Touchstone|2014.04-~:S
-    [你的第一本哲学书]|2014.11-~
     On china.Henry Kissinger|2014.10-~
     [Scala.in.Depth(2012.5)].Joshua.D.Suereth.文字版.pdf|2014.08-~:S
     [MongoDB: the definitive guide]|2014.09-2014.11:S:40%
@@ -147,13 +127,12 @@
     ! [Manning.Go.in.Action.2015.11]|2016.01.18-~
     [跟任何人都聊得来.迈克·贝克特尔]|2016.01-~
     [101 classic short stories]|2015-~
-    [Manning.Amazon.Web.Services.in.Action.2015.9] | 2015.04.15-~
-
     !! [Learning.Web.Design(4th,2012.8).Jennifer.Niederst.Robbins]
     [Manning.Amazon.Web.Services.in.Action.2015.9] | 2015.04.15-~:S
     [Manning.Building.the.Web.of.Things.2016.6] | 2016.07.01-~
     ! [Android.Programming.The.Big.Nerd.Ranch.Guide.2nd.Edition.2015.8] | 2016.05.01-~
     [Manning.Netty.in.Action.2015.12] | 2016.09.20-~
+    [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31-~
 
 [ONGOING]
 
@@ -162,12 +141,38 @@
     [Manning.Grokking.Algorithms.2016.5] | 2016.08.01 - ~
     [The Rust Programming Language](https://doc.rust-lang.org/book/README.html) | 2016.08.01-~
     [Algorithms of the Intelligent Web]|2014 - ~
-    [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31-~
     [Programming in Scala - Third Edition] | 2016.09.06-~
     [angular2 guide](https://angular.io/docs/ts/latest/guide/) | 2016.09.20-~
-
     [OReilly.Building.Isomorphic.JavaScript.Apps.2016.9] | 2016.09.20-~
     [akka-scala](http://doc.akka.io/docs/akka/2.4.10/scala.html) | 2016.09.28-~
     [Lucene 4 Cookbook] | 2016.10.06-~
-    ! [learning scalaz] | 2016.08 - ~
-        (http://eed3si9n.com/learning-scalaz/)
+    ! [learning scalaz](http://eed3si9n.com/learning-scalaz/) | 2016.08 - ~
+    
+
+
+[NO MORE INTERESTED] - THIS SHOULD ALL MARK WITH NOT-RECOMMENDED (-)
+
+    Java Network Programming(4th)|2013-~|:S
+    [Programming.Groovy.2(2013.7)].Venkat.Subramaniam|2014.02-~:S
+    [Scala.in.Action(2013.4)].Nilanjan.Raychaudhuri|2014.05-~
+    The Game of Life Florence Scovel Shinn Touchstone|2014.04-~:S
+    [你的第一本哲学书]|2014.11-~
+    [Learning.Python(5th,2013.6)].Mark.Lutz.文字版:P
+    [Manning.系列图书].Manning.AspectJ.In.Action:P:S
+
+    [GRAILS]
+      [Apress] The Definitive Guide to Grails 2|2014.04-~:D
+      [Programming.Grails(2013.4)].Burt.Beckwith|2014.04-~:D
+    
+
+    [struts2]
+      [Apress.J2EE系列].Apress.Practical.Apache.Struts2.Web.2.0.Projects:D
+      [Manning.系列图书].Manning.Struts2.In.Action:D
+      [Manning.系列图书].Manning.Java.Persistence.with.Hibernate:D
+      [Spring实战(第3版)].(Spring.in.Action.3rd.Edition).Craig.Walls:P
+      轻量级JavaEE企业应用实战:D
+      JUnit in Action 2nd Edition:P:S
+      Ant in Action 2nd Edition:P:S
+      [Apress.J2EE系列].Beginning.JSP.JSF.and.Tomcat.Web.Development.From.Novice.to.Professional:P:S
+
+    

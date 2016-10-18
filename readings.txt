@@ -285,6 +285,8 @@
         ### database
 
             ! [cap theorem](http://en.wikipedia.org/wiki/CAP_theorem)
+            [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.r86r03tb1)
+            [Database normalization](http://en.wikipedia.org/wiki/Database_normalization#Normal_forms)
 
             [The problem with Backing Stores, or what is NoSQL and why would you use it anyway](http://blog.isotoma.com/2014/06/the-problem-with-backing-stores-or-what-is-nosql-and-why-would-you-use-it-anyway/)
             [分布式系统的事务处理](http://coolshell.cn/articles/10910.html)
@@ -407,6 +409,7 @@
     [傅里叶变换]
         http://blog.rainy.im/2015/11/03/fourier-transform-in-image-processing/
         http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
+    [Taxicab_geometry](https://en.wikipedia.org/wiki/Taxicab_geometry) - 计算LP-space (P是向量的空间维度)的向量的最小距离, 不唯一
 
 # data structure:
     ![](https://www.tutorialspoint.com/data_structures_algorithms)
@@ -560,7 +563,10 @@
 
 # hacking:
 
-    [Hack WPA/WPA2 Wi-Fi with Fluxion tool](https://www.youtube.com/watch?v=xzv5Vy9ghrg)
+    [Hack WPA/WPA2 Wi-Fi with Fluxion tool]
+        (https://www.youtube.com/watch?v=xzv5Vy9ghrg)
+        https://www.youtube.com/watch?v=Pc8JCiRZ-4w
+        
 
 
 

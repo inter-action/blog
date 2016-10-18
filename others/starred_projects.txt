@@ -28,6 +28,8 @@
     # scalajs
       https://github.com/ThoughtWorksInc/Binding.scala
 
+    # reactjs
+      https://github.com/facebookincubator/create-react-app
 
   # BE
     golang:
@@ -35,6 +37,8 @@
 
     scala:
       https://github.com/lihaoyi/utest # too hard for me now
+      [slack bot written in scala](https://github.com/ScalaConsultants/scala-slack-bot-core)
+      
 
     java:
       https://github.com/airbnb/airpal
@@ -55,6 +59,10 @@
     nodejs
       [Node.js, Postgres, React and Redux powered CMS system]https://github.com/RafalWilinski/throttle
 
+  # tools:
+    [google closure](https://github.com/google/closure-compiler-js)
+
+
   # blogs
     https://github.com/xitu/gold-miner
 
@@ -64,4 +72,3 @@
     [数据埋点的开源-一整套](https://github.com/mixpanel)
     [](https://github.com/jwasham/google-interview-university)
     [aws](https://github.com/open-guides/og-aws)
-    
