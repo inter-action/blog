@@ -31,8 +31,6 @@
     https://dribbble.com/hzlzh/projects/380016-WeFlow
     [产品之器・ Sketch](https://zhuanlan.zhihu.com/p/21386019)
 
-# Security & Hacks
-    [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
 
 
 # web
@@ -566,7 +564,8 @@
     [Hack WPA/WPA2 Wi-Fi with Fluxion tool]
         (https://www.youtube.com/watch?v=xzv5Vy9ghrg)
         https://www.youtube.com/watch?v=Pc8JCiRZ-4w
-        
+    [Kali Linux on Raspberry Pi 3](https://www.youtube.com/watch?v=6xXnUGR_e4E)
+    [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
 
 
 

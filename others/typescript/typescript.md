@@ -128,6 +128,8 @@ what is OOP - the essence of OOP in its simplistic form:
 
 ![](./assets/oop.gif)
 
+oop inheritance:
+![](./assets/oop_inheritance.png)
 --
 *  Single Parent inheritance vs trait based inheritance
 *  interface vs trait based contract, structual types
@@ -241,37 +243,94 @@ reason: bad language design, semantics mixed up, we're human and we are lazy by 
 ! since typescript 2.0, typescript add a strict null complier option.
 
 
-### The modern language: Option Type,  deconstruct , Pattern matching, for comprehension
+### The modern language: Option Type,  deconstruct , Pattern matching, for comprehension...etc
 
-* optional function params
+*  Function VS Method.  
+    function does not attached instances
+
+* Declarative vs imperative Language
+
+    ```sql
+    select t.name from student as t
+    ```
+
+    ```javascript
+    [1, 2, 3].map((e)=>e*2)
+
+    // imperative
+    for (var i = 0; i<arr.length; i++){
+      arr[i] = arr[i]*2
+    }
+    ```
 
 * expression vs statement
 
   expression always return value
-  ```
-  val x = if (x > 3) 3 else 4
-  ```
+    ```
+    val x = if (x > 3) 3 else 4
+    add({
+      a = 1+1
+      a * 2
+      a
+    }, 4)
+    ```
+
   statement:
     declare what i gonna do
+    
+* type anotation:
+
+    ```typescript
+    let name: String = 'alex'
+    function add<T>(a: T, b: T): T
+    ```
+
+    ```scala
+    def add[T](a: T, b: T): T
+    ```
+
+* optional function params
+
+    ```typescript
+    function add(a: number, b:number = 0)
+    ```
+
+* monad combinators: map, flatMap
+
 
 * Option Type:
 
    Option[T], Some[T], None.
 
+    ```scala
+    class Option[A]{
+      def map[B](f: A => B): Option[B]
+      def flatMap[B](f: A => Option[B]):Option[B]
+    }
+    ```
+
    /Users/interaction/workspace/typescript/typescript-samples
 
-        // consider this:
-        // read user input, and parse it to Int, add 1.
-        read():Option[String]
-        parse():Option[Int]
-        addOne(x: Int):Int
-        val value = read().map(e=>parse(e)).map(addOne).getOrElse(0)
+   ```scala
+    // consider this:
+    // read user input, and parse it to Int, add 1.
+    def read():Option[String] = {
+      if (sucess){
+        Some("22")
+      }else{
+        None
+      }
+    } 
 
-        // consider the alternative
-        read():String|null
-        parse():Int|null
-        addOne(x: Int):Int
+    parse(s: String):Option[Int]
+    addOne(x: Int):Int
+    val value = read().map(e=>parse(e)).map(addOne).getOrElse(0)
 
+    // consider the alternative
+    read():String|null
+    parse():Int|null
+    addOne(x: Int):Int
+    ```
       
 
 * deconstruct
@@ -282,11 +341,10 @@ reason: bad language design, semantics mixed up, we're human and we are lazy by 
 * Pattern Matching:
 
   ```scala
-  class Person(name)
-  val p = new Person("sam")
-  p match {
-    case Person(name) => println(name)
-    case _ => not found // if not matches throws runtime exception
+  val x = Some("str")
+  x match {
+    case Some(str) => println(str)
+    case None => not found // if not matches throws runtime exception
   }
   ```
 
@@ -294,7 +352,7 @@ reason: bad language design, semantics mixed up, we're human and we are lazy by 
 
   ``` scala
   val map = Map.empty[String, Int]()
-  val age1 = map.get(key1) //javascript indexOf
+  val age1 = map.get(key1)
   val age2 = map.get(key2)
 
   (age1, age2) match {
@@ -378,12 +436,7 @@ reason: bad language design, semantics mixed up, we're human and we are lazy by 
     class Apple
 
     List[Apple].add(new Orange)
-
     ```
-
-
-*  Function VS Method.  
-    function does not attached instances
 
 
 * Type morphing: type class & implicit conversion (skip this one...)
@@ -566,19 +619,35 @@ key elements:
 
         ```
 
-* Angularjs2 - the modern front-end framework:
-  key elements:
+### Angularjs2 - the modern front-end framework:
+
+Diff with React:
+more info on links.8
+
+* reactjs is not a framework
+* you have to compose a lots of bricks together to create a "looking good" project
+  * pros: you get ultimate control
+  * cons: 
+    you has relative long preparation time to actually start coding,
+* angularjs2 already setting up the cutting-edge tools & best practice for you to create a FE project.
+  you just have to learn it first.
+  * tree shaking
   * RxJS
   * zone.js
   * typescript
+  * angular-cli
+* angularjs2 projects are more consistent
+* both react & angularjs2 has high learning curve, especially you starting from scratch.
+* both can create native mobile app.
+* etc...
 
 
+### Docker - cloud app shipping tool.
+key elements:
+* docker engine
+* docker compose
 
-Docker:
-
-  
-
-I probably would goto nodejs.
+I probably would go with nodejs.
 
 
 ## Links:
@@ -594,7 +663,9 @@ I probably would goto nodejs.
   * http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html
   * http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html
   * http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance_continued.html
+8. reactjs vs angularjs2
+  * https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51#.u8ckwino0
 
 todo:
-  Type Ops
   https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript#typescript-20
+  

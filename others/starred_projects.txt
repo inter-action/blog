@@ -38,7 +38,7 @@
     scala:
       https://github.com/lihaoyi/utest # too hard for me now
       [slack bot written in scala](https://github.com/ScalaConsultants/scala-slack-bot-core)
-      
+
 
     java:
       https://github.com/airbnb/airpal
@@ -47,6 +47,12 @@
       https://github.com/nodejitsu/node-http-proxy
 
       https://github.com/visionmedia/supertest
+
+    python:
+      [sanic](https://github.com/channelcat/sanic)
+        Python 3.5+ web server that's written to go fast
+
+
 
   # Fullstack
 
@@ -58,6 +64,14 @@
 
     nodejs
       [Node.js, Postgres, React and Redux powered CMS system]https://github.com/RafalWilinski/throttle
+
+  # machine Learning
+    [keras](https://github.com/fchollet/keras)
+      Deep Learning library for Python. Convnets, recurrent neural networks
+
+  # Database
+    [A realtime, decentralized, offline-first, graph database engine](https://github.com/amark/gun)
+
 
   # tools:
     [google closure](https://github.com/google/closure-compiler-js)
