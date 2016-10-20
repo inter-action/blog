@@ -1,5 +1,4 @@
-# Title: 听我吹牛B ?
-sub title - General introduction to Programming language
+# Title: General introduction to Programming language
 
 # why the heck is this written in english:
 *lazy guy*, hate to type, hate to translate things in my head 
@@ -295,14 +294,13 @@ reason: bad language design, semantics mixed up, we're human and we are lazy by 
     function add(a: number, b:number = 0)
     ```
 
-* monad combinators: map, flatMap
-
 
 * Option Type:
 
    Option[T], Some[T], None.
 
     ```scala
+    //monad combinators: map, flatMap
     class Option[A]{
       def map[B](f: A => B): Option[B]
       def flatMap[B](f: A => Option[B]):Option[B]
