@@ -62,13 +62,14 @@
     [Computer.Science：An.Overview.(11th.2011)].J.Glenn.Brookshear:P
     [Wiley.Linux.Bible.2010.Edition].Christopher.Negus:P
     Groovy.in.Action:P
-    
+
     Thinking In Java 4th:P:S
     [Pro.Java.7.NIO.2].Anghel.Leonard:P:S
     Oreilly. Http the Definitive Guide| 2014.08-2015|:D:80%
     ! software-architecture-patterns.pdf | 2015 | :D
     [Building.and.Testing.with.Gradle]|2016.03.13-2016.03.16|:D
     [Three.js入门指南-http://www.ituring.com.cn/minibook/792] | 2016.08.27-2016.08.28|:D
+    [angular2 guide](https://angular.io/docs/ts/latest/guide/) | 2016.09.20-2016.10|:D(only guide section)
 
 [android]
 
@@ -112,7 +113,7 @@
     ActiveMQ in Action(Manning-2011)|2013-~|:S
     Introduction to Algorithms(3rd)|2012.12-~|
     叔本华的人生智慧|2014.02-~|:S
-    
+
     Being Geek|2013-~:S
     Lucene in Action(2nd, 2010.7)|2013-~|:S
     [Think.Stats(第1版)].(Think.Stats).Allen.B.Downey |2014.05-~:S
@@ -142,12 +143,13 @@
     [The Rust Programming Language](https://doc.rust-lang.org/book/README.html) | 2016.08.01-~
     [Algorithms of the Intelligent Web]|2014 - ~
     [Programming in Scala - Third Edition] | 2016.09.06-~
-    [angular2 guide](https://angular.io/docs/ts/latest/guide/) | 2016.09.20-~
     [OReilly.Building.Isomorphic.JavaScript.Apps.2016.9] | 2016.09.20-~
     [akka-scala](http://doc.akka.io/docs/akka/2.4.10/scala.html) | 2016.09.28-~
     [Lucene 4 Cookbook] | 2016.10.06-~
     ! [learning scalaz](http://eed3si9n.com/learning-scalaz/) | 2016.08 - ~
+    [OReilly.Hello.Startup.2015.10]|2016-10 - ~
     
+
 
 
 [NO MORE INTERESTED] - THIS SHOULD ALL MARK WITH NOT-RECOMMENDED (-)
@@ -163,7 +165,7 @@
     [GRAILS]
       [Apress] The Definitive Guide to Grails 2|2014.04-~:D
       [Programming.Grails(2013.4)].Burt.Beckwith|2014.04-~:D
-    
+
 
     [struts2]
       [Apress.J2EE系列].Apress.Practical.Apache.Struts2.Web.2.0.Projects:D
@@ -174,5 +176,3 @@
       JUnit in Action 2nd Edition:P:S
       Ant in Action 2nd Edition:P:S
       [Apress.J2EE系列].Beginning.JSP.JSF.and.Tomcat.Web.Development.From.Novice.to.Professional:P:S
-
-    

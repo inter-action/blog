@@ -24,6 +24,8 @@
     ## machine learning:
         ! http://blog.christianperone.com/
 
+    ## hacking:
+        http://www.thesecurityblogger.com/category/hack/social/
 
 
 # Design Resource
@@ -323,6 +325,11 @@
 
         ### NodeJS
             [](https://blog.risingstack.com/nodejs-production-environment-for-startups/)
+            ![Real World Lessons on the Pain Points of Node.js Applications](https://www.youtube.com/watch?v=eZF1t7Cv_7o&list=LLuhDiGxQ78K0p35lrkwZLjA&index=2)
+                npm 的问题现在用fb的yarn应该能解决掉, 后面谈了 security (csfq, request limit), docker,
+                clustering with nginx & docker.
+                health check point, profile, async - resolving callback-hell
+
 
 
         ### encrptions
@@ -397,6 +404,7 @@
 
 # thoughts
     [Function Programming]: http://en.wikipedia.org/wiki/Functional_programming
+    ![What are the greatest programming tips and tricks you have learned on your own by years of coding?](https://www.quora.com/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding/answer/Jerome-Terry-1)
 
 # math
     [数学收敛]http://zh.wikipedia.org/zh/%E6%9E%81%E9%99%90_%28%E6%95%B0%E5%AD%A6%29
@@ -566,6 +574,11 @@
         https://www.youtube.com/watch?v=Pc8JCiRZ-4w
     [Kali Linux on Raspberry Pi 3](https://www.youtube.com/watch?v=6xXnUGR_e4E)
     [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
+
+# Life:
+
+    ![The Philosophy of BOJACK HORSEMAN – Wisecrack Edition](https://www.youtube.com/watch?v=rORIDYHOFTQ)
+
 
 
 

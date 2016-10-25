@@ -43,10 +43,16 @@
     java:
       https://github.com/airbnb/airpal
 
+    javascript:
+      meta-programming
+        javascript macro - https://github.com/sweet-js/sweet.js
+
     nodejs:
       https://github.com/nodejitsu/node-http-proxy
 
       https://github.com/visionmedia/supertest
+
+      loadash like utility belt - https://github.com/dtao/lazy.js
 
     python:
       [sanic](https://github.com/channelcat/sanic)
