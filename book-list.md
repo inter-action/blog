@@ -147,7 +147,8 @@
     [akka-scala](http://doc.akka.io/docs/akka/2.4.10/scala.html) | 2016.09.28-~
     [Lucene 4 Cookbook] | 2016.10.06-~
     ! [learning scalaz](http://eed3si9n.com/learning-scalaz/) | 2016.08 - ~
-    [OReilly.Hello.Startup.2015.10]|2016-10 - ~
+    [OReilly.Hello.Startup.2015.10]|2016.10 - ~
+    [Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition.2016.8] | 2016.10.27-~
     
 
 

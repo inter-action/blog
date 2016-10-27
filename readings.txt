@@ -384,6 +384,8 @@
 
         ! [闯过这 54 关，点亮你的 Git 技能树 ](https://codingstyle.cn/topics/181)
         [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+        [git hook](https://www.atlassian.com/git/tutorials/git-hooks/conceptual-overview)
+            Local hook vs Server hook
 
 # native mobile
 
@@ -423,6 +425,11 @@
 
 # machine learning:
     ![Machine Learning :: Text feature extraction (tf-idf) – Part I](http://blog.christianperone.com/2011/09/machine-learning-text-feature-extraction-tf-idf-part-i/)
+
+    ! [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
+        ORC-(图像转文字)
+        make sure dev & test dataset from same distribution - @43 mins mark
+
 
 
 # 面试
@@ -579,7 +586,11 @@
 
     ![The Philosophy of BOJACK HORSEMAN – Wisecrack Edition](https://www.youtube.com/watch?v=rORIDYHOFTQ)
 
-
+# Man Lifestyle:
+    [Sport coat](https://en.wikipedia.org/wiki/Sport_coat)
+    shirts:
+        [](http://www.untuckit.com/pages/4-tips-on-wearing-your-shirt-untucked)
+        [](http://www.gq.com/story/when-to-tuck-in-your-shirt)
 
 
 ---------------------------------------------------------------------------------
