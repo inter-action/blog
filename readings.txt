@@ -387,6 +387,7 @@
         [git hook](https://www.atlassian.com/git/tutorials/git-hooks/conceptual-overview)
             Local hook vs Server hook
 
+        [git rebase vs merge](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 # native mobile
 
     # android
@@ -585,6 +586,7 @@
 # Life:
 
     ![The Philosophy of BOJACK HORSEMAN – Wisecrack Edition](https://www.youtube.com/watch?v=rORIDYHOFTQ)
+    [What reality are you creating for yourself? | Isaac Lidsky](https://www.youtube.com/watch?v=cmpu58yv8-g)
 
 # Man Lifestyle:
     [Sport coat](https://en.wikipedia.org/wiki/Sport_coat)

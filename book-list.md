@@ -149,6 +149,7 @@
     ! [learning scalaz](http://eed3si9n.com/learning-scalaz/) | 2016.08 - ~
     [OReilly.Hello.Startup.2015.10]|2016.10 - ~
     [Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition.2016.8] | 2016.10.27-~
+    [30 days to a better man, by Brett McKay]|2016.11.05-~
     
 
 

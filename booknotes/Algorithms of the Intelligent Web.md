@@ -1,4 +1,4 @@
-# Book: Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition.2016.8
+# Book: Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition
 由于看过第一版(只读了几章), 书的第一版干货很多。所以对第二版自然很有兴趣。书的一二版区别还是
 挺大的，
 
