@@ -16,9 +16,17 @@
         solution - sticky session
 
     how to check outdated project dependencies
-    
+      any better way to do it?
+
     SEO:
       schema.org - https://schema.org/docs/gs.html
+
+    db:
+      mysql driver- https://github.com/mysqljs/mysql
+
+# Ref:
+* [mysql data types](https://www.tutorialspoint.com/mysql/mysql-data-types.htm)
+* [sql ref](https://www.tutorialspoint.com/sql/)
 
 # Links:
 

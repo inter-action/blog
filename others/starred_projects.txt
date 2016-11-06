@@ -49,10 +49,13 @@
 
     nodejs:
       https://github.com/nodejitsu/node-http-proxy
-
       https://github.com/visionmedia/supertest
-
       loadash like utility belt - https://github.com/dtao/lazy.js
+
+      object & string validation:
+        https://github.com/hapijs/joi - Object schema description language and validator for JavaScript objects.
+        
+
 
     python:
       [sanic](https://github.com/channelcat/sanic)
