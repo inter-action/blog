@@ -20,6 +20,7 @@
         [](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
         [NODEJS](http://www.bennadel.com/)
         [scotch io](https://scotch.io/)
+        [nodejs web](http://mherman.org/)
 
     ## machine learning:
         ! http://blog.christianperone.com/
@@ -330,6 +331,9 @@
                 clustering with nginx & docker.
                 health check point, profile, async - resolving callback-hell
 
+            [The Mysterious Fiber Bomb Problem: A Debugging Story](https://sandstorm.io/news/2016-09-30-fiber-bomb-debugging-story?utm_source=nodeweekly&utm_medium=email)
+                没看很懂, 但是debug方法很高端
+            
 
 
         ### encrptions
@@ -356,6 +360,13 @@
             [Oauth 2]
                 ! [](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2) - you only need this to understand oauth2
 
+    ## desktop app:
+        [slack - Building Hybrid Applications with Electron](https://slack.engineering/building-hybrid-applications-with-electron-dc67686de5fb#.fs6sprhni)
+
+    ## tools
+        chrome dev:
+            [Debugging The Web](https://www.youtube.com/watch?v=HF1luRD4Qmk)
+                nodejs, ProgressWebApp, realtime editing with workspace
 
 
 # Operating System

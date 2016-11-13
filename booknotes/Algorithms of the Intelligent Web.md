@@ -19,6 +19,12 @@
 读下*OReilly.Think.Stats.2nd.Edition.2014.10*一书。这也是我自己的打算。
 当初没有下毅力读完。
 
+# Denotes
+
+    #   //in links context, # denotes segment of the page
+    !   //in links context, ! denotes an important link
+
+
 ## chapter 2: Extracting structure from data: clustering and transforming your data
  
 ### 2.3: K-means
@@ -56,4 +62,44 @@
 >In particular, if covariance matrices for each cluster are tied together (that is, they all must be the same), and covariances across the diagonal are restricted to being equal, with all other entries set to zero, then you’ll obtain spherical clusters of the same size and shape for each cluster. Under such circumstances, each point will always belong to the cluster with the closest mean. Try it and see!
 
 todo: 这里说的 `covariance matrices` 是什么
+
+### 2.6 Transforming the data axis
+Links:
+* [! Set-builder notation](https://en.wikipedia.org/wiki/Set-builder_notation)
+* [Shear mapping/ shear transformation](https://en.wikipedia.org/wiki/Shear_mapping)
+* [Eigenvectors and eigenvalues]
+  * [!Introduction to eigenvalues and eigenvectors](https://www.khanacademy.org/math/linear-algebra/alternate-bases/eigen-everything/v/linear-algebra-introduction-to-eigenvalues-and-eigenvectors)
+    * [Kernel (linear algebra)/ nullspace](https://en.wikipedia.org/wiki/Kernel_(linear_algebra))
+      under the *#Illustration* section, the nullspace of matrix A, is a vector that is orthogonal to the plan formed by matrix A 
+      * [Linear map](https://en.wikipedia.org/wiki/Linear_map) - #Definition and first consequences
+    * [Eigenvalues_and_eigenvectors](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors)
+
+* [? Determinant](https://en.wikipedia.org/wiki/Determinant)
+
+
+
+### terminology:
+* Square matrix:   
+  if a matrix is n row & n column
+* covariance matrix: @page 43
+  >The covariance matrix describes the pairwise variance of each
+feature in the dataset
+  对于一个n个feature的数据, 它的covariance matrix是a1-an行, a1-an列的matrix. Square & symmmetric matrix
+
+
+# Terminology
+* transpose a matrix: swap it's row & column
+
+# Links:
+## linear algebra
+* [! Set-builder notation](https://en.wikipedia.org/wiki/Set-builder_notation)
+### matrix: sorted by importance
+* [Analytic_geometry/Cartesian geometry/coordinate geometry](https://en.wikipedia.org/wiki/Analytic_geometry)
+* [standard basis (vector)](https://en.wikipedia.org/wiki/Standard_basis)
+* [矩阵乘法](http://www.ruanyifeng.com/blog/2015/09/matrix-multiplication.html)
+* [Dot product](https://en.wikipedia.org/wiki/Dot_product)
+* [Rank of Matrix](https://en.wikipedia.org/wiki/Rank_(linear_algebra))
+  * [Linear independence](https://en.wikipedia.org/wiki/Linear_independence)
+* [Orthogonal Vectors](http://mathworld.wolfram.com/OrthogonalVectors.html)
+  * Two vectors u and v whose dot product is u·v=0 (i.e., the vectors are perpendicular) are said to be orthogonal. In three-space, three vectors can be mutually perpendicular.
 
