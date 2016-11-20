@@ -27,6 +27,7 @@
 # Ref:
 * [mysql data types](https://www.tutorialspoint.com/mysql/mysql-data-types.htm)
 * [sql ref](https://www.tutorialspoint.com/sql/)
+* [nodejs at scale series](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
 
 # Links:
 

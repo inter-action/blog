@@ -13,7 +13,6 @@
 
     Core Java. Volume I. Fundamentals, 8th Edition
     Core Java. Volume II. Advanced Features, 8th Edition
-    Functional.Programming.for.Java.Developers.Dean.Wampler.文字版:P:S
     ! [The.Well-Grounded.Java.Developer(2012.7)].Benjamin.J.Evans|2014:D
 
 [SCALA]
@@ -34,7 +33,7 @@
         buffer, fork child process, cluster, bench mark, load test(ab). server side logging & alert
 
     [OReilly.Learning.React.Native.2015.12]|2016.03.10-2016.03.13:D
-    [OReilly.Beautiful.JavaScript.2015.8.pdf] | 2016.04.23-2016.08.01
+    [OReilly.Beautiful.JavaScript.2015.8.pdf] | 2016.04.23-2016.08.01:D
 
 [CSS]
 
@@ -43,7 +42,6 @@
 
 [PYTHON]
 
-    Expert.Python.Programming:P
     Oreilly Flask Web Development|2014.07-2014-11:D
 
 [Database]
@@ -59,11 +57,6 @@
 [other tech related]
 
     [Web编程入门经典：HTML、XHTML和CSS].杜静.敖富江:D
-    [Computer.Science：An.Overview.(11th.2011)].J.Glenn.Brookshear:P
-    [Wiley.Linux.Bible.2010.Edition].Christopher.Negus:P
-    Groovy.in.Action:P
-
-    Thinking In Java 4th:P:S
     [Pro.Java.7.NIO.2].Anghel.Leonard:P:S
     Oreilly. Http the Definitive Guide| 2014.08-2015|:D:80%
     ! software-architecture-patterns.pdf | 2015 | :D
@@ -111,17 +104,12 @@
 
     [sbt-reference]|2016.03.22-~
     ActiveMQ in Action(Manning-2011)|2013-~|:S
-    Introduction to Algorithms(3rd)|2012.12-~|
-    叔本华的人生智慧|2014.02-~|:S
-
     Being Geek|2013-~:S
     Lucene in Action(2nd, 2010.7)|2013-~|:S
-    [Think.Stats(第1版)].(Think.Stats).Allen.B.Downey |2014.05-~:S
     [Redis.in.Action(2013.6)].Josiah.L.Carlson|2014.05-~|44%
     [MongoDB.Applied.Design.Patterns(2013.3)].Rick.Copeland|2014.06-~:S
-    On china.Henry Kissinger|2014.10-~
-    [Scala.in.Depth(2012.5)].Joshua.D.Suereth.文字版.pdf|2014.08-~:S
     [MongoDB: the definitive guide]|2014.09-2014.11:S:40%
+    On china.Henry Kissinger|2014.10-~
     [赤裸裸的统计学]|2015.06-~
     [machine learning in action]|2015.11.13-~
     [OReilly.using docker]|2015.12-~
@@ -129,46 +117,67 @@
     [跟任何人都聊得来.迈克·贝克特尔]|2016.01-~
     [101 classic short stories]|2015-~
     !! [Learning.Web.Design(4th,2012.8).Jennifer.Niederst.Robbins]
-    [Manning.Amazon.Web.Services.in.Action.2015.9] | 2015.04.15-~:S
     [Manning.Building.the.Web.of.Things.2016.6] | 2016.07.01-~
     ! [Android.Programming.The.Big.Nerd.Ranch.Guide.2nd.Edition.2015.8] | 2016.05.01-~
-    [Manning.Netty.in.Action.2015.12] | 2016.09.20-~
     [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31-~
-
-[ONGOING]
-
+    
     !! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
     [Linux.in.a.Nutshell(6th.2009).D.Ellen.Siever] | 2016-08-01-~
     [Manning.Grokking.Algorithms.2016.5] | 2016.08.01 - ~
     [The Rust Programming Language](https://doc.rust-lang.org/book/README.html) | 2016.08.01-~
-    [Algorithms of the Intelligent Web]|2014 - ~
     [Programming in Scala - Third Edition] | 2016.09.06-~
     [OReilly.Building.Isomorphic.JavaScript.Apps.2016.9] | 2016.09.20-~
     [akka-scala](http://doc.akka.io/docs/akka/2.4.10/scala.html) | 2016.09.28-~
     [Lucene 4 Cookbook] | 2016.10.06-~
     ! [learning scalaz](http://eed3si9n.com/learning-scalaz/) | 2016.08 - ~
+    Introduction to Algorithms(3rd)|2012.12-~|
+
+[ONGOING]
+    
+    [Algorithms of the Intelligent Web]|2014 - ~
     [OReilly.Hello.Startup.2015.10]|2016.10 - ~
     [Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition.2016.8] | 2016.10.27-~
     [30 days to a better man, by Brett McKay]|2016.11.05-~
     [OReilly.Think.Stats.2nd.Edition.2014.10]|2016.11.06-~
+    [The Intelligent Investor by Benjamin Graham]|2016.11.16-~
+    [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
     
 
 
 
 [NO MORE INTERESTED] - THIS SHOULD ALL MARK WITH NOT-RECOMMENDED (-)
 
-    Java Network Programming(4th)|2013-~|:S
-    [Programming.Groovy.2(2013.7)].Venkat.Subramaniam|2014.02-~:S
-    [Scala.in.Action(2013.4)].Nilanjan.Raychaudhuri|2014.05-~
-    The Game of Life Florence Scovel Shinn Touchstone|2014.04-~:S
-    [你的第一本哲学书]|2014.11-~
-    [Learning.Python(5th,2013.6)].Mark.Lutz.文字版:P
-    [Manning.系列图书].Manning.AspectJ.In.Action:P:S
+    [Java]
+      Java Network Programming(4th)|2013-~|:S
+      Functional.Programming.for.Java.Developers.Dean.Wampler.文字版:P:S
+      [Manning.系列图书].Manning.AspectJ.In.Action:P:S
+      Thinking In Java 4th:P:S
+
+    [scala]
+      [Scala.in.Action(2013.4)].Nilanjan.Raychaudhuri|2014.05-~
+      [Scala.in.Depth(2012.5)].Joshua.D.Suereth.文字版.pdf|2014.08-~:S
+
+    [python]
+      [Learning.Python(5th,2013.6)].Mark.Lutz.文字版:P
+      Expert.Python.Programming:P
+    
+    [other techs]
+      [Computer.Science：An.Overview.(11th.2011)].J.Glenn.Brookshear:P
+      [Wiley.Linux.Bible.2010.Edition].Christopher.Negus:P
+      [Think.Stats(第1版)].(Think.Stats).Allen.B.Downey |2014.05-~:S
+
+    [non-tech]
+      叔本华的人生智慧|2014.02-~|:S
+      [你的第一本哲学书]|2014.11-~
+      The Game of Life Florence Scovel Shinn Touchstone|2014.04-~:S
 
     [GRAILS]
       [Apress] The Definitive Guide to Grails 2|2014.04-~:D
       [Programming.Grails(2013.4)].Burt.Beckwith|2014.04-~:D
 
+    [Groovy]
+      Groovy.in.Action:P
+      [Programming.Groovy.2(2013.7)].Venkat.Subramaniam|2014.02-~:S
 
     [struts2]
       [Apress.J2EE系列].Apress.Practical.Apache.Struts2.Web.2.0.Projects:D

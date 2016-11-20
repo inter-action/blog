@@ -6,6 +6,7 @@
   # FE
     css
       [skeleton](https://github.com/dhg/Skeleton/)
+      [css3 loading effects](https://github.com/tobiasahlin/SpinKit)
 
     #yoman
       https://github.com/yeoman/generator-webapp#readme
@@ -21,6 +22,12 @@
     # Reactjs
       recompose - A React utility belt for function components and higher-order components.
         https://github.com/acdlite/recompose
+
+      blueprint - A React UI toolkit for the Web 
+        https://github.com/palantir/blueprint
+
+      enzyme - JavaScript Testing utilities for React
+        https://github.com/airbnb/enzyme/
 
 
     # ios
@@ -85,6 +92,12 @@
   # machine Learning
     [keras](https://github.com/fchollet/keras)
       Deep Learning library for Python. Convnets, recurrent neural networks
+
+    altify - https://github.com/ParhamP/altify
+      Uses deep learning to caption images in an HTML file and fills out its alternative text attributes with the related caption
+
+    MLAlgorithms - Minimal and clean examples of machine learning algorithms
+      https://github.com/rushter/MLAlgorithms
 
   # Database
     [A realtime, decentralized, offline-first, graph database engine](https://github.com/amark/gun)

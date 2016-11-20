@@ -169,10 +169,7 @@
                         http://www.tabforacause.org/blog/2015/01/29/using-reactjs-and-application-cache-fast-synced-app/
                         [谈谈React.js的核心入门知识](http://wwsun.me/posts/react-getting-started.html)
                         [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)
-
-                        react component
-                            http://react-components.com/
-
+                        [Netflix JavaScript Talks - RxJS + Redux + React = Amazing!](https://www.youtube.com/watch?v=AslncyG8whg)
 
 
 
@@ -441,6 +438,7 @@
     ! [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
         ORC-(图像转文字)
         make sure dev & test dataset from same distribution - @43 mins mark
+    ![Machine Learning: Measuring Similarity and Distance](https://dzone.com/articles/machine-learning-measuring)
 
 
 
@@ -462,6 +460,10 @@
 
 # economics
     [经济学书籍推荐]http://mp.weixin.qq.com/s?__biz=MzI4OTEwOTQ3MA==&mid=402562477&idx=1&sn=6cab2420c95317a692f0c96a66b4654f&scene=4#wechat_redirect
+
+    ## investing
+        [William Ackman: Everything You Need to Know About Finance and Investing in Under an Hour](https://www.youtube.com/watch?v=WEDIj9JBTC8)
+            book: the intelligent investor - benjamin graham
 
 # others
     ! [各种 cheatsheet](http://overapi.com/javascript/)
@@ -531,6 +533,12 @@
 
 
     ## nodejs
+        ### ! nodejs at scale
+            [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
+            [Hunting a Ghost - Finding a Memory Leak in Node.js](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/)
+            [Node.js at Scale - Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/)
+
+
         [nodejs 模块加载机制]
             http://www.infoq.com/cn/articles/nodejs-module-mechanism
         [nodejs 7 tips](http://dev.oupeng.com/articles/7-tips-for-a-nodejs-padawan)
@@ -543,6 +551,7 @@
         [stream handbook](https://github.com/substack/stream-handbook)
         [详解Node.js的http模块之http模块概述](http://itbilu.com/nodejs/core/N1okQ7Eh.html)
         [npm best practice](https://blog.risingstack.com/nodejs-at-scale-npm-best-practices/)
+        [19 things I learnt reading the NodeJS docs](https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.ibos50cqi)
 
 
     ## Python
@@ -564,6 +573,8 @@
             https://ponyfoo.com/articles/es6-generators-in-depth#generators-the-del-weird-del-ins-awesome-ins-parts
             ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
             [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
+        ! [Metaprogramming in ES6: Symbols and why they're awesome](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/)
+
 
     ## Rust
         http://killercup.github.io/trpl-ebook/
@@ -585,8 +596,7 @@
     ## golang
         [go by example](https://gobyexample.com/)
 
-
-# hacking:
+ # hacking:
 
     [Hack WPA/WPA2 Wi-Fi with Fluxion tool]
         (https://www.youtube.com/watch?v=xzv5Vy9ghrg)
