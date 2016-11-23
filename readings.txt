@@ -418,8 +418,9 @@
     ![What are the greatest programming tips and tricks you have learned on your own by years of coding?](https://www.quora.com/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding/answer/Jerome-Terry-1)
 
 # math
+    ! [List of mathematical symbols](https://en.wikipedia.org/wiki/List_of_mathematical_symbols)
+    
     [数学收敛]http://zh.wikipedia.org/zh/%E6%9E%81%E9%99%90_%28%E6%95%B0%E5%AD%A6%29
-    [List of mathematical symbols](https://en.wikipedia.org/wiki/List_of_mathematical_symbols)
     [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
     http://www.ruanyifeng.com/blog/2011/07/mathematical_constant_e.html
     [数学科普文章](http://betterexplained.com/)
@@ -552,6 +553,7 @@
         [详解Node.js的http模块之http模块概述](http://itbilu.com/nodejs/core/N1okQ7Eh.html)
         [npm best practice](https://blog.risingstack.com/nodejs-at-scale-npm-best-practices/)
         [19 things I learnt reading the NodeJS docs](https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.ibos50cqi)
+        [fiber](https://bjouhier.wordpress.com/2012/03/11/fibers-and-threads-in-node-js-what-for/)
 
 
     ## Python
@@ -566,14 +568,31 @@
         [python 日报](http://py.memect.com/)
         [Python初学者的资源总结](http://www.jianshu.com/p/9a3e1229c810)
 
-    #javascript
+    ## javascript
+        mixins: 
+            https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes
+            https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41
+
         [requirejs] require js [http://www.ruanyifeng.com/blog/2012/11/require_js.html]
         [javascript inheritance]http://javascript.info/tutorial/inheritance
         generators & async/await
             https://ponyfoo.com/articles/es6-generators-in-depth#generators-the-del-weird-del-ins-awesome-ins-parts
             ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
             [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
+
         ! [Metaprogramming in ES6: Symbols and why they're awesome](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/)
+        ! [es6 reflect](https://www.keithcirkel.co.uk/metaprogramming-in-es6-part-2-reflect/)
+        !! [es7 decorator](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41)
+            decorator as mixins.
+
+        ! [prototype vs __proto__](http://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
+            简单来说new Function 的时候会自动创建一个 prototype 对象, 这个对象保存着所有 class instance 的methods和inheritated properties
+            , 这个prototype 和 Function 互相引用。 而__proto__是更内部的Link。
+            具体看下面es6 classes的链接
+
+        !! [es6 classes](http://exploringjs.com/es6/ch_classes.html)
+            [new.target](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target)
+
 
 
     ## Rust

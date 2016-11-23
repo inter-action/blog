@@ -141,6 +141,7 @@
     [OReilly.Think.Stats.2nd.Edition.2014.10]|2016.11.06-~
     [The Intelligent Investor by Benjamin Graham]|2016.11.16-~
     [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
+    [Manning.Functional.Programming.in.JavaScript]2016.11.24-~
     
 
 

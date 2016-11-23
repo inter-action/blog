@@ -2,8 +2,9 @@
 
 notations:
 
-    !  # important
-    ?  # todo
+    !         - important
+    ?         - todo
+    #         - segment
 
 
 ## chapter 5: Classification: placing things where they belong
@@ -49,6 +50,41 @@ notations:
 # Links
 * [! Machine Learning: Measuring Similarity and Distance](https://dzone.com/articles/machine-learning-measuring)
 
+* [List_of_mathematical_symbols](https://en.wikipedia.org/wiki/List_of_mathematical_symbols)
+* [? Integral(积分)](https://en.wikipedia.org/wiki/Integral)
+* [? Derivative](https://en.wikipedia.org/wiki/Derivative)
+* [? Antiderivative](https://en.wikipedia.org/wiki/Antiderivative)
+* [Maximum likelihood estimation(MLE)](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation)
+    * [! Likelihood function](https://en.wikipedia.org/wiki/Likelihood_function)
+        Likelihood function: 是求 MLE 的关键。而 #Log-likelihood 是Likelihood function的一个非常典型的例子
+        这连接的一节介绍了Log-Likelihood的好处:easy to compute with. make complex computation simple.
+        注意#Log-likelihood下面的example的数学标注, 包括MLE的标注
+
+        * [arg max](https://en.wikipedia.org/wiki/Arg_max)
+            > In contrast to global maxima, referring to the largest outputs of a function, 
+            arg max refers to the inputs, or arguments, at which the function outputs are as 
+            large as possible.
+
+            argmax: 函数达到最大值(in its domain), 的时候的argument的值  
+            global: 函数达到最大值的值
+
+            see #"Symbols based on Latin letters" under Link ^"List_of_mathematical_symbols" 
+            for notation explaination.
+
+            * [Domain of a function](https://en.wikipedia.org/wiki/Domain_of_a_function)
+            >In mathematics, and more specifically in naive set theory, the domain of definition 
+            (or simply the domain) of a function is the set of "input" or argument values for 
+            which the function is defined.
+
+        * [Derivative](https://en.wikipedia.org/wiki/Derivative): 用于求方程的极值。妈蛋，大学叫你不好好学习。
+
+        * [Probability density function(PDF)](https://en.wikipedia.org/wiki/Probability_density_function)
+            PDF 的domain上的积分等于1(概率总和)
+
+    * [Independent and identically distributed random variables](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables)
+        > In probability theory and statistics, a sequence or other collection of random variables is 
+        independent and identically distributed (i.i.d.) if each random variable has the same probability 
+        distribution as the others and all are mutually independent.
 
 # todos:
 
