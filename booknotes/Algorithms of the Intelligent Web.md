@@ -45,6 +45,20 @@ notations:
 
 ? using what metrics during validation phase to tell if the trained model is good enough 
 
+Links:
+* [Naive Bayes classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+    * [Chain rule (probability)](https://en.wikipedia.org/wiki/Chain_rule_(probability))
+        * [Joint probability distribution](https://en.wikipedia.org/wiki/Joint_probability_distribution)
+    * [! Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
+        贝叶斯定律是用来根据已知的观察获得的概率事件的独立发生的概率p(a), 和事件相关的的参数发生的概率p(b|a), 和相关参数
+        独立发生的概率p(b)来预测已知相关参数事件发生的概率p(a|b)。
+        * [贝叶斯推断及其互联网应用（一）：定理简介](http://www.ruanyifeng.com/blog/2011/08/bayesian_inference_part_one.html)
+        * [贝叶斯推断及其互联网应用（二）：过滤垃圾邮件](http://www.ruanyifeng.com/blog/2011/08/bayesian_inference_part_two.html)
+        * [贝叶斯推断及其互联网应用（三）：拼写检查](http://www.ruanyifeng.com/blog/2012/10/spelling_corrector.html)
+
+    * [? Bayesian inference](https://en.wikipedia.org/wiki/Bayesian_inference): failed to understand it.
+        > Bayesian inference is a method of statistical inference in which Bayes' theorem is used to update the probability for a hypothesis as more evidence or information becomes available. 
+
 
 
 # Links

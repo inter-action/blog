@@ -17,6 +17,7 @@
       https://github.com/chentsulin/electron-react-boilerplate
 
     # React Native
+      [! react native book](http://www.reactnativeexpress.com/)
       https://github.com/SFantasy/WeiboReactNative
 
     # Reactjs

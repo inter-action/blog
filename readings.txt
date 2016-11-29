@@ -24,6 +24,7 @@
 
     ## machine learning:
         ! http://blog.christianperone.com/
+        [](http://sebastianraschka.com/blog/index.html)
 
     ## hacking:
         http://www.thesecurityblogger.com/category/hack/social/
@@ -434,6 +435,7 @@
     [trie](https://www.youtube.com/watch?v=RIUY7ieyH40)
 
 # machine learning:
+    !![A Friendly Introduction to Machine Learning](https://www.youtube.com/watch?v=IpGxLWOIZy4&t=2s)
     ![Machine Learning :: Text feature extraction (tf-idf) – Part I](http://blog.christianperone.com/2011/09/machine-learning-text-feature-extraction-tf-idf-part-i/)
 
     ! [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
@@ -460,6 +462,7 @@
 
 
 # economics
+    [How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0)
     [经济学书籍推荐]http://mp.weixin.qq.com/s?__biz=MzI4OTEwOTQ3MA==&mid=402562477&idx=1&sn=6cab2420c95317a692f0c96a66b4654f&scene=4#wechat_redirect
 
     ## investing
