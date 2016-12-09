@@ -63,6 +63,7 @@
     [Building.and.Testing.with.Gradle]|2016.03.13-2016.03.16|:D
     [Three.js入门指南-http://www.ituring.com.cn/minibook/792] | 2016.08.27-2016.08.28|:D
     [angular2 guide](https://angular.io/docs/ts/latest/guide/) | 2016.09.20-2016.10|:D(only guide section)
+    [UNIX Tutorial](https://www.tutorialspoint.com/unix/index.htm) | 2016.11-2016.12:D
 
 [android]
 
@@ -141,7 +142,8 @@
     [OReilly.Think.Stats.2nd.Edition.2014.10]|2016.11.06-~
     [The Intelligent Investor by Benjamin Graham]|2016.11.16-~
     [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
-    [Manning.Functional.Programming.in.JavaScript]2016.11.24-~
+    [Manning.Functional.Programming.in.JavaScript]|2016.11.24-~
+    [Computer Systems A Programmer's Perspective (2nd Edition)]|2016.12.03 mte
     
 
 
