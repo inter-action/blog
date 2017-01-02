@@ -47,6 +47,9 @@
       next - reactjs server rendering:
         https://github.com/zeit/next.js
 
+    # music visualiation
+      https://github.com/jiin/dancing-torus
+      
   # BE
     golang:
       https://github.com/jolestar/go-commons-pool
@@ -71,12 +74,18 @@
       object & string validation:
         https://github.com/hapijs/joi - Object schema description language and validator for JavaScript objects.
         
-
+      universal javascript app:
+        https://github.com/electrode-io/electrode
 
     python:
       [sanic](https://github.com/channelcat/sanic)
         Python 3.5+ web server that's written to go fast
 
+      [networkx](https://github.com/networkx/networkx)
+
+
+    rust:
+      async io in rust - https://github.com/tokio-rs/tokio
 
 
   # Fullstack
@@ -99,6 +108,8 @@
 
     MLAlgorithms - Minimal and clean examples of machine learning algorithms
       https://github.com/rushter/MLAlgorithms
+
+    machine-learning-for-software-engineers - https://github.com/ZuzooVn/machine-learning-for-software-engineers#how-to-use-it
 
   # Database
     [A realtime, decentralized, offline-first, graph database engine](https://github.com/amark/gun)

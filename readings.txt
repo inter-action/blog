@@ -9,12 +9,19 @@
 
 =============================================
 # BLOGS
+    [](https://www.smashingmagazine.com/)
     [node weekly](http://nodeweekly.com/issues)
     [programming tips](https://coderwall.com/)
-    [lihaoyi blog](http://www.lihaoyi.com/)
-    [](https://www.smashingmagazine.com/)
     [](http://sourcey.com/archives/)
     [function programming & scala](http://blog.higher-order.com/)
+
+    ## Personal blog:
+        [lihaoyi blog](http://www.lihaoyi.com/)
+        [](https://mobiarch.wordpress.com/)
+    
+    
+    
+
 
     ## JS
         [](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
@@ -172,6 +179,8 @@
                         [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)
                         [Netflix JavaScript Talks - RxJS + Redux + React = Amazing!](https://www.youtube.com/watch?v=AslncyG8whg)
 
+                    css in react:
+                        [ReactNL 2016 Max Stoiber - Styling React.JS applications](https://www.youtube.com/watch?v=19gqsBc_Cx0)
 
 
         ### scalajs
@@ -417,6 +426,7 @@
 # thoughts
     [Function Programming]: http://en.wikipedia.org/wiki/Functional_programming
     ![What are the greatest programming tips and tricks you have learned on your own by years of coding?](https://www.quora.com/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding/answer/Jerome-Terry-1)
+    [build a MVP: the right way to do it](https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83#.h0erw5m0u)
 
 # math
     ! [List of mathematical symbols](https://en.wikipedia.org/wiki/List_of_mathematical_symbols)
@@ -445,6 +455,9 @@
     ![Machine Learning: Measuring Similarity and Distance](https://dzone.com/articles/machine-learning-measuring)
 
 
+    ## Deep Leaning
+        !! [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
+        [A super simple introduction to neural networks](http://www.mattzeunert.com/2016/12/09/neural-networks-super-simple-introduction.html)
 
 # 面试
     [前端]
@@ -469,6 +482,11 @@
     ## investing
         [William Ackman: Everything You Need to Know About Finance and Investing in Under an Hour](https://www.youtube.com/watch?v=WEDIj9JBTC8)
             book: the intelligent investor - benjamin graham
+
+    ## wiki:
+        [代持养券/债券代持](http://baike.baidu.com/view/10464675.htm)
+
+
 
 # others
     ! [各种 cheatsheet](http://overapi.com/javascript/)
@@ -559,6 +577,9 @@
         [19 things I learnt reading the NodeJS docs](https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.ibos50cqi)
         [fiber](https://bjouhier.wordpress.com/2012/03/11/fibers-and-threads-in-node-js-what-for/)
 
+        ### nodejs devops
+            [Don't Let Just Node.js Take the Blame! by Daniel Khan, Dynatrace](https://www.youtube.com/watch?v=FocrqytWkjM)
+
 
     ## Python
         [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
@@ -609,6 +630,12 @@
         Language itself:
           [](https://blog.rust-lang.org/2015/05/11/traits.html)
 
+          ### lifetime
+            ! https://doc.rust-lang.org/nomicon/lifetimes.html
+            [](https://mobiarch.wordpress.com/2015/06/29/understanding-lifetime-in-rust-part-i/)
+            [](https://mobiarch.wordpress.com/2015/07/08/understanding-lifetime-in-rust-part-ii-3/)
+
+
         [A Critique of Rust's `std::collections`](http://ticki.github.io/blog/horrible/)
 
 
@@ -627,6 +654,9 @@
         https://www.youtube.com/watch?v=Pc8JCiRZ-4w
     [Kali Linux on Raspberry Pi 3](https://www.youtube.com/watch?v=6xXnUGR_e4E)
     [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
+
+# Perspective:
+    [The Programmer’s Guide to Booking a Concert](https://medium.com/@sinahab/the-programmers-guide-to-booking-a-concert-e048a580735f#.f71f1v2mo)
 
 # Life:
 

@@ -4,7 +4,7 @@
 11月份过的有点消沉。11月份计划的好多事情一如既往的被打乱。首先是AIW的书籍不会看了, think stats有时间
 还会继续。线性代数和ML视频占据了上个月些许时间，Ghost项目的阅读，依然没有停滞，但是速度没有达到自己的
 预期。没办法实在是意志消沉导致的。Rust最近又捡回来看了段时间，System Program 的书籍也再看。
-* Computer Systems A Programmer's Perspective (2nd Edition) * 但这本书籍本身的页数，还有
+*Computer Systems A Programmer's Perspective (2nd Edition)* 但这本书籍本身的页数，还有
 线性代数的书籍让我觉得短期达到自己想要的位置估计很难了。
 
 而且最近心态上也有些变化，主要是城市节奏的压迫感让我一路猛跑，但是工作上的事情并没有让我成为一个更优秀
