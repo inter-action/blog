@@ -225,6 +225,8 @@
 
         ### performance
             [](https://css-tricks.com/case-study-boosting-front-end-performance/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
+            [Front-End Performance Checklist 2017](https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/)
+            
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
         [Worktile中的实时消息推送服务实现](https://worktile.com/tech/basic/worktile-real-time-notice)
@@ -479,12 +481,18 @@
     [How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0)
     [经济学书籍推荐]http://mp.weixin.qq.com/s?__biz=MzI4OTEwOTQ3MA==&mid=402562477&idx=1&sn=6cab2420c95317a692f0c96a66b4654f&scene=4#wechat_redirect
 
+
     ## investing
         [William Ackman: Everything You Need to Know About Finance and Investing in Under an Hour](https://www.youtube.com/watch?v=WEDIj9JBTC8)
             book: the intelligent investor - benjamin graham
 
     ## wiki:
         [代持养券/债券代持](http://baike.baidu.com/view/10464675.htm)
+        [LTV](https://en.wikipedia.org/wiki/Loan-to-value_ratio)
+
+    ## news & column
+        https://www.bloomberg.com/view/articles/2016-12-29/a-china-watcher-s-guide-to-2017
+        http://www.baldingsworld.com/2016/11/18/the-strange-world-of-chinese-real-estate-liquidity/
 
 
 
