@@ -2,7 +2,7 @@
 
 [STATUS]
 
-    PARTIAL           :       P
+    PARTIAL           :       P, progress >= 60%
     RECOMMEND         :       R, !
     COMPLETE | DONE   :       C, :D
     ONGOING           :       O
@@ -40,6 +40,12 @@
     CSS 高级解决方案|2013:D
     [Manning.The.Responsive.Web.2014.10.pdf] | 2015.07-2015.07:D
 
+[WEB]
+
+    [Web编程入门经典：HTML、XHTML和CSS].杜静.敖富江:D
+    [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31 | :P:S
+
+
 [PYTHON]
 
     Oreilly Flask Web Development|2014.07-2014-11:D
@@ -56,8 +62,6 @@
 
 [other tech related]
 
-    [Web编程入门经典：HTML、XHTML和CSS].杜静.敖富江:D
-    [Pro.Java.7.NIO.2].Anghel.Leonard:P:S
     Oreilly. Http the Definitive Guide| 2014.08-2015|:D:80%
     ! software-architecture-patterns.pdf | 2015 | :D
     [Building.and.Testing.with.Gradle]|2016.03.13-2016.03.16|:D
@@ -119,9 +123,9 @@
     [101 classic short stories]|2015-~
     !! [Learning.Web.Design(4th,2012.8).Jennifer.Niederst.Robbins]
     [Manning.Building.the.Web.of.Things.2016.6] | 2016.07.01-~
+    [Think.Stats(第1版)].(Think.Stats).Allen.B.Downey |2014.05-~:S
     ! [Android.Programming.The.Big.Nerd.Ranch.Guide.2nd.Edition.2015.8] | 2016.05.01-~
-    [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31-~
-    
+
     !! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
     [Linux.in.a.Nutshell(6th.2009).D.Ellen.Siever] | 2016-08-01-~
     [Manning.Grokking.Algorithms.2016.5] | 2016.08.01 - ~
@@ -133,18 +137,19 @@
     ! [learning scalaz](http://eed3si9n.com/learning-scalaz/) | 2016.08 - ~
     Introduction to Algorithms(3rd)|2012.12-~|
 
+    [OReilly.Think.Stats.2nd.Edition.2014.10]|2016.11.06-~
+    [Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition.2016.8] | 2016.10.27-~
+    [Algorithms of the Intelligent Web]|2014 - ~
+
 [ONGOING]
     
-    [Algorithms of the Intelligent Web]|2014 - ~
     [OReilly.Hello.Startup.2015.10]|2016.10 - ~
-    [Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition.2016.8] | 2016.10.27-~
     [30 days to a better man, by Brett McKay]|2016.11.05-~
-    [OReilly.Think.Stats.2nd.Edition.2014.10]|2016.11.06-~
     [The Intelligent Investor by Benjamin Graham]|2016.11.16-~
     [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
     [Manning.Functional.Programming.in.JavaScript]|2016.11.24-~
-    [Computer Systems A Programmer's Perspective (2nd Edition)]|2016.12.03 mte
-    
+    [Computer Systems A Programmer's Perspective]|2016.12.03-~
+    [Beginning.Linux.Programming 4th]|2017.01.10-~
 
 
 
@@ -152,8 +157,6 @@
 
     [Java]
       Java Network Programming(4th)|2013-~|:S
-      Functional.Programming.for.Java.Developers.Dean.Wampler.文字版:P:S
-      [Manning.系列图书].Manning.AspectJ.In.Action:P:S
       Thinking In Java 4th:P:S
 
     [scala]
@@ -167,7 +170,6 @@
     [other techs]
       [Computer.Science：An.Overview.(11th.2011)].J.Glenn.Brookshear:P
       [Wiley.Linux.Bible.2010.Edition].Christopher.Negus:P
-      [Think.Stats(第1版)].(Think.Stats).Allen.B.Downey |2014.05-~:S
 
     [non-tech]
       叔本华的人生智慧|2014.02-~|:S
