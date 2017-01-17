@@ -186,9 +186,13 @@
         ### scalajs
             [! introduction to scalajs, the next generation of the FE](https://www.youtube.com/watch?v=n1GgVWOThhY)
 
-        ### angularjs
+        ### angularjs2
             [A high level look at Angular 2](http://www.developerhandbook.com/angular/high-level-look-angular-2/)
             [zone.js introduction](https://www.youtube.com/watch?v=3IqtmUscE_U)
+            [VIEW ENCAPSULATION IN ANGULAR](https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html)
+            [angular2 aot(Ahead of Time) compiler](https://blog.nrwl.io/angular-is-aot-worth-it-8fa02eaf64d4#.6nluf1bed)
+
+            
 
 
 

@@ -24,6 +24,9 @@
     db:
       mysql driver- https://github.com/mysqljs/mysql
 
+    https://blog.risingstack.com/node-js-interview-questions-and-answers-2017/
+
+    
 # Ref:
 * [mysql data types](https://www.tutorialspoint.com/mysql/mysql-data-types.htm)
 * [sql ref](https://www.tutorialspoint.com/sql/)
