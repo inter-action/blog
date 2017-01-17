@@ -4,7 +4,7 @@
 ## About Me
 男, 27岁。目前在北京从事专职的前端开发工作。主要应用AngularJS和ReactJS。个人主要的编程语言是 JS.
 从事过近2年的 java web 方面的开发和两年的职业前端工作。技术兴趣广泛，喜欢前沿的技术和知识，
-当前的目标成为一枚合格的全栈工程师。目前的兴趣是 docker, Machine Learning, JS 全栈, rustlang, scala.
+当前的目标成为一枚合格的全栈工程师。
 
 ##### keywords
 language: javascript, java, scala, python, golang, typescript, rust, nodejs
