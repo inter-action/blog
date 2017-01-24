@@ -51,7 +51,9 @@
         [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 
     ## front
-        [shadow dom](http://www.html5rocks.com/zh/tutorials/webcomponents/shadowdom/)
+        [shadow dom]
+            (http://www.html5rocks.com/zh/tutorials/webcomponents/shadowdom/)
+            https://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/#toc-style-host
 
         [js  异步文件上传](http://stackoverflow.com/questions/166221/how-can-i-upload-files-asynchronously)
         [文件上传命名](http://programmers.stackexchange.com/questions/193834/whats-the-best-practice-for-naming-uploaded-images)
@@ -192,8 +194,12 @@
             [VIEW ENCAPSULATION IN ANGULAR](https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html)
             [angular2 aot(Ahead of Time) compiler](https://blog.nrwl.io/angular-is-aot-worth-it-8fa02eaf64d4#.6nluf1bed)
 
-            
 
+        ### PWA (Progressive Web App)
+            [Service Worker](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers)
+            [App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)
+            [sw-precache](https://github.com/GoogleChrome/sw-precache)
+            ! [offline cook book](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/#on-background-sync)
 
 
 
@@ -248,7 +254,7 @@
                 [redis mysql haproxy 快速架构](http://www.oschina.net/translate/the-easy-way-of-building-a-growing-startup-architecture)
 
         ## HTTPS:
-            [Mozilla SSL Config Center](https://mozilla.github.io/server-side-tls/ssl-config-generator/)
+            [！Mozilla SSL Config Center](https://mozilla.github.io/server-side-tls/ssl-config-generator/)
             [! 关于启用 HTTPS 的一些经验分享](https://imququ.com/post/sth-about-switch-to-https.html)
             [! 免费签发证书](https://letsencrypt.org/)
             [正向代理与反向代理的区别](http://bigc.at/reverse-proxy.orz)
@@ -373,6 +379,9 @@
             [Oauth 2]
                 ! [](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2) - you only need this to understand oauth2
 
+            [AWS]
+                ! [](https://www.expeditedssl.com/aws-in-plain-english)
+
     ## desktop app:
         [slack - Building Hybrid Applications with Electron](https://slack.engineering/building-hybrid-applications-with-electron-dc67686de5fb#.fs6sprhni)
 
@@ -446,6 +455,11 @@
         http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
     [Taxicab_geometry](https://en.wikipedia.org/wiki/Taxicab_geometry) - 计算LP-space (P是向量的空间维度)的向量的最小距离, 不唯一
     [mod arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
+    
+
+# Algorithms:
+    [](https://en.wikipedia.org/wiki/Perfect_hash_function)
+    [Randomized_algorithm](https://en.wikipedia.org/wiki/Randomized_algorithm)
 
 # data structure:
     ![](https://www.tutorialspoint.com/data_structures_algorithms)

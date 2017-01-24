@@ -167,8 +167,81 @@ references:
 
 
 
+## chapter 5: Terminals
+
+* LF vs CR:
+    >The character the program actually sees isn’t an ASCII carriage return, CR (decimal 13, hex 0D), but a line feed, LF (decimal 10, hex 0A). This is because, internally, Linux (like UNIX) always uses a line feed to end lines of text; that is, UNIX uses a line feed alone to mean a newline, where other systems, such as MS-DOS, use a carriage return and a line feed together as a pair. 
+
+* `/dev/tty` 
+    > /dev/tty, which is always the current terminal, or login session. Because Linux treats everything as a file, you can use normal file operations to read and write to /dev/tty.
+
+* The termios Structure:
+    * [Two Styles of Input: Canonical or Not](http://www.gnu.org/software/libc/manual/html_node/Canonical-or-Not.html#Canonical-or-Not)
+
+    * 控制terminal的关键struct:
+    >termios is the standard interface specified by POSIX and is similar to the System V interface termio. The terminal interface is controlled by setting values in a structure of type termios and using a small set of function calls. Both are defined in the header file termios.h.
+
+    * terminal控制的模式（mode）:
+        * input: 控制字符如何读取到程序
+        * output: 控制输出如何输出到driver
+        * control: These modes control the hardware characteristics of the terminal
+        * Local Modes: These modes control various characteristics of the terminal. 
+        * Special Control Characters: Special control characters are a collection of characters, like Ctrl+C, acted upon in particular ways when the user types them. 
+
+    * `stty -a`: view current terminal settings
+
+
+* The TIME and MIN Values:
+    >The values of TIME and MIN are used only in non-canonical mode and act together to control the reading of input. Together, they control what happens when a program attempts to read a file descriptor associ- ated with a terminal.
+
+* terminfo package:
+    >The terminfo package contains a database of capabilities and escape sequences for a large number of terminals and provides a uniform programming interface for using them
+
+
+* [GUN terminal mode manual](http://www.gnu.org/software/libc/manual/html_node/Terminal-Modes.html)
+
+
+
+## chapter 6: Managing Text-Based Screens with curses
+
+skip, right now. not interested
+
+## chapter 7: Data Management
+
+* swap space:
+    >Initially, the kernel was simply able to use free physical memory to satisfy the application’s request for memory, but once physical memory was full, it started using what’s called swap space. On Linux, this is a separate disk area allocated when the system was installed. If you’re familiar with Windows, the Linux swap space acts a little like the hidden Windows swap file. However, unlike Windows, there are no local heap, global heap, or discardable memory segments to worry about in code — the Linux kernel does all the management for you.
+
+    > Behind the scenes, Linux is managing the blocks of memory the programmer is using as a set of physical “pages,” usually 4K bytes each, in memory. However, if a page of memory is not being used, then the Linux mem- ory manager will be able to move it from physical memory to swap space (termed paging), where it has little impact on the use of resources. If the program tries to access data inside the memory page that has be moved to swap space, then Linux will very briefly suspend the program, move the memory page back from swap space into physical memory again, and then allow the program to continue, just as though the data had been in memory all along.
+
+
+* when space run out:
+    > Eventually, when the application exhausts both the physical memory and the swap space, or when the maximum stack size is exceeded, the kernel finally refuses the request for further memory and may pre- emptively terminate the program.
+
+
+* 2 ways of file locking:
+    * The simplest method is a technique to create lock files in an atomic way, so that nothing else can happen while the lock is being created.
+    * The second method is more advanced; it enables programs to lock parts of a file for exclusive access.
+
+
+## chapter 8: Mysql
+
+    Post-Install Configuration:
+    删除root以外的账户
+    create user & grant related privilege
+
+links:
+
+* [! tutorialspoint mysql](https://www.tutorialspoint.com/mysql/)    
+* [mysql configration](https://dev.mysql.com/doc/refman/5.5/en/server-configuration.html)
+
+
+## chapter 9: Development Tools
+
+
+
 
 # links
+* [ ! The GNU C Library](http://www.gnu.org/software/libc/manual/html_node/index.html)
 * [Linux system call references](http://syscalls.kernelgrok.com/)
 * [POSIX OS header files references](https://en.wikipedia.org/wiki/Unistd.h)
 * [c lange tutorialspoint](https://www.tutorialspoint.com/cprogramming/index.htm)
@@ -179,6 +252,8 @@ references:
     bash set
     umask, how to use it.
     grep O_RDONLY inside usr/include dir
+    clang: size_t 类型
+
 
 
 
