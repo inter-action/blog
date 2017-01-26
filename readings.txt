@@ -404,7 +404,6 @@
         http://fangxin.blog.51cto.com/1125131/735178
         http://www.cnblogs.com/TankXiao/archive/2012/10/10/2711777.html
 
-
 # version control
     ## git
         [undo-the-last-git-commit] http://stackoverflow.com/questions/927358/undo-the-last-git-commit
@@ -439,7 +438,7 @@
 
 
 # thoughts
-    [Function Programming]: http://en.wikipedia.org/wiki/Functional_programming
+    
     ![What are the greatest programming tips and tricks you have learned on your own by years of coding?](https://www.quora.com/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding/answer/Jerome-Terry-1)
     [build a MVP: the right way to do it](https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83#.h0erw5m0u)
 
@@ -494,7 +493,6 @@
     [make file introductions]
       http://www.ruanyifeng.com/blog/2015/03/build-website-with-make.html
 
-
 # economics
     [How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0)
     [经济学书籍推荐]http://mp.weixin.qq.com/s?__biz=MzI4OTEwOTQ3MA==&mid=402562477&idx=1&sn=6cab2420c95317a692f0c96a66b4654f&scene=4#wechat_redirect
@@ -512,6 +510,12 @@
         https://www.bloomberg.com/view/articles/2016-12-29/a-china-watcher-s-guide-to-2017
         http://www.baldingsworld.com/2016/11/18/the-strange-world-of-chinese-real-estate-liquidity/
 
+# security
+    [](https://codahale.com/how-to-safely-store-a-password/)
+        [salt](https://en.wikipedia.org/wiki/Salt_(cryptography))
+        [bcrpt](https://en.wikipedia.org/wiki/Bcrypt)
+            记住这一句就够用了:
+                bcrypt is an adaptive function: over time, the iteration count can be increased to make it slower, so it remains resistant to brute-force search attacks even with increasing computation power.
 
 
 # others
@@ -537,12 +541,15 @@
     Reactive Programming:
         [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 
+# Functional Programming
+    [Functional Programming]: http://en.wikipedia.org/wiki/Functional_programming
+    [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
+
+
 
 # music Fundamentals
     [Introduction To Music Theory - Understanding Notes, Major/Minor Keys And Chords - Part 1](https://www.youtube.com/watch?v=RfEx7sEMWd4)
 
-# Functional Programming
-    [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
 
 # PROGRAMMING LANGUAGE
     ## JAVA
@@ -663,6 +670,7 @@
 
 
         [A Critique of Rust's `std::collections`](http://ticki.github.io/blog/horrible/)
+        ! [Fighting the Borrow Checker](https://m-decoster.github.io/2017/01/16/fighting-borrowchk/)
 
 
     ## Programming Methology

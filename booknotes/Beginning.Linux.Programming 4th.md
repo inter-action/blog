@@ -237,7 +237,23 @@ links:
 
 ## chapter 9: Development Tools
 
+Makefile option:
 
+* `-` tells make to ignore any errors. For example, if you wanted to make a directory but wished to ignore any errors, perhaps because the directory might already exist, you just precede mkdir with a minus sign. You will see - in use a bit later in this chapter.
+
+* `@` tells make not to print the command to standard output before executing it. This character is handy if you want to use echo to display some instructions.
+
+
+
+Makefile macros:
+
+* $?: List of prerequisites (files the target depends on) changed more recently than the current target
+* `$@`: Name of the current target
+* `$<`: Name of the current prerequisite
+* `$*`: Name of the current prerequisite, without any suffix
+
+Makefile build-in rules:
+* You can ask make to print its built-in rules with the -p option. Th
 
 
 # links
