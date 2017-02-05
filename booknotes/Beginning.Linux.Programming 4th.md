@@ -256,6 +256,78 @@ Makefile build-in rules:
 * You can ask make to print its built-in rules with the -p option. Th
 
 
+## chapter 11: Processes and Signals
+
+what is process, what is it made of:
+>Additionally, a process has its own stack space, used for local variables in functions and for controlling function calls and returns. It also has its own environment space, containing environment variables that may be established solely for this process to use, as you saw with putenv and getenv in Chapter 4. A process must also maintain its own program counter, a record of where it has gotten to in its execution, which is the execution thread. In the next chapter you will see that when you use threads, processes can have more than one thread of execution.
+
+how process work:
+
+>In general, each process is started by another process known as its parent process. A process so started is known as a child process. When Linux starts, it runs a single program, the prime ancestor and process number 1, init. This is, if you like, the operating system process manager and the grandparent of all processes. Other system processes you’ll meet soon are started by init or by other processes started by init.
+
+
+### Process Scheduling:
+
+* The Linux kernel uses a process scheduler to decide which process will receive the next time slice.
+
+the "nice" value:
+>In a multitasking system such as Linux where several programs are likely to be competing for the same resource, programs that perform short bursts of work and pause for input are considered better behaved than those that hog the processor by continually calculating some value or continually query- ing the system to see if new input is available. Well-behaved programs are termed nice programs, and in a sense this “niceness” can be measured. The operating system determines the priority of a process based on a “nice” value, which defaults to 0, and on the behavior of the program. Programs that run for long periods without pausing generally get lower priorities. Programs that pause while, for exam- ple, waiting for input, get rewarded. This helps keep a program that interacts with the user respon- sive; while it is waiting for some input from the user, the system increases its priority, so that when
+it’s ready to resume, it has a high priority. You can set the process nice value using nice and adjust it using renice. The nice command increases the nice value of a process by 10, giving it a lower prior- ity. You can view the nice values of active processes using the –l or –f (for long output) option to ps. The value you are interested in is shown in the NI (nice) column.
+
+
+### Starting New Processes:
+
+`system ` call: is inefficent, it requires specific shell to load another process.
+
+`exec ` call: efficent, it start execute new process & quit current one.
+
+`wait` call: this api wait current child process fork to be done in order to do some child process stats check.
+
+
+### Zombie Processes
+
+how is it created:
+>Using fork to create processes can be very useful, but you must keep track of child processes. When a child process terminates, an association with its parent survives until the parent in turn either terminates normally or calls wait. The child process entry in the process table is therefore not freed up immediately. Although no longer active, the child process is still in the system because its exit code needs to be stored in case the parent subsequently calls wait. It becomes what is known as defunct, or a zombie process.
+
+ 
+
+### Signals
+
+how singal affect processes:
+* If a process receives one of these signals without first arranging to catch it, the process will be termi- nated immediately. Usually, a core dump file is created. This file, called core and placed in the current directory, is an image of the process that can be useful in debugging.
+
+* The default action for the signals in the following table is abnormal termination of the process with all the consequences of _exit (which is like exit but performs no cleanup before returning to the kernel).
+
+* a process can also be suspend be some specific signals like(SIGSTOP, SIGTSTP...)
+
+
+
+>You must program your signals carefully, because there are a number of “race conditions” that can occur in programs that use them.
+
+Race condition:
+* Signal can be catched or restored. 
+* When a process is on handling a singal there's a chance that a new signal could arrive
+    * the default mechanism is the handling function wouldn't be trigger twice, because the current signal has been added to the signal mask set which filter out signals that matched the ones already been catched.
+
+
+the signal mask set:
+>Ordinarily, when a signal handling function is being executed, the signal received is added to the process signal mask for the duration of the handling function. This prevents a subsequent occurrence of the same signal, causing the signal handling function to run again. If the function is not re-entrant, hav- ing it called by another occurrence of a signal before it finishes handling the first may cause problems. If, however, the SA_NODEFER flag is set, the signal mask is not altered when it receives this signal.
+
+
+
+## chapter 12: POSIX Threads
+skiped.
+
+
+
+
+
+
+
+
+
+
+
 # links
 * [ ! The GNU C Library](http://www.gnu.org/software/libc/manual/html_node/index.html)
 * [Linux system call references](http://syscalls.kernelgrok.com/)
