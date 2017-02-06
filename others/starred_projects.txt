@@ -133,3 +133,5 @@
     [](https://github.com/jwasham/google-interview-university)
     [aws](https://github.com/open-guides/og-aws)
     [](https://github.com/Developer-Y/cs-video-courses)
+    [](https://github.com/deepsyx/home-automation)
+    
