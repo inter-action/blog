@@ -86,6 +86,8 @@
 
     rust:
       async io in rust - https://github.com/tokio-rs/tokio
+      rust parser - git@github.com:J-F-Liu/pom.git
+      
 
 
   # Fullstack
@@ -134,4 +136,4 @@
     [aws](https://github.com/open-guides/og-aws)
     [](https://github.com/Developer-Y/cs-video-courses)
     [](https://github.com/deepsyx/home-automation)
-    
+
