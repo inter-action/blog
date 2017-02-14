@@ -318,6 +318,31 @@ the signal mask set:
 ## chapter 12: POSIX Threads
 skiped.
 
+## Inter-Process Communication: Pipes
+
+desc:
+
+* popen, pipe
+
+
+* [Shell Parameter Expansion] (https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
+
+    > `cat popen*.c | wc -l` In Linux (as in all UNIX-like systems), all parameter expansion is done by the shell, so invoking the shell to parse the command string before the program is invoked allows any shell expansion, such as determining what files *.c actually refers to, to be done before the program starts. This is often quite useful, and it allows complex shell commands to be started with popen. Other process creation functions, such as execl, can be much more complex to invoke, because the calling process has to perform its own shell expansion
+
+    书中这段说的意思是 *.c 要被shell完全解析之后传给底层的program处理
+
+
+* pipe & dup api 的联合使用:
+    in order to be able to communicate from pipe with child process created by using `execlp` api, the book demo
+    this technique to handle such situation.
+
+    dup: create a new file descriptor pointed to the same underlying file pointed by the target file dscriptor argument.
+
+    >The trick is knowing that the standard input file descriptor is always 0 and that dup always returns a new file descriptor using the lowest available number. By first closing file descriptor 0 and then calling dup, the new file descriptor will have the number 0. Because the new descriptor is a duplicate of an existing one, standard input will have been changed to access the file or pipe whose file descriptor you passed to dup. You will have created two file descriptors that refer to the same file or pipe, and one of them will be the standard input.
+
+
+    
+
 
 
 

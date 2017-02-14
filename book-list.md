@@ -150,6 +150,7 @@
     [Manning.Functional.Programming.in.JavaScript]|2016.11.24-~
     [Computer Systems A Programmer's Perspective]|2016.12.03-~
     [Beginning.Linux.Programming 4th]|2017.01.10-~
+    [像哲学家一样思考]|2017-02-12-~
 
 
 
