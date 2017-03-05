@@ -318,7 +318,7 @@ the signal mask set:
 ## chapter 12: POSIX Threads
 skiped.
 
-## Inter-Process Communication: Pipes
+## chapter 13:  Inter-Process Communication: Pipes
 
 desc:
 
@@ -341,19 +341,85 @@ desc:
     >The trick is knowing that the standard input file descriptor is always 0 and that dup always returns a new file descriptor using the lowest available number. By first closing file descriptor 0 and then calling dup, the new file descriptor will have the number 0. Because the new descriptor is a duplicate of an existing one, standard input will have been changed to access the file or pipe whose file descriptor you passed to dup. You will have created two file descriptors that refer to the same file or pipe, and one of them will be the standard input.
 
 
+* FIFO(named pipe) atomic write among many processes:
+    >Well, if you ensure that all your write requests are to a blocking FIFO and are less than PIPE_BUF bytes in size, the system will ensure that data never gets interleaved.
+
+    >Linux arranges the scheduling of the two processes so that they both run when they can and are blocked when they can’t. Thus, the writer is blocked when the pipe is full, and the reader is blocked when the pipe is empty.
+
+
+  links:
+  *[linux mode 0777 vs 777](http://unix.stackexchange.com/questions/103413/is-there-any-difference-between-mode-value-0777-and-777)  
+
+
+## chapter 14:  Semaphores, Shared Memory, and Message Queues
+
+Semaphores用的太少了，书中仅仅是当做锁用的，如果是当做锁用的又有什么优势呢。
+进程锁，这算是优势吧。
+书中这一块没怎么看懂，以后用到了再说。
+
+ipcs linux command: 用于查看系统ipc的状态的
+ipc（inter process communication?）:
+* Semaphores
+* shared memory
+* message Queues
+
+
+## chapter 15: Sockets
+
+* local sockets: 
+    > Local sockets are given a filename in the Linux file system, often to be found in /tmp or /usr/tmp. 
+
+* 
+
+
+socket attributes:
+
+>Sockets are characterized by three attributes: domain, type, and protocol. They also have an address used as their name. The formats of the addresses vary depending on the domain, also known as the protocol family. Each protocol family can use one or more address families to define the address format.
+
+* domain:
+    >Domains specify the network medium that the socket communication will use.
+    * AF_INET:
+        * AF_INET: internet
+        * AF_INET6: ipv6 internet
+    * AF_UNIX:  which can be used by sockets based on a single computer that perhaps isn’t networked. 
+
+
+* types:
+    * internet domain:
+        * streams(tcp)
+            >Stream sockets (in some ways similar to standard input/output streams) provide a connection that is a sequenced and reliable two-way byte stream. Thus, data sent is guaranteed not to be lost, duplicated, or reordered without an indication that an error has occurred.
+
+        * datagrams(UDP)
+            >In contrast, a datagram socket, specified by the type SOCK_DGRAM, doesn’t establish and maintain a con- nection. There is also a limit on the size of a datagram that can be sent. It’s transmitted as a single network message that may get lost, duplicated, or arrive out of sequence — ahead of datagrams sent after it.
+
+* Protocols:
+    >Where the underlying transport mechanism allows for more than one protocol to provide the requested socket type, you can select a specific protocol for a socket.
     
 
 
 
+如何创建一个 server socket:
+* create a unnamed socket
+* bind socket to address
+* listen sockets connection (allocate a connection queue)
+* accept connection
+* read from sockets
+
+if num of pending request exceeds the maximum number specified in the `listen` api, the exceeded request will simply be reject.
+`accept` would block if no request is send to server.
 
 
 
+notes:
+* port number:
+    > Usually, port numbers less than 1024 are reserved for system services and may only be served by processes with superuser privileges.
 
-
-
-
+* file socket:  The file system socket has the disadvantage that, unless the author uses an absolute pathname, it’s created in the server program’s current directory. 
+    
 
 # links
+* [! using libraries](https://rufflewind.com/2017-02-25/using-libraries)
+* [! c_standard_library](https://www.tutorialspoint.com/c_standard_library/stdio_h.htm)
 * [ ! The GNU C Library](http://www.gnu.org/software/libc/manual/html_node/index.html)
 * [Linux system call references](http://syscalls.kernelgrok.com/)
 * [POSIX OS header files references](https://en.wikipedia.org/wiki/Unistd.h)

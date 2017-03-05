@@ -48,7 +48,7 @@
     ## middle ground
         [2016/2017 MUST-KNOW WEB DEVELOPMENT TECH](https://www.youtube.com/watch?v=sBzRwzY7G-k)
         [Journey to HTTP/2](http://kamranahmed.info/blog/2016/08/13/http-in-depth/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
-        [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+        
 
     ## front
         [shadow dom]
@@ -180,6 +180,7 @@
                         [谈谈React.js的核心入门知识](http://wwsun.me/posts/react-getting-started.html)
                         [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)
                         [Netflix JavaScript Talks - RxJS + Redux + React = Amazing!](https://www.youtube.com/watch?v=AslncyG8whg)
+                        [Rxjs create infinite scroll](https://medium.com/@Sureshkumar_Ash/naive-infinite-scroll-in-reactive-programming-using-rxjs-observables-4a605d3146e8#.xnvb37wy9)
 
                     css in react:
                         [ReactNL 2016 Max Stoiber - Styling React.JS applications](https://www.youtube.com/watch?v=19gqsBc_Cx0)
@@ -249,17 +250,20 @@
 
         [缓存]
             [Web应用的缓存设计模式] (http://robbinfan.com/blog/38/orm-cache-sumup)
+            [! http cache](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
             ### redis
                 [redis mysql haproxy 快速架构](http://www.oschina.net/translate/the-easy-way-of-building-a-growing-startup-architecture)
 
         ## HTTPS:
+            [也许，这样理解HTTPS更容易](https://showme.codes/2017-02-20/understand-https/)
             [！Mozilla SSL Config Center](https://mozilla.github.io/server-side-tls/ssl-config-generator/)
             [! 关于启用 HTTPS 的一些经验分享](https://imququ.com/post/sth-about-switch-to-https.html)
             [! 免费签发证书](https://letsencrypt.org/)
             [正向代理与反向代理的区别](http://bigc.at/reverse-proxy.orz)
             [HTTPS的七个误解](http://www.ruanyifeng.com/blog/2011/02/seven_myths_about_https.html)
             [HTTPS 证书申请] (http://www.startssl.com/)
+
             [haproxy https]
                 http://seanmcgary.com/posts/using-sslhttps-with-haproxy
                 https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04
@@ -300,6 +304,7 @@
                 后端 支持Etag缓存 策略
 
             ! [How to build a REST API with Akka Http](https://danielasfregola.com/2016/02/07/how-to-build-a-rest-api-with-akka-http/)
+            [](https://blog.risingstack.com/10-best-practices-for-writing-node-js-rest-apis/)
 
 
         ### database
@@ -377,7 +382,8 @@
                 [node simple jwt implemetation](https://github.com/hokaccha/node-jwt-simple/blob/master/lib/jwt.js)
 
             [Oauth 2]
-                ! [](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2) - you only need this to understand oauth2
+                ! [](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
+                    you only need this to understand oauth2
 
             [AWS]
                 ! [](https://www.expeditedssl.com/aws-in-plain-english)
@@ -394,7 +400,26 @@
 # Operating System
 
     [locale的设定及LANG、LC_CTYPE、LC_ALL环境变量](http://www.cnblogs.com/xlmeng1988/archive/2013/01/16/locale.html)
+    [](http://stackoverflow.com/questions/8238860/maximum-number-of-files-folders-on-linux)
 
+# System Programming:
+    [using libraries](https://rufflewind.com/2017-02-25/using-libraries)
+
+
+# computer network:
+    IPv6: Unicast 单播地址的组成与分类 - http://lesca.me/archives/ipv6-unicast-address.html
+
+        Unique_local_address： 
+            专用网络 - https://zh.wikipedia.org/wiki/%E4%B8%93%E7%94%A8%E7%BD%91%E7%BB%9C
+            https://en.wikipedia.org/wiki/Unique_local_address
+
+
+        Link-local_address:
+            https://en.wikipedia.org/wiki/Link-local_address
+
+    # HTTP_PROTOCOL:
+        [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+            限定的是server端的资源的
 # Tools
 
     IDEA
@@ -449,6 +474,7 @@
     [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
     http://www.ruanyifeng.com/blog/2011/07/mathematical_constant_e.html
     [数学科普文章](http://betterexplained.com/)
+    [Fourier Transform, Fourier Series, and frequency spectrum](https://www.youtube.com/watch?v=r18Gi8lSkfM)
     [傅里叶变换]
         http://blog.rainy.im/2015/11/03/fourier-transform-in-image-processing/
         http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
@@ -592,8 +618,9 @@
         ### ! nodejs at scale
             [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
             [Hunting a Ghost - Finding a Memory Leak in Node.js](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/)
-            [Node.js at Scale - Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/)
-
+            Node.js at Scale:
+                [Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/)
+                https://blog.risingstack.com/nodejs-at-scale-npm-publish-tutorial/
 
         [nodejs 模块加载机制]
             http://www.infoq.com/cn/articles/nodejs-module-mechanism
@@ -609,6 +636,8 @@
         [npm best practice](https://blog.risingstack.com/nodejs-at-scale-npm-best-practices/)
         [19 things I learnt reading the NodeJS docs](https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.ibos50cqi)
         [fiber](https://bjouhier.wordpress.com/2012/03/11/fibers-and-threads-in-node-js-what-for/)
+        [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
+
 
         ### nodejs devops
             [Don't Let Just Node.js Take the Blame! by Daniel Khan, Dynatrace](https://www.youtube.com/watch?v=FocrqytWkjM)

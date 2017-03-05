@@ -104,6 +104,7 @@
     [道路与梦想：我与万科（1983~1999）] 2015.05-2015.06|:D
     [逃不开的经济周期：历史，理论与投资现实] 2015.04-2015.10|:D
     Basic Economics-Thomas Sowell|2012-~|2016.02|:D:R
+    [人际过敏症-冈田尊司]|2017.02-2017.03|:D
 
 [SUSPENDED] - clean books that is no more appealing
 
@@ -150,7 +151,8 @@
     [Manning.Functional.Programming.in.JavaScript]|2016.11.24-~
     [Computer Systems A Programmer's Perspective]|2016.12.03-~
     [Beginning.Linux.Programming 4th]|2017.01.10-~
-    [像哲学家一样思考]|2017-02-12-~
+    [像哲学家一样思考]|2017.02.12-~
+    [investment for dummies]|2017.02-~
 
 
 
