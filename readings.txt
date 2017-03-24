@@ -5,6 +5,7 @@
     Annotation Explained:
         ! high value resource
         - low value (should i remove it ?)
+        ? unread or failed to understand the contents.
 
 
 =============================================
@@ -242,6 +243,11 @@
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
         [Worktile中的实时消息推送服务实现](https://worktile.com/tech/basic/worktile-real-time-notice)
 
+        ## nginx
+            [nginx location]
+                https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms
+
+                
         [centos haproxy install]
             http://www.centoscn.com/image-text/config/2013/0805/1056.html
             http://www.serverlab.ca/tutorials/linux/network-services/deploying-an-haproxy-load-balancer-on-centos-6/
@@ -357,15 +363,20 @@
 
             [The Mysterious Fiber Bomb Problem: A Debugging Story](https://sandstorm.io/news/2016-09-30-fiber-bomb-debugging-story?utm_source=nodeweekly&utm_medium=email)
                 没看很懂, 但是debug方法很高端
+                
+            [nodejs modules](https://nodejs.org/api/modules.html#modules_module_caching_caveats)
             
 
 
-        ### encrptions
+        ### encryption
             [](http://security.stackexchange.com/questions/20129/how-and-when-do-i-use-hmac)
                  You use HMAC whenever you want integrity of the data maintained (and authenticity)
             https://en.wikipedia.org/wiki/Hash-based_message_authentication_code#Design_principles
 
-
+        ### DNS
+            https://pressable.com/blog/2014/12/04/dns-management-basics/
+            https://pressable.com/blog/2014/12/11/understanding-dns-record-types/
+            https://pressable.com/blog/2014/12/23/dns-record-types-explained/
 
         ### others
             [自己动手开发网络服务器（三）](http://codingpy.com/article/build-a-simple-web-server-part-three/)
@@ -440,7 +451,10 @@
             [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
 
         ! [闯过这 54 关，点亮你的 Git 技能树 ](https://codingstyle.cn/topics/181)
-        [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+        [git submodule]
+            https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
+            https://git-scm.com/book/en/v2/Git-Tools-Submodules
+
         [git hook](https://www.atlassian.com/git/tutorials/git-hooks/conceptual-overview)
             Local hook vs Server hook
 
@@ -720,6 +734,11 @@
 
 # Perspective:
     [The Programmer’s Guide to Booking a Concert](https://medium.com/@sinahab/the-programmers-guide-to-booking-a-concert-e048a580735f#.f71f1v2mo)
+
+
+# raspberry pi
+    https://www.toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server
+
 
 # Life:
 

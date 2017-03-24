@@ -372,7 +372,7 @@ ipc（inter process communication?）:
 * 
 
 
-socket attributes:
+### socket attributes:
 
 >Sockets are characterized by three attributes: domain, type, and protocol. They also have an address used as their name. The formats of the addresses vary depending on the domain, also known as the protocol family. Each protocol family can use one or more address families to define the address format.
 
@@ -386,10 +386,10 @@ socket attributes:
 
 * types:
     * internet domain:
-        * streams(tcp)
+        * streams(tcp, SOCK_STREAM)
             >Stream sockets (in some ways similar to standard input/output streams) provide a connection that is a sequenced and reliable two-way byte stream. Thus, data sent is guaranteed not to be lost, duplicated, or reordered without an indication that an error has occurred.
 
-        * datagrams(UDP)
+        * datagrams(UDP, SOCK_DGRAM)
             >In contrast, a datagram socket, specified by the type SOCK_DGRAM, doesn’t establish and maintain a con- nection. There is also a limit on the size of a datagram that can be sent. It’s transmitted as a single network message that may get lost, duplicated, or arrive out of sequence — ahead of datagrams sent after it.
 
 * Protocols:
@@ -410,14 +410,64 @@ if num of pending request exceeds the maximum number specified in the `listen` a
 
 
 
-notes:
+### Network Information:
+
+这里有些获得host info的api都是通过查找 `/etc/host` 文件和DNS信息获得的。具体可以看链接 - https://linux.die.net/man/5/hosts
+
+
+### The Internet Daemon (xinetd/inetd):
+
+这货表示linux的web 服务可以在用户请求的时候才启动，不用一直运行着。这就需要 internet daemon来监听多个端口，然后又它来启动服务。
+
+
+### Select 机制
+linux Select 机制是可以同时监听 `read_fds, write_fds, error_fds` 3中fd集合。任何一个状态可以操作则会停止block，然后走到下边的代码进行处理。下面的代码通常需要检测哪个fd被设置了，然后操作对应的fd。如果设置了timeout，对应timeout时间内没有触发也会走到下边，如果没有timeout则会一直block掉。
+
+```c
+// @return -1, 表示出错
+// @param nfds, The nfds argument specifies the number of file descriptors to be tested, and descriptors from 0 to nfds-1 are considered.  
+int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *errorfds, struct timeval *timeout);
+```
+
+
+### notes:
 * port number:
     > Usually, port numbers less than 1024 are reserved for system services and may only be served by processes with superuser privileges.
 
 * file socket:  The file system socket has the disadvantage that, unless the author uses an absolute pathname, it’s created in the server program’s current directory. 
     
 
+
+## chapter 18: Standards for Linux
+这章讲了些关于linux标准化的一些事情。C语言，gcc，各种standard的组织和意思。自启动service，File System hierarchy的定义等等。
+
+* C 语言的标准化进程
+* GCC的选项和标准，参数解释等等
+* Interfaces and the Linux Standards Base:
+    * 总的来说 Linux 的标准化是由Linux Standards Base这个组织定义的。
+        * 程序接口方面（LSB Standard Libraries）这个组织定义了两种
+            * Linux 自己的接口标准，实现
+            * Unix 的接口标准，这一部分由于历史原因比较复杂。Unix标准化的历史问题
+                * 简单来说 Unix 的第一个流行的标准是POSIX(IEEE 1003),但这个标准太保守，有很多功能不满足
+                * 然后 1994年 X/OPEN 这个公司做了一个 X/OPEN CAE, or Common Applications Environment 的标准，是上边POSIX标准的超集
+                * 然后 X/OPEN 这个组织和OSF合并了，成立了 The Open Group, http://www.opengroup.org/.
+
+
+        * LSB System Initialization:
+            * 标准定义了启动状态各个阶段的数值
+            * 定义了 `/etc/init.d` 作为服务的自启动目录，对应的服务的命名规范由下面的组织规定，并定义了启动服务需要提供 `start, stop, restart ...` 语义参数做的事情
+                * The Linux Assigned Names And Numbers Authority (LANANA), which you can find at http://www.lanana.org/
+
+
+        * The Filesystem Hierarchy Standard:
+            * 文件系统组织结构
+            * The last of the standards we are going to look at in this chapter is the Filesystem Hierarchy Standard (FHS), which you can find at http://www.pathname.com/fhs/.
+            * 定义了文件系统如何组织，构成的。
+
+
+
 # links
+* [unix os tutorial](http://www.tutorialspoint.com/unix/index.htm)
 * [! using libraries](https://rufflewind.com/2017-02-25/using-libraries)
 * [! c_standard_library](https://www.tutorialspoint.com/c_standard_library/stdio_h.htm)
 * [ ! The GNU C Library](http://www.gnu.org/software/libc/manual/html_node/index.html)

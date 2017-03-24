@@ -1,15 +1,10 @@
 ## ?
-这里, 记录下我开发用的工具, 解释为什么。方便以后查阅。
+这里, 记录下我开发用的工具, 方便以后查阅。
 
 
 ## wireshark 抓包
 wireshark, 也许我该用charles, 但是考虑到需要购买授权。我就还是算了。charles能提供的功能我想wireshark都能
-提供。唯一的缺陷就是wireshark貌似有些复杂, 但是意味着更加强大。这个程序员的鄙视链是不, 复杂才是好东西, 
-装的一手好B。
-
-wireshark 抓本机网络没啥意思就不写了。
-
-能抱怨吗？后端都是爷，你得明确定位问题，后端才能抬出他的手去改！
+提供。唯一的缺陷就是wireshark貌似有些复杂, (edit： 并不能很方便的抓取https流量). 
 
 wireshark 抓 iphone 的流量:
 * https://dingtwo.github.io/2016/03/17/mac%E4%B8%8B%E4%BD%BF%E7%94%A8WireShark%E6%8A%93%E5%8C%85/

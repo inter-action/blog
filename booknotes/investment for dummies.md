@@ -60,7 +60,48 @@ Many factors influence the course of stock prices. Never, ever make a trade
 or investment based on what someone at the Federal Reserve says or what someone in the media or some market pundit reads into the Fed chairman’s comments. You need to make your investment plans based on your needs and goals, not what the Fed does or doesn’t do.
 
 
-    
+## chapter 05: Building Wealth with Stocks
+
+
+ * Counting reasons to use indexes
+    * First, they can quickly give you an idea of how particular types of stocks fare and perform in comparison with other types of stocks. (说的是不同类型的，比如代表整个美国交易市场价值的70的S&P500指数和代表中小企业的Russell 2000指数区别)
+
+    * Indexes also allow you to compare or benchmark the performance of your stock market investments。（比对自己的收益，比如你投资的公司和对应的指数的基线差）
+
+
+
+Stock-Buying Methods:
+
+* mutual funds:
+    * 优点：够分散，职业人员管理，低费用
+    * 缺点：控制权不足
+
+* ETF（不知道是什么）
+* hedge funds（对冲基金）: 门槛比较高
+
+
+Selecting your own stocks:
+*  Before you invest in any individual stock, no matter how great a company you think it is, you need to understand the company’s line of busi- ness, strategies, competitors, financial statements, and price-earnings ratio versus the competition, among many other issues. Selecting and monitoring good companies take lots of research, time, and discipline.
+
+*  So you need to understand the barriers to entry that a lead- ing company has erected and how difficult or easy it is for competitors to join the fray.
+* be wary of analysts' predictions, due to interets conficts, they may brand their client's company stock.
+
+
+* Many brokerage firms happen to be in another business that creates enor- mous conflicts of interest in producing objective company reviews. These investment firms also solicit companies to help them sell new stock and bond issues. To gain this business, the brokerage firms need to demonstrate enthu- siasm and optimism for the company’s future prospects.
+
+* day trading: 一天内交易，一次或者多次买入卖出。
+    * 缺点：手续费，税费（美国一年内的收益算是短期收益，相应的收税也更高），需要大量时间关注
+    * 更倾向于赌博
+
+
+
+## chapter 06: Investigating and Purchasing Individual Stocks
+
+
+
+
+
+
 
 
 
