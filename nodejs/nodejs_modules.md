@@ -1,4 +1,40 @@
 
+## Stream
+
+4 种类型的stream:
+* Readable
+* Writable
+* Duplex
+* Transform
+
+
+Object Mode:
+Stream Api 只接受两种类型 string or buffer. 如果将Object Mode打开，Stream可以接受除null意外的js对象。
+
+Buffer:
+Readable&Writable Stream 内部都有buffer，可以通过api获得。
+highwaterMark: 这个限制了Readable, Writable内部的buffer可以容纳的限制。当Object Mode启用的时候，这个数值代表写入的对象书。
+Duplex， Transform 这duplex流内部有两个buffer。
+
+
+
+
+## Buffer
+
+Instances of the Buffer class are similar to arrays of integers but correspond to fixed-sized, raw memory allocations outside the V8 heap. The size of the Buffer is established when it is created and cannot be resized.
+
+it's global
+
+
+
+## Http
+
+classes:
+* http.Agent:
+  用于保存http连接池, 同一个请求(target domain, port , localAdress 为一个unique请求)保持着一个socket和对应的这个socket的请求队列。链接池的行为跟server端的行为也有关。使用完Agent之后应该注意关闭掉这个Agent
+
+* http.ClientRequest:
+
 
 
 ## DNS

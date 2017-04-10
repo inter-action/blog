@@ -105,6 +105,7 @@
     [逃不开的经济周期：历史，理论与投资现实] 2015.04-2015.10|:D
     Basic Economics-Thomas Sowell|2012-~|2016.02|:D:R
     [人际过敏症-冈田尊司]|2017.02-2017.03|:D
+    [lonely planet. best travel tips]|2017.03.26|:D
 
 [SUSPENDED] - clean books that is no more appealing
 
