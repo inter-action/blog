@@ -80,6 +80,10 @@
 
     [Packt.Mastering.Go.Web.Services.2015.4]|2015.11:D
 
+[system]
+    [Beginning.Linux.Programming 4th]|2017.01.10-2017.03.20|:D
+    
+
 [nginx]
 
     [Ngix Http Server]|2015.11:50%
@@ -138,7 +142,6 @@
     [Lucene 4 Cookbook] | 2016.10.06-~
     ! [learning scalaz](http://eed3si9n.com/learning-scalaz/) | 2016.08 - ~
     Introduction to Algorithms(3rd)|2012.12-~|
-
     [OReilly.Think.Stats.2nd.Edition.2014.10]|2016.11.06-~
     [Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition.2016.8] | 2016.10.27-~
     [Algorithms of the Intelligent Web]|2014 - ~
@@ -151,7 +154,6 @@
     [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
     [Manning.Functional.Programming.in.JavaScript]|2016.11.24-~
     [Computer Systems A Programmer's Perspective]|2016.12.03-~
-    [Beginning.Linux.Programming 4th]|2017.01.10-~
     [像哲学家一样思考]|2017.02.12-~
     [investment for dummies]|2017.02-~
 
