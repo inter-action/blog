@@ -463,6 +463,7 @@
             Local hook vs Server hook
 
         [git rebase vs merge](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
 # native mobile
 
     # android
@@ -523,6 +524,8 @@
         [A super simple introduction to neural networks](http://www.mattzeunert.com/2016/12/09/neural-networks-super-simple-introduction.html)
 
 # 面试
+    ! https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6
+    
     [前端]
         https://github.com/AutumnsWind/Front-end-questions-to-the-interview-stage
 
@@ -584,6 +587,8 @@
 
     Reactive Programming:
         [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+
+    [copy on write](https://en.wikipedia.org/wiki/Copy-on-write)
 
 # Functional Programming
     [Functional Programming]: http://en.wikipedia.org/wiki/Functional_programming
@@ -684,6 +689,7 @@
             https://ponyfoo.com/articles/es6-generators-in-depth#generators-the-del-weird-del-ins-awesome-ins-parts
             ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
             [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
+            ! [The Hidden Power of ES6 Generators: Observable Async Flow Control](https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435)
 
         ! [Metaprogramming in ES6: Symbols and why they're awesome](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/)
         ! [es6 reflect](https://www.keithcirkel.co.uk/metaprogramming-in-es6-part-2-reflect/)

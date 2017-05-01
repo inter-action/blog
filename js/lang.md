@@ -1,5 +1,8 @@
 
 
+## WeakMap vs Map
+* WeakMap: key 不能 iterate, value 由于是 weak reference， 不会影响 value 被垃圾回收。所以需要注意这一点。
+
 
 ## decorator:
 // https://www.typescriptlang.org/docs/handbook/decorators.html

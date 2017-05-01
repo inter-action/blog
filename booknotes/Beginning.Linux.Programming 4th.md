@@ -289,12 +289,14 @@ it’s ready to resume, it has a high priority. You can set the process nice val
 how is it created:
 >Using fork to create processes can be very useful, but you must keep track of child processes. When a child process terminates, an association with its parent survives until the parent in turn either terminates normally or calls wait. The child process entry in the process table is therefore not freed up immediately. Although no longer active, the child process is still in the system because its exit code needs to be stored in case the parent subsequently calls wait. It becomes what is known as defunct, or a zombie process.
 
+prevent zombie processes:
+call `wait` after child process been created
  
 
 ### Signals
 
 how singal affect processes:
-* If a process receives one of these signals without first arranging to catch it, the process will be termi- nated immediately. Usually, a core dump file is created. This file, called core and placed in the current directory, is an image of the process that can be useful in debugging.
+* If a process receives one of these signals without first arranging to catch it, the process will be terminated immediately. Usually, a core dump file is created. This file, called core and placed in the current directory, is an image of the process that can be useful in debugging.
 
 * The default action for the signals in the following table is abnormal termination of the process with all the consequences of _exit (which is like exit but performs no cleanup before returning to the kernel).
 
@@ -306,12 +308,24 @@ how singal affect processes:
 
 Race condition:
 * Signal can be catched or restored. 
-* When a process is on handling a singal there's a chance that a new signal could arrive
+* When a process is on handling a signal there's a chance that a new signal could arrive
     * the default mechanism is the handling function wouldn't be trigger twice, because the current signal has been added to the signal mask set which filter out signals that matched the ones already been catched.
 
 
-the signal mask set:
->Ordinarily, when a signal handling function is being executed, the signal received is added to the process signal mask for the duration of the handling function. This prevents a subsequent occurrence of the same signal, causing the signal handling function to run again. If the function is not re-entrant, hav- ing it called by another occurrence of a signal before it finishes handling the first may cause problems. If, however, the SA_NODEFER flag is set, the signal mask is not altered when it receives this signal.
+Block signal:
+*[Signals in Linux - Blocking Signals](http://codingfreak.blogspot.com/2009/10/signals-in-linux-blocking-signals.html)
+* Block vs Ingore:
+    >No, blocking a signal is different from ignoring a signal. When a process blocks a signal, the operating system does not deliver the signal until the process unblocks the signal. A process blocks a signal by modifying its signal mask with sigprocmask. But when a process ignores a signal, the signal is delivered and the process handles it by throwing it away.
+
+* Signal Mask:
+    * signal mask: 可以用来屏蔽掉在set中的signal.
+        * [what is signal mask]
+            *[](https://lasr.cs.ucla.edu/vahab/resources/signals.html)
+            *[](http://codingfreak.blogspot.com/2009/10/signals-in-linux-blocking-signals.html)
+        *  Blocking a signal means telling the operating system to hold it and deliver it later. 
+
+    * the signal mask set:
+            >Ordinarily, when a signal handling function is being executed, the signal received is added to the process signal mask for the duration of the handling function. This prevents a subsequent occurrence of the same signal, causing the signal handling function to run again. If the function is not re-entrant, hav- ing it called by another occurrence of a signal before it finishes handling the first may cause problems. If, however, the SA_NODEFER flag is set, the signal mask is not altered when it receives this signal.
 
 
 

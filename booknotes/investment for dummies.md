@@ -83,7 +83,7 @@ Stock-Buying Methods:
 Selecting your own stocks:
 *  Before you invest in any individual stock, no matter how great a company you think it is, you need to understand the company’s line of busi- ness, strategies, competitors, financial statements, and price-earnings ratio versus the competition, among many other issues. Selecting and monitoring good companies take lots of research, time, and discipline.
 
-*  So you need to understand the barriers to entry that a lead- ing company has erected and how difficult or easy it is for competitors to join the fray.
+*  So you need to understand the barriers to entry that a leading company has erected and how difficult or easy it is for competitors to join the fray.
 * be wary of analysts' predictions, due to interets conficts, they may brand their client's company stock.
 
 
@@ -96,6 +96,45 @@ Selecting your own stocks:
 
 
 ## chapter 06: Investigating and Purchasing Individual Stocks
+
+
+tools:
+* value line: 这个产品是美国公司提供的一个股票数据report，按年收费的，费用不低
+
+指标:
+
+* cash flow: 公司的现金流，税法一般会允许对公司设备资产的减值做抵税，但是这种抵税会影响到公司实际的现金流估计
+
+* Book value per share: 公司所有资产减去负债/股票数, 银行股需要注意这个值，因为银行股通常不会记录借出去的债务，这样如果债务没有被还清，那么这个值的真实性会受到影响
+* Market share: 市场占有率
+* P/E, (price-to-earnings ratio): 股票估值，价值/每股净盈利
+* Capital structure: 资本结构
+    * Short-term debt: Debt due within one year
+    * Long-term debt: Debt that has to be paid back in more than a year
+
+    * 怎么计算公司债务是否合理
+        * long-term interest earned: which compares a company’s annual profits to the yearly interest payments on its long-term debt
+        * Total interest coverage: (公司的利润除以公司所有债务)
+            represents a similar comparison of profits to interest owed for all the debt that a company owes, not just long-term debt
+
+* Current position: 公司所有能变现的资产除以今年要偿还的债务
+* quick ratio: 所有能变现的资产(不包括库存)/今年要偿还的债务
+* Quarterly financials： 季度财务状况
+
+
+brokerage：brokerage会提供折扣还有资讯，但是有的资讯可能有利益关系
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

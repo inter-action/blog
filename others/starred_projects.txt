@@ -122,6 +122,7 @@
 
   # tools:
     [google closure](https://github.com/google/closure-compiler-js)
+    [husky - Git hooks made easy](https://github.com/typicode/husky)
 
   # 3rd api:
     [awesome api](https://github.com/abhishekbanthia/Awesome-APIs?utm_source=SitePoint&utm_medium=email&utm_campaign=Versioning)

@@ -9,12 +9,95 @@
 
 
 Object Mode:
-Stream Api 只接受两种类型 string or buffer. 如果将Object Mode打开，Stream可以接受除null意外的js对象。
+Stream Api 只接受两种类型 string or buffer. 如果将Object Mode打开，Stream可以接受除null以外的js对象。
 
 Buffer:
 Readable&Writable Stream 内部都有buffer，可以通过api获得。
 highwaterMark: 这个限制了Readable, Writable内部的buffer可以容纳的限制。当Object Mode启用的时候，这个数值代表写入的对象书。
-Duplex， Transform 这duplex流内部有两个buffer。
+  * reach high water mark 的影响
+    * writable.write(chunk) return false.
+      * 继续写入数据的影响: 首先nodejs会buffer此次写入，后续写入:
+        * While calling write() on a stream that is not draining is allowed, Node.js will buffer all written chunks until maximum memory usage occurs, at which point it will abort unconditionally. 
+    * readable._read() 不会从底层数据流中读取数据
+
+Duplex， Transform 
+  * 这duplex流内部有两个buffer。
+  * both are readable & writable
+
+核心的class:
+* stream.Writable
+
+  * events:
+    * drain: 如果 stream.write(chunk) returns false，当这个流可以再次被write的时候，drain会被触发。
+    * unpipe: The 'unpipe' event is emitted when the stream.unpipe() method is called on a Readable stream, removing this Writable from its set of destinations.
+
+  * methods:
+    * cork: The writable.cork() method forces all written data to be buffered in memory. 
+    * write: 的方法的callback的error有可能不正确, 文档有写, 优先用 event 的 error
+
+  * example:
+
+    ```js
+    // respect backend pressure on write.
+    function write (data, cb) {
+      if (!stream.write(data)) {// data written in here would be buffered.
+        stream.once('drain', cb) // prefered way to do next write
+      } else {
+        process.nextTick(cb) // prefered way to do next write
+      }
+    }
+
+    // Wait for cb to be called before doing any other write.
+    write('hello', () => {
+      console.log('write completed, do more writes now')
+    })
+    ```
+
+* stream.Readable: 
+  * Two Modes:
+    两种模式如何转换，文档有写
+    * flow: 这种模式，数据会自动从底层读出，然后用EventEmitter发送出去
+    * paused: 这种模式下，数据必须explicitly读出
+
+  * methods:
+    * .pipe(destination[, options]): option 中的end参数，如果设置成false，并且readable stream在读取的时候发生了错误, writable stream 不会自动关闭。
+      > The process.stderr and process.stdout Writable streams are never closed until the Node.js process exits, regardless of the specified options.
+    * read(size): 
+      * normal mode:
+        * return size bytes of Buffer. null if no data to read
+        * return all the bytes inside internal buffer if this stream has ended.(eg. underlying file descriptor closed)
+      * object mode:
+        * return a single object
+      
+    * unshift:
+      *  Unlike stream.push(chunk), stream.unshift(chunk) will not end the reading process by resetting the internal reading state of the stream.
+    
+    
+* stream.Duplex: readable & writable
+* stream.Transform
+  * 实现 _transform & _flush 方法
+  * transform stream 数据下游的数据如果没有被消费掉的时候需要代码处理掉
+  * 错误处理是又 _transform 的 callback 来做
+
+* stream.PassThrough
+
+错误处理:
+
+readable & writable: ???
+
+
+[API for Stream Implementers](https://nodejs.org/api/stream.html#stream_api_for_stream_implementers): 
+这一节演示了如何创建Stream。
+
+Writable:
+* 主要是继承Writable， 然后实现_write & _writev方法
+
+Readable:
+* 继承Readable， 实现 _read(size) 方法
+  * size: 参数是optional的, 可以ignore掉
+  * 有内容的时候需要调用 this.push(buffer, encoding) 方法， 这个方法会emit data这个event
+  * _read 方法里边不能throw error, 要 emit error.
+  * 当 readable.push() 返回 false 的时候，就不能调用 this.push 方法了， 直到 _read 再次被调用
 
 
 
@@ -24,6 +107,14 @@ Duplex， Transform 这duplex流内部有两个buffer。
 Instances of the Buffer class are similar to arrays of integers but correspond to fixed-sized, raw memory allocations outside the V8 heap. The size of the Buffer is established when it is created and cannot be resized.
 
 it's global
+
+
+## Net
+
+classes:
+* net.Server:
+* net.Socket:
+
 
 
 
