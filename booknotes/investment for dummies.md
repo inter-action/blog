@@ -257,21 +257,98 @@ About Mutual Funds:
 
     * ETF 是属于基金，但是交易必须在brokerage（券商？）开户，像买股票一样，而且etf一般会track一些index，并会slightly偏离index的价值。
 
+* 分散投资
 
+* 维度
+    * 基金公司投资的公司的市值大小
+    * Growth versus value： 
+        * Growth stocks have high prices in relation to the company’s assets, profits, and potential profits. 
+        * Value stocks are priced cheaply in relation to the company’s assets, profits, and potential profits.
+     * Company location:
+
+* avoid Sector funds:
+    * Sector funds invest in securities in specific industries. 
+    * reason
+        * Lack of diversification
+        * High fees
+        * Taxable distributions
     
+    
+* 类型:
+
+    * stock fund:
+
+    * bond fund:
+        * short-term bond fund:
+            * Of all bond funds, short-term bond funds are the least sensitive to interest rate fluctuations.
+                * 所以比较稳定，适合短期内可能需要钱的这种情况，当然收益相对也低些
+
+        * intermediate-term bond funds（10年期左右）
+
+    * Hybrid funds： invest in a mixture of different types of securities. 
+
+    * Money Market Funds：
+        * low risk:
+            * Under Securities and Exchange Commission regulations, money market funds can invest only in the highest-credit-rated securities, and their investments must have an average maturity of less than 90 days.
 
 
 
+* notes
+    * 债券与利率的反比关系:
+        * https://zhidao.baidu.com/question/8524420.html
+        * 债券的票面价值发行之后，就已经是固定的了(票面利率)，即单位收益是确定的，当银行利率升高，债券为了保证其竞争性，必须降低其票面价值。当银行利率变低，债券就相对于以前要升值了。
+
+    * Over the long term, you’ll probably do best with efficiently managed funds that stick with an investment objective and that don’t try to time and predict the bond market.
+        * 主要是由于预测市场变动很复杂，基本等同于Gamble这个论点基础
 
 
+## chapter 09: Choosing a Brokerage Firm
+
+
+## chapter 10: Investing in a Home
+* renting has at least one big drawback: exposure to inflation.
+    * 买房在长期看(10years+)是比租房便宜的, （中国国情就不是很清楚）
+    * 买房在中国维护成本并不高
+
+* market health 
+    * The state of the job market, 
+    * the number of home listings for sale, 
+    * and the level of real estate prices as compared to rent are useful indicators of the housing market’s health. 
+
+* 房产交易花费的点：
+    * 
+
+* 房产交易前:
+    * 详尽的调查:
+        * 周边环境，犯罪率，自然灾害，学校质量，小区内设施，询问邻居和租客对于这个地方的看法，税率
+
+
+tips:
+* Buying a home without considering your other monthly expenditures and long-term goals may cause you to end up with a home that dictates much of your future spending
+
+* 房产投资一定要考虑税率
+
+## chapter 11: Investing in Real Estate
+
+
+tips:
+* 房产投资一定要考虑税率，以及如何工作的
 
 
 ## others
 
+
+references:
 * Inovice， 发票
     https://en.wikipedia.org/wiki/Invoice
 
 * 证券经纪商(Brokerage House/ Brokerage Firm): 
+
+
+todos:
+* 中国买房需要的手续, 税费，公积金，是否包含减税等等
+* Consumer debt 
+
 
 
 

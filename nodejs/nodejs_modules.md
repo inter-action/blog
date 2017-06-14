@@ -114,6 +114,7 @@ it's global
 classes:
 * net.Server:
 * net.Socket:
+  * 注意回收socket
 
 
 
@@ -125,6 +126,22 @@ classes:
   用于保存http连接池, 同一个请求(target domain, port , localAdress 为一个unique请求)保持着一个socket和对应的这个socket的请求队列。链接池的行为跟server端的行为也有关。使用完Agent之后应该注意关闭掉这个Agent
 
 * http.ClientRequest:
+
+  ```javascript
+  // 如果需要公用agent，则在header中制定
+  //使用方式
+  let req = http.request(headers)
+  req.once('response', ...)
+  req.once('timeout', ...)
+  req.once('error', ...)
+  req.write(body)
+  req.end()
+  ```
+
+
+## Query String: 
+用于解析和构建url的path部分的请求参数，和url module中的parse方法类似
+
 
 
 

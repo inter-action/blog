@@ -412,10 +412,112 @@
                 nodejs, ProgressWebApp, realtime editing with workspace
 
 
+# Architecture & System design:
+    [view-counting-at-reddit](https://redditblog.com/2017/05/24/view-counting-at-reddit/)
+
+# Tools
+
+    IDEA
+        http://laobie.github.io/android/2016/02/14/android-studio-tips.html
+
+    [wire shark]
+        http://fangxin.blog.51cto.com/1125131/735178
+        http://www.cnblogs.com/TankXiao/archive/2012/10/10/2711777.html
+
+    ## version control
+        git
+            [undo-the-last-git-commit] http://stackoverflow.com/questions/927358/undo-the-last-git-commit
+            [图解Git](https://marklodato.github.io/visual-git-guide/index-zh-cn.html)
+            [atlassian git tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
+            [Git 版本控制与工作流  ](http://www.jianshu.com/p/67afe711c731)
+            [让你的Git水平更上一层楼的10个小贴士](http://blog.jobbole.com/75348/)
+            [git flow]
+                [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
+
+            ! [闯过这 54 关，点亮你的 Git 技能树 ](https://codingstyle.cn/topics/181)
+            [git submodule]
+                https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
+                https://git-scm.com/book/en/v2/Git-Tools-Submodules
+
+            [git hook](https://www.atlassian.com/git/tutorials/git-hooks/conceptual-overview)
+                Local hook vs Server hook
+
+            [git rebase vs merge](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
+# native mobile
+
+    # android
+        [anroid 程序设计经验](http://blog.csdn.net/ahence/article/details/47154419)
+        [android 技术开发应用堆栈](http://www.jianshu.com/p/c8c6dbe00787)
+        [Jenkin+Git+Gradle为Android项目搭建CI环境](http://blogs.cyning.me/2015/08/16/jenkins-CI-android/)
+        [移动端前端开发真机调试攻略](http://www.anchengjian.com/post/3217ba_8c8e9f1)
+        ! [The Busy Coder's Guide to Android Development](https://github.com/commonsguy/cw-omnibus)
+        ! [android 资源列表](http://www.jianshu.com/p/e961f1633d7a)
+        ! [android cheetsheet](http://inthecheesefactory.com/aca/The%20Android%20Cheese%20Sheet%20rev%204.pdf)
+        [Android Studio插件整理](https://ydmmocoo.github.io/2016/06/28/Android-Studio%E6%8F%92%E4%BB%B6%E6%95%B4%E7%90%86/)
+
+
+    # hydrid mobile dev
+        [cordova](http://cordova.apache.org/)
+
+
+
+# math
+    ! [List of mathematical symbols](https://en.wikipedia.org/wiki/List_of_mathematical_symbols)
+    
+    [数学收敛]http://zh.wikipedia.org/zh/%E6%9E%81%E9%99%90_%28%E6%95%B0%E5%AD%A6%29
+    [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
+    http://www.ruanyifeng.com/blog/2011/07/mathematical_constant_e.html
+    [数学科普文章](http://betterexplained.com/)
+    [Fourier Transform, Fourier Series, and frequency spectrum](https://www.youtube.com/watch?v=r18Gi8lSkfM)
+    [傅里叶变换]
+        http://blog.rainy.im/2015/11/03/fourier-transform-in-image-processing/
+        http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
+    [Taxicab_geometry](https://en.wikipedia.org/wiki/Taxicab_geometry) - 计算LP-space (P是向量的空间维度)的向量的最小距离, 不唯一
+    [mod arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
+    
+
+# Algorithms & data structure:
+    ## Algorithms:
+        [](https://en.wikipedia.org/wiki/Perfect_hash_function)
+        [Randomized_algorithm](https://en.wikipedia.org/wiki/Randomized_algorithm)
+
+    ## data structure:
+        ![](https://www.tutorialspoint.com/data_structures_algorithms)
+        [trie](https://www.youtube.com/watch?v=RIUY7ieyH40)
+
+# machine learning:
+    !![A Friendly Introduction to Machine Learning](https://www.youtube.com/watch?v=IpGxLWOIZy4&t=2s)
+    ![Machine Learning :: Text feature extraction (tf-idf) – Part I](http://blog.christianperone.com/2011/09/machine-learning-text-feature-extraction-tf-idf-part-i/)
+
+    ! [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
+        ORC-(图像转文字)
+        make sure dev & test dataset from same distribution - @43 mins mark
+    ![Machine Learning: Measuring Similarity and Distance](https://dzone.com/articles/machine-learning-measuring)
+
+
+    ## Deep Leaning
+        !! [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
+        [A super simple introduction to neural networks](http://www.mattzeunert.com/2016/12/09/neural-networks-super-simple-introduction.html)
+
+
+
 # Operating System
 
     [locale的设定及LANG、LC_CTYPE、LC_ALL环境变量](http://www.cnblogs.com/xlmeng1988/archive/2013/01/16/locale.html)
     [](http://stackoverflow.com/questions/8238860/maximum-number-of-files-folders-on-linux)
+
+
+    ## linux
+        [linux 工具速查手册](1)
+          [ulimit](https://www.ibm.com/developerworks/cn/linux/l-cn-ulimit/)
+          [cmds]
+              nc - http://www.computerhope.com/unix/nc.htm
+                  用于网络连接测试, tcp, udp, UNIX-domain stream socket, port scanning
+
+        [make file introductions]
+          http://www.ruanyifeng.com/blog/2015/03/build-website-with-make.html
+
 
 # System Programming:
     [using libraries](https://rufflewind.com/2017-02-25/using-libraries)
@@ -435,127 +537,7 @@
     # HTTP_PROTOCOL:
         [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
             限定的是server端的资源的
-# Tools
 
-    IDEA
-        http://laobie.github.io/android/2016/02/14/android-studio-tips.html
-
-    [wire shark]
-        http://fangxin.blog.51cto.com/1125131/735178
-        http://www.cnblogs.com/TankXiao/archive/2012/10/10/2711777.html
-
-# version control
-    ## git
-        [undo-the-last-git-commit] http://stackoverflow.com/questions/927358/undo-the-last-git-commit
-        [图解Git](https://marklodato.github.io/visual-git-guide/index-zh-cn.html)
-        [atlassian git tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
-        [Git 版本控制与工作流  ](http://www.jianshu.com/p/67afe711c731)
-        [让你的Git水平更上一层楼的10个小贴士](http://blog.jobbole.com/75348/)
-        [git flow]
-            [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
-
-        ! [闯过这 54 关，点亮你的 Git 技能树 ](https://codingstyle.cn/topics/181)
-        [git submodule]
-            https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
-            https://git-scm.com/book/en/v2/Git-Tools-Submodules
-
-        [git hook](https://www.atlassian.com/git/tutorials/git-hooks/conceptual-overview)
-            Local hook vs Server hook
-
-        [git rebase vs merge](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
-
-# native mobile
-
-    # android
-        [anroid 程序设计经验](http://blog.csdn.net/ahence/article/details/47154419)
-        [android 技术开发应用堆栈](http://www.jianshu.com/p/c8c6dbe00787)
-        [Jenkin+Git+Gradle为Android项目搭建CI环境](http://blogs.cyning.me/2015/08/16/jenkins-CI-android/)
-        [移动端前端开发真机调试攻略](http://www.anchengjian.com/post/3217ba_8c8e9f1)
-        ! [The Busy Coder's Guide to Android Development](https://github.com/commonsguy/cw-omnibus)
-        ! [android 资源列表](http://www.jianshu.com/p/e961f1633d7a)
-        ! [android cheetsheet](http://inthecheesefactory.com/aca/The%20Android%20Cheese%20Sheet%20rev%204.pdf)
-        [Android Studio插件整理](https://ydmmocoo.github.io/2016/06/28/Android-Studio%E6%8F%92%E4%BB%B6%E6%95%B4%E7%90%86/)
-
-
-    # hydrid mobile dev
-        [cordova](http://cordova.apache.org/)
-
-
-# thoughts
-    
-    ![What are the greatest programming tips and tricks you have learned on your own by years of coding?](https://www.quora.com/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding/answer/Jerome-Terry-1)
-    [build a MVP: the right way to do it](https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83#.h0erw5m0u)
-
-# math
-    ! [List of mathematical symbols](https://en.wikipedia.org/wiki/List_of_mathematical_symbols)
-    
-    [数学收敛]http://zh.wikipedia.org/zh/%E6%9E%81%E9%99%90_%28%E6%95%B0%E5%AD%A6%29
-    [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
-    http://www.ruanyifeng.com/blog/2011/07/mathematical_constant_e.html
-    [数学科普文章](http://betterexplained.com/)
-    [Fourier Transform, Fourier Series, and frequency spectrum](https://www.youtube.com/watch?v=r18Gi8lSkfM)
-    [傅里叶变换]
-        http://blog.rainy.im/2015/11/03/fourier-transform-in-image-processing/
-        http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
-    [Taxicab_geometry](https://en.wikipedia.org/wiki/Taxicab_geometry) - 计算LP-space (P是向量的空间维度)的向量的最小距离, 不唯一
-    [mod arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
-    
-
-# Algorithms:
-    [](https://en.wikipedia.org/wiki/Perfect_hash_function)
-    [Randomized_algorithm](https://en.wikipedia.org/wiki/Randomized_algorithm)
-
-# data structure:
-    ![](https://www.tutorialspoint.com/data_structures_algorithms)
-    [trie](https://www.youtube.com/watch?v=RIUY7ieyH40)
-
-# machine learning:
-    !![A Friendly Introduction to Machine Learning](https://www.youtube.com/watch?v=IpGxLWOIZy4&t=2s)
-    ![Machine Learning :: Text feature extraction (tf-idf) – Part I](http://blog.christianperone.com/2011/09/machine-learning-text-feature-extraction-tf-idf-part-i/)
-
-    ! [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
-        ORC-(图像转文字)
-        make sure dev & test dataset from same distribution - @43 mins mark
-    ![Machine Learning: Measuring Similarity and Distance](https://dzone.com/articles/machine-learning-measuring)
-
-
-    ## Deep Leaning
-        !! [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
-        [A super simple introduction to neural networks](http://www.mattzeunert.com/2016/12/09/neural-networks-super-simple-introduction.html)
-
-# 面试
-    ! https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6
-    
-    [前端]
-        https://github.com/AutumnsWind/Front-end-questions-to-the-interview-stage
-
-
-# linux
-    [linux 工具速查手册](1)
-      [ulimit](https://www.ibm.com/developerworks/cn/linux/l-cn-ulimit/)
-      [cmds]
-          nc - http://www.computerhope.com/unix/nc.htm
-              用于网络连接测试, tcp, udp, UNIX-domain stream socket, port scanning
-
-    [make file introductions]
-      http://www.ruanyifeng.com/blog/2015/03/build-website-with-make.html
-
-# economics
-    [How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0)
-    [经济学书籍推荐]http://mp.weixin.qq.com/s?__biz=MzI4OTEwOTQ3MA==&mid=402562477&idx=1&sn=6cab2420c95317a692f0c96a66b4654f&scene=4#wechat_redirect
-
-
-    ## investing
-        [William Ackman: Everything You Need to Know About Finance and Investing in Under an Hour](https://www.youtube.com/watch?v=WEDIj9JBTC8)
-            book: the intelligent investor - benjamin graham
-
-    ## wiki:
-        [代持养券/债券代持](http://baike.baidu.com/view/10464675.htm)
-        [LTV](https://en.wikipedia.org/wiki/Loan-to-value_ratio)
-
-    ## news & column
-        https://www.bloomberg.com/view/articles/2016-12-29/a-china-watcher-s-guide-to-2017
-        http://www.baldingsworld.com/2016/11/18/the-strange-world-of-chinese-real-estate-liquidity/
 
 # security
     [](https://codahale.com/how-to-safely-store-a-password/)
@@ -563,6 +545,190 @@
         [bcrpt](https://en.wikipedia.org/wiki/Bcrypt)
             记住这一句就够用了:
                 bcrypt is an adaptive function: over time, the iteration count can be increased to make it slower, so it remains resistant to brute-force search attacks even with increasing computation power.
+
+
+
+
+# Programming Language & methodolgy
+    
+    ## PROGRAMMING LANGUAGE
+        ### JAVA
+            [RESTful Web services: The basics](http://www.ibm.com/developerworks/webservices/library/ws-restful/)
+            [Apache ActiveMQ介绍](http://blog.csdn.net/qq7342272/article/details/8585048)
+
+        ### scala
+            [Understanding Scala Streams through Fibonacci](http://derekwyatt.org/2011/07/29/understanding-scala-streams-through-fibonacci.html)
+            [5 years of Scala and counting – debunking some myths about the language and its environment](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
+            [scala 魔法函数](http://colobu.com/2016/01/04/Scala-magic-functions/)
+            [The Neophyte's Guide to Scala Part 2: Extracting Sequences](http://danielwestheide.com/blog/2012/11/28/the-neophytes-guide-to-scala-part-2-extracting-sequences.html)
+            [A Deep Dive into Scalac — Chris Birchall](https://www.youtube.com/watch?v=2742pWdUm6c)
+            [implicit parameter precedence](http://eed3si9n.com/implicit-parameter-precedence-again)
+
+            [scala-partial-functions](http://blog.bruchez.name/2011/10/scala-partial-functions-without-phd.html)
+            ! [The Neophyte's Guide to Scala]http://danielwestheide.com/scala/neophytes.html
+
+            [scala type class](http://www.cakesolutions.net/teamblogs/demystifying-implicits-and-typeclasses-in-scala)
+                http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
+
+            ! scala cake pattern
+                http://www.cakesolutions.net/teamblogs/2011/12/19/cake-pattern-in-depth
+                https://coderwall.com/p/t_rapw/cake-pattern-in-scala-self-type-annotations-explicitly-typed-self-references-explained
+
+            ! scala style guide
+                http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html
+
+
+            ! [Functional Programming is Terrible](https://www.youtube.com/watch?v=hzf3hTUKk8U)
+
+            ! [Function Method and eta expression](https://gleichmann.wordpress.com/2011/01/09/functional-scala-turning-methods-into-functions/)
+
+
+            [scala compiler options](http://pedrorijo.com/blog/scala-compiler-review-code-warnings/)
+            
+            scalaz
+              [scalaz Task](http://timperrett.com/2014/07/20/scalaz-task-the-missing-documentation/)
+
+
+        ### nodejs
+            #### ! nodejs at scale
+                [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
+                [Hunting a Ghost - Finding a Memory Leak in Node.js](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/)
+                Node.js at Scale:
+                    [Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/)
+                    https://blog.risingstack.com/nodejs-at-scale-npm-publish-tutorial/
+
+            [nodejs 模块加载机制]
+                http://www.infoq.com/cn/articles/nodejs-module-mechanism
+            [nodejs 7 tips](http://dev.oupeng.com/articles/7-tips-for-a-nodejs-padawan)
+            [深入浅出Nodejs读书笔记](http://tw93.github.io/2015-03-01/shen-ru-qian-chu-nodejs-reading-mind-map.html)
+            [node js best practices](http://blog.risingstack.com/node-js-best-practices/)
+            [node-best-practices](https://devcenter.heroku.com/articles/node-best-practices#use-npm-scripts-to-run-custom-build-steps)
+            [Browserify：浏览器加载Node.js模块](http://javascript.ruanyifeng.com/tool/browserify.html)
+            [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
+            [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
+            [stream handbook](https://github.com/substack/stream-handbook)
+            [详解Node.js的http模块之http模块概述](http://itbilu.com/nodejs/core/N1okQ7Eh.html)
+            [npm best practice](https://blog.risingstack.com/nodejs-at-scale-npm-best-practices/)
+            [19 things I learnt reading the NodeJS docs](https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.ibos50cqi)
+            [fiber](https://bjouhier.wordpress.com/2012/03/11/fibers-and-threads-in-node-js-what-for/)
+            [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
+
+
+            #### nodejs devops
+                [Don't Let Just Node.js Take the Blame! by Daniel Khan, Dynatrace](https://www.youtube.com/watch?v=FocrqytWkjM)
+
+
+        ### Python
+            [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
+
+            [python web crawler]
+                http://blog.csdn.net/column/details/why-bug.html
+                http://www.zhihu.com/question/20899988
+
+            [how to structure large flask application](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
+            [Python 语言在企业应用方面遭遇的十大谬误](http://www.oschina.net/translate/10-myths-of-enterprise-python)
+            [python 日报](http://py.memect.com/)
+            [Python初学者的资源总结](http://www.jianshu.com/p/9a3e1229c810)
+
+        ### javascript
+            mixins: 
+                https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes
+                https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41
+
+            [requirejs] require js [http://www.ruanyifeng.com/blog/2012/11/require_js.html]
+            [javascript inheritance]http://javascript.info/tutorial/inheritance
+            generators & async/await
+                https://ponyfoo.com/articles/es6-generators-in-depth#generators-the-del-weird-del-ins-awesome-ins-parts
+                ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
+                [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
+                ! [The Hidden Power of ES6 Generators: Observable Async Flow Control](https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435)
+
+            ! [Metaprogramming in ES6: Symbols and why they're awesome](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/)
+            ! [es6 reflect](https://www.keithcirkel.co.uk/metaprogramming-in-es6-part-2-reflect/)
+            !! [es7 decorator](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41)
+                decorator as mixins.
+
+            ! [prototype vs __proto__](http://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
+                简单来说new Function 的时候会自动创建一个 prototype 对象, 这个对象保存着所有 class instance 的methods和inheritated properties
+                , 这个prototype 和 Function 互相引用。 而__proto__是更内部的Link。
+                具体看下面es6 classes的链接
+
+            !! [es6 classes](http://exploringjs.com/es6/ch_classes.html)
+                [new.target](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target)
+
+        ### typescript
+            write ambient types:
+                [](http://definitelytyped.org/guides/creating.html)
+                [How to create your own TypeScript type definition files (.d.ts) and contribute to DefinitelyTyped on GitHub](http://blog.wolksoftware.com/contributing-to-definitelytyped)
+
+        ### Rust
+            ! [system programming tutorial](http://rust-class.org/pages/pages.html)
+            http://killercup.github.io/trpl-ebook/
+            [Rust语言入门、关键技术与实战经验](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=405037902&idx=1&sn=97d9af490eefc5d6158cb6b6a70f67e5)
+            [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/)
+            [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg)
+
+            Language itself:
+              [](https://blog.rust-lang.org/2015/05/11/traits.html)
+
+                ### lifetime
+                    ! https://doc.rust-lang.org/nomicon/lifetimes.html
+                    [](https://mobiarch.wordpress.com/2015/06/29/understanding-lifetime-in-rust-part-i/)
+                    [](https://mobiarch.wordpress.com/2015/07/08/understanding-lifetime-in-rust-part-ii-3/)
+
+
+                closure with trait:
+                    http://huonw.github.io/blog/2015/05/finding-closure-in-rust/
+                    
+
+            [A Critique of Rust's `std::collections`](http://ticki.github.io/blog/horrible/)
+            ! [Fighting the Borrow Checker](https://m-decoster.github.io/2017/01/16/fighting-borrowchk/)
+
+
+       
+
+
+        ### golang
+            [go by example](https://gobyexample.com/)
+
+
+    ## programming methodolgy
+        patterns:
+            [Replacing_Recursion_With_a_Stack](http://haacked.com/archive/2007/03/04/Replacing_Recursion_With_a_Stack.aspx/)
+                Any recursive algorithm can be replaced with a non-recursive algorithm by using a Stack.
+
+        deal with concurrency:
+            [copy on write](https://en.wikipedia.org/wiki/Copy-on-write)
+
+        compiler:
+            [](https://medium.com/@kosamari/how-to-be-a-compiler-make-a-compiler-with-javascript-4a8a13d473b4)
+            [ReactNL 2016 James Kyle - How to Build a Compiler](https://www.youtube.com/watch?v=ZYFOWesCm_0)
+
+        Reactive Programming:
+            [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+
+        Functional Programming:
+            [Functional Programming]: http://en.wikipedia.org/wiki/Functional_programming
+            [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
+
+
+ # hacking:
+
+    [Hack WPA/WPA2 Wi-Fi with Fluxion tool]
+        (https://www.youtube.com/watch?v=xzv5Vy9ghrg)
+        https://www.youtube.com/watch?v=Pc8JCiRZ-4w
+    [Kali Linux on Raspberry Pi 3](https://www.youtube.com/watch?v=6xXnUGR_e4E)
+    [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
+
+
+# raspberry pi
+    https://www.toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server
+
+
+# Perspective:
+    [The Programmer’s Guide to Booking a Concert](https://medium.com/@sinahab/the-programmers-guide-to-booking-a-concert-e048a580735f#.f71f1v2mo)
+    ![What are the greatest programming tips and tricks you have learned on your own by years of coding?](https://www.quora.com/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding/answer/Jerome-Terry-1)
+    [build a MVP: the right way to do it](https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83#.h0erw5m0u)
 
 
 # others
@@ -582,172 +748,27 @@
     [python 算法教程](http://interactivepython.org/runestone/static/pythonds/index.html)
     [color in terminal](http://jafrog.com/2013/11/23/colors-in-terminal.html)
     [force-files-to-download-not-open-in-browser](https://css-tricks.com/snippets/htaccess/force-files-to-download-not-open-in-browser/)
-
     [涉及 工作方面的思想](http://open.leancloud.cn/)
 
-    Reactive Programming:
-        [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
-
-    [copy on write](https://en.wikipedia.org/wiki/Copy-on-write)
-
-# Functional Programming
-    [Functional Programming]: http://en.wikipedia.org/wiki/Functional_programming
-    [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
 
 
 
-# music Fundamentals
-    [Introduction To Music Theory - Understanding Notes, Major/Minor Keys And Chords - Part 1](https://www.youtube.com/watch?v=RfEx7sEMWd4)
+# economics
+    [How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0)
+    [经济学书籍推荐]http://mp.weixin.qq.com/s?__biz=MzI4OTEwOTQ3MA==&mid=402562477&idx=1&sn=6cab2420c95317a692f0c96a66b4654f&scene=4#wechat_redirect
 
 
-# PROGRAMMING LANGUAGE
-    ## JAVA
-        [RESTful Web services: The basics](http://www.ibm.com/developerworks/webservices/library/ws-restful/)
-        [Apache ActiveMQ介绍](http://blog.csdn.net/qq7342272/article/details/8585048)
+    ## investing
+        [William Ackman: Everything You Need to Know About Finance and Investing in Under an Hour](https://www.youtube.com/watch?v=WEDIj9JBTC8)
+            book: the intelligent investor - benjamin graham
 
-    ## scala
-        [Understanding Scala Streams through Fibonacci](http://derekwyatt.org/2011/07/29/understanding-scala-streams-through-fibonacci.html)
-        [5 years of Scala and counting – debunking some myths about the language and its environment](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
-        [scala 魔法函数](http://colobu.com/2016/01/04/Scala-magic-functions/)
-        [The Neophyte's Guide to Scala Part 2: Extracting Sequences](http://danielwestheide.com/blog/2012/11/28/the-neophytes-guide-to-scala-part-2-extracting-sequences.html)
-        [A Deep Dive into Scalac — Chris Birchall](https://www.youtube.com/watch?v=2742pWdUm6c)
-        [implicit parameter precedence](http://eed3si9n.com/implicit-parameter-precedence-again)
+    ## wiki:
+        [代持养券/债券代持](http://baike.baidu.com/view/10464675.htm)
+        [LTV](https://en.wikipedia.org/wiki/Loan-to-value_ratio)
 
-        [scala-partial-functions](http://blog.bruchez.name/2011/10/scala-partial-functions-without-phd.html)
-        ! [The Neophyte's Guide to Scala]http://danielwestheide.com/scala/neophytes.html
-
-        [scala type class](http://www.cakesolutions.net/teamblogs/demystifying-implicits-and-typeclasses-in-scala)
-            http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
-
-        ! scala cake pattern
-            http://www.cakesolutions.net/teamblogs/2011/12/19/cake-pattern-in-depth
-            https://coderwall.com/p/t_rapw/cake-pattern-in-scala-self-type-annotations-explicitly-typed-self-references-explained
-
-        ! scala style guide
-            http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html
-
-
-        ! [Functional Programming is Terrible](https://www.youtube.com/watch?v=hzf3hTUKk8U)
-
-        ! [Function Method and eta expression](https://gleichmann.wordpress.com/2011/01/09/functional-scala-turning-methods-into-functions/)
-
-
-        [scala compiler options](http://pedrorijo.com/blog/scala-compiler-review-code-warnings/)
-        ## scalaz
-          [scalaz Task](http://timperrett.com/2014/07/20/scalaz-task-the-missing-documentation/)
-
-
-    ## nodejs
-        ### ! nodejs at scale
-            [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
-            [Hunting a Ghost - Finding a Memory Leak in Node.js](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/)
-            Node.js at Scale:
-                [Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/)
-                https://blog.risingstack.com/nodejs-at-scale-npm-publish-tutorial/
-
-        [nodejs 模块加载机制]
-            http://www.infoq.com/cn/articles/nodejs-module-mechanism
-        [nodejs 7 tips](http://dev.oupeng.com/articles/7-tips-for-a-nodejs-padawan)
-        [深入浅出Nodejs读书笔记](http://tw93.github.io/2015-03-01/shen-ru-qian-chu-nodejs-reading-mind-map.html)
-        [node js best practices](http://blog.risingstack.com/node-js-best-practices/)
-        [node-best-practices](https://devcenter.heroku.com/articles/node-best-practices#use-npm-scripts-to-run-custom-build-steps)
-        [Browserify：浏览器加载Node.js模块](http://javascript.ruanyifeng.com/tool/browserify.html)
-        [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
-        [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
-        [stream handbook](https://github.com/substack/stream-handbook)
-        [详解Node.js的http模块之http模块概述](http://itbilu.com/nodejs/core/N1okQ7Eh.html)
-        [npm best practice](https://blog.risingstack.com/nodejs-at-scale-npm-best-practices/)
-        [19 things I learnt reading the NodeJS docs](https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.ibos50cqi)
-        [fiber](https://bjouhier.wordpress.com/2012/03/11/fibers-and-threads-in-node-js-what-for/)
-        [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
-
-
-        ### nodejs devops
-            [Don't Let Just Node.js Take the Blame! by Daniel Khan, Dynatrace](https://www.youtube.com/watch?v=FocrqytWkjM)
-
-
-    ## Python
-        [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
-
-        [python web crawler]
-            http://blog.csdn.net/column/details/why-bug.html
-            http://www.zhihu.com/question/20899988
-
-        [how to structure large flask application](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
-        [Python 语言在企业应用方面遭遇的十大谬误](http://www.oschina.net/translate/10-myths-of-enterprise-python)
-        [python 日报](http://py.memect.com/)
-        [Python初学者的资源总结](http://www.jianshu.com/p/9a3e1229c810)
-
-    ## javascript
-        mixins: 
-            https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes
-            https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41
-
-        [requirejs] require js [http://www.ruanyifeng.com/blog/2012/11/require_js.html]
-        [javascript inheritance]http://javascript.info/tutorial/inheritance
-        generators & async/await
-            https://ponyfoo.com/articles/es6-generators-in-depth#generators-the-del-weird-del-ins-awesome-ins-parts
-            ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
-            [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
-            ! [The Hidden Power of ES6 Generators: Observable Async Flow Control](https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435)
-
-        ! [Metaprogramming in ES6: Symbols and why they're awesome](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/)
-        ! [es6 reflect](https://www.keithcirkel.co.uk/metaprogramming-in-es6-part-2-reflect/)
-        !! [es7 decorator](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41)
-            decorator as mixins.
-
-        ! [prototype vs __proto__](http://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
-            简单来说new Function 的时候会自动创建一个 prototype 对象, 这个对象保存着所有 class instance 的methods和inheritated properties
-            , 这个prototype 和 Function 互相引用。 而__proto__是更内部的Link。
-            具体看下面es6 classes的链接
-
-        !! [es6 classes](http://exploringjs.com/es6/ch_classes.html)
-            [new.target](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target)
-
-
-
-    ## Rust
-        ! [system programming tutorial](http://rust-class.org/pages/pages.html)
-        http://killercup.github.io/trpl-ebook/
-        [Rust语言入门、关键技术与实战经验](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=405037902&idx=1&sn=97d9af490eefc5d6158cb6b6a70f67e5)
-        [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/)
-        [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg)
-
-        Language itself:
-          [](https://blog.rust-lang.org/2015/05/11/traits.html)
-
-          ### lifetime
-            ! https://doc.rust-lang.org/nomicon/lifetimes.html
-            [](https://mobiarch.wordpress.com/2015/06/29/understanding-lifetime-in-rust-part-i/)
-            [](https://mobiarch.wordpress.com/2015/07/08/understanding-lifetime-in-rust-part-ii-3/)
-
-
-        [A Critique of Rust's `std::collections`](http://ticki.github.io/blog/horrible/)
-        ! [Fighting the Borrow Checker](https://m-decoster.github.io/2017/01/16/fighting-borrowchk/)
-
-
-    ## Programming Methology
-        [Replacing_Recursion_With_a_Stack](http://haacked.com/archive/2007/03/04/Replacing_Recursion_With_a_Stack.aspx/)
-            Any recursive algorithm can be replaced with a non-recursive algorithm by using a Stack.
-
-
-    ## golang
-        [go by example](https://gobyexample.com/)
-
- # hacking:
-
-    [Hack WPA/WPA2 Wi-Fi with Fluxion tool]
-        (https://www.youtube.com/watch?v=xzv5Vy9ghrg)
-        https://www.youtube.com/watch?v=Pc8JCiRZ-4w
-    [Kali Linux on Raspberry Pi 3](https://www.youtube.com/watch?v=6xXnUGR_e4E)
-    [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
-
-# Perspective:
-    [The Programmer’s Guide to Booking a Concert](https://medium.com/@sinahab/the-programmers-guide-to-booking-a-concert-e048a580735f#.f71f1v2mo)
-
-
-# raspberry pi
-    https://www.toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server
+    ## news & column
+        https://www.bloomberg.com/view/articles/2016-12-29/a-china-watcher-s-guide-to-2017
+        http://www.baldingsworld.com/2016/11/18/the-strange-world-of-chinese-real-estate-liquidity/
 
 
 # Life:
@@ -755,16 +776,28 @@
     ![The Philosophy of BOJACK HORSEMAN – Wisecrack Edition](https://www.youtube.com/watch?v=rORIDYHOFTQ)
     [What reality are you creating for yourself? | Isaac Lidsky](https://www.youtube.com/watch?v=cmpu58yv8-g)
 
-# Man Lifestyle:
-    [Sport coat](https://en.wikipedia.org/wiki/Sport_coat)
-    shirts:
-        [](http://www.untuckit.com/pages/4-tips-on-wearing-your-shirt-untucked)
-        [](http://www.gq.com/story/when-to-tuck-in-your-shirt)
+    # 面试
+        ! https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6
+        
+        [前端]
+            https://github.com/AutumnsWind/Front-end-questions-to-the-interview-stage
 
 
-# photography & camera
-    [metering mode](https://photographylife.com/understanding-metering-modes)
-    [back button focus](https://www.youtube.com/watch?v=6qUebpQeclY)
+
+    ## Man Lifestyle:
+        [Sport coat](https://en.wikipedia.org/wiki/Sport_coat)
+        shirts:
+            [](http://www.untuckit.com/pages/4-tips-on-wearing-your-shirt-untucked)
+            [](http://www.gq.com/story/when-to-tuck-in-your-shirt)
+
+
+    ## photography & camera
+        [metering mode](https://photographylife.com/understanding-metering-modes)
+        [back button focus](https://www.youtube.com/watch?v=6qUebpQeclY)
+
+    # music Fundamentals
+        [Introduction To Music Theory - Understanding Notes, Major/Minor Keys And Chords - Part 1](https://www.youtube.com/watch?v=RfEx7sEMWd4)
+
 
 
 ---------------------------------------------------------------------------------

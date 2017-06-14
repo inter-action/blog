@@ -44,7 +44,7 @@
 
     [Web编程入门经典：HTML、XHTML和CSS].杜静.敖富江:D
     [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31 | :P:S
-
+    [Reactive.Programming.with.RxJS.2015.12]|2017.06.12-2018.06.14|:D
 
 [PYTHON]
 
