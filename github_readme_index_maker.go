@@ -100,7 +100,7 @@ func encodeURI(filepath string) string {
 func walk(entries []Entries, depth int) string {
 	var rs string
 	for _, entry := range entries {
-		rs += strings.Repeat("#", depth+3) + entry.path + "\n"
+		rs += strings.Repeat("#", depth+1) + " " + entry.path + "\n"
 		rs += join_contents(entry.contents, entry.path) + "\n"
 		rs += walk(entry.entries, depth+1)
 	}

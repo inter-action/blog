@@ -19,6 +19,7 @@
     ## Personal blog:
         [lihaoyi blog](http://www.lihaoyi.com/)
         [](https://mobiarch.wordpress.com/)
+        [](https://beachape.com/)
     
     
     
@@ -38,10 +39,10 @@
         http://www.thesecurityblogger.com/category/hack/social/
 
 
-# Design Resource
+    # Design Resource
 
-    https://dribbble.com/hzlzh/projects/380016-WeFlow
-    [产品之器・ Sketch](https://zhuanlan.zhihu.com/p/21386019)
+        https://dribbble.com/hzlzh/projects/380016-WeFlow
+        [产品之器・ Sketch](https://zhuanlan.zhihu.com/p/21386019)
 
 
 
@@ -112,6 +113,8 @@
                 [css translate3d](http://www.w3cplus.com/css3/css3-3d-transform.html)
                 [keyframe-animation-syntax](https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
                 [A Guide to Browser Scroll Animations](http://developer.telerik.com/featured/guide-browser-scroll-animations/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
+                [step function](https://designmodo.com/steps-css-animations/)
+                [css animation tutorial](https://www.youtube.com/watch?v=jgw82b5Y2MU&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5)
 
             libs
                 animate
@@ -358,6 +361,9 @@
             [](http://developerblog.redhat.com/2016/02/24/10-things-to-avoid-in-docker-containers/)
             [David Blurton: Full-stack JavaScript development with Docker - JSConf Iceland 2016](https://www.youtube.com/watch?v=zcSbOl8DYXM)
 
+
+
+
         ### NodeJS
             [](https://blog.risingstack.com/nodejs-production-environment-for-startups/)
             ![Real World Lessons on the Pain Points of Node.js Applications](https://www.youtube.com/watch?v=eZF1t7Cv_7o&list=LLuhDiGxQ78K0p35lrkwZLjA&index=2)
@@ -369,7 +375,8 @@
                 没看很懂, 但是debug方法很高端
                 
             [nodejs modules](https://nodejs.org/api/modules.html#modules_module_caching_caveats)
-            
+            Node.js 8: util.promisify() - http://2ality.com/2017/05/util-promisify.html
+
 
 
         ### encryption
@@ -518,6 +525,7 @@
         [make file introductions]
           http://www.ruanyifeng.com/blog/2015/03/build-website-with-make.html
 
+        [Async IO on Linux: select, poll, and epoll](https://jvns.ca/blog/2017/06/03/async-io-on-linux--select--poll--and-epoll/)
 
 # System Programming:
     [using libraries](https://rufflewind.com/2017-02-25/using-libraries)
@@ -538,6 +546,14 @@
         [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
             限定的是server端的资源的
 
+    [ip routing]
+        http://www.thegeekstuff.com/2012/04/ip-routing-intro/
+    [netstat ](http://www.thegeekstuff.com/2010/03/netstat-command-examples/)
+        netstat -rn #view routers
+
+    route
+        [! route examples](http://www.thegeekstuff.com/2012/04/route-examples)
+            http://www.thegeekstuff.com/2012/04/route-examples
 
 # security
     [](https://codahale.com/how-to-safely-store-a-password/)
@@ -629,6 +645,7 @@
             [Python 语言在企业应用方面遭遇的十大谬误](http://www.oschina.net/translate/10-myths-of-enterprise-python)
             [python 日报](http://py.memect.com/)
             [Python初学者的资源总结](http://www.jianshu.com/p/9a3e1229c810)
+            [python3 feature](http://www.asmeurer.com/python3-presentation/slides.html#1)
 
         ### javascript
             mixins: 
@@ -683,6 +700,9 @@
 
             [A Critique of Rust's `std::collections`](http://ticki.github.io/blog/horrible/)
             ! [Fighting the Borrow Checker](https://m-decoster.github.io/2017/01/16/fighting-borrowchk/)
+
+            [performance]
+                https://llogiq.github.io/2017/06/01/perf-pitfalls.html
 
 
        
@@ -775,6 +795,7 @@
 
     ![The Philosophy of BOJACK HORSEMAN – Wisecrack Edition](https://www.youtube.com/watch?v=rORIDYHOFTQ)
     [What reality are you creating for yourself? | Isaac Lidsky](https://www.youtube.com/watch?v=cmpu58yv8-g)
+    [我们做了一份互联网租房市场报告，或许也是干货版毕业季租房避坑指南](http://36kr.com/p/5078755.html)
 
     # 面试
         ! https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6

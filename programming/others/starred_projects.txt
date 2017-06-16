@@ -133,6 +133,9 @@
   # blogs
     https://github.com/xitu/gold-miner
 
+  # doc
+    https://github.com/esdoc/esdoc
+
   # Others
 
     [awesome-nodejs-projects](https://github.com/sqreen/awesome-nodejs-projects?utm_source=nodeweekly&utm_medium=email)

@@ -44,7 +44,8 @@
 
     [Web编程入门经典：HTML、XHTML和CSS].杜静.敖富江:D
     [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31 | :P:S
-    [Reactive.Programming.with.RxJS.2015.12]|2017.06.12-2018.06.14|:D
+    [Reactive.Programming.with.RxJS.2015.12]|2017.06.12-2017.06.14|:D
+    [OReilly.Creating.Web.Animations.2017.3]|2017.06.15-2017.06.16|:D
 
 [PYTHON]
 
@@ -147,6 +148,8 @@
     [OReilly.Think.Stats.2nd.Edition.2014.10]|2016.11.06-~
     [Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition.2016.8] | 2016.10.27-~
     [Algorithms of the Intelligent Web]|2014 - ~
+    [Manning.Functional.Programming.in.JavaScript]|2016.11.24-~
+
 
 [ONGOING]
     
@@ -154,10 +157,11 @@
     [30 days to a better man, by Brett McKay]|2016.11.05-~
     [The Intelligent Investor by Benjamin Graham]|2016.11.16-~
     [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
-    [Manning.Functional.Programming.in.JavaScript]|2016.11.24-~
     [Computer Systems A Programmer's Perspective]|2016.12.03-~
     [investment for dummies]|2017.02-~
-
+    [stock investing for dummies]|2017.06-~
+    [像哲学家一样思考. 卷2]|2017.06-~
+    
 
 
 [NO MORE INTERESTED] - THIS SHOULD ALL MARK WITH NOT-RECOMMENDED (-)

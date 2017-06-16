@@ -2,14 +2,14 @@
 个人博客
 
 ## About Me
-男, 27岁。目前在北京从事专职的前端开发工作。主要应用AngularJS和ReactJS。个人主要的编程语言是 JS.
-从事过近2年的 java web 方面的开发和两年的职业前端工作。技术兴趣广泛，喜欢前沿的技术和知识，
-当前的目标成为一枚合格的全栈工程师。
+Hi, there! 欢迎来到我的博客，这里我会记录一些乱起杂八的东西，希望你能在我的杂货铺中有些收获。我呢，是一枚在北京工作
+的前端工程师，无聊的没事干就会看些书籍打发时间，偶尔也会记录一些文字，如果你发现文笔不好逻辑乱套，希望你不要介意，因为
+我也发现了都没介意呢 :)
 
 ##### keywords
 language: javascript, java, scala, python, golang, typescript, rust, nodejs
 
-FE-frameworks or libs: jquery, reactjs, angularjs1.x, angularjs2.x, underscore, three.js, rxjs,
+frameworks or libs: jquery, reactjs, angularjs1.x, angularjs2.x, underscore, three.js, rxjs,
 
 build tool: gulp, grunt, maven, sbt
 
