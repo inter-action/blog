@@ -154,6 +154,7 @@
         ### JS
             ! [Philip Roberts: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
             ! [requestAnimationFrame](http://creativejs.com/resources/requestanimationframe/)
+            [script tag async vs defer](https://stackoverflow.com/questions/10808109/script-tag-async-defer)
             [offsetwidth, scrollwidth, clientwidth..](http://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
 
             [detect javascript memory leak with chrome dev tools]
@@ -192,6 +193,10 @@
                     flow:
                         [flow cheatsheet](http://www.saltycrane.com/blog/2016/06/flow-type-cheat-sheet/)
                         [flow advance feature](http://sitr.us/2015/05/31/advanced-features-in-flow.html)
+
+                    HMR(hot module replacement):
+                        [difference between webpack HMR vs React Module HMR](https://github.com/facebookincubator/create-react-app/issues/1063)
+                        [Express结合Webpack的全栈自动刷新](http://acgtofe.com/posts/2016/02/full-live-reload-for-express-with-webpack)
 
 
         ### scalajs
@@ -245,6 +250,10 @@
         ### performance
             [](https://css-tricks.com/case-study-boosting-front-end-performance/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
             [Front-End Performance Checklist 2017](https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/)
+            
+        ### webassembly
+            [webassembly with rust](http://asquera.de/blog/2017-04-10/the-path-to-rust-on-the-web/)
+
             
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)

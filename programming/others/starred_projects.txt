@@ -8,9 +8,13 @@
       [skeleton](https://github.com/dhg/Skeleton/)
       [css3 loading effects](https://github.com/tobiasahlin/SpinKit)
 
-    #yoman
-      https://github.com/yeoman/generator-webapp#readme
-      https://github.com/newtriks/generator-react-webpack
+    #scaffolding
+      yoman
+        https://github.com/yeoman/generator-webapp#readme
+        https://github.com/newtriks/generator-react-webpack
+
+      plopjs
+        https://plopjs.com/documentation/#getting-started
 
     # build cross platform app with electron
       [electronic-wechat]https://github.com/geeeeeeeeek/electronic-wechat

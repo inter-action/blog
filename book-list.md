@@ -161,6 +161,10 @@
     [investment for dummies]|2017.02-~
     [stock investing for dummies]|2017.06-~
     [像哲学家一样思考. 卷2]|2017.06-~
+    [小男孩儿长大后]|2017.06.10-~
+    [TCP/IP 详解卷一]|2017.05-~
+    
+
     
 
 
