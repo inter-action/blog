@@ -224,3 +224,4 @@ this.$refs.dialog.open(h=>h('h1', {props:{onClick: ()=>console.debug('i got clic
 可以看到通过这种方式，解决了弹出框组件自定义内容的问题，但是还有些问题需要优化的。
 * 首先，这种api，在引入封装的dialog组件后，需要在调用者components中声明，然后在调用者template插入此组件节点，比较繁琐
 * 还有可以看出vue在动态创建组件上，完全没有react简单，可以说比较复杂。
+* ref 因为不能接收回调，`ref={v=>this.x=v}`这种形式导致没有有效的方式通过这种新式引用到动态嵌入组件定义的方法。
