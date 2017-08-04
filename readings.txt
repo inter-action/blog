@@ -21,6 +21,8 @@
         [](https://mobiarch.wordpress.com/)
         [](https://beachape.com/)
     
+        golang:
+            - https://rakyll.org/
     
     
 
@@ -109,12 +111,17 @@
                 http://www.w3cplus.com/svg/svg-fill-stroke.html
 
             [animate 动画]
-                [css-animation-for-beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
-                [css translate3d](http://www.w3cplus.com/css3/css3-3d-transform.html)
-                [keyframe-animation-syntax](https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
-                [A Guide to Browser Scroll Animations](http://developer.telerik.com/featured/guide-browser-scroll-animations/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
-                [step function](https://designmodo.com/steps-css-animations/)
-                [css animation tutorial](https://www.youtube.com/watch?v=jgw82b5Y2MU&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5)
+                css animation:
+                    [css-animation-for-beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
+                    [css translate3d](http://www.w3cplus.com/css3/css3-3d-transform.html)
+                    [keyframe-animation-syntax](https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
+                    [A Guide to Browser Scroll Animations](http://developer.telerik.com/featured/guide-browser-scroll-animations/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
+                    [step function](https://designmodo.com/steps-css-animations/)
+                    [css animation tutorial](https://www.youtube.com/watch?v=jgw82b5Y2MU&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5)
+
+                webanimation api:
+                    https://css-tricks.com/css-animations-vs-web-animations-api/
+                    http://danielcwilson.com/blog/2015/07/animations-part-1/
 
             libs
                 animate
@@ -252,6 +259,9 @@
             [Front-End Performance Checklist 2017](https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/)
             
         ### webassembly
+            [introduction]
+                https://www.youtube.com/watch?v=Q-4WauNGRSo
+                
             [webassembly with rust](http://asquera.de/blog/2017-04-10/the-path-to-rust-on-the-web/)
                 https://medium.com/@ianjsikes/get-started-with-rust-webassembly-and-webpack-58d28e219635
 
@@ -412,6 +422,7 @@
                 ! [使用JWT](http://haomou.net/2014/08/13/2014_web_token/)
                 [JWT introduction](https://jwt.io/introduction/)
                 [node simple jwt implemetation](https://github.com/hokaccha/node-jwt-simple/blob/master/lib/jwt.js)
+                [JWT Server端的认证](https://zhuanlan.zhihu.com/p/27370773?hmsr=toutiao.io)
 
             [Oauth 2]
                 ! [](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
@@ -433,6 +444,7 @@
     [view-counting-at-reddit](https://redditblog.com/2017/05/24/view-counting-at-reddit/)
 
 # Tools
+    [tmux](https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340)
 
     IDEA
         http://laobie.github.io/android/2016/02/14/android-studio-tips.html
@@ -460,6 +472,7 @@
                 Local hook vs Server hook
 
             [git rebase vs merge](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
 
 # native mobile
 
@@ -566,13 +579,15 @@
             http://www.thegeekstuff.com/2012/04/route-examples
 
 # security
+    web_security:
+        [](https://blog.haschek.at/2017/how-to-defend-your-website-with-zip-bombs.html)
+            用gzip产生的10m压缩文件，返回html内容，产生巨大的html内容样客户端过载
+
     [](https://codahale.com/how-to-safely-store-a-password/)
         [salt](https://en.wikipedia.org/wiki/Salt_(cryptography))
         [bcrpt](https://en.wikipedia.org/wiki/Bcrypt)
             记住这一句就够用了:
                 bcrypt is an adaptive function: over time, the iteration count can be increased to make it slower, so it remains resistant to brute-force search attacks even with increasing computation power.
-
-
 
 
 # Programming Language & methodolgy
@@ -780,7 +795,13 @@
     [force-files-to-download-not-open-in-browser](https://css-tricks.com/snippets/htaccess/force-files-to-download-not-open-in-browser/)
     [涉及 工作方面的思想](http://open.leancloud.cn/)
 
+    [Parser Ast lexier]
+        https://en.wikipedia.org/wiki/Syntax_(programming_languages)
+        https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form
 
+
+    [state machine](http://blog.markshead.com/869/state-machines-computer-science/)
+    [Beginner's guide to git rebasing and squashing](https://shinglyu.github.io/web/2016/11/08/servo-rebase-and-squash-guide.html)
 
 
 # economics
