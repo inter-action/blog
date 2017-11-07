@@ -330,10 +330,28 @@ tips:
 
 ## chapter 11: Investing in Real Estate
 
+房产投资:
+    * features
+        * 可以用杠杆(leverage)
+        * 可以增值，并且有租金回报, 通过修缮和装修可以进一步增加价值
+        * 满足虚荣心
+        * long term
+
+    * ppl should stay away from real estate investment
+        * You’re time starved and anxious. 
+        * You’re not interested in real estate.
+
+
+
 
 tips:
-* 房产投资一定要考虑税率，以及如何工作的
+* 房产投资需要考虑的: 税率策略，房产检查，估值(房租，listed sells, 附近的环境，比价-历史价格&同类价格对比，proper house inspection, )
+* 房产可以有seminars(研讨会)可以参加，
+* You can hire a property manager to help with screening and finding good tenants and troubleshooting problems with the building you purchase
 
+
+* words:
+    * down payment: 首付
 
 ## others
 

@@ -4,10 +4,16 @@
 
 
   # FE
+    lit-html - HTML template literals in JavaScript
+      https://github.com/PolymerLabs/lit-html
+
     css
       [skeleton](https://github.com/dhg/Skeleton/)
       [css3 loading effects](https://github.com/tobiasahlin/SpinKit)
 
+    # cms, web builder:
+      https://github.com/artf/grapesjs
+      
     #scaffolding
       yoman
         https://github.com/yeoman/generator-webapp#readme
@@ -34,6 +40,9 @@
       enzyme - JavaScript Testing utilities for React
         https://github.com/airbnb/enzyme/
 
+      react-mosaic - window manager
+        https://github.com/palantir/react-mosaic
+
 
     # ios
       [v2ex ios 3rd party client]https://github.com/Finb/V2ex-Swift
@@ -53,11 +62,21 @@
 
     # music visualiation
       https://github.com/jiin/dancing-torus
+
+    # typescript:
+      axios - 主要参考下 typings 的定义
+        https://github.com/axios/axios/blob/master/index.d.ts
+
+    # others
+      lerna - A tool for managing JavaScript projects with multiple packages.
+        https://github.com/lerna/lerna
       
   # BE
     golang:
       https://github.com/jolestar/go-commons-pool
-
+      riot - Go Open Source, Distributed, Simple and efficient Search Engine
+        https://github.com/go-ego/riot
+        
     scala:
       https://github.com/lihaoyi/utest # too hard for me now
       [slack bot written in scala](https://github.com/ScalaConsultants/scala-slack-bot-core)
@@ -97,6 +116,12 @@
       
     golang: 
       falcon-plus - An open-source and enterprise-level monitoring system.
+      gin - Gin is a HTTP web framework written in Go (Golang).
+        https://github.com/gin-gonic/gin
+
+    others:
+      gdbgui - Browser-based frontend to gdb (gnu debugger).
+        https://github.com/cs01/gdbgui
 
 
   # Fullstack

@@ -54,7 +54,8 @@
         [Journey to HTTP/2](http://kamranahmed.info/blog/2016/08/13/http-in-depth/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
         
 
-    ## front
+    ## front end
+        [The whole web at maximum FPS: How WebRender gets rid of jank](https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/)
         [shadow dom]
             (http://www.html5rocks.com/zh/tutorials/webcomponents/shadowdom/)
             https://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/#toc-style-host
@@ -69,6 +70,7 @@
         [SVG图标在移动端的应用](http://ued.ctrip.com/blog/?p=3893)
 
         [前段代码加密](http://div.io/topic/1220)
+        [反击爬虫，前端工程师的脑洞可以有多大](http://litten.me/2017/07/09/prevent-spiders/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
         ### perspective
             [2015 前端[JS]工程师必知必会](http://zhuanlan.zhihu.com/FrontendMagazine/20002850)
@@ -142,6 +144,8 @@
                 [走向视网膜（Retina）的Web时代](http://www.w3cplus.com/css/towards-retina-web.html)
 
 
+            [postcss]
+                [Using PostCSS with BEM and SUIT Methodologies](https://webdesign.tutsplus.com/tutorials/using-postcss-with-bem-and-suit-methodologies--cms-24592)
 
 
         ### mobile html5
@@ -164,6 +168,9 @@
             [script tag async vs defer](https://stackoverflow.com/questions/10808109/script-tag-async-defer)
             [offsetwidth, scrollwidth, clientwidth..](http://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
 
+            [es7]
+                [Exploring EcmaScript Decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)
+
             [detect javascript memory leak with chrome dev tools]
                 [google official explaination] (https://developer.chrome.com/devtools/docs/javascript-memory-profiling)
                 [javascript memory leak pattern] (http://www.ibm.com/developerworks/web/library/wa-memleak/?S_TACT=105AGX52&S_CMP=cn-a-wa)
@@ -174,7 +181,13 @@
                 http://coding.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools/
                 http://coding.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/
 
+
             libaries
+
+                rxjs
+                    [Debugging RxJS, Part 1: Tooling](https://blog.angularindepth.com/debugging-rxjs-4f0340286dd3)
+                    [Growing Pains: Migrating Slack’s Desktop App to BrowserView](https://slack.engineering/growing-pains-migrating-slacks-desktop-app-to-browserview-2759690d9c7b)
+                    
 
                 react
                     !! [redux vedio tutorial](https://egghead.io/series/getting-started-with-redux)
@@ -221,7 +234,10 @@
             [App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)
             [sw-precache](https://github.com/GoogleChrome/sw-precache)
             ! [offline cook book](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/#on-background-sync)
-
+            ! [Building an offline-first app with React and RxDB](https://blog.logrocket.com/building-an-offline-first-app-with-react-and-rxdb-e97a1fa64356?t=7)
+            [Progressive Web Apps with React.js]
+                [Part I — Introduction](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-i-introduction-50679aef2b12)
+                ! [Part 2 — Page Load Performance](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-2-page-load-performance-33b932d97cf2)
 
 
         ### blogs
@@ -266,6 +282,11 @@
                 https://medium.com/@ianjsikes/get-started-with-rust-webassembly-and-webpack-58d28e219635
 
             
+        ### webpack
+            [code splitting]
+                [webpack official doc](https://webpack.js.org/guides/code-splitting/)
+                [在Webpack中使用Code Splitting实现按需加载](http://www.alloyteam.com/2016/02/code-split-by-routes/)
+
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
         [Worktile中的实时消息推送服务实现](https://worktile.com/tech/basic/worktile-real-time-notice)
@@ -296,6 +317,7 @@
             [正向代理与反向代理的区别](http://bigc.at/reverse-proxy.orz)
             [HTTPS的七个误解](http://www.ruanyifeng.com/blog/2011/02/seven_myths_about_https.html)
             [HTTPS 证书申请] (http://www.startssl.com/)
+            [HTTPS and Go](https://www.kaihag.com/https-and-go/)
 
             [haproxy https]
                 http://seanmcgary.com/posts/using-sslhttps-with-haproxy
@@ -395,7 +417,9 @@
                 没看很懂, 但是debug方法很高端
                 
             [nodejs modules](https://nodejs.org/api/modules.html#modules_module_caching_caveats)
+                [The File System & fs Module](https://blog.risingstack.com/mastering-the-nodejs-core-modules-file-system-fs-module/)
             Node.js 8: util.promisify() - http://2ality.com/2017/05/util-promisify.html
+            [api gateway using nodejs](https://blog.risingstack.com/building-an-api-gateway-using-nodejs/)
 
 
 
@@ -409,7 +433,12 @@
             https://pressable.com/blog/2014/12/11/understanding-dns-record-types/
             https://pressable.com/blog/2014/12/23/dns-record-types-explained/
 
+        ### devops
+            https://blog.risingstack.com/moving-node-js-from-paas-to-kubernetes-tutorial/
+
+
         ### others
+            [Concurrent Servers: Part 3 - Event-driven](https://eli.thegreenplace.net/2017/concurrent-servers-part-3-event-driven/)
             [自己动手开发网络服务器（三）](http://codingpy.com/article/build-a-simple-web-server-part-three/)
                 python fork 会复制文件描述符, 子进程需要及时关闭从父进程copy过来的 file descriptor
                 父进程需要等待子进程的关闭(os.wait, os.waitpid), 否则会出现僵尸进程
@@ -430,6 +459,9 @@
 
             [AWS]
                 ! [](https://www.expeditedssl.com/aws-in-plain-english)
+
+            [GraphQL]
+                GraphQL tutorial - https://www.youtube.com/watch?v=PEcJxkylcRM&index=1&list=PLillGF-RfqbYZty73_PHBqKRDnv7ikh68
 
     ## desktop app:
         [slack - Building Hybrid Applications with Electron](https://slack.engineering/building-hybrid-applications-with-electron-dc67686de5fb#.fs6sprhni)
@@ -515,6 +547,7 @@
     ## data structure:
         ![](https://www.tutorialspoint.com/data_structures_algorithms)
         [trie](https://www.youtube.com/watch?v=RIUY7ieyH40)
+        ! [10 Common Data Structures Explained with Videos + Exercises](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
 
 # machine learning:
     !![A Friendly Introduction to Machine Learning](https://www.youtube.com/watch?v=IpGxLWOIZy4&t=2s)
@@ -524,6 +557,7 @@
         ORC-(图像转文字)
         make sure dev & test dataset from same distribution - @43 mins mark
     ![Machine Learning: Measuring Similarity and Distance](https://dzone.com/articles/machine-learning-measuring)
+    [一文读懂遗传算法工作原理（附Python实现）](http://mp.weixin.qq.com/s/rXDj5ryRvjbkenp9IEokDQ)
 
 
     ## Deep Leaning
@@ -552,6 +586,30 @@
 
 # System Programming:
     [using libraries](https://rufflewind.com/2017-02-25/using-libraries)
+    [An Intro to Compilers - LLVM](https://nicoleorchard.com/blog/compilers)
+
+    [Build System]
+        [cmake vs make](https://www.quora.com/What-is-the-difference-between-CMake-and-make)
+
+    [memory alignment](https://en.wikipedia.org/wiki/Data_structure_alignment)
+    [Understanding C by learning assembly](https://www.recurse.com/blog/7-understanding-c-by-learning-assembly)
+    [install gdb on mac, for security reason, i skip it](http://panks.me/posts/2013/11/install-gdb-on-os-x-mavericks-from-source/)
+    [linux 的c header files 检索](http://elixir.free-electrons.com/linux/v4.13-rc7/source/lib/bch.c)
+        /user/include 下面也可以
+
+
+    Assembly 
+        [intel software manual, for reference assembly](https://software.intel.com/en-us/articles/intel-sdm)
+        [Linux 汇编语言开发指南](https://www.ibm.com/developerworks/cn/linux/l-assembly/index.html)
+        [tail call optimiztion](https://spin.atomicobject.com/2014/11/05/tail-call-recursion-optimization/)
+            直接跳到最后，优化说白了就是直接利用jmp, 跳转到对应位置再重新执行，可以完全理解为将代码优化成了 for-loop
+
+
+
+
+# Graphic Programming:
+
+    [vulkan tutorial]( https://vulkan-tutorial.com/Introduction)
 
 
 # computer network:
@@ -735,6 +793,7 @@
 
         ### golang
             [go by example](https://gobyexample.com/)
+            [Go并发机制.md](https://github.com/k2huang/blogpost/blob/master/golang/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6/Go%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6.md)
 
 
     ## programming methodolgy
@@ -774,6 +833,7 @@
     [The Programmer’s Guide to Booking a Concert](https://medium.com/@sinahab/the-programmers-guide-to-booking-a-concert-e048a580735f#.f71f1v2mo)
     ![What are the greatest programming tips and tricks you have learned on your own by years of coding?](https://www.quora.com/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding/answer/Jerome-Terry-1)
     [build a MVP: the right way to do it](https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83#.h0erw5m0u)
+    [What are some of the most basic things every programmer should know](http://brianknapp.me/most-basic-things-every-programmer-should-know/)
 
 
 # others
@@ -827,6 +887,7 @@
     ![The Philosophy of BOJACK HORSEMAN – Wisecrack Edition](https://www.youtube.com/watch?v=rORIDYHOFTQ)
     [What reality are you creating for yourself? | Isaac Lidsky](https://www.youtube.com/watch?v=cmpu58yv8-g)
     [我们做了一份互联网租房市场报告，或许也是干货版毕业季租房避坑指南](http://36kr.com/p/5078755.html)
+    [纪伯伦语录](http://www.liuxue86.com/a/2946649.html)
 
     # 面试
         ! https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6
@@ -841,6 +902,11 @@
         shirts:
             [](http://www.untuckit.com/pages/4-tips-on-wearing-your-shirt-untucked)
             [](http://www.gq.com/story/when-to-tuck-in-your-shirt)
+        [How to Accept a Compliment, Give One In Return & What Mistakes To Avoid](https://www.youtube.com/watch?v=_EKXNmM1PUo&feature=youtu.be)
+        [How to Get to Know Someone: 53 Great Questions to Ask](https://www.gentlemansgazette.com/how-to-get-to-know-someone/)
+
+        减肥:
+            [你真的了解间歇性禁食减肥法吗](http://fitness.39.net/a/170413/5280511.html)
 
 
     ## photography & camera

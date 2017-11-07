@@ -113,6 +113,7 @@
     [lonely planet. best travel tips]|2017.03.26|:D
     !! [像哲学家一样思考. 卷1]|2017.02.12-~2017.04|:D
     [到南半球一切都变了.刘小顺]|2017.03-2017.04|:D
+    [小男孩儿长大后]|2017.06.10|:D
 
 [SUSPENDED] - clean books that is no more appealing
 
@@ -161,8 +162,11 @@
     [investment for dummies]|2017.02-~
     [stock investing for dummies]|2017.06-~
     [像哲学家一样思考. 卷2]|2017.06-~
-    [小男孩儿长大后]|2017.06.10-~
     [TCP/IP 详解卷一]|2017.05-~
+    [Apress.Low-Level.Programming]|2017.08-~
+    [无比繁杂的小情绪.春上村树]|2017.06-~
+    [Packt.Go.Building.Web.Applications.2016.8]|2017.10-~
+
     
 
     
