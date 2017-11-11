@@ -123,6 +123,8 @@
       gdbgui - Browser-based frontend to gdb (gnu debugger).
         https://github.com/cs01/gdbgui
 
+      como-lang-ng - A programming language prototype implemented in C with an AST, Compiler, and Virtual Machine \@TODO Garbage Collection
+        https://github.com/rmccullagh/como-lang-ng
 
   # Fullstack
 

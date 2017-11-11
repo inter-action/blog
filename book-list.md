@@ -80,6 +80,7 @@
 [golang]
 
     [Packt.Mastering.Go.Web.Services.2015.4]|2015.11:D
+    [Packt.Go.Building.Web.Applications.2016.8]|2017.10-2017:11.20|:D
 
 [system]
     [Beginning.Linux.Programming 4th]|2017.01.10-2017.03.20|:D
@@ -165,7 +166,7 @@
     [TCP/IP 详解卷一]|2017.05-~
     [Apress.Low-Level.Programming]|2017.08-~
     [无比繁杂的小情绪.春上村树]|2017.06-~
-    [Packt.Go.Building.Web.Applications.2016.8]|2017.10-~
+    
 
     
 

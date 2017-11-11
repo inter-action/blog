@@ -71,6 +71,7 @@
 
         [前段代码加密](http://div.io/topic/1220)
         [反击爬虫，前端工程师的脑洞可以有多大](http://litten.me/2017/07/09/prevent-spiders/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+        [利用 javascript 实现富文本编辑器](http://eux.baidu.com/blog/2017/11/%E5%88%A9%E7%94%A8-javascript-%E5%AE%9E%E7%8E%B0%E5%AF%8C%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
         ### perspective
             [2015 前端[JS]工程师必知必会](http://zhuanlan.zhihu.com/FrontendMagazine/20002850)

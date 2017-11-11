@@ -1,3 +1,12 @@
+# NOTICE & SUMMERY
+
+总体上这本书，是3本书的合集，应该。书的时间也比较久，出的，导致有些库(package)里边介绍的，都已经过时了，仓库都很难找到了。书中
+提供的价值和参考并没有我期望的那么大（可能好多内容我已经熟悉了）, 就当对前年golang的复习了。也就算ok了整体上的内容。 3.5-4星吧。而且书中有些细小的错误，实例代码也有。
+
+本书的代码我也有Fork，加了些标注， 地址: [https://github.com/CrazyFork/Go-Building-Web-Applications](https://github.com/CrazyFork/Go-Building-Web-Applications)
+
+
+# golang
 ### golang basics
 
 * go get:
@@ -342,37 +351,197 @@ todos:
 ### chapter 4: Data Integrity in an Application
 
 demos:
+* go with c, how to call each other in their domain
+* Getting even lower – assembly in Go, 
+    * this section is skipped due to unnecessary
+* demos different concurrency pattern
+    * Distributed shared memory
+    * First-in-first-out – PRAM (Pipelined RAM (PRAM) )
+    * master-slave model
+    * producer-consumer
+    * leader-follower
+
+* introduce memcached
+* introduce Circuit
+
 
 notes:
 
 todos:
 
 
-### chapter 4: Data Integrity in an Application
+### chapter 5: Locks, Blocks, and Better Channels
+
+demos:
+* Pprof – yet another awesome tool, 这一节之前好像就介绍了 channel 的几种用法, 然后就没搞什么了
+    * channel type of struct, interface , function & channel
+    * use channel to create a block(serialized) execution
+    * 
+* Pprof tool, how to use it.
+
+
+
+notes:
+* QuoteMeta: escape regular expression meta characters.
+
+
+todos:
+p474 到底说的是啥
+
+### chapter 6: C10K – A Non-blocking Web Server in Go
+
+demos:
+* this chapter starts off by introducing the c10k problem, that is serving 10k concurrent connection on a single server
+    then the author compared a bare file server performance between apache web server and a go implemented simple file server.
+    after that, the author then 
+    * added dynamic template parsing to the server, then benchmarked it. 
+    * precompiled the template, then benchmarek it
+    * added mysql db, then benchedmarked it
+    * suggested futhur optimization by limited Read & Write timeout
+
+
+
+notes:
+
+todos:
+apache ab tool
+
+
+### chapter 7: Performance and Scalability
+
+
+demos:
+* more example usage of Pprof tool
+* Distributed go, some topologies (with some level implementation of course), including:
+    * star
+    * mesh
+    * The Publish and Subscribe model
+        * Serialized data
+        * Remote code execution (not recommend, various security reason )
+    * 
+
+* Message Passing Interface:
+    * MPI was borne from early 1990s academia as a standard for distributed communication.
+    * it is still a protocol, so it's largely language agnostic.
+    * For the most part, MPI is used by the scientic community; it is a highly concurrent and analogous method for building large-scale distributed systems.
+
+* some profiling tool, most of them are outdated
+
+* memory , stack info using `runtime.MemProfileRecord` 
+
+notes:
+
+todos:
+`pprof.Lookup("goroutine").WriteTo(os.Stdout, 1)`
+Google App Engine
+
+
+
+
+
+### chapter 8: Concurrent Application Architecture
 
 demos:
 
 notes:
+* about mongodb: 
+    > Mongo has also gotten a bit of a bad rap as it pertains to fault tolerance and data loss, but this is equally true of many NoSQL solutions. 
+* give brief introduction on various nosql, the outstanding ones are:
+    * redis
+    * cassandra
+    * couchbase
+
+* create a example project that versions file changes:
+    * a core file that monitor all file changes, then broadcast changes to interested clients
+    * a example client that can make connection to server's message, then do the backup job
+    * a cli tool that revision file(cover file from a old backup)
+
+
+
 
 todos:
 
 
-### chapter 4: Data Integrity in an Application
+### chapter 9: Logging and Testing Concurrency in Go
+
+
 
 demos:
+* different logging methods
+    * to console
+    * to file
+    * to a network
+    * concurrent logging each goroutine with a dedicated logger
+    * how utilize log4go package
+    * how to capture panic error with recover
 
 notes:
 
 todos:
+
+
+
+
+# dictionary
+* crany: ill tempered
+* mitigation: the action of reducing severity, seriousness, painfulness
+
+
+
+### chapter 10: Logging and Testing Concurrency in Go
+
+
+demos:
+* a various use cases of channel
+    * timeout, interval
+    * typeless channel
+    * notify channel close with `tomb` package
+
+notes:
+
+* go channel:
+    * closed channel & nil channel
+        * closed channel is channel that has been closed
+        * a nil channel is channel that has never been initialized, 
+            * select a nil channel will cause a permenent block.
+            * send would sliently fail
+    * can channel be closed at sender end? 
+        * if so, can messege be guarantee to reach recieving end?
+            * ANS: it seems so, but after that, sending to a closed channel causes panic
+
+todos:
+go channel: `case _,ok := <-conChan:`
+    * difference between a buffered channel with a unbuffered channel
+
+
+
 
 
 
 # libs
-* [nsq](https://github.com/nsqio/nsq) - A realtime distributed messaging platform 
 * [cors](https://github.com/fasterness/cors) - cors
-* [mgo](https://github.com/go-mgo/mgo) - The MongoDB driver for Go
 * [graceful](https://github.com/tylerb/graceful) - Graceful is a Go package enabling graceful shutdown of an http.Handler server.
 * [is](https://github.com/cheekybits/is) - A mini testing helper for Go
+* [tomb](https://github.com/go-tomb/tomb/tree/v2) - https://github.com/go-tomb/tomb/tree/v2
+* db
+    * sql 
+        * [mysql](https://github.com/go-sql-driver/mysql) - mysql db driver
+
+    * nosql
+        * [redis](https://github.com/go-redis/redis) - Type-safe Redis client for Golang
+        * [mgo](https://github.com/go-mgo/mgo) - The MongoDB driver for Go
+        
+
+* distributed system
+    * [nsq](https://github.com/nsqio/nsq) - A realtime distributed messaging platform 
+    * [gomemcache](https://github.com/bradfitz/gomemcache) - Go Memcached client library
+    * [Circuit](https://github.com/gocircuit/circuit) - Dynamic cloud orchestration
+    * [consul](https://github.com/hashicorp/consul) - Service Discovery and Configuration Made Easy
+
+    * serialization
+        * [protobuf](https://github.com/golang/protobuf) - Go support for Google's protocol buffers
+    * rpc
+        * [gRpc](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC
 
 
 
