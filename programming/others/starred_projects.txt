@@ -76,6 +76,14 @@
       https://github.com/jolestar/go-commons-pool
       riot - Go Open Source, Distributed, Simple and efficient Search Engine
         https://github.com/go-ego/riot
+
+      !traefik - Træfik, a modern reverse proxy 
+        https://github.com/containous/traefik
+      syncthing - Open Source Continuous File Synchronization 
+        https://github.com/syncthing/syncthing
+        
+      toxiproxy - A TCP proxy to simulate network and system conditions for chaos and resiliency testing 
+        https://github.com/shopify/toxiproxy#clients
         
     scala:
       https://github.com/lihaoyi/utest # too hard for me now

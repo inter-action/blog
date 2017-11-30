@@ -239,6 +239,7 @@
             [Progressive Web Apps with React.js]
                 [Part I — Introduction](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-i-introduction-50679aef2b12)
                 ! [Part 2 — Page Load Performance](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-2-page-load-performance-33b932d97cf2)
+            ! [A React And Preact Progressive Web App Performance Case Study: Treebo](https://medium.com/dev-channel/treebo-a-react-and-preact-progressive-web-app-performance-case-study-5e4f450d5299)
 
 
         ### blogs
@@ -281,6 +282,10 @@
                 
             [webassembly with rust](http://asquera.de/blog/2017-04-10/the-path-to-rust-on-the-web/)
                 https://medium.com/@ianjsikes/get-started-with-rust-webassembly-and-webpack-58d28e219635
+            [](https://developer.mozilla.org/en-US/docs/WebAssembly)
+            [](https://hacks.mozilla.org/category/code-cartoons/a-cartoon-intro-to-webassembly/)
+
+            
 
             
         ### webpack
@@ -467,6 +472,10 @@
     ## desktop app:
         [slack - Building Hybrid Applications with Electron](https://slack.engineering/building-hybrid-applications-with-electron-dc67686de5fb#.fs6sprhni)
 
+    ## aws
+        [The Complete AWS Web Boilerplate](https://medium.freecodecamp.org/the-complete-aws-web-boilerplate-d0ca89d1691f)
+
+
     ## tools
         chrome dev:
             [Debugging The Web](https://www.youtube.com/watch?v=HF1luRD4Qmk)
@@ -597,7 +606,8 @@
     [install gdb on mac, for security reason, i skip it](http://panks.me/posts/2013/11/install-gdb-on-os-x-mavericks-from-source/)
     [linux 的c header files 检索](http://elixir.free-electrons.com/linux/v4.13-rc7/source/lib/bch.c)
         /user/include 下面也可以
-
+    [认真分析mmap：是什么 为什么 怎么用](http://www.cnblogs.com/huxiao-tee/p/4660352.html)
+    ! [code section](https://en.wikipedia.org/wiki/Data_segment)
 
     Assembly 
         [intel software manual, for reference assembly](https://software.intel.com/en-us/articles/intel-sdm)
@@ -795,6 +805,11 @@
         ### golang
             [go by example](https://gobyexample.com/)
             [Go并发机制.md](https://github.com/k2huang/blogpost/blob/master/golang/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6/Go%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6.md)
+            [HTTP(S) Proxy in Golang in less than 100 lines of code](https://medium.com/@mlowicki/http-s-proxy-in-golang-in-less-than-100-lines-of-code-6a51c2f2c38c)
+            ! [The complete guide to Go net/http timeouts](https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/)
+                讲了golang中的timeout机制，需要注意的是文中提及的不要使用package level的serveAndListen，应该是先create 一个server instance， then call server instance's method to listen http request. or you'll be 
+                bypassing the timeout rules
+
 
 
     ## programming methodolgy
@@ -890,6 +905,8 @@
     [我们做了一份互联网租房市场报告，或许也是干货版毕业季租房避坑指南](http://36kr.com/p/5078755.html)
     [纪伯伦语录](http://www.liuxue86.com/a/2946649.html)
 
+    # carrier
+        ! [Programmer: Reality vs Expectations (Computer Programmer) Part 2](https://www.youtube.com/watch?v=QLkKmcNd-rk)
     # 面试
         ! https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6
         
@@ -917,6 +934,8 @@
     # music Fundamentals
         [Introduction To Music Theory - Understanding Notes, Major/Minor Keys And Chords - Part 1](https://www.youtube.com/watch?v=RfEx7sEMWd4)
 
+    # relationship
+        ! [10 questions to ask yourself before loving someone](https://medium.com/@angrytherapist/10-questions-to-ask-yourself-before-loving-someone-that-you-may-not-have-thought-of-before-61f841726c7c)
 
 
 ---------------------------------------------------------------------------------
