@@ -104,6 +104,8 @@
     恶意-东野奎吾|2014|:D
     放学后-东野奎吾|2014|:D
     The Girl Who Kicked the Hornet's Nest: Book 3 of the Millennium Trilogy - Stieg Larsson | 2014.06(14DAYS) |:D:R
+    天黑之后-村上村树|2017.12.16|:D
+
 
 [OHTERS]
 
@@ -115,6 +117,8 @@
     !! [像哲学家一样思考. 卷1]|2017.02.12-~2017.04|:D
     [到南半球一切都变了.刘小顺]|2017.03-2017.04|:D
     [小男孩儿长大后]|2017.06.10|:D
+    [无比繁杂的小情绪.春上村树]|2017.06-2017.12|:D
+    
 
 [SUSPENDED] - clean books that is no more appealing
 
@@ -165,7 +169,9 @@
     [像哲学家一样思考. 卷2]|2017.06-~
     [TCP/IP 详解卷一]|2017.05-~
     ! [Apress.Low-Level.Programming]|2017.08-~
-    [无比繁杂的小情绪.春上村树]|2017.06-~
+    [OReilly.Programming.Rust]|2017.12-~
+    [我不管，我就是要开咖啡馆-童铃]|2017.12.17-~
+    [Love Me Sweet-Tracy Brogan]|2018.01-~
     
 
     

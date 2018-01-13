@@ -55,6 +55,7 @@
         
 
     ## front end
+        [survivejs books](https://survivejs.com/react/)
         [The whole web at maximum FPS: How WebRender gets rid of jank](https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/)
         [shadow dom]
             (http://www.html5rocks.com/zh/tutorials/webcomponents/shadowdom/)
@@ -240,6 +241,7 @@
                 [Part I — Introduction](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-i-introduction-50679aef2b12)
                 ! [Part 2 — Page Load Performance](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-2-page-load-performance-33b932d97cf2)
             ! [A React And Preact Progressive Web App Performance Case Study: Treebo](https://medium.com/dev-channel/treebo-a-react-and-preact-progressive-web-app-performance-case-study-5e4f450d5299)
+            ! [A Tinder Progressive Web App Performance Case Study](https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0)
 
 
         ### blogs
@@ -255,6 +257,8 @@
                 https://github.com/amfe/lib-flexible
                 [网页的栅格系统设计](http://ued.taobao.org/blog/2008/09/grid_systems/)
                 ! [Bootstrap 栅格系统的精妙之处](http://segmentfault.com/a/1190000000743553)
+                ![Learn CSS Grid in 5 Minutes](https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228)
+                ![How to make your HTML responsive by adding a single line of CSS](https://medium.freecodecamp.org/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431)
 
         ### workflow
             [如何 10 倍提高你的 Webpack 构建效率](http://eternalsky.me/ru-he-10-bei-ti-gao-ni-de-webpack-gou-jian-xiao-lu/)
@@ -275,6 +279,10 @@
         ### performance
             [](https://css-tricks.com/case-study-boosting-front-end-performance/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
             [Front-End Performance Checklist 2017](https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/)
+            [](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
+            [react]
+                [React Performance Fixes on Airbnb Listing Pages](https://medium.com/airbnb-engineering/recent-web-performance-fixes-on-airbnb-listing-pages-6cd8d93df6f4)
+                
             
         ### webassembly
             [introduction]
@@ -292,6 +300,7 @@
             [code splitting]
                 [webpack official doc](https://webpack.js.org/guides/code-splitting/)
                 [在Webpack中使用Code Splitting实现按需加载](http://www.alloyteam.com/2016/02/code-split-by-routes/)
+                [webpack bits: Getting the most out of the CommonsChunkPlugin()](https://medium.com/webpack/webpack-bits-getting-the-most-out-of-the-commonschunkplugin-ab389e5f318)
 
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
@@ -442,6 +451,8 @@
         ### devops
             https://blog.risingstack.com/moving-node-js-from-paas-to-kubernetes-tutorial/
 
+        ### native modules:
+            [](https://blog.risingstack.com/node-js-native-modules-with-rust/)
 
         ### others
             [Concurrent Servers: Part 3 - Event-driven](https://eli.thegreenplace.net/2017/concurrent-servers-part-3-event-driven/)
@@ -558,6 +569,7 @@
         ![](https://www.tutorialspoint.com/data_structures_algorithms)
         [trie](https://www.youtube.com/watch?v=RIUY7ieyH40)
         ! [10 Common Data Structures Explained with Videos + Exercises](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
+        [Let’s Implement a Bloom Filter in Go](https://codeburst.io/lets-implement-a-bloom-filter-in-go-b2da8a4b849f)
 
 # machine learning:
     !![A Friendly Introduction to Machine Learning](https://www.youtube.com/watch?v=IpGxLWOIZy4&t=2s)
@@ -568,11 +580,13 @@
         make sure dev & test dataset from same distribution - @43 mins mark
     ![Machine Learning: Measuring Similarity and Distance](https://dzone.com/articles/machine-learning-measuring)
     [一文读懂遗传算法工作原理（附Python实现）](http://mp.weixin.qq.com/s/rXDj5ryRvjbkenp9IEokDQ)
+    [Generative Adversarial Networks (GANs) in 50 lines of code (PyTorch)](https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f)
 
 
     ## Deep Leaning
         !! [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
         [A super simple introduction to neural networks](http://www.mattzeunert.com/2016/12/09/neural-networks-super-simple-introduction.html)
+        [How backpropagation works, and how you can use Python to build a neural network](https://medium.freecodecamp.org/build-a-flexible-neural-network-with-backpropagation-in-python-acffeb7846d0)
 
 
 
@@ -614,6 +628,7 @@
         [Linux 汇编语言开发指南](https://www.ibm.com/developerworks/cn/linux/l-assembly/index.html)
         [tail call optimiztion](https://spin.atomicobject.com/2014/11/05/tail-call-recursion-optimization/)
             直接跳到最后，优化说白了就是直接利用jmp, 跳转到对应位置再重新执行，可以完全理解为将代码优化成了 for-loop
+        [x86 Assembly Guide](http://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
 
 
 
@@ -794,6 +809,7 @@
 
             [A Critique of Rust's `std::collections`](http://ticki.github.io/blog/horrible/)
             ! [Fighting the Borrow Checker](https://m-decoster.github.io/2017/01/16/fighting-borrowchk/)
+            ! [Cow, str -> String, into, From/Into trait](https://jwilm.io/blog/from-str-to-cow/)
 
             [performance]
                 https://llogiq.github.io/2017/06/01/perf-pitfalls.html
@@ -830,6 +846,7 @@
         Functional Programming:
             [Functional Programming]: http://en.wikipedia.org/wiki/Functional_programming
             [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
+            [](https://bartoszmilewski.com/2014/11/24/types-and-functions/)
 
 
  # hacking:
@@ -936,6 +953,19 @@
 
     # relationship
         ! [10 questions to ask yourself before loving someone](https://medium.com/@angrytherapist/10-questions-to-ask-yourself-before-loving-someone-that-you-may-not-have-thought-of-before-61f841726c7c)
+        [How To Get Love From Someone Who’s Guarded](https://psiloveyou.xyz/how-to-get-love-from-someone-whos-guarded-6ccbcae9fa1b)
+
+    # mental health & self improvement
+        [Want To Be Happier? How to Take Charge of Your Thoughts](https://betterhumans.coach.me/want-to-be-happier-how-to-take-charge-of-your-thoughts-e74ad496aced)
+            * raise self conscious (through mindful meditation or outside alarm), notice the exsitence of thoughts inside of you
+            * reasoning your throughts, 
+            * make influence on your thoughts, choose your interpretation.
+            * repeat.
+            (we are not our thoughts, we're bigger, our thoughts just interpretations of what's going on aroud us)
+
+        ## meditation
+            [mindful meditation](https://www.mindful.org/meditation/mindfulness-getting-started/)
+
 
 
 ---------------------------------------------------------------------------------

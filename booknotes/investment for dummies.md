@@ -353,6 +353,34 @@ tips:
 * words:
     * down payment: 首付
 
+
+## chapter 12: Real Estate Financing and Deal Making
+
+
+notes:
+
+* Landing a great fixed-rate mortgage:
+    * 借款有两种 no-points loan, points loan
+        * points loan: 就是在借款的时候需要给借款方一个预付款, 1 point == 1%, 然后乘以每年的利率(总金额)
+
+* Finding a suitable adjustable-rate mortgage:
+    * start rate: your start rate is the rate that your adjustable mortgage begins with
+    * adjustable-rate mortgage 一般的公式:
+        * `index + margin = interest rate`
+        * index: 是基准利率, 一般为 6 月期的国债, 银行活期利率
+        * margin: 是broker(供应商)加的利率
+        * 最终结果是你自己要担负的利率
+
+
+
+
+
+
+
+
+
+
+
 ## others
 
 

@@ -134,6 +134,11 @@ simply wont match.
 #PWA - The cutting edge of web.
 
 离线资源，数据同步, 消息推送，接近原生app的效果。
+## the PRPL Pattern
+* Push contents for initial route
+* Render initial route ASAP
+* Pre-cache components for remaining routes
+* Lazy load & create next routes on-demand
 
 ## app shell model:
 * [App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)

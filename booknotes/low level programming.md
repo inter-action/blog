@@ -159,6 +159,47 @@ demos:
 
 notes:
 
+* AST 和 parse tree 是不同的, p230
+* Backus–Naur form:
+    * 用于定义语言语法的语法格式
+    * https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form
+* Lexical Analysis: 就是吧字符串解析成token, 然后在做 parse tree. 这样parser的逻辑就不需要关注每个字符串节点了。
+    这一步[thrust parser](https://github.com/CrazyFork/tokio-thrift/blob/reading_thrust/thrust-parser/src/lib.rs)是类似的。
+    基本上就是将字符串重组为关键字(keyword), number literal, string literal...etc.
+
+* Alignment & Data structure padding
+    * cpu can only read chunks of bytes of 16. not arbitrary address
+        >It is quite common that the processor can only read packs of, say, 16 bytes, which start from an address divisible by 16. 
+
+        * 也就是这个原因, cpu 读取跨 boundary 的 unalign data 的时候，成本会更高, 要读取多次，所以很多compiler会在不同的节点上加padding, 保证这个boundary.
+
+    * Data Structure Padding
+        * 文件读取，还有从网络读数据到struct当中需要注意 Data Structure Padding 这个特性
+        * Manipulate Data Structure Padding:
+
+            * #pragma push
+                * MSVC, Microsoft’s C compiler, 最早支持，GCC 为了兼容也支持
+                * GCC, The GCC specific way of doing roughly the same thing is the packed specification of the `__attribute__` directive. 
+                
+                    ```c
+                    Struct__attribute__(( packed )) mystr {
+                        uint8_t first;
+                        float delta;
+                        float position;
+                    };
+
+                    ``` 
+
+                * 这些都不是语言规范的一部分，需要注意的是
+
+
+            * C11 标准:
+
+
+
+## chapter 13: Good Code Practices
+
+
 
 ## others
 
@@ -170,6 +211,10 @@ notes:
         ```bash
         gcc -E main.c  # view preprocess result
         ```
+
+
+todos:
+* p227, q240
 
 
 ## Links

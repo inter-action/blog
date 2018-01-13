@@ -53,7 +53,14 @@ rate-limit:
 csrf:
 
 
-
+## profile tool
+* memory-usage
+* heapdump
+* heap-profile
+* low level: llnode, mdb
+* <Debugging node.js in prod at netflix>
+* v8-profiler:
+  * https://github.com/node-inspector/v8-profiler
 
 ##server config:
 * google config sample - https://github.com/h5bp/server-configs
