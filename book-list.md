@@ -92,20 +92,21 @@
 
 [NOVELS]
 
-    冰与火之歌-卷二-列王的纷争|2010-2012|:D:R
-    冰与火之歌-卷三-冰雨的风暴|2010-2012|:D:R
-    冰与火之歌-卷四-群鸦盛宴|2010-2012|:D:R
-    A song of ice and fire_book5_A DANCE WITH DRAGONS|2012-2014.02|:D:R
-    白夜行|2013.10|:D:R
+    !冰与火之歌-卷二-列王的纷争|2010-2012|:D
+    !冰与火之歌-卷三-冰雨的风暴|2010-2012|:D
+    !冰与火之歌-卷四-群鸦盛宴|2010-2012|:D
+    !A song of ice and fire_book5_A DANCE WITH DRAGONS|2012-2014.02|:D
+    !白夜行|2013.10|:D:R
     猜火车|2013.10-11|:D
     幻夜-东野奎吾|2014|:D
     新参者-东野奎吾|2014|:D
     嫌疑犯x的献身-东野奎吾|2014|:D
     恶意-东野奎吾|2014|:D
     放学后-东野奎吾|2014|:D
-    The Girl Who Kicked the Hornet's Nest: Book 3 of the Millennium Trilogy - Stieg Larsson | 2014.06(14DAYS) |:D:R
+    !The Girl Who Kicked the Hornet's Nest: Book 3 of the Millennium Trilogy - Stieg Larsson | 2014.06(14DAYS) |:D
     天黑之后-村上村树|2017.12.16|:D
-
+    [!情人-渡边淳一]|2017.12-2018.01|:D
+    [!Love Me Sweet-Tracy Brogan]|2018.01|:D
 
 [OHTERS]
 
@@ -171,7 +172,7 @@
     ! [Apress.Low-Level.Programming]|2017.08-~
     [OReilly.Programming.Rust]|2017.12-~
     [我不管，我就是要开咖啡馆-童铃]|2017.12.17-~
-    [Love Me Sweet-Tracy Brogan]|2018.01-~
+    [!Servers.for.Hackers.2016.7]|2018.01-~
     
 
     

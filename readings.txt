@@ -137,14 +137,13 @@
             [icons]
                 http://www.iconfont.cn/collections?personal=1
 
-            !! [the responsive web]
-                ! viewports fundementals
-                    [A tale of two viewports — part one](http://www.quirksmode.org/mobile/viewports.html)
+            !! [the responsive web] ! viewports fundementals 
+                    [A tale of two viewports — part one](http://www.quirksmode.org/mobile/viewports.html) 
                     [A tale of two viewports — part two](http://www.quirksmode.org/mobile/viewports2.html)
                     [meta view port](http://www.quirksmode.org/mobile/metaviewport/)
                     [A pixel is not a pixel is not a pixel](http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html)
                 [走向视网膜（Retina）的Web时代](http://www.w3cplus.com/css/towards-retina-web.html)
-
+                [A Guide to Responsive Images with Ready-to-Use Templates](https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433)
 
             [postcss]
                 [Using PostCSS with BEM and SUIT Methodologies](https://webdesign.tutsplus.com/tutorials/using-postcss-with-bem-and-suit-methodologies--cms-24592)
@@ -219,6 +218,10 @@
                     HMR(hot module replacement):
                         [difference between webpack HMR vs React Module HMR](https://github.com/facebookincubator/create-react-app/issues/1063)
                         [Express结合Webpack的全栈自动刷新](http://acgtofe.com/posts/2016/02/full-live-reload-for-express-with-webpack)
+
+
+                    react-router:
+                        [Beginner’s Guide to React Router 4](https://medium.freecodecamp.org/beginners-guide-to-react-router-4-8959ceb3ad58)
 
 
         ### scalajs
@@ -301,14 +304,16 @@
                 [webpack official doc](https://webpack.js.org/guides/code-splitting/)
                 [在Webpack中使用Code Splitting实现按需加载](http://www.alloyteam.com/2016/02/code-split-by-routes/)
                 [webpack bits: Getting the most out of the CommonsChunkPlugin()](https://medium.com/webpack/webpack-bits-getting-the-most-out-of-the-commonschunkplugin-ab389e5f318)
+                [webpack 4 beta ](https://medium.com/webpack/webpack-4-beta-try-it-today-6b1d27d7d7e2)
 
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
         [Worktile中的实时消息推送服务实现](https://worktile.com/tech/basic/worktile-real-time-notice)
 
         ## nginx
-            [nginx location]
+            [nginx location, how server & location block are selected]
                 https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms
+            [nginx configuration](https://linode.com/docs/web-servers/nginx/how-to-configure-nginx/)
 
                 
         [centos haproxy install]
@@ -333,6 +338,7 @@
             [HTTPS的七个误解](http://www.ruanyifeng.com/blog/2011/02/seven_myths_about_https.html)
             [HTTPS 证书申请] (http://www.startssl.com/)
             [HTTPS and Go](https://www.kaihag.com/https-and-go/)
+            [How to get HTTPS working on your local development environment in 5 minutes](https://medium.freecodecamp.org/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec)
 
             [haproxy https]
                 http://seanmcgary.com/posts/using-sslhttps-with-haproxy
@@ -447,6 +453,8 @@
             https://pressable.com/blog/2014/12/04/dns-management-basics/
             https://pressable.com/blog/2014/12/11/understanding-dns-record-types/
             https://pressable.com/blog/2014/12/23/dns-record-types-explained/
+            [DNS Records (NS, A, CNAME, MX) Explained](https://sg.godaddy.com/zh/help/dns-680)
+                
 
         ### devops
             https://blog.risingstack.com/moving-node-js-from-paas-to-kubernetes-tutorial/
@@ -560,7 +568,7 @@
     [mod arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
     
 
-# Algorithms & data structure:
+# Algorithms & [data structure]:
     ## Algorithms:
         [](https://en.wikipedia.org/wiki/Perfect_hash_function)
         [Randomized_algorithm](https://en.wikipedia.org/wiki/Randomized_algorithm)
@@ -570,6 +578,7 @@
         [trie](https://www.youtube.com/watch?v=RIUY7ieyH40)
         ! [10 Common Data Structures Explained with Videos + Exercises](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
         [Let’s Implement a Bloom Filter in Go](https://codeburst.io/lets-implement-a-bloom-filter-in-go-b2da8a4b849f)
+        [Radix tree](https://en.wikipedia.org/wiki/Radix_tree)
 
 # machine learning:
     !![A Friendly Introduction to Machine Learning](https://www.youtube.com/watch?v=IpGxLWOIZy4&t=2s)
@@ -793,6 +802,7 @@
             [Rust语言入门、关键技术与实战经验](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=405037902&idx=1&sn=97d9af490eefc5d6158cb6b6a70f67e5)
             [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/)
             [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg)
+            [What Are Tokio and Async IO All About?](https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about/)
 
             Language itself:
               [](https://blog.rust-lang.org/2015/05/11/traits.html)
@@ -825,7 +835,10 @@
             ! [The complete guide to Go net/http timeouts](https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/)
                 讲了golang中的timeout机制，需要注意的是文中提及的不要使用package level的serveAndListen，应该是先create 一个server instance， then call server instance's method to listen http request. or you'll be 
                 bypassing the timeout rules
+            [10 things you (probably) don't know about Go](https://talks.golang.org/2012/10things.slide#1)
 
+            [golang in production]
+                https://stackshare.io/stream/stream-and-go-news-feeds-for-over-300-million-end-users
 
 
     ## programming methodolgy

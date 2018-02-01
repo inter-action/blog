@@ -371,11 +371,27 @@ notes:
         * margin: 是broker(供应商)加的利率
         * 最终结果是你自己要担负的利率
 
+* Never take an ARM without rate caps! 
+
+* About Real estate Agents:
+    *  > Some agents market themselves as top producers, meaning that they sell a relatively larger volume of real estate. This title doesn’t matter much to you, the buyer. In fact, you may use this information as a potential red flag for an agent who focuses on completing as many deals as possible. Such an agent may not be able to give you the time and help that you need to get the house you want.
+
+* title insurance:
+    * 保险用于防止你购买的房产有产权纠纷造成的麻烦
 
 
 
 
+glossary:
+* Refinance: 
+    * 就是把旧债偿还掉，然后从新找个新的lender
+    * https://www.investopedia.com/terms/r/refinance.asp?lgl=myfinance-layout-no-ads
+    * > A refinance occurs when a business or person revises a payment schedule for repaying debt. 
 
+
+
+
+#chapter 13: Assessing Your Appetite for Small Business
 
 
 
@@ -394,7 +410,7 @@ references:
 todos:
 * 中国买房需要的手续, 税费，公积金，是否包含减税等等
 * Consumer debt 
-
+* book [House Selling For Dummies,] [Small Business For Dummies, ]
 
 
 
