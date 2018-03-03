@@ -9,17 +9,16 @@
     SUSPEND           :       S
     NOT-RECOMMENDED   :       -
 
-[Java]
 
-    Core Java. Volume I. Fundamentals, 8th Edition
-    Core Java. Volume II. Advanced Features, 8th Edition
-    ! [The.Well-Grounded.Java.Developer(2012.7)].Benjamin.J.Evans|2014:D
+--------------- WEB ---------------
+[WEB]
 
-[SCALA]
-
-    [OReilly.Functional.Thinking.2014.6.pdf] | 2015.06-2015.06:D
-    [Manning.Scalatra.in.Action.2016.5] | 2016.07.22-2016.08.01:D
-
+    [Web编程入门经典：HTML、XHTML和CSS].杜静.敖富江:D
+    [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31 | :P:S
+    [Reactive.Programming.with.RxJS.2015.12]|2017.06.12-2017.06.14|:D
+    [OReilly.Creating.Web.Animations.2017.3]|2017.06.15-2017.06.16|:D
+    [Manning.Web.Performance.in.Action]|2018.02|:D
+    
 [Javascript]
 
     [JavaScript.程序员参考].JavaScript.Programmer's.Reference:P:S
@@ -40,16 +39,21 @@
     CSS 高级解决方案|2013:D
     [Manning.The.Responsive.Web.2014.10.pdf] | 2015.07-2015.07:D
 
-[WEB]
 
-    [Web编程入门经典：HTML、XHTML和CSS].杜静.敖富江:D
-    [Learning Three.js The JavaScript 3D Library for WebGL] | 2016.08.31 | :P:S
-    [Reactive.Programming.with.RxJS.2015.12]|2017.06.12-2017.06.14|:D
-    [OReilly.Creating.Web.Animations.2017.3]|2017.06.15-2017.06.16|:D
+--------------- DEV OPS & OPERATING SYSTEM --------------- 
 
-[PYTHON]
+[DEVOPS]
 
-    Oreilly Flask Web Development|2014.07-2014-11:D
+    [!Servers.for.Hackers.2016.7]|2018.01-~
+
+[system]
+    [Beginning.Linux.Programming 4th]|2017.01.10-2017.03.20|:D
+
+[nginx]
+
+    [Ngix Http Server]|2015.11:50%
+    
+--------------- BACKEND WEB  --------------- 
 
 [Database]
 
@@ -61,6 +65,32 @@
     [Build.APIs.You.Wont.Hate.2015.8]|2016.02.16-2016.02.24:D
 
 
+--------------- PROGRAMMING LANGUAGE ---------------
+
+[Java]
+
+    Core Java. Volume I. Fundamentals, 8th Edition
+    Core Java. Volume II. Advanced Features, 8th Edition
+    ! [The.Well-Grounded.Java.Developer(2012.7)].Benjamin.J.Evans|2014:D
+
+[SCALA]
+
+    [OReilly.Functional.Thinking.2014.6.pdf] | 2015.06-2015.06:D
+    [Manning.Scalatra.in.Action.2016.5] | 2016.07.22-2016.08.01:D
+
+
+[PYTHON]
+
+    Oreilly Flask Web Development|2014.07-2014-11:D
+
+
+[golang]
+
+    [Packt.Mastering.Go.Web.Services.2015.4]|2015.11:D
+    [Packt.Go.Building.Web.Applications.2016.8]|2017.10-2017:11.20|:D
+
+
+--------------- UNCATEGORIZED TECH --------------- 
 [other tech related]
 
     Oreilly. Http the Definitive Guide| 2014.08-2015|:D:80%
@@ -69,6 +99,7 @@
     [Three.js入门指南-http://www.ituring.com.cn/minibook/792] | 2016.08.27-2016.08.28|:D
     [angular2 guide](https://angular.io/docs/ts/latest/guide/) | 2016.09.20-2016.10|:D(only guide section)
     [UNIX Tutorial](https://www.tutorialspoint.com/unix/index.htm) | 2016.11-2016.12:D
+    [Servers.for.Hackers.2016.7]|2018.01-2018.02|:D
 
 [android]
 
@@ -76,19 +107,8 @@
     [Building.Hybrid.Android.Apps.with.Java.and.JavaScript(2013.7)].Nizamettin.Gok.文字版|2015.11:D
     [Android.Programming.Pushing.the.Limits][2013.11].Erik.Hellman.文字版|2016.03.17-2016.03.20:P(finish 10 chapter)
 
+--------------- NON TECH --------------- 
 
-[golang]
-
-    [Packt.Mastering.Go.Web.Services.2015.4]|2015.11:D
-    [Packt.Go.Building.Web.Applications.2016.8]|2017.10-2017:11.20|:D
-
-[system]
-    [Beginning.Linux.Programming 4th]|2017.01.10-2017.03.20|:D
-    
-
-[nginx]
-
-    [Ngix Http Server]|2015.11:50%
 
 [NOVELS]
 
@@ -107,6 +127,7 @@
     天黑之后-村上村树|2017.12.16|:D
     [!情人-渡边淳一]|2017.12-2018.01|:D
     [!Love Me Sweet-Tracy Brogan]|2018.01|:D
+    [岛上书店]|2018.02|:D
 
 [OHTERS]
 
@@ -119,6 +140,7 @@
     [到南半球一切都变了.刘小顺]|2017.03-2017.04|:D
     [小男孩儿长大后]|2017.06.10|:D
     [无比繁杂的小情绪.春上村树]|2017.06-2017.12|:D
+    [程序员成长课-安晓辉]|2018.03|:D
     
 
 [SUSPENDED] - clean books that is no more appealing
@@ -172,9 +194,10 @@
     ! [Apress.Low-Level.Programming]|2017.08-~
     [OReilly.Programming.Rust]|2017.12-~
     [我不管，我就是要开咖啡馆-童铃]|2017.12.17-~
-    [!Servers.for.Hackers.2016.7]|2018.01-~
+    [颠覆者, 周鸿祎自传]|2018.03.03-~
     
 
+  
     
 
     

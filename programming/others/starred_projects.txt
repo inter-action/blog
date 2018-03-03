@@ -84,6 +84,9 @@
         
       toxiproxy - A TCP proxy to simulate network and system conditions for chaos and resiliency testing 
         https://github.com/shopify/toxiproxy#clients
+
+      rook - File, Block, and Object Storage Services for your Cloud-Native Environment 
+        https://github.com/rook/rook
         
     scala:
       https://github.com/lihaoyi/utest # too hard for me now

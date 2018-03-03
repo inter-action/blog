@@ -31,9 +31,12 @@
     * Critical Path: 
       * `<link rel="preload">`, `<link rel="preconnect">`, and `<link rel="prefetch">`
         * preload: resource need to be loaded quickly as possible
-          * 注意这种方式不能预加载ajax请求的资源, 不然chrome中会请求2次童谣请求
+          * 注意这种方式不能预加载ajax请求的资源, 不然chrome中会请求2次同样请求
         * preconnect: hint to browser a request to another domain may occur, let it resolve dns as quickly as possible
         * prefectch: load this resource when others is done
+
+        * Below-the-fold asynchronously loaded styles
+          <link rel="preload" href="css/styles.min.css" as="style" onload="this.rel='stylesheet'">
       * script tag attribute `async, defer`
         * async
         * defer: put scripts right before body closing tag
@@ -108,6 +111,10 @@
     * css:
       * avoid complex selectors, use class name instead. 
         * `.box:nth-last-child(-n+1) .title`
+      * split css for different page
+      * inline css for initial load (by using http2, this approach should'nt be considered)
+      * 
+
     * batch read first then do writes.
 
       ```js

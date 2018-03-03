@@ -110,6 +110,8 @@
                 https://github.com/css-modules/icss
 
             ! [第二天，谈谈【line-height】](http://www.html-js.com/article/A-day-to-learn-CSS-and-on-the-second-day-talk-about-lineheight)
+            [The stacking context, 层叠上下文](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Understanding_z_index/The_stacking_context)
+                讲的是z-index的工作原理, 之前做项目因为不懂这里就踩了不少坑
 
             [svg]
                 http://www.w3cplus.com/svg/svg-fill-stroke.html
@@ -359,6 +361,9 @@
                     https://imququ.com/post/http2-traffic-in-wireshark.html
 
 
+        ### http2
+            [Creating a Cache-aware HTTP/2 Server Push Mechanism](https://css-tricks.com/cache-aware-server-push/)
+
         ### web crawling
             [selenium]
             [PhantomJS]
@@ -458,6 +463,7 @@
 
         ### devops
             https://blog.risingstack.com/moving-node-js-from-paas-to-kubernetes-tutorial/
+            [](https://www.digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers)
 
         ### native modules:
             [](https://blog.risingstack.com/node-js-native-modules-with-rust/)
@@ -603,7 +609,9 @@
 
     [locale的设定及LANG、LC_CTYPE、LC_ALL环境变量](http://www.cnblogs.com/xlmeng1988/archive/2013/01/16/locale.html)
     [](http://stackoverflow.com/questions/8238860/maximum-number-of-files-folders-on-linux)
+    [](https://askubuntu.com/questions/611528/why-cant-sudo-find-a-command-after-i-added-it-to-path)
 
+    [ /etc/rc.local file ](https://unix.stackexchange.com/questions/59929/whats-the-difference-between-etc-rc-local-and-etc-init-d-rc-local)
 
     ## linux
         [linux 工具速查手册](1)
@@ -640,6 +648,7 @@
         [x86 Assembly Guide](http://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
 
 
+    [What is LLVM? The power behind Swift, Rust, Clang, and more](https://www.infoworld.com/article/3247799/development-tools/what-is-llvm-the-power-behind-swift-rust-clang-and-more.html)
 
 
 # Graphic Programming:
@@ -839,6 +848,7 @@
 
             [golang in production]
                 https://stackshare.io/stream/stream-and-go-news-feeds-for-over-300-million-end-users
+            [Testing in Golang](https://medium.com/@thejasbabu/testing-in-golang-c378b351002d)
 
 
     ## programming methodolgy
@@ -910,7 +920,7 @@
     [Beginner's guide to git rebasing and squashing](https://shinglyu.github.io/web/2016/11/08/servo-rebase-and-squash-guide.html)
 
 
-# economics
+# economics & finance
     [How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0)
     [经济学书籍推荐]http://mp.weixin.qq.com/s?__biz=MzI4OTEwOTQ3MA==&mid=402562477&idx=1&sn=6cab2420c95317a692f0c96a66b4654f&scene=4#wechat_redirect
 
@@ -918,10 +928,42 @@
     ## investing
         [William Ackman: Everything You Need to Know About Finance and Investing in Under an Hour](https://www.youtube.com/watch?v=WEDIj9JBTC8)
             book: the intelligent investor - benjamin graham
+        [Investing 101: A Tutorial For Beginner Investors](https://www.investopedia.com/university/beginner/)
+        [etf vs mutual funds](https://www.investopedia.com/advisor-network/articles/021417/deciding-between-mutual-funds-and-etfs/)
+        [Goodwill/ 商誉](https://www.investopedia.com/terms/g/goodwill.asp)
+
+        ## stock
+            [How I learned To Day Trade In A Week](https://www.youtube.com/watch?v=GTtKLeDTCHo)
+                视频后面的推荐需要注意下
+            [when to sell stocks](https://www.investors.com/ibd-university/how-to-sell/)
+            [how to read stock charts]
+                (https://www.investors.com/ibd-university/chart-reading/)
+                (! https://www.youtube.com/watch?v=IEqVPurJf_s)
+
+                ### indicators
+                    [!Exponential Moving Average - EMA](https://www.investopedia.com/terms/e/ema.asp)
+                    [MACD (Moving Average Convergence/Divergence Oscillator)](http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:moving_average_convergence_divergence_macd)
+
+                ### metrics for value investor
+                    [市净率, P/B](http://wiki.mbalib.com/wiki/%E5%B8%82%E5%87%80%E7%8E%87)
+                    [5 Must-Have Metrics for Value Investors](https://www.investopedia.com/articles/fundamental-analysis/09/five-must-have-metrics-value-investors.asp)
+                    [Book value](https://www.investopedia.com/terms/b/bookvalue.asp)
+                        total soldable assets - total liability
+                    [Price/Earnings To Growth - PEG Ratio](https://www.investopedia.com/terms/p/pegratio.asp)
+                        PE/Growth Ratio, lower is better
+
+        ## business evaluation
+            [How to evaluate a potential business acquisition](https://www.bdc.ca/en/articles-tools/start-buy-business/buy-business/pages/how-value-company.aspx)
+            [How to Analyze a Company's Financial Position](https://www.investopedia.com/articles/fundamental/04/063004.asp)
+                current assets & liabilities, current ratio, book value, Market-to-book multiple
+            []()
+
+
 
     ## wiki:
         [代持养券/债券代持](http://baike.baidu.com/view/10464675.htm)
         [LTV](https://en.wikipedia.org/wiki/Loan-to-value_ratio)
+        [ADS （美国存托股份）](https://baike.baidu.com/item/ADS/3557617)
 
     ## news & column
         https://www.bloomberg.com/view/articles/2016-12-29/a-china-watcher-s-guide-to-2017

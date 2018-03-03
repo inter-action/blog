@@ -154,6 +154,62 @@ links:
 
 ## chapter 10: SSH
 
+summary:
+* how to properly config ssh
+* what ssh tunneling is
+
+
+
+notes:
+* ssh tunneling:
+    * 这个东西是一个很好的特性, 可以通过ssh 管道将本地端口和远程端口打通. 可以访问到正常情况防火墙屏蔽的端口, 比如mysql数据库3306端口
+    * Local Port Forwarding: 将本机端口和远程服务的端口map上
+    * Remote Port Forwarding: 在远程server端将端口和目标端口映射上, 然后可以让远程的client端通过映射过的ip+端口, 访问到目标端口的服务
+
+
+## chapter 11: Monitoring Processes
+summary:
+
+* System Level
+    * System V Init (这个书中就直接跳过了)
+    * Upstart (老的版本linux会用到这个)
+    * Systemd (新版本的linux会用到这个工具)
+
+* Software Level
+
+    * supervisor, (this is cool)
+    * forever (written in js)
+    
+    
+
+
+notes:
+* 需要注意的是不论使用upstart还是systemd, 两种方式都不建议在最终的执行的 shell 及脚本以daemon方式执行
+    否则无法实现监控, 也不能正常启动
+
+* 优先级
+    * Systemd -> Upstart -> SysV 
+
+
+
+
+links:
+[Getting started with systemd](https://coreos.com/os/docs/latest/getting-started-with-systemd.html)
+
+
+
+## chapter 12: Development and Servers
+
+
+
+
+
+
+# todo:
+Logrotate
+Rsyslog
+ansible
+
 
 
 

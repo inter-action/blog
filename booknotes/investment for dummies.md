@@ -391,7 +391,42 @@ glossary:
 
 
 
-#chapter 13: Assessing Your Appetite for Small Business
+# chapter 13: Assessing Your Appetite for Small Business
+
+summary:
+这章主要是让你对自己做一个基本的评估, 是否时候自己做 entrepreneur, 然后评估下除了自己 own a business 之外的选项
+即 buy a exsiting business, 最后就是自己开始 own a business 需要做的准备
+
+
+# chapter 14: Starting and Running a Small Business
+
+summary:
+这章讲了如果自己创业
+* bootstrap的资金渠道
+* why you should keep your customer happy
+
+notes:
+* 如果自己经营生意的话, 国内的社保怎么处理, 还有为了延续以前的社保, 原本公司交的那部分可不可以从盈利中走税务扣除
+* Incorporate:
+    * [Incorporation](https://en.wikipedia.org/wiki/Incorporation_(business))
+    * 没太懂啥意思, 这个词, 感觉是成立公司, 好处似乎是能将公司资产和负债和个人分割开.
+    > A major reason to consider incorporation is liability protection. Incorporation effectively separates your business from your personal finances, thereby better protecting your personal assets from lawsuits that may arise from your business.
+    * incorporate 好像也有坏处, 就是会交税两次, 公司盈利的税, 然后就是公司付给你的收益的税
+
+    * >Start off your business as a sole proprietorship and then take it from there. Wait until the benefits of incorpo- rating your business clearly outweigh the costs and drawbacks.
+
+* Liability protection:
+
+
+    * 这个好像是说购买 liablity insurance, 来防范可能出现的 law suit.
+
+
+* tax advisor & attorney & bunessniss advisor
+    > Attorneys who specialize in advising small businesses can help explain the legal issues. Tax advisors who perform a lot of work with business owners can help explain the tax considerations.
+
+
+
+# chapter 15: Purchasing a Small Business
 
 
 
@@ -405,14 +440,14 @@ references:
     https://en.wikipedia.org/wiki/Invoice
 
 * 证券经纪商(Brokerage House/ Brokerage Firm): 
-
+* 看来创业之前还是需要找个好的法务资讯下, 这个员工的社保问题就头大了
 
 todos:
 * 中国买房需要的手续, 税费，公积金，是否包含减税等等
 * Consumer debt 
 * book [House Selling For Dummies,] [Small Business For Dummies, ]
-
-
+* 这本书讲的好多都是美国的情况, 比如税务减免&扣除, 我是否需要买本中文的同类书籍, 看下国内的情况
+*
 
 
 
