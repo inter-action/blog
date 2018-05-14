@@ -1,6 +1,8 @@
 
 # OReilly Programming Rust
 
+好难呀 :(, !!!
+
 ## chapter 2:
 
 demos:
@@ -20,6 +22,7 @@ notes:
 
 * Trait Object:
     > Trait object: reference to any value that implements a given set of methods (namely some Trait)
+    > 
 
 * usize, isize:
     >The usize and isize types are analogous to size_t and ptrdiff_t in C and C++.
@@ -34,6 +37,15 @@ notes:
     ```
     0b101101u8
     ```
+
+* String , str, &str
+    * 默认的情况是 `"this is &str"` 字符串默认是 string literal 即 `&str`
+    * str 代表着最原始的内存 slice, 即 [u8] 数组, 这段信息应该是保存在 compiled binary 中的 .constants 字段中的
+    * &str, 和 String 都是对最原始 string [u8] 的引用, 只不过 String 貌似是在 heap 中分配的对象, 因为是 Owned type, 肯定要 Drop
+        的.
+        * > For example, String implements From<&str>, which copies the string slice into a new heap-allocated buffer for the String.  @page299
+
+    * &str 可以指向 .constants 中的 string literal 也可以指向 String (在 heap中分配的 [u8])
 
 
 todos:
@@ -96,6 +108,9 @@ todos:
                 ```
             * 需要注意的是, 虽然这两者都是在 compile time 规避掉 rust 的borrow rule 的check, 但RefCell会在运行时去enforce这个check, 所以如果不通过的话, 会出现一个runtime的panic
 
+* unsized struct:
+    * A struct type’s last field (but only its last) may be unsized, and such a struct is itself unsized.
+
 
 ## chpater 10: Enums and Patterns
 
@@ -115,12 +130,105 @@ notes:
     * > A variable’s size has to be known at compile time
     * > A reference to a trait type, like writer, is called a trait object.
     * made by `&` or `Box` or any other pointer types
+    * 
+    ```rust
+    struct Salad<V: Vegetable> { veggies: Vec<V> } // V: 只允许 Vegetable type
+    struct Salad {
+        veggies: Vec<Box<Vegetable>> // veggies 经过 Box 包装后允许任何实现了 Vegetable type 的type
+    }
+    ```
+    * >The second advantage of generics is that not every trait can support trait objects. Traits support several features, such as static methods, that work only with generics: they rule out trait objects entirely. We’ll point out these features as we come to them.
+    * trait object vs trait
+        * type with trait will be statically compiled to different code with different actual type
+        * trait object will be compile with a fat pointer(one point to actual instance, and one with ref to instance function implementation vtable), so it's a dynamic dispatch mechanism. due to pointer's inherent behavior, it has to create data on the heap. a pointer has
+        to refs to something.
+    * vs `existential types`
+        * https://blog.rust-lang.org/2018/05/10/Rust-1.26.html
 
 
 
+* trait
+    * Rust lets you implement any trait on any type, as long as either the trait or the type is introduced in the current crate.
+
+    * implement trait for an abstract type
+    ```rust
+    use std::io::{self, Write};
+    /// Trait for values to which you can send HTML.
+    trait WriteHtml {
+        fn write_html(&mut self, &HtmlDocument) -> io::Result<()>;
+    }
+            /// You can write HTML to any std::io writer.
+    impl<W: Write> WriteHtml for W {
+        fn write_html(&mut self, html: &HtmlDocument) -> io::Result<()> {
+        ... }
+    }
+
+    ```
 
 
 
+* Fully Qualied Method Calls, 这一节需要注意下, 这一节讲述了如何解决 trait 方法调用的不确定性
+
+
+todos:
+* p252, 需要注意下
+
+
+## chapter 12: Operator Overloading
+
+summary:
+
+这章主要讲了如何 overload operator in rust.
+
+notes:
+
+* page 273 的  PartialEq 的解释终于让我明白了这个东西是啥意思 !
+* ParticalOrder <-> Order 还有 PartialEq <-> Eq 的关系是一致的
+
+
+## chapter 13: Utility Traits
+summary:
+chapter 13将的这些 trait 还是等以后慢慢品吧, 感觉现在短期看不出来是干啥的
+
+
+notes:
+
+* If a type implements Drop, it cannot implement the Copy trait. If a type is Copy.
+* Sized, 这个 trait 很重要, 书里边也讲的非常详细. 有可能需要找个时间再重读下这个位置
+    * A sized type is one whose values all have the same size in memory. 
+    * unsized type: Write, str, [T], Display etc...
+    * 
+
+
+
+* AsRef 和 DeRef 的区别, 
+    * 这个地方我想了好久, 其实 AsRef 就是 DeRef 的反向操作
+    * 这两个trait需要好好看下, 还是蛮重要的.
+
+    
+
+todos:
+
+
+
+## chapter 14: Closures
+summary:
+这章讲了 rust 如何实现的 closure, 以及 closure 不同的类型和区别, function type & closure 在函数类型上
+兼容的方式的处理. 还有Rust和其他语言由GC衍变上的Closure实现的核心区别. 还有 Boxed closure
+
+notes:
+
+
+todos:
+
+
+## chapter 15: Iterators
+summary:
+
+notes:
+
+
+todos:
 
 
 

@@ -66,6 +66,7 @@
 
         [awesome-frontend](https://github.com/JingwenTian/awesome-frontend)
         [移动端网络优化](http://www.trinea.cn/android/mobile-performance-optimization/)
+        [2018 前端性能检查表](http://mp.weixin.qq.com/s/MDRfdRnhJJ53611cG_Zb6g)
         [前段手册]https://dwqs.gitbooks.io/frontenddevhandbook/content/learning/dns.html
 
         [SVG图标在移动端的应用](http://ued.ctrip.com/blog/?p=3893)
@@ -156,6 +157,7 @@
             [](http://www.smashingmagazine.com/2013/04/build-fast-loading-mobile-website/)
 
             移动端适配:
+                ![如何在Vue项目中使用vw实现移动端适配](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)
                 ![移动端高清、多屏适配方案](http://div.io/topic/1092)
                 [移动端适配方案(下)](https://github.com/riskers/blog/issues/18)
                 ![前端H5适配 ](https://github.com/amfe/article/issues/17)
@@ -173,6 +175,7 @@
 
             [es7]
                 [Exploring EcmaScript Decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)
+                [decorator evaluation order](https://www.typescriptlang.org/docs/handbook/decorators.html#decorator-evaluation)
 
             [detect javascript memory leak with chrome dev tools]
                 [google official explaination] (https://developer.chrome.com/devtools/docs/javascript-memory-profiling)
@@ -194,6 +197,10 @@
 
                 react
                     !! [redux vedio tutorial](https://egghead.io/series/getting-started-with-redux)
+                    [React Animations in Depth](https://medium.com/react-native-training/react-animations-in-depth-433e2b3f0e8e)
+                    ! [Optimizing React:Virtual DOM explained](https://evilmartians.com/chronicles/optimizing-react-virtual-dom-explained)
+                    [你真的了解浅比较么? shallow equal](http://imweb.io/topic/598973c2c72aa8db35d2e291)
+                    [Beyond React 16 by Dan Abramov - JSConf Iceland ](https://www.youtube.com/watch?v=v6iR3Zk4oDY)
 
 
                     Flux Pattern
@@ -297,7 +304,9 @@
                 https://medium.com/@ianjsikes/get-started-with-rust-webassembly-and-webpack-58d28e219635
             [](https://developer.mozilla.org/en-US/docs/WebAssembly)
             [](https://hacks.mozilla.org/category/code-cartoons/a-cartoon-intro-to-webassembly/)
-
+            [JavaScript to Rust and Back Again: A wasm-bindgen Tale](https://hacks.mozilla.org/2018/04/javascript-to-rust-and-back-again-a-wasm-bindgen-tale/?from=singlemessage&isappinstalled=0)
+            [Making WebAssembly better for Rust & for all languages](https://hacks.mozilla.org/2018/03/making-webassembly-better-for-rust-for-all-languages/)
+            [! Oxidizing Source Maps with Rust and WebAssembly](https://hacks.mozilla.org/2018/01/oxidizing-source-maps-with-rust-and-webassembly/)
             
 
             
@@ -572,6 +581,7 @@
         http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
     [Taxicab_geometry](https://en.wikipedia.org/wiki/Taxicab_geometry) - 计算LP-space (P是向量的空间维度)的向量的最小距离, 不唯一
     [mod arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
+    [Basic Linear Algebra for Deep Learning](https://towardsdatascience.com/linear-algebra-for-deep-learning-f21d7e7d7f23)
     
 
 # Algorithms & [data structure]:
@@ -585,6 +595,24 @@
         ! [10 Common Data Structures Explained with Videos + Exercises](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
         [Let’s Implement a Bloom Filter in Go](https://codeburst.io/lets-implement-a-bloom-filter-in-go-b2da8a4b849f)
         [Radix tree](https://en.wikipedia.org/wiki/Radix_tree)
+        [weakmap in es6](https://github.com/medikoo/es6-weak-map/blob/master/polyfill.js)
+        [The Little AVL Tree That Could](https://medium.com/basecs/the-little-avl-tree-that-could-86a3cae410c7)
+        [Painting Nodes Black With Red-Black Trees](https://medium.com/basecs/painting-nodes-black-with-red-black-trees-60eacb2be9a5)
+
+
+        ## set
+            [Set Theory: the Method To Database Madness](https://medium.com/basecs/set-theory-the-method-to-database-madness-5ec4b4f05d79)
+
+
+        ## grap
+            [Königsberg: Seven Small Bridges, One Giant Graph Problem](https://medium.com/basecs/k%C3%B6nigsberg-seven-small-bridges-one-giant-graph-problem-2275d1670a12)
+
+        ## heap
+            [Learning to Love Heaps](https://medium.com/basecs/learning-to-love-heaps-cef2b273a238)
+                implemented using arry, used for priority queue, that is FIFO with priority embeded.
+            [Heapify All The Things With Heap Sort](https://medium.com/basecs/heapify-all-the-things-with-heap-sort-55ee1c93af82)
+                heapify 实现 for (i = length - 1 / 2, i>=0; i--) heapify(i), 这个过程是从最后面一排节点按个向上排序.
+
 
 # machine learning:
     !![A Friendly Introduction to Machine Learning](https://www.youtube.com/watch?v=IpGxLWOIZy4&t=2s)
@@ -931,11 +959,16 @@
         [Investing 101: A Tutorial For Beginner Investors](https://www.investopedia.com/university/beginner/)
         [etf vs mutual funds](https://www.investopedia.com/advisor-network/articles/021417/deciding-between-mutual-funds-and-etfs/)
         [Goodwill/ 商誉](https://www.investopedia.com/terms/g/goodwill.asp)
-
+        [What are some examples of different types of capital?](https://www.investopedia.com/ask/answers/032715/what-are-some-examples-different-types-capital.asp)
+        [Why Do Companies Care About Their Stock Prices?](https://www.investopedia.com/articles/basics/03/020703.asp)
+        [Accounting Basics](https://www.investopedia.com/university/accounting/)
+        
         ## stock
             [How I learned To Day Trade In A Week](https://www.youtube.com/watch?v=GTtKLeDTCHo)
                 视频后面的推荐需要注意下
             [when to sell stocks](https://www.investors.com/ibd-university/how-to-sell/)
+            [Preferred Stock](https://www.investopedia.com/terms/p/preferredstock.asp)
+                have a stronger claim on diviends but no voting right, hence less potential to grow as common stock
             [how to read stock charts]
                 (https://www.investors.com/ibd-university/chart-reading/)
                 (! https://www.youtube.com/watch?v=IEqVPurJf_s)
@@ -947,10 +980,52 @@
                 ### metrics for value investor
                     [市净率, P/B](http://wiki.mbalib.com/wiki/%E5%B8%82%E5%87%80%E7%8E%87)
                     [5 Must-Have Metrics for Value Investors](https://www.investopedia.com/articles/fundamental-analysis/09/five-must-have-metrics-value-investors.asp)
-                    [Book value](https://www.investopedia.com/terms/b/bookvalue.asp)
-                        total soldable assets - total liability
+                        debt-to-equity ratio, bigger number got more prolem
                     [Price/Earnings To Growth - PEG Ratio](https://www.investopedia.com/terms/p/pegratio.asp)
                         PE/Growth Ratio, lower is better
+                    [Useful Balance Sheet Metrics](https://www.investopedia.com/financial-edge/1012/useful-balance-sheet-metrics.aspx)
+                        quick ratio, debt/equity
+                    [6 Basic Financial Ratios And What They Reveal](https://www.investopedia.com/financial-edge/0910/6-basic-financial-ratios-and-what-they-tell-you.aspx)
+
+                ### 3 表, 资产负债表, 现金流量表, 
+                    [Evaluating a Company's Capital Structure](https://www.investopedia.com/articles/basics/06/capitalstructure.asp)
+
+                    
+                    [12 Things You Need to Know About Financial Statements](https://www.investopedia.com/articles/basics/06/financialreporting.asp)
+
+                    ## balance sheet
+                        [Breaking Down The Balance Sheet](https://www.investopedia.com/articles/basics/06/balancesheet.asp)
+                            The Importance of Dates 这一节没有怎么读懂, 说是要把两年的/2会更精确
+                            Assets = liabilities + shareholders' Equity, 这公式到底啥意思?, 视频中介绍的是说公司daily operation 能用到的资产为这两者的和
+                            hsareholders' equity = shareholder capital(invest in this company) + retained earnings(diviends)
+                        [How to Evaluate a Company's Balance Sheet](https://www.investopedia.com/articles/basics/06/assetperformance.asp)
+                        [Reading the Balance Sheet](https://www.investopedia.com/articles/04/031004.asp)
+                        [Understanding Apple's Balance Sheet](https://www.investopedia.com/stock-analysis/021015/understanding-apples-balance-sheet-appl.aspx)
+
+                    ## income statement
+                        [Understanding the Income Statement](https://www.investopedia.com/articles/04/022504.asp)
+
+                    ## cash flow statement
+                        [The Essentials Of Corporate Cash Flow](https://www.investopedia.com/articles/01/110701.asp)
+                            >So even though the company may have incurred liabilities it must eventually pay, expenses are not recorded as a cash outflow until they are paid
+                        [What Is a Cash Flow Statement?](https://www.investopedia.com/articles/04/033104.asp)
+
+                        [Operating Cash Flow Ratio](https://www.investopedia.com/terms/o/ocfratio.asp)
+                            OCF = cash flow from Operations / current liabilities
+                            Manipulation 这一节讲了如何操作cash flow, 
+                                *通过equipment depreciation来将上一个季度的 income 减少, 然后当前季度将上一季度的钱加回来; 或者通过loosely credit来增加revenue & accounts receivable.
+                        [Analyze Cash Flow The Easy Way](https://www.investopedia.com/articles/stocks/07/easycashflow.asp)
+                            没看懂 :(
+
+
+
+                ### acounting
+                    [Accounting Period](https://www.investopedia.com/terms/a/accountingperiod.asp)
+                    [Generally Accepted Accounting Principles - GAAP](https://www.investopedia.com/terms/g/gaap.asp)
+                    [Operating Lease](https://www.investopedia.com/terms/o/operatinglease.asp)
+                    [Off-Balance-Sheet Financing](https://www.investopedia.com/terms/o/obsf.asp)
+                    [Accounts Payable - AP](https://www.investopedia.com/terms/a/accountspayable.asp)
+                    [Income Tax Payable](https://www.investopedia.com/terms/i/incometaxpayable.asp)
 
         ## business evaluation
             [How to evaluate a potential business acquisition](https://www.bdc.ca/en/articles-tools/start-buy-business/buy-business/pages/how-value-company.aspx)
@@ -960,10 +1035,21 @@
 
 
 
+
     ## wiki:
         [代持养券/债券代持](http://baike.baidu.com/view/10464675.htm)
         [LTV](https://en.wikipedia.org/wiki/Loan-to-value_ratio)
         [ADS （美国存托股份）](https://baike.baidu.com/item/ADS/3557617)
+        [Acceleration Covenant](https://www.investopedia.com/terms/a/accelerationcovenant.asp)
+        [经营性负债(Operating liabilities)](http://wiki.mbalib.com/wiki/%E7%BB%8F%E8%90%A5%E6%80%A7%E8%B4%9F%E5%80%BA)
+        [Accrual Accounting](https://www.investopedia.com/terms/a/accrualaccounting.asp)
+        [Book value](https://www.investopedia.com/terms/b/bookvalue.asp)
+            total soldable assets - total liability - intangible assets (patens, goodwill)
+
+        所有者权益
+            [Shareholders' Equity](https://www.investopedia.com/terms/s/shareholdersequity.asp)
+            http://wiki.mbalib.com/wiki/%E6%89%80%E6%9C%89%E8%80%85%E6%9D%83%E7%9B%8A
+
 
     ## news & column
         https://www.bloomberg.com/view/articles/2016-12-29/a-china-watcher-s-guide-to-2017
@@ -977,10 +1063,22 @@
     [我们做了一份互联网租房市场报告，或许也是干货版毕业季租房避坑指南](http://36kr.com/p/5078755.html)
     [纪伯伦语录](http://www.liuxue86.com/a/2946649.html)
 
+
+
+    # 个人修为
+        [如何成熟一点](https://zh.wikihow.com/%E6%88%90%E7%86%9F%E4%B8%80%E7%82%B9)
+            询问原因, 以我开头(相对于以你开头的感觉太弱势了), 愤怒的时候倒数10秒, 委婉地否定别人
+
+
     # carrier
         ! [Programmer: Reality vs Expectations (Computer Programmer) Part 2](https://www.youtube.com/watch?v=QLkKmcNd-rk)
+        [程序员们也该知道的事——“期权和股票”](http://blog.csdn.net/tencent_bugly/article/details/53740633)
+        [option ownership](https://a16z.com/2016/08/24/options-ownership/)
+        [One Simple Trait That Will Advance Your Software Career](https://medium.com/@toddhd/one-simple-trait-that-will-advance-your-software-career-7a88bd505f59)
+        
     # 面试
-        ! https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6
+        negotiating a job offer
+            ! https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6
         
         [前端]
             https://github.com/AutumnsWind/Front-end-questions-to-the-interview-stage
@@ -997,7 +1095,20 @@
 
         减肥:
             [你真的了解间歇性禁食减肥法吗](http://fitness.39.net/a/170413/5280511.html)
+        [如何进行脸部护理（男士）](https://zh.wikihow.com/%E8%BF%9B%E8%A1%8C%E8%84%B8%E9%83%A8%E6%8A%A4%E7%90%86%EF%BC%88%E7%94%B7%E5%A3%AB%EF%BC%89)
+        [如何保持清爽](https://zh.wikihow.com/%E4%BF%9D%E6%8C%81%E6%B8%85%E7%88%BD)
 
+        ## workouts
+            [A Complete Guide to Pre-Workout Supplements](https://www.gq.com/story/pre-workout-supplements-guide)
+                workout 补充药品, 又 Caffine, Amino acids , Carbohydrates, Beetroot juice 四者混合
+                没有确定的疗效, not regulated by the FDA, too much can be a bad thing.
+                Every body is unique.
+
+        ## liqure
+            [rum] 
+                https://www.gq.com/story/best-rum-drinks
+                    lime, sugar, = good rum
+            
 
     ## photography & camera
         [metering mode](https://photographylife.com/understanding-metering-modes)
@@ -1009,7 +1120,14 @@
     # relationship
         ! [10 questions to ask yourself before loving someone](https://medium.com/@angrytherapist/10-questions-to-ask-yourself-before-loving-someone-that-you-may-not-have-thought-of-before-61f841726c7c)
         [How To Get Love From Someone Who’s Guarded](https://psiloveyou.xyz/how-to-get-love-from-someone-whos-guarded-6ccbcae9fa1b)
+        [How to Create Rare And Life-Changing Relationships With Anyone](https://medium.com/thrive-global/how-to-create-transformational-relationships-the-ones-that-change-both-you-and-the-world-bc1edfb68d89)
+            > Tim Poulson is a brilliant strategist. He once told me, “You can pay people in other ways than money.” One of the best ways you can pay them is by giving them credit.
 
+
+            
+    # physical fitness
+        [碳水化合物](https://baike.baidu.com/item/%E7%A2%B3%E6%B0%B4%E5%8C%96%E5%90%88%E7%89%A9)
+        
     # mental health & self improvement
         [Want To Be Happier? How to Take Charge of Your Thoughts](https://betterhumans.coach.me/want-to-be-happier-how-to-take-charge-of-your-thoughts-e74ad496aced)
             * raise self conscious (through mindful meditation or outside alarm), notice the exsitence of thoughts inside of you
@@ -1021,6 +1139,11 @@
         ## meditation
             [mindful meditation](https://www.mindful.org/meditation/mindfulness-getting-started/)
 
+
+
+    # travel
+        [境外险的紧急救援不紧急？平安保险致歉并检讨处理过程“迟钝”](https://mp.weixin.qq.com/s/q4NsIQp9VV7UIX3gcxjNEQ)
+            境外险(优先买外资的保险公司, 服务意识和资源远比国内要好), 开来旅游还是要买好保险
 
 
 ---------------------------------------------------------------------------------
