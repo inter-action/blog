@@ -152,6 +152,9 @@
                 [Using PostCSS with BEM and SUIT Methodologies](https://webdesign.tutsplus.com/tutorials/using-postcss-with-bem-and-suit-methodologies--cms-24592)
 
 
+        ### browser internal
+            [Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
+            
         ### mobile html5
             [webview 调试]https://github.com/riskers/blog/issues/11
             [](http://www.smashingmagazine.com/2013/04/build-fast-loading-mobile-website/)
@@ -198,10 +201,23 @@
                 react
                     !! [redux vedio tutorial](https://egghead.io/series/getting-started-with-redux)
                     [React Animations in Depth](https://medium.com/react-native-training/react-animations-in-depth-433e2b3f0e8e)
-                    ! [Optimizing React:Virtual DOM explained](https://evilmartians.com/chronicles/optimizing-react-virtual-dom-explained)
                     [你真的了解浅比较么? shallow equal](http://imweb.io/topic/598973c2c72aa8db35d2e291)
                     [Beyond React 16 by Dan Abramov - JSConf Iceland ](https://www.youtube.com/watch?v=v6iR3Zk4oDY)
 
+
+                    react in depth:
+                        [WTF is JSX](https://jasonformat.com/wtf-is-jsx/)
+                        !![Didact: a DIY guide to build your own React](https://engineering.hexacta.com/didact-learning-how-react-works-by-building-it-from-scratch-51007984e5c5)
+                        ! [Optimizing React:Virtual DOM explained](https://evilmartians.com/chronicles/optimizing-react-virtual-dom-explained)
+
+                        [How to write your own Virtual DOM](https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060)
+                        ![Gooact: React in 160 lines of JavaScript](https://medium.com/@sweetpalma/gooact-react-in-160-lines-of-javascript-44e0742ad60f)
+                            这两篇和Didact文章重复了  
+
+
+                    JSX
+                        []
+                        [JSX can do that?](https://engineering.hexacta.com/jsx-can-do-that-1b2666c23a32)
 
                     Flux Pattern
                         [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243#!)
@@ -273,7 +289,7 @@
                 ![How to make your HTML responsive by adding a single line of CSS](https://medium.freecodecamp.org/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431)
 
         ### workflow
-            [如何 10 倍提高你的 Webpack 构建效率](http://eternalsky.me/ru-he-10-bei-ti-gao-ni-de-webpack-gou-jian-xiao-lu/)
+            
 
         ### tools
             [css animate]
@@ -292,6 +308,7 @@
             [](https://css-tricks.com/case-study-boosting-front-end-performance/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
             [Front-End Performance Checklist 2017](https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/)
             [](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
+            [Case study: analyzing the Walmart site performance](http://iamakulov.com/notes/walmart/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
             [react]
                 [React Performance Fixes on Airbnb Listing Pages](https://medium.com/airbnb-engineering/recent-web-performance-fixes-on-airbnb-listing-pages-6cd8d93df6f4)
                 
@@ -316,6 +333,7 @@
                 [在Webpack中使用Code Splitting实现按需加载](http://www.alloyteam.com/2016/02/code-split-by-routes/)
                 [webpack bits: Getting the most out of the CommonsChunkPlugin()](https://medium.com/webpack/webpack-bits-getting-the-most-out-of-the-commonschunkplugin-ab389e5f318)
                 [webpack 4 beta ](https://medium.com/webpack/webpack-4-beta-try-it-today-6b1d27d7d7e2)
+                [如何 10 倍提高你的 Webpack 构建效率](http://eternalsky.me/ru-he-10-bei-ti-gao-ni-de-webpack-gou-jian-xiao-lu/)
 
     ## backend
         [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
@@ -582,12 +600,29 @@
     [Taxicab_geometry](https://en.wikipedia.org/wiki/Taxicab_geometry) - 计算LP-space (P是向量的空间维度)的向量的最小距离, 不唯一
     [mod arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
     [Basic Linear Algebra for Deep Learning](https://towardsdatascience.com/linear-algebra-for-deep-learning-f21d7e7d7f23)
+    [Kleene star](https://en.wikipedia.org/wiki/Kleene_star)
+        就是一个Set中的元素各种互相排列组合, 无限次数, 除了 Empty Set 和 Singleton Set, 其他形式的 Kleene star over other set 都是 infinite set.
+
     
 
 # Algorithms & [data structure]:
+    ## basic math for algorithms
+        [power set](https://en.wikipedia.org/wiki/Power_set)
+        [Deterministic pushdown automaton](https://en.wikipedia.org/wiki/Deterministic_pushdown_automaton)
+            我的理解就是任何当前状态到下一个状态的转换都是 deterministic 的(唯一的一个解)
+
+
+
+
     ## Algorithms:
         [](https://en.wikipedia.org/wiki/Perfect_hash_function)
         [Randomized_algorithm](https://en.wikipedia.org/wiki/Randomized_algorithm)
+        [Backtracking](https://en.wikipedia.org/wiki/Backtracking)
+            Description of the method 这一节解释的非常清楚, 就是先假设一个解, 根据这个假设去解下面的的问题, 如果发现不合适
+            整个树的分支都skip 掉. 是一种优化的brute force 解法
+
+
+
 
     ## data structure:
         ![](https://www.tutorialspoint.com/data_structures_algorithms)
@@ -598,6 +633,21 @@
         [weakmap in es6](https://github.com/medikoo/es6-weak-map/blob/master/polyfill.js)
         [The Little AVL Tree That Could](https://medium.com/basecs/the-little-avl-tree-that-could-86a3cae410c7)
         [Painting Nodes Black With Red-Black Trees](https://medium.com/basecs/painting-nodes-black-with-red-black-trees-60eacb2be9a5)
+
+        [Huffman Coding](https://www.youtube.com/watch?v=fPthQE7Li8M&list=PLJse9iV6ReqgfKUeMQK2LWPt4sEu0SIxO)
+            之所以能成功, 变长的2进制, 是因为每一个2进制的值都是独特的叶子节点, 如果能从对照表中找到的话
+
+        ## Graph
+            [Spinning Around In Cycles With Directed Acyclic Graphs](https://medium.com/basecs/spinning-around-in-cycles-with-directed-acyclic-graphs-a233496d4688)
+                DFS 方式是因为这种方式减少内存, 缓存完最大深度对应的stack信息就可以被释放掉了. 而 WFS 这种方式会占用过多资源
+
+            [Finding The Shortest Path, With A Little Help From Dijkstra](https://medium.com/basecs/finding-the-shortest-path-with-a-little-help-from-dijkstra-613149fbdc8e)
+
+            [Speeding Up The Traveling Salesman Using Dynamic Programming](https://medium.com/basecs/speeding-up-the-traveling-salesman-using-dynamic-programming-b76d7552e8dd)
+            [Travelling Salesman Problem](https://www.youtube.com/watch?v=_51ot-Ri0ng)
+                这两篇文章讲的就是如何有效的解决 Traveling Sales man 的问题, 就是用 Dynamic Programming 寻找最小的解决办法, 去重, 然后做 memorization, 
+                后面的这个youtube视频, 很好的解释了采用DP的算法复杂度是2^n * n, Power Set 是 2^n
+
 
 
         ## set
@@ -612,6 +662,13 @@
                 implemented using arry, used for priority queue, that is FIFO with priority embeded.
             [Heapify All The Things With Heap Sort](https://medium.com/basecs/heapify-all-the-things-with-heap-sort-55ee1c93af82)
                 heapify 实现 for (i = length - 1 / 2, i>=0; i--) heapify(i), 这个过程是从最后面一排节点按个向上排序.
+
+        ## compiler
+            [Leveling Up One’s Parsing Game With ASTs](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff)
+                很好的解释了 AST 和 CST 的区别 
+
+            [ast 工具](https://astexplorer.net/)
+            
 
 
 # machine learning:
@@ -713,7 +770,9 @@
         [](https://blog.haschek.at/2017/how-to-defend-your-website-with-zip-bombs.html)
             用gzip产生的10m压缩文件，返回html内容，产生巨大的html内容样客户端过载
 
-    [](https://codahale.com/how-to-safely-store-a-password/)
+    # crypto
+        [Cryptography—What Is It and How Does It Work?](https://medium.com/@ahjuice/cryptography-what-is-it-and-how-does-it-work-2a21a730d694)
+        [](https://codahale.com/how-to-safely-store-a-password/)
         [salt](https://en.wikipedia.org/wiki/Salt_(cryptography))
         [bcrpt](https://en.wikipedia.org/wiki/Bcrypt)
             记住这一句就够用了:
@@ -768,6 +827,11 @@
                     [Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/)
                     https://blog.risingstack.com/nodejs-at-scale-npm-publish-tutorial/
 
+            # nodejs production & performanc
+                [Keeping Node.js Fast: Tools, Techniques, And Tips For Making High-Performance Node.js Servers](https://medium.com/@smashingmag/keeping-node-js-fast-tools-techniques-and-tips-for-making-high-performance-node-js-servers-8cfcb55e3d7)
+                    讲了 AutoCannon 和 Clinic 两种工具识别线上问题的方式方法
+                    --trace-warnings, tag 的使用
+                    
             [nodejs 模块加载机制]
                 http://www.infoq.com/cn/articles/nodejs-module-mechanism
             [nodejs 7 tips](http://dev.oupeng.com/articles/7-tips-for-a-nodejs-padawan)
@@ -909,6 +973,36 @@
     [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
 
 
+# compiler & parser
+    # basics
+        [Terminal and nonterminal symbols](https://en.wikipedia.org/wiki/Terminal_and_nonterminal_symbols)
+            terminal(终结): EBNF 右侧不好含左侧定义的节点 
+            non-terminal(非终结): 包含左侧定义的节点, 就是非终结态, 内部可以继续延展
+            这段描述其实不严格准确, 准确的描述见上面的wiki
+
+
+        [Production (computer science)](https://en.wikipedia.org/wiki/Production_(computer_science))
+            Production 我的理解就是non-terminal节点的所有 terminal 情况的一个排列组合, 就类似笛卡尔积
+
+        # notation
+            https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form
+            https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form
+                这个还好理解些, 其实说到底就是一种语法标注的形式, 用于标注 Context-free 的 gramma, 
+
+        [LL parser](https://en.wikipedia.org/wiki/LL_parser)
+            Constructing an LL(1) parsing table 和后面的一节都没有看懂
+        
+        [Shift-reduce parser](https://en.wikipedia.org/wiki/Shift-reduce_parser)
+            我的理解就是Bottom-Up 的parser的一种, peek 后面的input, 然后选择shift, error, stop or reduce 操作. 在reduce过程中, 会将已经parse
+            的tree和右边的input进行整合, 这种parser的好处在于资源利用率低
+        
+
+    [Parser Ast lexier]
+        https://en.wikipedia.org/wiki/Syntax_(programming_languages)
+
+
+
+
 # raspberry pi
     https://www.toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server
 
@@ -939,13 +1033,17 @@
     [force-files-to-download-not-open-in-browser](https://css-tricks.com/snippets/htaccess/force-files-to-download-not-open-in-browser/)
     [涉及 工作方面的思想](http://open.leancloud.cn/)
 
-    [Parser Ast lexier]
-        https://en.wikipedia.org/wiki/Syntax_(programming_languages)
-        https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form
+
 
 
     [state machine](http://blog.markshead.com/869/state-machines-computer-science/)
+    [Non-deterministic Finite Automata](https://www.youtube.com/watch?v=ehy0jGIYRtE)
     [Beginner's guide to git rebasing and squashing](https://shinglyu.github.io/web/2016/11/08/servo-rebase-and-squash-guide.html)
+    [A Most Perfect Union: Just-In-Time Compilers](https://medium.com/basecs/a-most-perfect-union-just-in-time-compilers-2938712a9f6a)
+        很好的解释了 baseline compilation & opt-compliation 的概念, 还有 hotness 的概念, 
+        讲的还是比较浅的, 适合初学者吧
+
+
 
 
 # economics & finance
@@ -962,6 +1060,9 @@
         [What are some examples of different types of capital?](https://www.investopedia.com/ask/answers/032715/what-are-some-examples-different-types-capital.asp)
         [Why Do Companies Care About Their Stock Prices?](https://www.investopedia.com/articles/basics/03/020703.asp)
         [Accounting Basics](https://www.investopedia.com/university/accounting/)
+        [Operating Income](https://www.investopedia.com/terms/o/operatingincome.asp)
+        [Operating Margin](https://www.investopedia.com/terms/o/operatingmargin.asp)
+        
         
         ## stock
             [How I learned To Day Trade In A Week](https://www.youtube.com/watch?v=GTtKLeDTCHo)
@@ -972,6 +1073,7 @@
             [how to read stock charts]
                 (https://www.investors.com/ibd-university/chart-reading/)
                 (! https://www.youtube.com/watch?v=IEqVPurJf_s)
+            [普通股](https://baike.baidu.com/item/%E6%99%AE%E9%80%9A%E8%82%A1)
 
                 ### indicators
                     [!Exponential Moving Average - EMA](https://www.investopedia.com/terms/e/ema.asp)
@@ -1027,6 +1129,10 @@
                     [Accounts Payable - AP](https://www.investopedia.com/terms/a/accountspayable.asp)
                     [Income Tax Payable](https://www.investopedia.com/terms/i/incometaxpayable.asp)
 
+
+                ### CDR
+                    [《混子谈钱》--回国上市，扯啥CDR？](http://finance.ifeng.com/a/20180410/16064904_0.shtml)
+
         ## business evaluation
             [How to evaluate a potential business acquisition](https://www.bdc.ca/en/articles-tools/start-buy-business/buy-business/pages/how-value-company.aspx)
             [How to Analyze a Company's Financial Position](https://www.investopedia.com/articles/fundamental/04/063004.asp)
@@ -1075,7 +1181,11 @@
         [程序员们也该知道的事——“期权和股票”](http://blog.csdn.net/tencent_bugly/article/details/53740633)
         [option ownership](https://a16z.com/2016/08/24/options-ownership/)
         [One Simple Trait That Will Advance Your Software Career](https://medium.com/@toddhd/one-simple-trait-that-will-advance-your-software-career-7a88bd505f59)
-        
+        [公司上市，对于普通员工来说意味着什么？](https://cn.100offer.com/blog/posts/372)
+        [期权和 RSU，哪个能让你的收益最大化？](https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzkwNQ==&mid=2649517643&idx=1&sn=2f6823adaa74ad827c82fca5214f30ec&chksm=88815315bff6da03ca59d463b4e85ffba15ac5f36ac45a29108010b6a776f3a4ae56971ee857&scene=21#wechat_redirect)
+        [Fearless Interview](https://www.youtube.com/watch?v=Lf3fNS-hnKs)
+
+
     # 面试
         negotiating a job offer
             ! https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6
@@ -1092,17 +1202,22 @@
             [](http://www.gq.com/story/when-to-tuck-in-your-shirt)
         [How to Accept a Compliment, Give One In Return & What Mistakes To Avoid](https://www.youtube.com/watch?v=_EKXNmM1PUo&feature=youtu.be)
         [How to Get to Know Someone: 53 Great Questions to Ask](https://www.gentlemansgazette.com/how-to-get-to-know-someone/)
+        [中青年男人去油腻指南](https://mp.weixin.qq.com/s/KkDVFwCceA5FUEyS_Zz14A)
 
-        减肥:
+        fitness & 减肥
+        
             [你真的了解间歇性禁食减肥法吗](http://fitness.39.net/a/170413/5280511.html)
         [如何进行脸部护理（男士）](https://zh.wikihow.com/%E8%BF%9B%E8%A1%8C%E8%84%B8%E9%83%A8%E6%8A%A4%E7%90%86%EF%BC%88%E7%94%B7%E5%A3%AB%EF%BC%89)
         [如何保持清爽](https://zh.wikihow.com/%E4%BF%9D%E6%8C%81%E6%B8%85%E7%88%BD)
+        [Male Model Diet Plan - The Best Diet Plan For Weight Loss](https://www.youtube.com/watch?v=Agxnp9tTshE&list=PLvoyXV04LDGl3mCQjKaoKPpnlFSD0aD7Q&index=4)
 
-        ## workouts
+        ## workouts & fitness
             [A Complete Guide to Pre-Workout Supplements](https://www.gq.com/story/pre-workout-supplements-guide)
                 workout 补充药品, 又 Caffine, Amino acids , Carbohydrates, Beetroot juice 四者混合
                 没有确定的疗效, not regulated by the FDA, too much can be a bad thing.
                 Every body is unique.
+
+            [The Best Abs Workouts: GQ’s Definitive Guide to Getting a Ripped Stomach](https://www.gq.com/story/best-abs-workouts-gq-ultimate-guide)
 
         ## liqure
             [rum] 
@@ -1123,18 +1238,35 @@
         [How to Create Rare And Life-Changing Relationships With Anyone](https://medium.com/thrive-global/how-to-create-transformational-relationships-the-ones-that-change-both-you-and-the-world-bc1edfb68d89)
             > Tim Poulson is a brilliant strategist. He once told me, “You can pay people in other ways than money.” One of the best ways you can pay them is by giving them credit.
 
+        ! [7步骤教你如何寻找真爱（女生篇）](https://mp.weixin.qq.com/s/lgCFZl8mD4gp5upaNxvr4g)
+            * networking & doing something is important!
+            > "There are no miracles. There is no such things as fate. Nothing is meant to be."
+                ! notice this sentence, what attitude you should bring is that you're the one in control and 
+                to be blamed for whatever comes to your life. Be responsible!
+
+    # dating
+        [How to Buy a Stranger a Drink Without Looking Creepy](https://www.gq.com/story/buy-me-a-drink)
+        [How to Know if a Woman Wants You to Stop Hitting on Her](https://www.gq.com/story/stop-hitting-on-her)
+
+
+
 
             
     # physical fitness
         [碳水化合物](https://baike.baidu.com/item/%E7%A2%B3%E6%B0%B4%E5%8C%96%E5%90%88%E7%89%A9)
         
     # mental health & self improvement
+        [The Most Important Skill Nobody Taught You](https://medium.com/personal-growth/the-most-important-skill-nobody-taught-you-9b162377ab77)
         [Want To Be Happier? How to Take Charge of Your Thoughts](https://betterhumans.coach.me/want-to-be-happier-how-to-take-charge-of-your-thoughts-e74ad496aced)
             * raise self conscious (through mindful meditation or outside alarm), notice the exsitence of thoughts inside of you
             * reasoning your throughts, 
             * make influence on your thoughts, choose your interpretation.
             * repeat.
             (we are not our thoughts, we're bigger, our thoughts just interpretations of what's going on aroud us)
+        [Why Successful People Choose Self-Compassion Over Self-Esteem](https://betterhumans.coach.me/why-successful-people-choose-self-compassion-over-self-esteem-b89b9c3567c1?token=KirpnW3VgaDhfzsQ)
+
+        ! [An Ambitious Person’s Brutally Honest Take On Work-Life Balance](https://medium.com/the-mission/an-ambitious-persons-take-on-work-life-balance-i-almost-lost-hope-in-my-marriage-b6f0c0355c2)
+            be patient & consistent. balance & try to live your life.
 
         ## meditation
             [mindful meditation](https://www.mindful.org/meditation/mindfulness-getting-started/)
@@ -1146,6 +1278,23 @@
             境外险(优先买外资的保险公司, 服务意识和资源远比国内要好), 开来旅游还是要买好保险
 
 
+
+    # cooking
+        [15 Mistakes Most Beginner Cooks Make](https://www.youtube.com/watch?v=TCVTOa01uN8)
+        [9 Essential Egg Recipes](https://www.youtube.com/watch?v=YfDKe2b9Si4&t=19s)
+
+        [How To Make Perfect Scrambled Eggs](https://www.youtube.com/watch?v=s9r-CxnCXkg)
+        [苏打粉和泡打粉的区别是什么](http://blog.sina.com.cn/s/blog_c20f16bb0101e5ck.html)
+
+    # 植物养殖
+        [最全盆栽薄荷的养殖方法](https://read01.com/nMeDmo.html#.W16D1dgzZTY)
+
 ---------------------------------------------------------------------------------
 下面是我阅读过, 但是感觉已经过时, 或者没啥大意义的链接, 纯粹是为了记录用
 ---------------------------------------------------------------------------------
+[医生啊，最信命了](https://mp.weixin.qq.com/s/NKhYCrdR78GaxULyJ1uA3g)
+
+
+
+
+

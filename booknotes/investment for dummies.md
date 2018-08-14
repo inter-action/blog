@@ -430,6 +430,12 @@ notes:
 
 
 
+# chapter 16: Selecting Investing Resources Wisely
+
+summary:
+介绍了当前信息爆炸的媒体时代, 为什么有的信息是不可信的, 作者又给出了些建议去 counter some of this kind of issues
+
+
 
 
 ## others

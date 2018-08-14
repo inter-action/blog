@@ -226,9 +226,55 @@ todos:
 summary:
 
 notes:
+* iterator 的 shared 和 mutable type获得方式, 跟 root path 中的 shared or mutable type有关 
+    ```rust
+    (&favorites).into_iter() 
+    (&mut vector).into_iter() 
+    ```
+
+* rust 的 iterable type 里边拿到 iterable type 有两种方式, `iter` `iter_mut` 和 `into_iter`.
+    其中只有 `into_iter` 是 trait 中定义的, 所以你可以用 ta 来写些more generic code .
+
+* `by_ref` 这个实现非常有意思, 正常的 adapter 会 take ownership of the target, `by_ref` 把 iterator
+    的 ownership 转换成一个 `&mut` reference, 然后这个 `&mut` reference 给 adapter 去 take ownership.
+
+    
+* > Of course, a for loop uses IntoIterator::into_iter to convert its operand into an iterator. 
+    But the standard library provides a blanket implementation of IntoIterator for every type that implements Iterator,
+    
+
 
 
 todos:
+* how drain method is implemented?
+    ```rust
+    use std::iter::FromIterator;
+    let mut outer = "Earth".to_string();
+    let inner = String::from_iter(outer.drain(1..4)); assert_eq!(outer, "Eh");
+    assert_eq!(inner, "art");
+    ```
+*
+
+
+
+
+## chapter 15: Collections
+summary:
+
+
+notes:
+
+
+
+todos:
+
+
+
+
+
+
+
+
 
 
 

@@ -85,6 +85,19 @@ security:
 * [](https://blog.risingstack.com/node-hero-node-js-security-tutorial/)
 
 
+performance:
+* [Keeping Node.js Fast: Tools, Techniques, And Tips For Making High-Performance Node.js Servers](https://medium.com/@smashingmag/keeping-node-js-fast-tools-techniques-and-tips-for-making-high-performance-node-js-servers-8cfcb55e3d7)
+  讲了 AutoCannon 和 Clinic 两种工具识别线上问题的方式方法
+  --trace-warnings, tag 的使用
+  还有就是系统过载 nodejs 处理方式 503 service not available
+  
+  * Active Handle in Clinic
+    >Active Handles are unaffected by the Event Loop delay. An active handle is an object that represents 
+    either I/O (such as a socket or file handle) or a timer (such as a setInterval). We instructed AutoCannon 
+    to open 100 connections (-c100). Active handles stay a consistent count of 103. The other three are 
+    handles for STDOUT, STDERR, and the handle for the server itself.
+  
+
 # Links:
 
 [Real World Lessons on the Pain Points of Node.js Applications](https://www.youtube.com/watch?v=eZF1t7Cv_7o&list=LLuhDiGxQ78K0p35lrkwZLjA&index=2)

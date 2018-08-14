@@ -11,7 +11,7 @@
 
 ## road map
 
-* Performance
+* Performance
   * load perf (all about loading time)
     * network
       * compression, gzip etc
@@ -93,6 +93,9 @@
         * LQIP technique:
           * https://github.com/aFarkas/lazysizes
           * https://github.com/loktar00/react-lazy-load
+
+      * [react-ideal-image](https://github.com/stereobooster/react-ideal-image/blob/master/introduction.md)
+
     * PWA
       * case study:
         * https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0

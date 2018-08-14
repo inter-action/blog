@@ -4,6 +4,9 @@
 
 
   # FE
+    collection
+      https://github.com/dankogai/js-combinatorics
+      
     lit-html - HTML template literals in JavaScript
       https://github.com/PolymerLabs/lit-html
     driver - A light-weight, no-dependency, vanilla JavaScript engine to drive the user's focus across the page
