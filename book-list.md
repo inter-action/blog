@@ -100,6 +100,7 @@
     [angular2 guide](https://angular.io/docs/ts/latest/guide/) | 2016.09.20-2016.10|:D(only guide section)
     [UNIX Tutorial](https://www.tutorialspoint.com/unix/index.htm) | 2016.11-2016.12:D
     [Servers.for.Hackers.2016.7]|2018.01-2018.02|:D
+    [爱上Arduino/Getting Started with Arduino 3rd edition]|2018.10-2018.10|:D
 
 [android]
 
@@ -142,6 +143,9 @@
     [无比繁杂的小情绪.春上村树]|2017.06-2017.12|:D
     [程序员成长课-安晓辉]|2018.03|:D
     [颠覆者, 周鸿祎自传]|2018.03.03-2018.04.30|:D
+    [厨艺的常识-理论,方法与实践]|2018.07-2018.08|:D
+    [再爱一次 - 渡边淳一]|2018.10-2018.10|:D
+    [爱情数学. Hannah Fry]|2018.08-2018-08
     
 
 [SUSPENDED] - clean books that is no more appealing
@@ -195,6 +199,7 @@
     ! [Apress.Low-Level.Programming]|2017.08-~
     [OReilly.Programming.Rust]|2017.12-~
     [我不管，我就是要开咖啡馆-童铃]|2017.12.17-~
+    [Packet.Guide.to.Core.Network.Protocols Bruce.Hartpence]|2018.10-~
     
 
   
