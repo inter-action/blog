@@ -1,4 +1,4 @@
-## 开发日常的工具记录
+## 开发日常的工具记录
 这里, 记录下我开发用的工具, 方便以后查阅。
 
 
@@ -52,9 +52,9 @@ nginx或者webpack inline server。
 4. 安装证书, 在iphone中输入这个地址(safari): mitm.it, 这步必须先启用mitmproxy。安装ios的证书就可以了。
 然后你就可以在命令行中看拦截的网络请求了。
 
-## mitmproxy 给应用加上https, 通过reverse proxy 模式
+## mitmproxy 给应用加上https, 通过reverse proxy 模式
 
-```shell
+```shell
 #对应的需要修改host machine的 hosts 文件或者通过自定义的dns服务解析这个配置的域名.
 sudo mitmdump -p 443 --mode reverse:http://minimart-crm.faas.alpha.elenet.me:9001/ --ssl-insecure
 
@@ -71,7 +71,7 @@ mitmproxy --listen-port 8888 --ssl-insecure
 127.0.0.1   minimart-crm.faas.alpha.elenet.me
 ```
 
-## mitmproxy 代理mac机器的网络请求, 通过 socks mode
+## mitmproxy 代理mac机器的网络请求, 通过 socks mode
 通过socks mode来代理电脑的网络请求, 一是非常强大, 第二配置简单. 当然也可以用浏览器插件来显式制定proxy server.
 
 核心的链接: [Tracing All Network Machine Traffic Using MITMProxy for Mac OSX](https://blogs.msdn.microsoft.com/aaddevsup/2018/04/11/tracing-all-network-machine-traffic-using-mitmproxy-for-mac-osx/)
@@ -80,11 +80,11 @@ mitmproxy --listen-port 8888 --ssl-insecure
 mitmproxy --mode socks5 --showhost
 ```
 
-打开mac网络设置, 点击到你链接的Internet网络上, 点击Advanced-> Proxies -> toogle SOCKS Proxy -> 在 sockets proxy server 下输入 `127.0.0.1` 端口 `8080`
+打开mac网络设置, 点击到你链接的Internet网络上, 点击Advanced-> Proxies -> toogle SOCKS Proxy -> 在 sockets proxy server 下输入 `127.0.0.1` 端口 `8080`
 
 
 # homebrew
-## homebrew 命令
+## homebrew 命令
 ```
 brew info dnsmasq
 brew list dnsmasq
@@ -110,7 +110,7 @@ dig minimart-crm.faas.alpha.elenet.me @127.0.0.1
 # 绑定根域名解析
 sudo mkdir -p /etc/resolver
 # 注意这里的文件名一定要和你解析的域名根部相同, 可以为 `me` or `elenet.me` or `faas.alpha.elenet.me`
-cd /etc/resolver && vim faas.alpha.elenet.me 
+cd /etc/resolver && vim faas.alpha.elenet.me 
 
 
 # 用 ping 来测试下
@@ -150,20 +150,20 @@ sudo mkdir -p /etc/resolver
         * https://stackoverflow.com/questions/11235370/android-emulator-doesnt-take-keyboard-input-sdk-tools-rev-20
 
 
-* emulator 启动虚拟机
-    * cd 到 $ANDROID_SDK_ROOT/emulator 文件夹下面, 执行 `./emulator @test  -writable-system -dns-server 127.0.0.1`
+* emulator 启动虚拟机
+    * cd 到 $ANDROID_SDK_ROOT/emulator 文件夹下面, 执行 `./emulator @test  -writable-system -dns-server 127.0.0.1`
 
 
 
-### 配置网络, 将 emulator 中的网络请求映射到本机的资源
-虽然emulator和host machine共享同一个网络, 但是emulator并不会遵守host machine 配置的`/etc/hosts` 文件, 所以为了让android的网络请求映射到host machine 上, 有两种方式: 
+### 配置网络, 将 emulator 中的网络请求映射到本机的资源
+虽然emulator和host machine共享同一个网络, 但是emulator并不会遵守host machine 配置的`/etc/hosts` 文件, 所以为了让android的网络请求映射到host machine 上, 有两种方式: 
 * a) 修改 adnroid 的 `/system/etc/hosts` 文件 
 * b) 启动的时候, 带上 dns-server 参数, 
 
 需要看的核心内容就是这个链接, 去理解emulator中的网络配置 [Set up Android Emulator networking](https://developer.android.com/studio/run/emulator-networking)
 
 #### a)
-```shell
+```shell
 # 将hosts文件拉去下来
 
 adb root 
