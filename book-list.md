@@ -101,6 +101,7 @@
     [UNIX Tutorial](https://www.tutorialspoint.com/unix/index.htm) | 2016.11-2016.12:D
     [Servers.for.Hackers.2016.7]|2018.01-2018.02|:D
     [爱上Arduino/Getting Started with Arduino 3rd edition]|2018.10-2018.10|:D
+    [Packet.Guide.to.Core.Network.Protocols Bruce.Hartpence]|2018.10-2018.10|:D
 
 [android]
 
@@ -146,6 +147,8 @@
     [厨艺的常识-理论,方法与实践]|2018.07-2018.08|:D
     [再爱一次 - 渡边淳一]|2018.10-2018.10|:D
     [爱情数学. Hannah Fry]|2018.08-2018-08
+    [住宅设计解剖书2 -  饭冢丰]|2018.06-2018.10|:D
+    
     
 
 [SUSPENDED] - clean books that is no more appealing
@@ -199,7 +202,7 @@
     ! [Apress.Low-Level.Programming]|2017.08-~
     [OReilly.Programming.Rust]|2017.12-~
     [我不管，我就是要开咖啡馆-童铃]|2017.12.17-~
-    [Packet.Guide.to.Core.Network.Protocols Bruce.Hartpence]|2018.10-~
+    [刷新. Satya Nadella]|2018.10.20-~
     
 
   

@@ -55,6 +55,7 @@
         
 
     ## front end
+        js bridge 实现 - https://w3ctrain.com/2017/04/12/js-bridge/#more
         [survivejs books](https://survivejs.com/react/)
         [The whole web at maximum FPS: How WebRender gets rid of jank](https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/)
         [shadow dom]
@@ -74,6 +75,7 @@
         [前段代码加密](http://div.io/topic/1220)
         [反击爬虫，前端工程师的脑洞可以有多大](http://litten.me/2017/07/09/prevent-spiders/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
         [利用 javascript 实现富文本编辑器](http://eux.baidu.com/blog/2017/11/%E5%88%A9%E7%94%A8-javascript-%E5%AE%9E%E7%8E%B0%E5%AF%8C%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+        [! BUILD YOUR OWN BUNDLER](https://www.youtube.com/watch?v=eoi6U2fBKhU)
 
         ### perspective
             [2015 前端[JS]工程师必知必会](http://zhuanlan.zhihu.com/FrontendMagazine/20002850)
@@ -547,6 +549,13 @@
         http://fangxin.blog.51cto.com/1125131/735178
         http://www.cnblogs.com/TankXiao/archive/2012/10/10/2711777.html
 
+    [mitmproxy]
+        App爬虫神器mitmproxy和mitmdump的使用 - https://juejin.im/post/5ac9ea6d518825364001b5b9
+        [mitmproxy 来搞定 mac 的代理](https://blogs.msdn.microsoft.com/aaddevsup/2018/04/11/tracing-all-network-machine-traffic-using-mitmproxy-for-mac-osx/)
+            ```plain
+            mitmproxy --mode socks5 --showhost --listen-port 8888
+            ```
+            
     ## version control
         git
             [undo-the-last-git-commit] http://stackoverflow.com/questions/927358/undo-the-last-git-commit
@@ -764,6 +773,8 @@
     route
         [! route examples](http://www.thegeekstuff.com/2012/04/route-examples)
             http://www.thegeekstuff.com/2012/04/route-examples
+
+    DHCP - https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
 
 # security
     web_security:
@@ -1003,8 +1014,17 @@
 
 
 
-# raspberry pi
-    https://www.toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server
+# embeded system
+    # raspberry pi
+        https://www.toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server
+        树莓派:
+        树莓派---GPIO应用详解 - https://www.jianshu.com/p/f31b90cc756f  
+        GPIO introduction - https://www.makeuseof.com/tag/raspberry-pi-gpio- pins-guide/
+        GPIO Refs - https://pinout.xyz/pinout/pin2_5v_power
+        install IOS - https://linuxconfig.org/install-ubuntu-16-04-mate-or-ubuntu-18-04-on-raspberry-pi
+        max voltage & current - https://raspberrypi.A.com/questions/3209/what-are-the-min-max-voltage-current-values-the-gpio-pins-can-handle
+
+    # arduino
 
 
 # Perspective:
@@ -1185,6 +1205,11 @@
         [期权和 RSU，哪个能让你的收益最大化？](https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzkwNQ==&mid=2649517643&idx=1&sn=2f6823adaa74ad827c82fca5214f30ec&chksm=88815315bff6da03ca59d463b4e85ffba15ac5f36ac45a29108010b6a776f3a4ae56971ee857&scene=21#wechat_redirect)
         [Fearless Interview](https://www.youtube.com/watch?v=Lf3fNS-hnKs)
 
+    # 管理
+        技术团队风格指南 - https://zhuanlan.zhihu.com/p/22266609
+        其实我们可以不用那么讨厌 - https://zhuanlan.zhihu.com/p/20166568
+        技术团队的管理体系 - https://zhuanlan.zhihu.com/p/23382206
+        前端 Leader 如何做好团队规划？阿里内部培训总结公开 - https://zhuanlan.zhihu.com/p/36911993
 
     # 面试
         negotiating a job offer

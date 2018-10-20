@@ -26,7 +26,8 @@ MAC:
 headers:
 * Control Field (Type), what payload type are (ARP or IP)
 
-
+special address:
+ff:ff:ff:ff:ff:ff, broadcast address to the current netork ofc.
 
 ## chapter 3: Internet Protocol
 这章主要讲IP协议部分. 包括协议的构成.
@@ -60,3 +61,46 @@ Reserved IP addresses:
 
 ## chapter 5: Network Equipment
 
+这章主要讲了network设备的内容 switch, hub, router, AP 等:
+
+我的理解是
+
+hub 操作在 physical 那层, 会broadcast 0 and 1 to all the ports.
+switch 操作在 link 层, 会根据 SAT (将MAC address to port的table) 来转发 LAN 请求. 在传递的过程中会修改 MAC 的 SRC ADDR .
+AP 也是类似于switch, 但是具体协议有些不同, 而且是wireless
+router 是操作在 network 层, 即 IP 协议层, 会修改IP的地址和头.
+
+
+
+## chapter 6: Internet Control Message Protocol
+
+这章主要讲了ICMP协议. 这个协议的目的在于网络中节点的沟通和调试. 这个协议包含的主要type类型为:
+* echo / reply: debug. ping 程序会用到
+* redirect: router 发现自己不能处理这个请求之后, 会发送给 initiatied host 一个 ICMP redrect, 告诉host你去访问这个router. 然后host会将这个信息加在自己的dynamic routing table 中.
+* Destination Unreachable: 网络不通. 中间有节点不能正确的到达目的地. 会将原始的请求通过payload带给initiatied host.
+
+
+还讲了 TTL 的作用, traceroute 程序用ICMP TTL header来判断网络正常的边界. 通过发送多次请求, 并 increment TTL field by 1. 来判断网络的问题.
+中间涉及的NAT协议没有特别懂. traceroute 也需要再看看.
+
+## chapter 7: Subnetting and Other Masking Acrobatics
+
+这章主要讲了supernetting, subnetting 的方式
+
+* supernetting 是通过自网络去计算 gateway 的 ip 和 mask 的
+    * 计算network id, 找到相同的bits(两个子网络),和不同的bits, 不同的bits全部置位0, 与相同的bits组成最终的network id
+    * 计算mask, 相同的bits置位1, 不同的bits置位0, 组成最终的mask
+* subnetting 是一个相反的过程 ()
+
+
+links:
+* [Supernetting Explained Very Well](https://www.youtube.com/watch?v=N938u4_Jfc4)
+* [Computer Networks Lecture 9 -- Supernetting or aggregation](https://www.youtube.com/watch?v=MnqP_TVwkbs)
+
+
+# Links
+
+* [Multicast address](https://en.wikipedia.org/wiki/Multicast_address)
+
+# todos
+* https://www.youtube.com/watch?v=MnqP_TVwkbs 这个关于computer network的视频需要看下
