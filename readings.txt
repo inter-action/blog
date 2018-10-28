@@ -973,7 +973,9 @@
             [Functional Programming]: http://en.wikipedia.org/wiki/Functional_programming
             [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
             [](https://bartoszmilewski.com/2014/11/24/types-and-functions/)
-
+            [Functional Programming: Type Systems](https://www.youtube.com/watch?v=hy1wjkcIBCU)
+                type class: 就是先定义type行为, 然后可以吧行为引入, 动态扩充对象行为. 而传统的 class 方式需要将type和行为结合到一起.
+            
 
  # hacking:
 

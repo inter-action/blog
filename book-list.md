@@ -102,6 +102,7 @@
     [Servers.for.Hackers.2016.7]|2018.01-2018.02|:D
     [爱上Arduino/Getting Started with Arduino 3rd edition]|2018.10-2018.10|:D
     [Packet.Guide.to.Core.Network.Protocols Bruce.Hartpence]|2018.10-2018.10|:D
+    [Computer Systems A Programmer's Perspective]|2016.12.03-2018.06|:D
 
 [android]
 
@@ -148,7 +149,8 @@
     [再爱一次 - 渡边淳一]|2018.10-2018.10|:D
     [爱情数学. Hannah Fry]|2018.08-2018-08
     [住宅设计解剖书2 -  饭冢丰]|2018.06-2018.10|:D
-    
+    [走出荒野 - Cheryl Strayed]|2018.08-2018.10|:D
+
     
 
 [SUSPENDED] - clean books that is no more appealing
@@ -194,7 +196,6 @@
     [30 days to a better man, by Brett McKay]|2016.11.05-~
     [The Intelligent Investor by Benjamin Graham]|2016.11.16-~
     [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
-    [Computer Systems A Programmer's Perspective]|2016.12.03-~
     [investment for dummies]|2017.02-~
     [stock investing for dummies]|2017.06-~
     [像哲学家一样思考. 卷2]|2017.06-~

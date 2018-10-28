@@ -32,3 +32,15 @@
 本章讲了对Enterprising Investor的不要进行的策略, 购买二级证券或者优先股, 还有新发行的股票的原因.不得不说看了正章之后还是没看明白作者的表达 :(, 看到时候看过commentary之后能不能懂吧
 
 ### Commentary
+
+
+## chapter 7: Portfolio policy for the enterprising investor: The Positive Side
+
+本章主要还是讲了不要购买overvalued securities. 还有就是对 enterprising investor 的一些投资建议
+* the relatively unpopular large company
+* purchase of bargain issues
+
+还有对投资者的一些建议, 虽然没特别看懂说的是啥.
+
+### Commentary
+
