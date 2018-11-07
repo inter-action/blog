@@ -205,6 +205,7 @@
                     [React Animations in Depth](https://medium.com/react-native-training/react-animations-in-depth-433e2b3f0e8e)
                     [你真的了解浅比较么? shallow equal](http://imweb.io/topic/598973c2c72aa8db35d2e291)
                     [Beyond React 16 by Dan Abramov - JSConf Iceland ](https://www.youtube.com/watch?v=v6iR3Zk4oDY)
+                    [! React Today and Tomorrow and 90% Cleaner React](https://www.youtube.com/watch?v=dpw9EHDh2bM&t=648s)
 
 
                     react in depth:

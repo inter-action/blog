@@ -44,3 +44,38 @@
 
 ### Commentary
 
+* 没人能预测股市的涨跌.
+* 越是抢手的公司, 其股票的涨势可能超过本身价值的涨势, 一旦超过投资者就越有可能承受损失.
+* 小的公司应收增长/翻倍是很容易的, 但是大到一定程度, 就开始变得越发艰难.
+* 买股票入手时机, 比较好的是在该公司出事的时候, 而不是unpopular的时候买.
+* 评估bargain bin(值得投资的可能选项), net assets = total assets - (any liability = prefered stock + long term debt), 去和股价去比较
+
+
+## chapter 8: The Investor and Market Fluctuations
+* don't speculate!
+* 讨论了几种购买股票的策略
+    * `Buy-Low-Sell-High Approach`: 尽管看起来这种approach很plausible, 作者claim没有人能够真正预测股市的低点和高点. 而相对的, 投资者应该
+        在股市波动所带来的风险中, 适当的去切入到债券(balance his/her portfolio), 去规避风险(missing his/her investment opportunity or
+        get caught in the rising price.)
+* 买卖股票不要盲目跟风!
+* > the better the quality of a common stock, the more speculative it is likely to be.
+* 股市变幻无常, 投资者应当适时对自己的portfolio进行审视(take a hard look from time to time)
+* 价格对于投资者, 只是用于买入和卖出的重要指标, 只有他十分确定能够套利, 否则投资者应该满足于公司股票的dividend.
+* 评价股票也需要对其公司的管理层做评估.
+
+p207的`Fluctuations in Bond Price`没能看懂, 以后有机会要好好读读. 自己对bond的概念也一直不是很理解.
+
+
+
+
+
+
+
+
+
+
+
+# Investment Notes
+* the most important and high reward investment is to invest in yourself!
+* 我觉得价值投资可能比较适合我些, 因为工作才是我的主业.
+* 买卖股票不要盲目跟风!
