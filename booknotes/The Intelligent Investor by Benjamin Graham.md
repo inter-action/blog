@@ -65,11 +65,19 @@
 
 p207的`Fluctuations in Bond Price`没能看懂, 以后有机会要好好读读. 自己对bond的概念也一直不是很理解.
 
+### Commentary
 
 
 
+## chapter 9: Investing in Investment Funds
+* 从书中看的p230标的数据, 给我的感觉如果可以买指数型的股票或者基金应该比其他类型的基金要靠谱些, 感觉.
+* p232开始描述基金的收益, 就是如果你买基金看中的是过去1-3年左右的收益其实是不稳的, 因为investment fund managers
+    喜欢通过些手段, 提高短期收益(远高于市场同期), 增加popularity, 吸引人投资, 但这些终归要还回去的. 在高值买基金都伴随着可能下跌的风险
+* Closed-End versus Open-End Funds 这一节中, 论证了
+    * 如果是以折扣价购买closed-end funds, 还是很值的. 虽然书中收取相对于net asset value 的9% commission fee 在国内当下基本不存在, 但p239的论证还是非常有意思的
+    * 还有就是收费高的基金和收益并无强相关性, 如果有相关性的话.
 
-
+### Commentary
 
 
 
