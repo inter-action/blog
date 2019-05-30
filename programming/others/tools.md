@@ -159,6 +159,7 @@ cd /etc/resolver && vim faas.alpha.elenet.me
 虽然emulator和host machine共享同一个网络, 但是emulator并不会遵守host machine 配置的`/etc/hosts` 文件, 所以为了让android的网络请求映射到host machine 上, 有两种方式: 
 * a) 修改 adnroid 的 `/system/etc/hosts` 文件 
 * b) 启动的时候, 带上 dns-server 参数, 
+* c) 记得关闭掉emulator中的4G/蜂窝网络的访问权限
 
 需要看的核心内容就是这个链接, 去理解emulator中的网络配置 [Set up Android Emulator networking](https://developer.android.com/studio/run/emulator-networking)
 
