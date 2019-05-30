@@ -77,7 +77,7 @@ mitmproxy --listen-port 8888 --ssl-insecure
 核心的链接: [Tracing All Network Machine Traffic Using MITMProxy for Mac OSX](https://blogs.msdn.microsoft.com/aaddevsup/2018/04/11/tracing-all-network-machine-traffic-using-mitmproxy-for-mac-osx/)
 
 ```shell
-mitmproxy --mode socks5 --showhost
+mitmproxy --mode socks5 --showhost
 ```
 
 打开mac网络设置, 点击到你链接的Internet网络上, 点击Advanced-> Proxies -> toogle SOCKS Proxy -> 在 sockets proxy server 下输入 `127.0.0.1` 端口 `8080`
