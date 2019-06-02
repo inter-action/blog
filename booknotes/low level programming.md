@@ -199,6 +199,7 @@ notes:
 
 ## chapter 13: Good Code Practices
 
+* >Doxygen is a de facto standard for creating documentation for C and C++ programs.
 
 
 ## others
@@ -211,6 +212,7 @@ notes:
         ```bash
         gcc -E main.c  # view preprocess result
         ```
+
 
 
 todos:
