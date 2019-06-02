@@ -77,7 +77,7 @@ mitmproxy --listen-port 8888 --ssl-insecure
 核心的链接: [Tracing All Network Machine Traffic Using MITMProxy for Mac OSX](https://blogs.msdn.microsoft.com/aaddevsup/2018/04/11/tracing-all-network-machine-traffic-using-mitmproxy-for-mac-osx/)
 
 ```shell
-mitmproxy --mode socks5 --showhost
+mitmproxy --mode socks5 --showhost
 ```
 
 打开mac网络设置, 点击到你链接的Internet网络上, 点击Advanced-> Proxies -> toogle SOCKS Proxy -> 在 sockets proxy server 下输入 `127.0.0.1` 端口 `8080`
@@ -159,6 +159,7 @@ cd /etc/resolver && vim faas.alpha.elenet.me
 虽然emulator和host machine共享同一个网络, 但是emulator并不会遵守host machine 配置的`/etc/hosts` 文件, 所以为了让android的网络请求映射到host machine 上, 有两种方式: 
 * a) 修改 adnroid 的 `/system/etc/hosts` 文件 
 * b) 启动的时候, 带上 dns-server 参数, 
+* c) 记得关闭掉emulator中的4G/蜂窝网络的访问权限
 
 需要看的核心内容就是这个链接, 去理解emulator中的网络配置 [Set up Android Emulator networking](https://developer.android.com/studio/run/emulator-networking)
 
