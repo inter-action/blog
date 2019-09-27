@@ -7,7 +7,6 @@
         - low value (should i remove it ?)
         ? unread or failed to understand the contents.
 
-
 =============================================
 # BLOGS
     [](https://www.smashingmagazine.com/)
@@ -495,6 +494,8 @@
         ### devops
             https://blog.risingstack.com/moving-node-js-from-paas-to-kubernetes-tutorial/
             [](https://www.digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers)
+            Understanding Linux CPU Load - https://scoutapm.com/blog/understanding-load-averages
+                15mins mark / (number of cpu) >= 0.7
 
         ### native modules:
             [](https://blog.risingstack.com/node-js-native-modules-with-rust/)
@@ -708,6 +709,7 @@
     [](https://askubuntu.com/questions/611528/why-cant-sudo-find-a-command-after-i-added-it-to-path)
 
     [ /etc/rc.local file ](https://unix.stackexchange.com/questions/59929/whats-the-difference-between-etc-rc-local-and-etc-init-d-rc-local)
+    [What is the difference between Unix, Linux, BSD and GNU? [closed]](https://unix.stackexchange.com/questions/104714/what-is-the-difference-between-unix-linux-bsd-and-gnu)
 
     ## linux
         [linux 工具速查手册](1)
@@ -720,6 +722,10 @@
           http://www.ruanyifeng.com/blog/2015/03/build-website-with-make.html
 
         [Async IO on Linux: select, poll, and epoll](https://jvns.ca/blog/2017/06/03/async-io-on-linux--select--poll--and-epoll/)
+        [深刻理解——real user id, effective user id, saved user id in Linux](https://blog.csdn.net/fmeng23/article/details/23115989)
+          real user 是login的user, effective user 是用来检查进程权限的真实凭据. save user id 默认是从 effective user id copy过来的.
+          set-user-id 文件位设置上之后, 允许用户以其文件usr id来执行进程. 也就是说effective user id这个时候就是文件的id. 这种方式允许
+          用户以另一个用户的身份执行程序. effective user id 只允许被设置为 real user id 或者 saved user id .
 
 # System Programming:
     [using libraries](https://rufflewind.com/2017-02-25/using-libraries)
@@ -917,6 +923,8 @@
             [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/)
             [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg)
             [What Are Tokio and Async IO All About?](https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about/)
+            [Rust不让你做的那些事](https://zhuanlan.zhihu.com/p/62642244)
+                挺复杂的看了一大半, 算了不看了.
 
             Language itself:
               [](https://blog.rust-lang.org/2015/05/11/traits.html)
@@ -1069,6 +1077,8 @@
 
 
 
+    [encoding utf16 vs utf8](https://stackoverflow.com/questions/2241348/what-is-unicode-utf-8-utf-16)
+      
 
 # economics & finance
     [How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0)

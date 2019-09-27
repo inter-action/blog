@@ -89,6 +89,9 @@
     [Packt.Mastering.Go.Web.Services.2015.4]|2015.11:D
     [Packt.Go.Building.Web.Applications.2016.8]|2017.10-2017:11.20|:D
 
+[rust]
+    [OReilly.Programming.Rust]|2017.12-2019|:D
+
 
 --------------- UNCATEGORIZED TECH --------------- 
 [other tech related]
@@ -103,6 +106,8 @@
     [爱上Arduino/Getting Started with Arduino 3rd edition]|2018.10-2018.10|:D
     [Packet.Guide.to.Core.Network.Protocols Bruce.Hartpence]|2018.10-2018.10|:D
     [Computer Systems A Programmer's Perspective]|2016.12.03-2018.06|:D
+    [ Learn Vimscript the Hard Way ]|2019.08|:D
+      http://learnvimscriptthehardway.stevelosh.com/ 
 
 [android]
 
@@ -155,6 +160,7 @@
     [爱情数学. Hannah Fry]|2018.08-2018-08
     [住宅设计解剖书2 -  饭冢丰]|2018.06-2018.10|:D
     [走出荒野 - Cheryl Strayed]|2018.08-2018.10|:D
+    [我不管，我就是要开咖啡馆-童铃]|2017.12.17-2018|:D
 
     
 
@@ -193,23 +199,22 @@
     [Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition.2016.8] | 2016.10.27-~
     [Algorithms of the Intelligent Web]|2014 - ~
     [Manning.Functional.Programming.in.JavaScript]|2016.11.24-~
+    [stock investing for dummies]|2017.06-~
+    [investment for dummies]|2017.02-~
+    [OReilly.Hello.Startup.2015.10]|2016.10 - ~
+    [30 days to a better man, by Brett McKay]|2016.11.05-~
+    [OReilly C in a Nutshell.2nd.Edition]|2018.11-~
+    [TCP/IP 详解卷一]|2017.05-~
+    [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
 
 
 [ONGOING]
     
-    [OReilly.Hello.Startup.2015.10]|2016.10 - ~
-    [30 days to a better man, by Brett McKay]|2016.11.05-~
     [The Intelligent Investor by Benjamin Graham]|2016.11.16-~
-    [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
-    [investment for dummies]|2017.02-~
-    [stock investing for dummies]|2017.06-~
     [像哲学家一样思考. 卷2]|2017.06-~
-    [TCP/IP 详解卷一]|2017.05-~
     ! [Apress.Low-Level.Programming]|2017.08-~
-    [OReilly.Programming.Rust]|2017.12-~
-    [我不管，我就是要开咖啡馆-童铃]|2017.12.17-~
-    [OReilly C in a Nutshell.2nd.Edition]|2018.11-~
-    
+    [Manning.Linux.in.Action]|2019.07.31-~
+    [The Linux Programming Interface: A Linux and UNIX System Programming Handbook]|2019.08-~  
 
   
     
