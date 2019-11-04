@@ -783,6 +783,8 @@
             http://www.thegeekstuff.com/2012/04/route-examples
 
     DHCP - https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
+    网络(arp 和 ip 介绍) - https://bryantchang.github.io/2019/06/02/net-protocol1/
+    
 
 # security
     web_security:
@@ -925,6 +927,8 @@
             [What Are Tokio and Async IO All About?](https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about/)
             [Rust不让你做的那些事](https://zhuanlan.zhihu.com/p/62642244)
                 挺复杂的看了一大半, 算了不看了.
+            [硬核！Rust异步编程方式重大升级：新版Tokio如何提升10倍性能详解](https://mp.weixin.qq.com/s/qLVKxzorLvFYxfjol01xNA)
+                有点难搞后面的部分
 
             Language itself:
               [](https://blog.rust-lang.org/2015/05/11/traits.html)
@@ -1078,6 +1082,8 @@
 
 
     [encoding utf16 vs utf8](https://stackoverflow.com/questions/2241348/what-is-unicode-utf-8-utf-16)
+    [负数的带符号和不带符号的右移运算](https://blog.csdn.net/quzhongxin/article/details/47299511)
+        
       
 
 # economics & finance
@@ -1327,6 +1333,15 @@
 
     # 植物养殖
         [最全盆栽薄荷的养殖方法](https://read01.com/nMeDmo.html#.W16D1dgzZTY)
+
+    # Camera & Photoshop
+
+        # Camera basics
+            [FX and DX format cameras](https://www.nikonimgsupport.com/eu/BV_article?articleNo=000004907&configured=1&lang=en_GB)
+                FX (36x24mm)=equivalent 35mm standard still image frame, DX(24x16mm), 1.5 crop factor.
+            [Focal Length](https://www.nikonusa.com/en/learn-and-explore/a/tips-and-techniques/understanding-focal-length.html)
+                Zoom vs. Prime Lens
+
 
 ---------------------------------------------------------------------------------
 下面是我阅读过, 但是感觉已经过时, 或者没啥大意义的链接, 纯粹是为了记录用
