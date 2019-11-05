@@ -1341,6 +1341,19 @@
                 FX (36x24mm)=equivalent 35mm standard still image frame, DX(24x16mm), 1.5 crop factor.
             [Focal Length](https://www.nikonusa.com/en/learn-and-explore/a/tips-and-techniques/understanding-focal-length.html)
                 Zoom vs. Prime Lens
+        # Lenses
+            [如何选购单反镜头, 镜头的数据参数解释](https://www.zhihu.com/question/50260950/answer/467837680)
+            [nikon 镜头参数的数字的意思](https://www.zhihu.com/question/50260950/answer/120164482)
+
+            [尼康D3400(单机)参数](http://detail.zol.com.cn/1146/1145863/param.shtml)
+            
+            # 其他
+                APS-C 画幅与全画幅:
+                    全幅的电子感光元件的尺寸和传统135胶片一样大，也就是24×36mm。
+                    半幅的尺寸约为23.7×15.6mm，或称之为APS-C画幅。
+
+                
+
 
 
 ---------------------------------------------------------------------------------
