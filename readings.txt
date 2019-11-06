@@ -1102,6 +1102,15 @@
         [Accounting Basics](https://www.investopedia.com/university/accounting/)
         [Operating Income](https://www.investopedia.com/terms/o/operatingincome.asp)
         [Operating Margin](https://www.investopedia.com/terms/o/operatingmargin.asp)
+        [一文看懂SLF和MLF的区别 ](https://www.sohu.com/a/161355660_556897)
+            其实就一个东西, 就是期限的长短, mlf 3个月, slf (1-3)个月
+            人民银行的MLF操作都是1年期的(看来上文的时间有错误)
+
+
+        LPR
+            [怎么看：央行完善贷款市场报价利率（LPR）形成](https://www.zhihu.com/question/341038567/answer/794540027)
+            [什么是LPR？一图带你看懂LPR！](http://gz.fangdr.com/newsdetail?id=45063)
+                我理解LPR就是市场对钱的需求程度, 脱离了基础利率加点会压缩银行的利率空间, 也就是市场越热LPR越高. 银行才会更加有钱赚.
         
         
         ## stock
@@ -1346,6 +1355,8 @@
             [nikon 镜头参数的数字的意思](https://www.zhihu.com/question/50260950/answer/120164482)
 
             [尼康D3400(单机)参数](http://detail.zol.com.cn/1146/1145863/param.shtml)
+            [请问尼康AF镜头和AF-S镜头的区别](https://zhidao.baidu.com/question/140758471.html)
+
             
             # 其他
                 APS-C 画幅与全画幅:
