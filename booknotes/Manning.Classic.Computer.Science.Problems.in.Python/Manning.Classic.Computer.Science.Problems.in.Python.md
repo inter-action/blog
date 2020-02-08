@@ -41,3 +41,6 @@ fn backtrack:
                 return with None
     return with None
 ```
+
+## chapter 04: Graph problems
+

@@ -18,6 +18,7 @@
     [Reactive.Programming.with.RxJS.2015.12]|2017.06.12-2017.06.14|:D
     [OReilly.Creating.Web.Animations.2017.3]|2017.06.15-2017.06.16|:D
     [Manning.Web.Performance.in.Action]|2018.02|:D
+    [webassebmly in action]|2019.12-2020.02|:D
     
 [Javascript]
 
@@ -103,6 +104,7 @@
     [爱上Arduino/Getting Started with Arduino 3rd edition]|2018.10-2018.10|:D
     [Packet.Guide.to.Core.Network.Protocols Bruce.Hartpence]|2018.10-2018.10|:D
     [Computer Systems A Programmer's Perspective]|2016.12.03-2018.06|:D
+    [Learn You a Haskell for Great Good]|2019.03-2019.05|:D
 
 [android]
 
