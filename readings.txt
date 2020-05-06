@@ -966,6 +966,7 @@
             [golang in production]
                 https://stackshare.io/stream/stream-and-go-news-feeds-for-over-300-million-end-users
             [Testing in Golang](https://medium.com/@thejasbabu/testing-in-golang-c378b351002d)
+            [如何写出优雅的 Golang 代码](https://draveness.me/golang-101.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
 
     ## programming methodolgy
@@ -1105,7 +1106,7 @@
         [一文看懂SLF和MLF的区别 ](https://www.sohu.com/a/161355660_556897)
             其实就一个东西, 就是期限的长短, mlf 3个月, slf (1-3)个月
             人民银行的MLF操作都是1年期的(看来上文的时间有错误)
-
+        [Operating Margin Definition](https://www.investopedia.com/terms/o/operatingmargin.asp)
 
         LPR
             [怎么看：央行完善贷款市场报价利率（LPR）形成](https://www.zhihu.com/question/341038567/answer/794540027)
@@ -1357,7 +1358,7 @@
             [尼康D3400(单机)参数](http://detail.zol.com.cn/1146/1145863/param.shtml)
             [请问尼康AF镜头和AF-S镜头的区别](https://zhidao.baidu.com/question/140758471.html)
 
-            
+
             # 其他
                 APS-C 画幅与全画幅:
                     全幅的电子感光元件的尺寸和传统135胶片一样大，也就是24×36mm。
