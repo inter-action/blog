@@ -45,1057 +45,1064 @@
         https://dribbble.com/hzlzh/projects/380016-WeFlow
         [产品之器・ Sketch](https://zhuanlan.zhihu.com/p/21386019)
 
+# tech 
+
+    # web
+        ## middle ground
+            [2016/2017 MUST-KNOW WEB DEVELOPMENT TECH](https://www.youtube.com/watch?v=sBzRwzY7G-k)
+            [Journey to HTTP/2](http://kamranahmed.info/blog/2016/08/13/http-in-depth/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
+
+            ### 工程化
+                [! 来，跟我一起 ，自研多端错误监控平台](https://juejin.im/post/5ec5c4aee51d457893029189#heading-14)
+
+        ## front end
+            js bridge 实现 - https://w3ctrain.com/2017/04/12/js-bridge/#more
+            [survivejs books](https://survivejs.com/react/)
+            [The whole web at maximum FPS: How WebRender gets rid of jank](https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/)
+            [shadow dom]
+                (http://www.html5rocks.com/zh/tutorials/webcomponents/shadowdom/)
+                https://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/#toc-style-host
+
+            [js  异步文件上传](http://stackoverflow.com/questions/166221/how-can-i-upload-files-asynchronously)
+            [文件上传命名](http://programmers.stackexchange.com/questions/193834/whats-the-best-practice-for-naming-uploaded-images)
+
+            [awesome-frontend](https://github.com/JingwenTian/awesome-frontend)
+            [移动端网络优化](http://www.trinea.cn/android/mobile-performance-optimization/)
+            [2018 前端性能检查表](http://mp.weixin.qq.com/s/MDRfdRnhJJ53611cG_Zb6g)
+            [前段手册]https://dwqs.gitbooks.io/frontenddevhandbook/content/learning/dns.html
+
+            [SVG图标在移动端的应用](http://ued.ctrip.com/blog/?p=3893)
+
+            [前段代码加密](http://div.io/topic/1220)
+            [反击爬虫，前端工程师的脑洞可以有多大](http://litten.me/2017/07/09/prevent-spiders/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+            [利用 javascript 实现富文本编辑器](http://eux.baidu.com/blog/2017/11/%E5%88%A9%E7%94%A8-javascript-%E5%AE%9E%E7%8E%B0%E5%AF%8C%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+            [! BUILD YOUR OWN BUNDLER](https://www.youtube.com/watch?v=eoi6U2fBKhU)
+
+            ### perspective
+                [2015 前端[JS]工程师必知必会](http://zhuanlan.zhihu.com/FrontendMagazine/20002850)
+                [近几年前端技术盘点以及 2016 年技术发展方向](http://www.barretlee.com/blog/2015/12/10/after-framework-we-gonna-to-hug-data/)
+                [2015前端生态发展回顾 ](https://github.com/kuitos/kuitos.github.io/issues/32)
+                [2015年末必备前端工具集](http://zxc0328.github.io/2015/12/28/2015-javascript-tools/)
+
+                [前端开发工程师如何在2013年里提升自己](http://oklai.name/2012/12/%E8%BD%AC%E8%BD%BD%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%A6%82%E4%BD%95%E5%9C%A82013%E5%B9%B4%E9%87%8C%E6%8F%90%E5%8D%87%E8%87%AA%E5%B7%B1/)
+                !! [State of the Art JavaScript in 2016](https://medium.com/javascript-and-opinions/state-of-the-art-javascript-in-2016-ab67fc68eb0b#.cxd4lhuhi)
+
+            ### Resources
+                [web项目下载 后台模板](http://www.jqueryfuns.com/)
+                [free ui resources](http://www.graphberry.com/)
+                [每个设计师必知的40个设计素材站](http://www.uisdc.com/40-resources-designer-should-know)
+
+            ###  bootstrap
+
+                [Best Bootstrap UI Editors for Developers](http://codegeekz.com/best-bootstrap-ui-editors-for-developers/)
+                [bootstrap grid system, difference within col-lg col-md col-sm](http://stackoverflow.com/questions/19865158/what-is-the-difference-among-col-lg-col-md-and-col-sm-in-twitter-bootstra)
+
+            ### SVG
+                [Understanding the SVG fill-rule Property](https://www.sitepoint.com/understanding-svg-fill-rule-property/)
+                [fill vs stroke](http://www.w3cplus.com/svg/svg-fill-stroke.html)
+                [using svg](https://css-tricks.com/using-svg/)
+
+            ### CSS
+                ! [ How To Keep Your Footer At The Bottom Of The Page With CSS](http://cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/)
+                [2d 转换和 3d转换详解](http://blog.csdn.net/xiaoguang44/article/details/8275396)
+                [vertical-align] http://phrogz.net/CSS/vertical-align/index.html
+                [Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
+                [flex box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+                    [flex-basis 0 vs auto](http://www.w3.org/TR/css3-flexbox/images/rel-vs-abs-flex.svg)
+                    [flex-basis demo](http://codepen.io/HugoGiraudel/pen/qIAwr)
+                ! [guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+                [web 学习博客](http://www.w3cplus.com/blogs/list.html)
+                [center things](https://css-tricks.com/centering-css-complete-guide/)
+
+                ! [CSS Modules 详解及 React 中实践](http://zhuanlan.zhihu.com/purerender/20495964)
+                    https://github.com/css-modules/icss
+
+                ! [第二天，谈谈【line-height】](http://www.html-js.com/article/A-day-to-learn-CSS-and-on-the-second-day-talk-about-lineheight)
+                [The stacking context, 层叠上下文](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Understanding_z_index/The_stacking_context)
+                    讲的是z-index的工作原理, 之前做项目因为不懂这里就踩了不少坑
+
+                [animate 动画]
+                    css animation:
+                        [css-animation-for-beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
+                        [css translate3d](http://www.w3cplus.com/css3/css3-3d-transform.html)
+                        [keyframe-animation-syntax](https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
+                        [A Guide to Browser Scroll Animations](http://developer.telerik.com/featured/guide-browser-scroll-animations/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
+                        [step function](https://designmodo.com/steps-css-animations/)
+                        [css animation tutorial](https://www.youtube.com/watch?v=jgw82b5Y2MU&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5)
+
+                    webanimation api:
+                        https://css-tricks.com/css-animations-vs-web-animations-api/
+                        http://danielcwilson.com/blog/2015/07/animations-part-1/
+
+                libs
+                    animate
+                        http://daneden.github.io/animate.css/
+                        http://info.9iphp.com/top-9-animation-libraries-use-2016/
 
 
-# web
-    ## middle ground
-        [2016/2017 MUST-KNOW WEB DEVELOPMENT TECH](https://www.youtube.com/watch?v=sBzRwzY7G-k)
-        [Journey to HTTP/2](http://kamranahmed.info/blog/2016/08/13/http-in-depth/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
 
-        ### 工程化
-            [! 来，跟我一起 ，自研多端错误监控平台](https://juejin.im/post/5ec5c4aee51d457893029189#heading-14)
+                [icons]
+                    http://www.iconfont.cn/collections?personal=1
 
-    ## front end
-        js bridge 实现 - https://w3ctrain.com/2017/04/12/js-bridge/#more
-        [survivejs books](https://survivejs.com/react/)
-        [The whole web at maximum FPS: How WebRender gets rid of jank](https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/)
-        [shadow dom]
-            (http://www.html5rocks.com/zh/tutorials/webcomponents/shadowdom/)
-            https://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/#toc-style-host
+                !! [the responsive web] ! viewports fundementals 
+                        [A tale of two viewports — part one](http://www.quirksmode.org/mobile/viewports.html) 
+                        [A tale of two viewports — part two](http://www.quirksmode.org/mobile/viewports2.html)
+                        [meta view port](http://www.quirksmode.org/mobile/metaviewport/)
+                        [A pixel is not a pixel is not a pixel](http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html)
+                    [走向视网膜（Retina）的Web时代](http://www.w3cplus.com/css/towards-retina-web.html)
+                    [A Guide to Responsive Images with Ready-to-Use Templates](https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433)
 
-        [js  异步文件上传](http://stackoverflow.com/questions/166221/how-can-i-upload-files-asynchronously)
-        [文件上传命名](http://programmers.stackexchange.com/questions/193834/whats-the-best-practice-for-naming-uploaded-images)
-
-        [awesome-frontend](https://github.com/JingwenTian/awesome-frontend)
-        [移动端网络优化](http://www.trinea.cn/android/mobile-performance-optimization/)
-        [2018 前端性能检查表](http://mp.weixin.qq.com/s/MDRfdRnhJJ53611cG_Zb6g)
-        [前段手册]https://dwqs.gitbooks.io/frontenddevhandbook/content/learning/dns.html
-
-        [SVG图标在移动端的应用](http://ued.ctrip.com/blog/?p=3893)
-
-        [前段代码加密](http://div.io/topic/1220)
-        [反击爬虫，前端工程师的脑洞可以有多大](http://litten.me/2017/07/09/prevent-spiders/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-        [利用 javascript 实现富文本编辑器](http://eux.baidu.com/blog/2017/11/%E5%88%A9%E7%94%A8-javascript-%E5%AE%9E%E7%8E%B0%E5%AF%8C%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-        [! BUILD YOUR OWN BUNDLER](https://www.youtube.com/watch?v=eoi6U2fBKhU)
-
-        ### perspective
-            [2015 前端[JS]工程师必知必会](http://zhuanlan.zhihu.com/FrontendMagazine/20002850)
-            [近几年前端技术盘点以及 2016 年技术发展方向](http://www.barretlee.com/blog/2015/12/10/after-framework-we-gonna-to-hug-data/)
-            [2015前端生态发展回顾 ](https://github.com/kuitos/kuitos.github.io/issues/32)
-            [2015年末必备前端工具集](http://zxc0328.github.io/2015/12/28/2015-javascript-tools/)
-
-            [前端开发工程师如何在2013年里提升自己](http://oklai.name/2012/12/%E8%BD%AC%E8%BD%BD%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%A6%82%E4%BD%95%E5%9C%A82013%E5%B9%B4%E9%87%8C%E6%8F%90%E5%8D%87%E8%87%AA%E5%B7%B1/)
-            !! [State of the Art JavaScript in 2016](https://medium.com/javascript-and-opinions/state-of-the-art-javascript-in-2016-ab67fc68eb0b#.cxd4lhuhi)
-
-        ### Resources
-            [web项目下载 后台模板](http://www.jqueryfuns.com/)
-            [free ui resources](http://www.graphberry.com/)
-            [每个设计师必知的40个设计素材站](http://www.uisdc.com/40-resources-designer-should-know)
-
-        ###  bootstrap
-
-            [Best Bootstrap UI Editors for Developers](http://codegeekz.com/best-bootstrap-ui-editors-for-developers/)
-            [bootstrap grid system, difference within col-lg col-md col-sm](http://stackoverflow.com/questions/19865158/what-is-the-difference-among-col-lg-col-md-and-col-sm-in-twitter-bootstra)
-
-        ### CSS
-            ! [ How To Keep Your Footer At The Bottom Of The Page With CSS](http://cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/)
-            [2d 转换和 3d转换详解](http://blog.csdn.net/xiaoguang44/article/details/8275396)
-            [vertical-align] http://phrogz.net/CSS/vertical-align/index.html
-            [Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
-            [flex box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-                [flex-basis 0 vs auto](http://www.w3.org/TR/css3-flexbox/images/rel-vs-abs-flex.svg)
-                [flex-basis demo](http://codepen.io/HugoGiraudel/pen/qIAwr)
-            ! [guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
-            [web 学习博客](http://www.w3cplus.com/blogs/list.html)
-            [center things](https://css-tricks.com/centering-css-complete-guide/)
-
-            ! [CSS Modules 详解及 React 中实践](http://zhuanlan.zhihu.com/purerender/20495964)
-                https://github.com/css-modules/icss
-
-            ! [第二天，谈谈【line-height】](http://www.html-js.com/article/A-day-to-learn-CSS-and-on-the-second-day-talk-about-lineheight)
-            [The stacking context, 层叠上下文](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Understanding_z_index/The_stacking_context)
-                讲的是z-index的工作原理, 之前做项目因为不懂这里就踩了不少坑
-
-            [svg]
-                http://www.w3cplus.com/svg/svg-fill-stroke.html
-
-            [animate 动画]
-                css animation:
-                    [css-animation-for-beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
-                    [css translate3d](http://www.w3cplus.com/css3/css3-3d-transform.html)
-                    [keyframe-animation-syntax](https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
-                    [A Guide to Browser Scroll Animations](http://developer.telerik.com/featured/guide-browser-scroll-animations/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
-                    [step function](https://designmodo.com/steps-css-animations/)
-                    [css animation tutorial](https://www.youtube.com/watch?v=jgw82b5Y2MU&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5)
-
-                webanimation api:
-                    https://css-tricks.com/css-animations-vs-web-animations-api/
-                    http://danielcwilson.com/blog/2015/07/animations-part-1/
-
-            libs
-                animate
-                    http://daneden.github.io/animate.css/
-                    http://info.9iphp.com/top-9-animation-libraries-use-2016/
+                [postcss]
+                    [Using PostCSS with BEM and SUIT Methodologies](https://webdesign.tutsplus.com/tutorials/using-postcss-with-bem-and-suit-methodologies--cms-24592)
 
 
+            ### browser internal
+                [Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
+                
+            ### mobile html5
+                [webview 调试]https://github.com/riskers/blog/issues/11
+                [](http://www.smashingmagazine.com/2013/04/build-fast-loading-mobile-website/)
 
-            [icons]
-                http://www.iconfont.cn/collections?personal=1
-
-            !! [the responsive web] ! viewports fundementals 
-                    [A tale of two viewports — part one](http://www.quirksmode.org/mobile/viewports.html) 
-                    [A tale of two viewports — part two](http://www.quirksmode.org/mobile/viewports2.html)
-                    [meta view port](http://www.quirksmode.org/mobile/metaviewport/)
-                    [A pixel is not a pixel is not a pixel](http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html)
-                [走向视网膜（Retina）的Web时代](http://www.w3cplus.com/css/towards-retina-web.html)
-                [A Guide to Responsive Images with Ready-to-Use Templates](https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433)
-
-            [postcss]
-                [Using PostCSS with BEM and SUIT Methodologies](https://webdesign.tutsplus.com/tutorials/using-postcss-with-bem-and-suit-methodologies--cms-24592)
+                移动端适配:
+                    ![如何在Vue项目中使用vw实现移动端适配](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)
+                    ![移动端高清、多屏适配方案](http://div.io/topic/1092)
+                    [移动端适配方案(下)](https://github.com/riskers/blog/issues/18)
+                    ![前端H5适配 ](https://github.com/amfe/article/issues/17)
 
 
-        ### browser internal
-            [Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
-            
-        ### mobile html5
-            [webview 调试]https://github.com/riskers/blog/issues/11
-            [](http://www.smashingmagazine.com/2013/04/build-fast-loading-mobile-website/)
-
-            移动端适配:
-                ![如何在Vue项目中使用vw实现移动端适配](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)
-                ![移动端高清、多屏适配方案](http://div.io/topic/1092)
-                [移动端适配方案(下)](https://github.com/riskers/blog/issues/18)
-                ![前端H5适配 ](https://github.com/amfe/article/issues/17)
+            ### svgs
+                http://qianduan.guru/2016/04/17/How-to-work-with-SVG-icons/
 
 
-        ### svgs
-            http://qianduan.guru/2016/04/17/How-to-work-with-SVG-icons/
+            ### JS
+                ! [Philip Roberts: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+                ! [requestAnimationFrame](http://creativejs.com/resources/requestanimationframe/)
+                [script tag async vs defer](https://stackoverflow.com/questions/10808109/script-tag-async-defer)
+                [offsetwidth, scrollwidth, clientwidth..](http://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
+
+                [es7]
+                    [Exploring EcmaScript Decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)
+                    [decorator evaluation order](https://www.typescriptlang.org/docs/handbook/decorators.html#decorator-evaluation)
+
+                [detect javascript memory leak with chrome dev tools]
+                    [google official explaination] (https://developer.chrome.com/devtools/docs/javascript-memory-profiling)
+                    [javascript memory leak pattern] (http://www.ibm.com/developerworks/web/library/wa-memleak/?S_TACT=105AGX52&S_CMP=cn-a-wa)
+                    http://www.slideshare.net/gonzaloruizdevilla/finding-and-debugging-memory-leaks-in-javascript-with-chrome-devtools
+                    http://javascript.info/tutorial/memory-leaks
+
+                [JS 优化]
+                    http://coding.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools/
+                    http://coding.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/
 
 
-        ### JS
-            ! [Philip Roberts: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-            ! [requestAnimationFrame](http://creativejs.com/resources/requestanimationframe/)
-            [script tag async vs defer](https://stackoverflow.com/questions/10808109/script-tag-async-defer)
-            [offsetwidth, scrollwidth, clientwidth..](http://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively)
+                libaries
 
-            [es7]
-                [Exploring EcmaScript Decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)
-                [decorator evaluation order](https://www.typescriptlang.org/docs/handbook/decorators.html#decorator-evaluation)
+                    rxjs
+                        [Debugging RxJS, Part 1: Tooling](https://blog.angularindepth.com/debugging-rxjs-4f0340286dd3)
+                        [Growing Pains: Migrating Slack’s Desktop App to BrowserView](https://slack.engineering/growing-pains-migrating-slacks-desktop-app-to-browserview-2759690d9c7b)
+                        
 
-            [detect javascript memory leak with chrome dev tools]
-                [google official explaination] (https://developer.chrome.com/devtools/docs/javascript-memory-profiling)
-                [javascript memory leak pattern] (http://www.ibm.com/developerworks/web/library/wa-memleak/?S_TACT=105AGX52&S_CMP=cn-a-wa)
-                http://www.slideshare.net/gonzaloruizdevilla/finding-and-debugging-memory-leaks-in-javascript-with-chrome-devtools
-                http://javascript.info/tutorial/memory-leaks
-
-            [JS 优化]
-                http://coding.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools/
-                http://coding.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/
+                    react
+                        !! [redux vedio tutorial](https://egghead.io/series/getting-started-with-redux)
+                        [React Animations in Depth](https://medium.com/react-native-training/react-animations-in-depth-433e2b3f0e8e)
+                        [你真的了解浅比较么? shallow equal](http://imweb.io/topic/598973c2c72aa8db35d2e291)
+                        [Beyond React 16 by Dan Abramov - JSConf Iceland ](https://www.youtube.com/watch?v=v6iR3Zk4oDY)
+                        [! React Today and Tomorrow and 90% Cleaner React](https://www.youtube.com/watch?v=dpw9EHDh2bM&t=648s)
+                        [! Concurrent Rendering in React - Andrew Clark and Brian Vaughn - React Conf 2018 ](https://www.youtube.com/watch?v=ByBPyMBTzM0)
 
 
-            libaries
+                        react in depth:
+                            [WTF is JSX](https://jasonformat.com/wtf-is-jsx/)
+                            !![Didact: a DIY guide to build your own React](https://engineering.hexacta.com/didact-learning-how-react-works-by-building-it-from-scratch-51007984e5c5)
+                            ! [Optimizing React:Virtual DOM explained](https://evilmartians.com/chronicles/optimizing-react-virtual-dom-explained)
 
-                rxjs
-                    [Debugging RxJS, Part 1: Tooling](https://blog.angularindepth.com/debugging-rxjs-4f0340286dd3)
-                    [Growing Pains: Migrating Slack’s Desktop App to BrowserView](https://slack.engineering/growing-pains-migrating-slacks-desktop-app-to-browserview-2759690d9c7b)
+                            [How to write your own Virtual DOM](https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060)
+                            ![Gooact: React in 160 lines of JavaScript](https://medium.com/@sweetpalma/gooact-react-in-160-lines-of-javascript-44e0742ad60f)
+                                这两篇和Didact文章重复了  
+
+
+                        JSX
+                            []
+                            [JSX can do that?](https://engineering.hexacta.com/jsx-can-do-that-1b2666c23a32)
+
+                        Flux Pattern
+                            [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243#!)
+                            http://facebook.github.io/flux/docs/overview.html#content
+                            [react flux](http://www.infoq.com/cn/articles/react-flux)
+
+                        reactjs
+                            [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
+                            [深入浅出 React Native：使用 JavaScript 构建原生应用](http://zhuanlan.zhihu.com/FrontendMagazine/19996445)
+                            http://www.tabforacause.org/blog/2015/01/29/using-reactjs-and-application-cache-fast-synced-app/
+                            [谈谈React.js的核心入门知识](http://wwsun.me/posts/react-getting-started.html)
+                            [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)
+                            [Netflix JavaScript Talks - RxJS + Redux + React = Amazing!](https://www.youtube.com/watch?v=AslncyG8whg)
+                            [Rxjs create infinite scroll](https://medium.com/@Sureshkumar_Ash/naive-infinite-scroll-in-reactive-programming-using-rxjs-observables-4a605d3146e8#.xnvb37wy9)
+
+                        css in react:
+                            [ReactNL 2016 Max Stoiber - Styling React.JS applications](https://www.youtube.com/watch?v=19gqsBc_Cx0)
+
+                        flow:
+                            [flow cheatsheet](http://www.saltycrane.com/blog/2016/06/flow-type-cheat-sheet/)
+                            [flow advance feature](http://sitr.us/2015/05/31/advanced-features-in-flow.html)
+
+                        HMR(hot module replacement):
+                            [difference between webpack HMR vs React Module HMR](https://github.com/facebookincubator/create-react-app/issues/1063)
+                            [Express结合Webpack的全栈自动刷新](http://acgtofe.com/posts/2016/02/full-live-reload-for-express-with-webpack)
+
+
+                        react-router:
+                            [Beginner’s Guide to React Router 4](https://medium.freecodecamp.org/beginners-guide-to-react-router-4-8959ceb3ad58)
+
+
+            ### scalajs
+                [! introduction to scalajs, the next generation of the FE](https://www.youtube.com/watch?v=n1GgVWOThhY)
+
+            ### angularjs2
+                [A high level look at Angular 2](http://www.developerhandbook.com/angular/high-level-look-angular-2/)
+                [zone.js introduction](https://www.youtube.com/watch?v=3IqtmUscE_U)
+                [VIEW ENCAPSULATION IN ANGULAR](https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html)
+                [angular2 aot(Ahead of Time) compiler](https://blog.nrwl.io/angular-is-aot-worth-it-8fa02eaf64d4#.6nluf1bed)
+
+
+            ### PWA (Progressive Web App)
+                [Service Worker](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers)
+                [App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)
+                [sw-precache](https://github.com/GoogleChrome/sw-precache)
+                ! [offline cook book](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/#on-background-sync)
+                ! [Building an offline-first app with React and RxDB](https://blog.logrocket.com/building-an-offline-first-app-with-react-and-rxdb-e97a1fa64356?t=7)
+                [Progressive Web Apps with React.js]
+                    [Part I — Introduction](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-i-introduction-50679aef2b12)
+                    ! [Part 2 — Page Load Performance](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-2-page-load-performance-33b932d97cf2)
+                ! [A React And Preact Progressive Web App Performance Case Study: Treebo](https://medium.com/dev-channel/treebo-a-react-and-preact-progressive-web-app-performance-case-study-5e4f450d5299)
+                ! [A Tinder Progressive Web App Performance Case Study](https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0)
+
+
+            ### blogs
+                http://pinggod.com/
+
+
+            ### others
+                [chrome dev tools](http://ljinkai.github.io/2015/12/26/chrome-dev-tools/)
+                [CDN缓存那些事](https://www.qcloud.com/doc/product/228/CDN%E7%BC%93%E5%AD%98%E9%82%A3%E4%BA%9B%E4%BA%8B)
+                [浅谈 WebVR](https://aotu.io/notes/2016/08/24/2016-8-24-webvr/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
+                #### Grid system
+                    https://github.com/amfe/lib-flexible
+                    [网页的栅格系统设计](http://ued.taobao.org/blog/2008/09/grid_systems/)
+                    ! [Bootstrap 栅格系统的精妙之处](http://segmentfault.com/a/1190000000743553)
+                    ![Learn CSS Grid in 5 Minutes](https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228)
+                    ![How to make your HTML responsive by adding a single line of CSS](https://medium.freecodecamp.org/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431)
+
+            ### workflow
+                
+
+            ### tools
+                [css animate]
+                    http://cssanimate.com/
+
+
+            ### webgl & three.js
+
+                [webGL fundemantals](http://webglfundamentals.org/)
+                [The Future of WebGL and Gaming](https://www.youtube.com/watch?v=6lnEmAYVziA)
+
+                ### three.js
+                [Ricardo Cabello (Mr doob) - 5 years of three.js](https://www.youtube.com/watch?v=57P8julAaRE)
+
+            ### performance
+                [](https://css-tricks.com/case-study-boosting-front-end-performance/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
+                [Front-End Performance Checklist 2017](https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/)
+                [](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
+                [Case study: analyzing the Walmart site performance](http://iamakulov.com/notes/walmart/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+                [react]
+                    [React Performance Fixes on Airbnb Listing Pages](https://medium.com/airbnb-engineering/recent-web-performance-fixes-on-airbnb-listing-pages-6cd8d93df6f4)
+                    
+                
+            ### webassembly
+                [introduction]
+                    https://www.youtube.com/watch?v=Q-4WauNGRSo
+                    
+                [webassembly with rust](http://asquera.de/blog/2017-04-10/the-path-to-rust-on-the-web/)
+                    https://medium.com/@ianjsikes/get-started-with-rust-webassembly-and-webpack-58d28e219635
+                [](https://developer.mozilla.org/en-US/docs/WebAssembly)
+                [](https://hacks.mozilla.org/category/code-cartoons/a-cartoon-intro-to-webassembly/)
+                [JavaScript to Rust and Back Again: A wasm-bindgen Tale](https://hacks.mozilla.org/2018/04/javascript-to-rust-and-back-again-a-wasm-bindgen-tale/?from=singlemessage&isappinstalled=0)
+                [Making WebAssembly better for Rust & for all languages](https://hacks.mozilla.org/2018/03/making-webassembly-better-for-rust-for-all-languages/)
+                [! Oxidizing Source Maps with Rust and WebAssembly](https://hacks.mozilla.org/2018/01/oxidizing-source-maps-with-rust-and-webassembly/)
+                
+
+                
+            ### webpack
+                [code splitting]
+                    [webpack official doc](https://webpack.js.org/guides/code-splitting/)
+                    [在Webpack中使用Code Splitting实现按需加载](http://www.alloyteam.com/2016/02/code-split-by-routes/)
+                    [webpack bits: Getting the most out of the CommonsChunkPlugin()](https://medium.com/webpack/webpack-bits-getting-the-most-out-of-the-commonschunkplugin-ab389e5f318)
+                    [webpack 4 beta ](https://medium.com/webpack/webpack-4-beta-try-it-today-6b1d27d7d7e2)
+                    [如何 10 倍提高你的 Webpack 构建效率](http://eternalsky.me/ru-he-10-bei-ti-gao-ni-de-webpack-gou-jian-xiao-lu/)
+
+        ## backend
+            [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
+            [Worktile中的实时消息推送服务实现](https://worktile.com/tech/basic/worktile-real-time-notice)
+
+            ## nginx
+                [nginx location, how server & location block are selected]
+                    https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms
+                [nginx configuration](https://linode.com/docs/web-servers/nginx/how-to-configure-nginx/)
+
+                    
+            [centos haproxy install]
+                http://www.centoscn.com/image-text/config/2013/0805/1056.html
+                http://www.serverlab.ca/tutorials/linux/network-services/deploying-an-haproxy-load-balancer-on-centos-6/
+                http://www.rackspace.com/knowledge_center/article/setting-up-haproxy
+                http://virtuallyhyper.com/2013/05/configure-haproxy-to-load-balance-sites-with-ssl/
+
+            [缓存]
+                [Web应用的缓存设计模式] (http://robbinfan.com/blog/38/orm-cache-sumup)
+                [! http cache](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
+
+                ### redis
+                    [redis mysql haproxy 快速架构](http://www.oschina.net/translate/the-easy-way-of-building-a-growing-startup-architecture)
+
+            ## HTTPS:
+                [也许，这样理解HTTPS更容易](https://showme.codes/2017-02-20/understand-https/)
+                [！Mozilla SSL Config Center](https://mozilla.github.io/server-side-tls/ssl-config-generator/)
+                [! 关于启用 HTTPS 的一些经验分享](https://imququ.com/post/sth-about-switch-to-https.html)
+                [! 免费签发证书](https://letsencrypt.org/)
+                [正向代理与反向代理的区别](http://bigc.at/reverse-proxy.orz)
+                [HTTPS的七个误解](http://www.ruanyifeng.com/blog/2011/02/seven_myths_about_https.html)
+                [HTTPS 证书申请] (http://www.startssl.com/)
+                [HTTPS and Go](https://www.kaihag.com/https-and-go/)
+                [How to get HTTPS working on your local development environment in 5 minutes](https://medium.freecodecamp.org/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec)
+
+                [haproxy https]
+                    http://seanmcgary.com/posts/using-sslhttps-with-haproxy
+                    https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04
+                [https resin 的安装使用](http://www.itrus.cn/html/fuwuyuzhichi/fuwuqizhengshuanzhuangpeizhizhinan/428.html)
+                    不建议,一般网站都有反向代理，https加载反向代理那一层比较好
+                    http://nginx.org/cn/docs/http/configuring_https_servers.html
+                    http://jingyan.baidu.com/article/a948d6515d3e850a2dcd2ee6.html
+                    http://hi.baidu.com/seo_site/item/3c3bf21bf02d56436926bb34
+                [switch to https](https://konklone.com/post/switch-to-https-now-for-free)
+
+                [一些安全相关的HTTP响应头](https://www.imququ.com/post/web-security-and-response-header.html)
+                [apache traffic server - 文件缓存](http://trafficserver.apache.org/)
+
+                ! [wireshark in https]
+                    [wireshare 分析 https 协议]
+                        https://www.centos.bz/2015/12/why-wireshark-can-not-decrypt-https-data/
+                        https://imququ.com/post/http2-traffic-in-wireshark.html
+
+
+            ### http2
+                [Creating a Cache-aware HTTP/2 Server Push Mechanism](https://css-tricks.com/cache-aware-server-push/)
+
+            ### web crawling
+                [selenium]
+                [PhantomJS]
+                ! [The Ultimate Introduction to Web Scraping and Browser Automation](https://www.youtube.com/watch?v=1UYBAn69Qrk)
+
+            ### web service
+                [撰写合格的REST API](http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208060670&idx=1&sn=ce67b8896985e8448137052b338093e0)
+                [一些REST最佳实践](http://weibo.com/p/1001603873537160306692)
+                [Token-Based Authentication With AngularJS & NodeJS](http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543)
+                    with same question to be resolved: 1. it doesnt make sense to decrypt jwt token on client side, 2. /me api is broken, see comments below. 3. is base64 is really needed.
+                    1. 问题已经解决.  阅读下面 JWT 一节的链接和开源的一个简单实现
+
+
+                [http api guide]
+                    https://geemus.gitbooks.io/http-api-design/content/
+                    ！https://github.com/ZhangBohan/http-api-design-ZH_CN
+                    ！https://devcenter.heroku.com/articles/platform-api-reference#ranges
+
+                    后端 支持Etag缓存 策略
+
+                ! [How to build a REST API with Akka Http](https://danielasfregola.com/2016/02/07/how-to-build-a-rest-api-with-akka-http/)
+                [](https://blog.risingstack.com/10-best-practices-for-writing-node-js-rest-apis/)
+
+
+            ### database
+
+                ! [cap theorem](http://en.wikipedia.org/wiki/CAP_theorem)
+                [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.r86r03tb1)
+                [Database normalization](http://en.wikipedia.org/wiki/Database_normalization#Normal_forms)
+
+                [The problem with Backing Stores, or what is NoSQL and why would you use it anyway](http://blog.isotoma.com/2014/06/the-problem-with-backing-stores-or-what-is-nosql-and-why-would-you-use-it-anyway/)
+                [分布式系统的事务处理](http://coolshell.cn/articles/10910.html)
+
+                oracle database:
+                    [security]
+                        [project lockdown](http://www.oracle.com/technetwork/articles/project-lockdown-133916.pdf)
+
+                redis:
+                    [Redis 集群的合纵与连横](https://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=402004912&idx=1&sn=7517696a86f54262e60e1b5636d6cbe0)
+
+                ! [Why CouchDB](http://guide.couchdb.org/draft/why.html)
+
+            ### network
+                # TCP/IP
+                    http://coolshell.cn/articles/11564.html
+                    http://coolshell.cn/articles/11609.html
+
+            ### J2EE
+                [服务端工程师入门与进阶 Java 版](http://xielong.me/2015/04/16/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%85%A5%E9%97%A8%E4%B8%8E%E8%BF%9B%E9%98%B6Java%E7%89%88/)
+                struts2
+                    [struts2 and freemarker](http://viralpatel.net/blogs/struts2-freemarker-tempalte-ftl-integration-example/)
+
+                hibernate
+
+                security
+                    [Java security: Java security, Part 1: Crypto basics](http://www.ibm.com/developerworks/java/tutorials/j-sec1/j-sec1.html#padding)
+
+
+            ### docker
+                [Containers (Docker): A disruptive force in cloud computing](http://anandmanisankar.com/posts/container-docker-PaaS-microservices/)
+                [在 Docker 中完整部署 Web 应用](http://fuzhii.com/2015/12/25/docker-web-app/)
+                    docker file 写的并不是特别规范, mysql 最好用 docker compose 来做, 方便扩容
+                [](http://developerblog.redhat.com/2016/02/24/10-things-to-avoid-in-docker-containers/)
+                [David Blurton: Full-stack JavaScript development with Docker - JSConf Iceland 2016](https://www.youtube.com/watch?v=zcSbOl8DYXM)
+
+
+
+
+            ### NodeJS
+                [](https://blog.risingstack.com/nodejs-production-environment-for-startups/)
+                ![Real World Lessons on the Pain Points of Node.js Applications](https://www.youtube.com/watch?v=eZF1t7Cv_7o&list=LLuhDiGxQ78K0p35lrkwZLjA&index=2)
+                    npm 的问题现在用fb的yarn应该能解决掉, 后面谈了 security (csfq, request limit), docker,
+                    clustering with nginx & docker.
+                    health check point, profile, async - resolving callback-hell
+
+                [The Mysterious Fiber Bomb Problem: A Debugging Story](https://sandstorm.io/news/2016-09-30-fiber-bomb-debugging-story?utm_source=nodeweekly&utm_medium=email)
+                    没看很懂, 但是debug方法很高端
+                    
+                [nodejs modules](https://nodejs.org/api/modules.html#modules_module_caching_caveats)
+                    [The File System & fs Module](https://blog.risingstack.com/mastering-the-nodejs-core-modules-file-system-fs-module/)
+                Node.js 8: util.promisify() - http://2ality.com/2017/05/util-promisify.html
+                [api gateway using nodejs](https://blog.risingstack.com/building-an-api-gateway-using-nodejs/)
+
+
+                ### v8
+                    * https://v8.dev/docs/embed#advanced-guide
+                    * 如何正确地使用v8嵌入到我们的C++应用中 - https://blog.5udou.cn/#/blog/detail/Ru-He-Zheng-Que-Di-Shi-Yong-v8Qian-Ru-Dao-Wo-Men-De-CYing-Yong-Zhong-19
+
+
+            ### encryption
+                [](http://security.stackexchange.com/questions/20129/how-and-when-do-i-use-hmac)
+                    You use HMAC whenever you want integrity of the data maintained (and authenticity)
+                https://en.wikipedia.org/wiki/Hash-based_message_authentication_code#Design_principles
+
+            ### DNS
+                https://pressable.com/blog/2014/12/04/dns-management-basics/
+                https://pressable.com/blog/2014/12/11/understanding-dns-record-types/
+                https://pressable.com/blog/2014/12/23/dns-record-types-explained/
+                [DNS Records (NS, A, CNAME, MX) Explained](https://sg.godaddy.com/zh/help/dns-680)
                     
 
-                react
-                    !! [redux vedio tutorial](https://egghead.io/series/getting-started-with-redux)
-                    [React Animations in Depth](https://medium.com/react-native-training/react-animations-in-depth-433e2b3f0e8e)
-                    [你真的了解浅比较么? shallow equal](http://imweb.io/topic/598973c2c72aa8db35d2e291)
-                    [Beyond React 16 by Dan Abramov - JSConf Iceland ](https://www.youtube.com/watch?v=v6iR3Zk4oDY)
-                    [! React Today and Tomorrow and 90% Cleaner React](https://www.youtube.com/watch?v=dpw9EHDh2bM&t=648s)
-                    [! Concurrent Rendering in React - Andrew Clark and Brian Vaughn - React Conf 2018 ](https://www.youtube.com/watch?v=ByBPyMBTzM0)
+            ### devops
+                https://blog.risingstack.com/moving-node-js-from-paas-to-kubernetes-tutorial/
+                [](https://www.digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers)
+                Understanding Linux CPU Load - https://scoutapm.com/blog/understanding-load-averages
+                    15mins mark / (number of cpu) >= 0.7
+
+            ### native modules:
+                [](https://blog.risingstack.com/node-js-native-modules-with-rust/)
+
+            ### others
+                [Concurrent Servers: Part 3 - Event-driven](https://eli.thegreenplace.net/2017/concurrent-servers-part-3-event-driven/)
+                [自己动手开发网络服务器（三）](http://codingpy.com/article/build-a-simple-web-server-part-three/)
+                    python fork 会复制文件描述符, 子进程需要及时关闭从父进程copy过来的 file descriptor
+                    父进程需要等待子进程的关闭(os.wait, os.waitpid), 否则会出现僵尸进程
+                        > 僵尸进程其实是已经结束了的进程，但是它的父进程并没有等待进程结束，所以没有接收到进程结束的状态信息。当子进程在父进程之前退出，系统就会将子进程变成一个僵尸进程，保留原子进程的部分信息，方便父进程之后获取。系统所保留的信息通常包括进程ID、进程结束状态和进程的资源使用情况。
+                    ulimit 查看系统进程默认可以使用的资源
+                    python signal 处理可能会引起的主进程的 interrupted error.
+                    进程 pid 和 ppid 的关系, 子进程创建会有一个 ppid 指向父进程
+
+                [Json Web Token (JWT)]
+                    ! [使用JWT](http://haomou.net/2014/08/13/2014_web_token/)
+                    [JWT introduction](https://jwt.io/introduction/)
+                    [node simple jwt implemetation](https://github.com/hokaccha/node-jwt-simple/blob/master/lib/jwt.js)
+                    [JWT Server端的认证](https://zhuanlan.zhihu.com/p/27370773?hmsr=toutiao.io)
+
+                [Oauth 2]
+                    ! [](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
+                        you only need this to understand oauth2
+
+                [AWS]
+                    ! [](https://www.expeditedssl.com/aws-in-plain-english)
+
+                [GraphQL]
+                    GraphQL tutorial - https://www.youtube.com/watch?v=PEcJxkylcRM&index=1&list=PLillGF-RfqbYZty73_PHBqKRDnv7ikh68
+
+        ## desktop app:
+            [slack - Building Hybrid Applications with Electron](https://slack.engineering/building-hybrid-applications-with-electron-dc67686de5fb#.fs6sprhni)
+
+        ## aws
+            [The Complete AWS Web Boilerplate](https://medium.freecodecamp.org/the-complete-aws-web-boilerplate-d0ca89d1691f)
 
 
-                    react in depth:
-                        [WTF is JSX](https://jasonformat.com/wtf-is-jsx/)
-                        !![Didact: a DIY guide to build your own React](https://engineering.hexacta.com/didact-learning-how-react-works-by-building-it-from-scratch-51007984e5c5)
-                        ! [Optimizing React:Virtual DOM explained](https://evilmartians.com/chronicles/optimizing-react-virtual-dom-explained)
-
-                        [How to write your own Virtual DOM](https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060)
-                        ![Gooact: React in 160 lines of JavaScript](https://medium.com/@sweetpalma/gooact-react-in-160-lines-of-javascript-44e0742ad60f)
-                            这两篇和Didact文章重复了  
+        ## tools
+            chrome dev:
+                [Debugging The Web](https://www.youtube.com/watch?v=HF1luRD4Qmk)
+                    nodejs, ProgressWebApp, realtime editing with workspace
 
 
-                    JSX
-                        []
-                        [JSX can do that?](https://engineering.hexacta.com/jsx-can-do-that-1b2666c23a32)
-
-                    Flux Pattern
-                        [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243#!)
-                        http://facebook.github.io/flux/docs/overview.html#content
-                        [react flux](http://www.infoq.com/cn/articles/react-flux)
-
-                    reactjs
-                        [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
-                        [深入浅出 React Native：使用 JavaScript 构建原生应用](http://zhuanlan.zhihu.com/FrontendMagazine/19996445)
-                        http://www.tabforacause.org/blog/2015/01/29/using-reactjs-and-application-cache-fast-synced-app/
-                        [谈谈React.js的核心入门知识](http://wwsun.me/posts/react-getting-started.html)
-                        [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)
-                        [Netflix JavaScript Talks - RxJS + Redux + React = Amazing!](https://www.youtube.com/watch?v=AslncyG8whg)
-                        [Rxjs create infinite scroll](https://medium.com/@Sureshkumar_Ash/naive-infinite-scroll-in-reactive-programming-using-rxjs-observables-4a605d3146e8#.xnvb37wy9)
-
-                    css in react:
-                        [ReactNL 2016 Max Stoiber - Styling React.JS applications](https://www.youtube.com/watch?v=19gqsBc_Cx0)
-
-                    flow:
-                        [flow cheatsheet](http://www.saltycrane.com/blog/2016/06/flow-type-cheat-sheet/)
-                        [flow advance feature](http://sitr.us/2015/05/31/advanced-features-in-flow.html)
-
-                    HMR(hot module replacement):
-                        [difference between webpack HMR vs React Module HMR](https://github.com/facebookincubator/create-react-app/issues/1063)
-                        [Express结合Webpack的全栈自动刷新](http://acgtofe.com/posts/2016/02/full-live-reload-for-express-with-webpack)
+    # Architecture & System design:
+        [view-counting-at-reddit](https://redditblog.com/2017/05/24/view-counting-at-reddit/)
 
 
-                    react-router:
-                        [Beginner’s Guide to React Router 4](https://medium.freecodecamp.org/beginners-guide-to-react-router-4-8959ceb3ad58)
+    # Tools
+        [tmux](https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340)
 
+        IDEA
+            http://laobie.github.io/android/2016/02/14/android-studio-tips.html
 
-        ### scalajs
-            [! introduction to scalajs, the next generation of the FE](https://www.youtube.com/watch?v=n1GgVWOThhY)
+        [wire shark]
+            http://fangxin.blog.51cto.com/1125131/735178
+            http://www.cnblogs.com/TankXiao/archive/2012/10/10/2711777.html
 
-        ### angularjs2
-            [A high level look at Angular 2](http://www.developerhandbook.com/angular/high-level-look-angular-2/)
-            [zone.js introduction](https://www.youtube.com/watch?v=3IqtmUscE_U)
-            [VIEW ENCAPSULATION IN ANGULAR](https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html)
-            [angular2 aot(Ahead of Time) compiler](https://blog.nrwl.io/angular-is-aot-worth-it-8fa02eaf64d4#.6nluf1bed)
-
-
-        ### PWA (Progressive Web App)
-            [Service Worker](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers)
-            [App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)
-            [sw-precache](https://github.com/GoogleChrome/sw-precache)
-            ! [offline cook book](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/#on-background-sync)
-            ! [Building an offline-first app with React and RxDB](https://blog.logrocket.com/building-an-offline-first-app-with-react-and-rxdb-e97a1fa64356?t=7)
-            [Progressive Web Apps with React.js]
-                [Part I — Introduction](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-i-introduction-50679aef2b12)
-                ! [Part 2 — Page Load Performance](https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-2-page-load-performance-33b932d97cf2)
-            ! [A React And Preact Progressive Web App Performance Case Study: Treebo](https://medium.com/dev-channel/treebo-a-react-and-preact-progressive-web-app-performance-case-study-5e4f450d5299)
-            ! [A Tinder Progressive Web App Performance Case Study](https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0)
-
-
-        ### blogs
-            http://pinggod.com/
-
-
-        ### others
-            [chrome dev tools](http://ljinkai.github.io/2015/12/26/chrome-dev-tools/)
-            [CDN缓存那些事](https://www.qcloud.com/doc/product/228/CDN%E7%BC%93%E5%AD%98%E9%82%A3%E4%BA%9B%E4%BA%8B)
-            [浅谈 WebVR](https://aotu.io/notes/2016/08/24/2016-8-24-webvr/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-
-            #### Grid system
-                https://github.com/amfe/lib-flexible
-                [网页的栅格系统设计](http://ued.taobao.org/blog/2008/09/grid_systems/)
-                ! [Bootstrap 栅格系统的精妙之处](http://segmentfault.com/a/1190000000743553)
-                ![Learn CSS Grid in 5 Minutes](https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228)
-                ![How to make your HTML responsive by adding a single line of CSS](https://medium.freecodecamp.org/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431)
-
-        ### workflow
-            
-
-        ### tools
-            [css animate]
-                http://cssanimate.com/
-
-
-        ### webgl & three.js
-
-            [webGL fundemantals](http://webglfundamentals.org/)
-            [The Future of WebGL and Gaming](https://www.youtube.com/watch?v=6lnEmAYVziA)
-
-            ### three.js
-              [Ricardo Cabello (Mr doob) - 5 years of three.js](https://www.youtube.com/watch?v=57P8julAaRE)
-
-        ### performance
-            [](https://css-tricks.com/case-study-boosting-front-end-performance/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
-            [Front-End Performance Checklist 2017](https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/)
-            [](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
-            [Case study: analyzing the Walmart site performance](http://iamakulov.com/notes/walmart/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
-            [react]
-                [React Performance Fixes on Airbnb Listing Pages](https://medium.com/airbnb-engineering/recent-web-performance-fixes-on-airbnb-listing-pages-6cd8d93df6f4)
+        [mitmproxy]
+            App爬虫神器mitmproxy和mitmdump的使用 - https://juejin.im/post/5ac9ea6d518825364001b5b9
+            [mitmproxy 来搞定 mac 的代理](https://blogs.msdn.microsoft.com/aaddevsup/2018/04/11/tracing-all-network-machine-traffic-using-mitmproxy-for-mac-osx/)
+                ```plain
+                mitmproxy --mode socks5 --showhost --listen-port 8888
+                ```
                 
-            
-        ### webassembly
-            [introduction]
-                https://www.youtube.com/watch?v=Q-4WauNGRSo
-                
-            [webassembly with rust](http://asquera.de/blog/2017-04-10/the-path-to-rust-on-the-web/)
-                https://medium.com/@ianjsikes/get-started-with-rust-webassembly-and-webpack-58d28e219635
-            [](https://developer.mozilla.org/en-US/docs/WebAssembly)
-            [](https://hacks.mozilla.org/category/code-cartoons/a-cartoon-intro-to-webassembly/)
-            [JavaScript to Rust and Back Again: A wasm-bindgen Tale](https://hacks.mozilla.org/2018/04/javascript-to-rust-and-back-again-a-wasm-bindgen-tale/?from=singlemessage&isappinstalled=0)
-            [Making WebAssembly better for Rust & for all languages](https://hacks.mozilla.org/2018/03/making-webassembly-better-for-rust-for-all-languages/)
-            [! Oxidizing Source Maps with Rust and WebAssembly](https://hacks.mozilla.org/2018/01/oxidizing-source-maps-with-rust-and-webassembly/)
-            
+        ## version control
+            git
+                [undo-the-last-git-commit] http://stackoverflow.com/questions/927358/undo-the-last-git-commit
+                [图解Git](https://marklodato.github.io/visual-git-guide/index-zh-cn.html)
+                [atlassian git tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
+                [Git 版本控制与工作流  ](http://www.jianshu.com/p/67afe711c731)
+                [让你的Git水平更上一层楼的10个小贴士](http://blog.jobbole.com/75348/)
+                [git flow]
+                    [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
 
-            
-        ### webpack
-            [code splitting]
-                [webpack official doc](https://webpack.js.org/guides/code-splitting/)
-                [在Webpack中使用Code Splitting实现按需加载](http://www.alloyteam.com/2016/02/code-split-by-routes/)
-                [webpack bits: Getting the most out of the CommonsChunkPlugin()](https://medium.com/webpack/webpack-bits-getting-the-most-out-of-the-commonschunkplugin-ab389e5f318)
-                [webpack 4 beta ](https://medium.com/webpack/webpack-4-beta-try-it-today-6b1d27d7d7e2)
-                [如何 10 倍提高你的 Webpack 构建效率](http://eternalsky.me/ru-he-10-bei-ti-gao-ni-de-webpack-gou-jian-xiao-lu/)
+                ! [闯过这 54 关，点亮你的 Git 技能树 ](https://codingstyle.cn/topics/181)
+                [git submodule]
+                    https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
+                    https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
-    ## backend
-        [Nginx、LVS及HAProxy负载均衡软件的优缺点详解](http://www.csdn.net/article/2014-07-24/2820837)
-        [Worktile中的实时消息推送服务实现](https://worktile.com/tech/basic/worktile-real-time-notice)
+                [git hook](https://www.atlassian.com/git/tutorials/git-hooks/conceptual-overview)
+                    Local hook vs Server hook
 
-        ## nginx
-            [nginx location, how server & location block are selected]
-                https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms
-            [nginx configuration](https://linode.com/docs/web-servers/nginx/how-to-configure-nginx/)
-
-                
-        [centos haproxy install]
-            http://www.centoscn.com/image-text/config/2013/0805/1056.html
-            http://www.serverlab.ca/tutorials/linux/network-services/deploying-an-haproxy-load-balancer-on-centos-6/
-            http://www.rackspace.com/knowledge_center/article/setting-up-haproxy
-            http://virtuallyhyper.com/2013/05/configure-haproxy-to-load-balance-sites-with-ssl/
-
-        [缓存]
-            [Web应用的缓存设计模式] (http://robbinfan.com/blog/38/orm-cache-sumup)
-            [! http cache](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
-
-            ### redis
-                [redis mysql haproxy 快速架构](http://www.oschina.net/translate/the-easy-way-of-building-a-growing-startup-architecture)
-
-        ## HTTPS:
-            [也许，这样理解HTTPS更容易](https://showme.codes/2017-02-20/understand-https/)
-            [！Mozilla SSL Config Center](https://mozilla.github.io/server-side-tls/ssl-config-generator/)
-            [! 关于启用 HTTPS 的一些经验分享](https://imququ.com/post/sth-about-switch-to-https.html)
-            [! 免费签发证书](https://letsencrypt.org/)
-            [正向代理与反向代理的区别](http://bigc.at/reverse-proxy.orz)
-            [HTTPS的七个误解](http://www.ruanyifeng.com/blog/2011/02/seven_myths_about_https.html)
-            [HTTPS 证书申请] (http://www.startssl.com/)
-            [HTTPS and Go](https://www.kaihag.com/https-and-go/)
-            [How to get HTTPS working on your local development environment in 5 minutes](https://medium.freecodecamp.org/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec)
-
-            [haproxy https]
-                http://seanmcgary.com/posts/using-sslhttps-with-haproxy
-                https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04
-            [https resin 的安装使用](http://www.itrus.cn/html/fuwuyuzhichi/fuwuqizhengshuanzhuangpeizhizhinan/428.html)
-                不建议,一般网站都有反向代理，https加载反向代理那一层比较好
-                http://nginx.org/cn/docs/http/configuring_https_servers.html
-                http://jingyan.baidu.com/article/a948d6515d3e850a2dcd2ee6.html
-                http://hi.baidu.com/seo_site/item/3c3bf21bf02d56436926bb34
-            [switch to https](https://konklone.com/post/switch-to-https-now-for-free)
-
-            [一些安全相关的HTTP响应头](https://www.imququ.com/post/web-security-and-response-header.html)
-            [apache traffic server - 文件缓存](http://trafficserver.apache.org/)
-
-            ! [wireshark in https]
-                [wireshare 分析 https 协议]
-                    https://www.centos.bz/2015/12/why-wireshark-can-not-decrypt-https-data/
-                    https://imququ.com/post/http2-traffic-in-wireshark.html
+                [git rebase vs merge](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 
-        ### http2
-            [Creating a Cache-aware HTTP/2 Server Push Mechanism](https://css-tricks.com/cache-aware-server-push/)
+    # native mobile
 
-        ### web crawling
-            [selenium]
-            [PhantomJS]
-            ! [The Ultimate Introduction to Web Scraping and Browser Automation](https://www.youtube.com/watch?v=1UYBAn69Qrk)
-
-        ### web service
-            [撰写合格的REST API](http://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=208060670&idx=1&sn=ce67b8896985e8448137052b338093e0)
-            [一些REST最佳实践](http://weibo.com/p/1001603873537160306692)
-            [Token-Based Authentication With AngularJS & NodeJS](http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543)
-                with same question to be resolved: 1. it doesnt make sense to decrypt jwt token on client side, 2. /me api is broken, see comments below. 3. is base64 is really needed.
-                1. 问题已经解决.  阅读下面 JWT 一节的链接和开源的一个简单实现
+        # android
+            [anroid 程序设计经验](http://blog.csdn.net/ahence/article/details/47154419)
+            [android 技术开发应用堆栈](http://www.jianshu.com/p/c8c6dbe00787)
+            [Jenkin+Git+Gradle为Android项目搭建CI环境](http://blogs.cyning.me/2015/08/16/jenkins-CI-android/)
+            [移动端前端开发真机调试攻略](http://www.anchengjian.com/post/3217ba_8c8e9f1)
+            ! [The Busy Coder's Guide to Android Development](https://github.com/commonsguy/cw-omnibus)
+            ! [android 资源列表](http://www.jianshu.com/p/e961f1633d7a)
+            ! [android cheetsheet](http://inthecheesefactory.com/aca/The%20Android%20Cheese%20Sheet%20rev%204.pdf)
+            [Android Studio插件整理](https://ydmmocoo.github.io/2016/06/28/Android-Studio%E6%8F%92%E4%BB%B6%E6%95%B4%E7%90%86/)
 
 
-            [http api guide]
-                https://geemus.gitbooks.io/http-api-design/content/
-                ！https://github.com/ZhangBohan/http-api-design-ZH_CN
-                ！https://devcenter.heroku.com/articles/platform-api-reference#ranges
-
-                后端 支持Etag缓存 策略
-
-            ! [How to build a REST API with Akka Http](https://danielasfregola.com/2016/02/07/how-to-build-a-rest-api-with-akka-http/)
-            [](https://blog.risingstack.com/10-best-practices-for-writing-node-js-rest-apis/)
+        # hydrid mobile dev
+            [cordova](http://cordova.apache.org/)
 
 
-        ### database
 
-            ! [cap theorem](http://en.wikipedia.org/wiki/CAP_theorem)
-            [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.r86r03tb1)
-            [Database normalization](http://en.wikipedia.org/wiki/Database_normalization#Normal_forms)
+    # math
+        ! [List of mathematical symbols](https://en.wikipedia.org/wiki/List_of_mathematical_symbols)
+        
+        [数学收敛]http://zh.wikipedia.org/zh/%E6%9E%81%E9%99%90_%28%E6%95%B0%E5%AD%A6%29
+        [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
+        http://www.ruanyifeng.com/blog/2011/07/mathematical_constant_e.html
+        [数学科普文章](http://betterexplained.com/)
+        [Fourier Transform, Fourier Series, and frequency spectrum](https://www.youtube.com/watch?v=r18Gi8lSkfM)
+        [傅里叶变换]
+            http://blog.rainy.im/2015/11/03/fourier-transform-in-image-processing/
+            http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
+        [Taxicab_geometry](https://en.wikipedia.org/wiki/Taxicab_geometry) - 计算LP-space (P是向量的空间维度)的向量的最小距离, 不唯一
+        [mod arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
+        [Basic Linear Algebra for Deep Learning](https://towardsdatascience.com/linear-algebra-for-deep-learning-f21d7e7d7f23)
+        [Kleene star](https://en.wikipedia.org/wiki/Kleene_star)
+            就是一个Set中的元素各种互相排列组合, 无限次数, 除了 Empty Set 和 Singleton Set, 其他形式的 Kleene star over other set 都是 infinite set.
 
-            [The problem with Backing Stores, or what is NoSQL and why would you use it anyway](http://blog.isotoma.com/2014/06/the-problem-with-backing-stores-or-what-is-nosql-and-why-would-you-use-it-anyway/)
-            [分布式系统的事务处理](http://coolshell.cn/articles/10910.html)
+        
 
-            oracle database:
-                [security]
-                    [project lockdown](http://www.oracle.com/technetwork/articles/project-lockdown-133916.pdf)
-
-            redis:
-                [Redis 集群的合纵与连横](https://mp.weixin.qq.com/s?__biz=MzAxMTEyOTQ5OQ==&mid=402004912&idx=1&sn=7517696a86f54262e60e1b5636d6cbe0)
-
-            ! [Why CouchDB](http://guide.couchdb.org/draft/why.html)
-
-        ### network
-            # TCP/IP
-                http://coolshell.cn/articles/11564.html
-                http://coolshell.cn/articles/11609.html
-
-        ### J2EE
-            [服务端工程师入门与进阶 Java 版](http://xielong.me/2015/04/16/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%85%A5%E9%97%A8%E4%B8%8E%E8%BF%9B%E9%98%B6Java%E7%89%88/)
-            struts2
-                [struts2 and freemarker](http://viralpatel.net/blogs/struts2-freemarker-tempalte-ftl-integration-example/)
-
-            hibernate
-
-            security
-                [Java security: Java security, Part 1: Crypto basics](http://www.ibm.com/developerworks/java/tutorials/j-sec1/j-sec1.html#padding)
-
-
-        ### docker
-            [Containers (Docker): A disruptive force in cloud computing](http://anandmanisankar.com/posts/container-docker-PaaS-microservices/)
-            [在 Docker 中完整部署 Web 应用](http://fuzhii.com/2015/12/25/docker-web-app/)
-                docker file 写的并不是特别规范, mysql 最好用 docker compose 来做, 方便扩容
-            [](http://developerblog.redhat.com/2016/02/24/10-things-to-avoid-in-docker-containers/)
-            [David Blurton: Full-stack JavaScript development with Docker - JSConf Iceland 2016](https://www.youtube.com/watch?v=zcSbOl8DYXM)
+    # Algorithms & [data structure]:
+        ## basic math for algorithms
+            [power set](https://en.wikipedia.org/wiki/Power_set)
+            [Deterministic pushdown automaton](https://en.wikipedia.org/wiki/Deterministic_pushdown_automaton)
+                我的理解就是任何当前状态到下一个状态的转换都是 deterministic 的(唯一的一个解)
 
 
 
 
-        ### NodeJS
-            [](https://blog.risingstack.com/nodejs-production-environment-for-startups/)
-            ![Real World Lessons on the Pain Points of Node.js Applications](https://www.youtube.com/watch?v=eZF1t7Cv_7o&list=LLuhDiGxQ78K0p35lrkwZLjA&index=2)
-                npm 的问题现在用fb的yarn应该能解决掉, 后面谈了 security (csfq, request limit), docker,
-                clustering with nginx & docker.
-                health check point, profile, async - resolving callback-hell
-
-            [The Mysterious Fiber Bomb Problem: A Debugging Story](https://sandstorm.io/news/2016-09-30-fiber-bomb-debugging-story?utm_source=nodeweekly&utm_medium=email)
-                没看很懂, 但是debug方法很高端
-                
-            [nodejs modules](https://nodejs.org/api/modules.html#modules_module_caching_caveats)
-                [The File System & fs Module](https://blog.risingstack.com/mastering-the-nodejs-core-modules-file-system-fs-module/)
-            Node.js 8: util.promisify() - http://2ality.com/2017/05/util-promisify.html
-            [api gateway using nodejs](https://blog.risingstack.com/building-an-api-gateway-using-nodejs/)
+        ## Algorithms:
+            [](https://en.wikipedia.org/wiki/Perfect_hash_function)
+            [Randomized_algorithm](https://en.wikipedia.org/wiki/Randomized_algorithm)
+            [Backtracking](https://en.wikipedia.org/wiki/Backtracking)
+                Description of the method 这一节解释的非常清楚, 就是先假设一个解, 根据这个假设去解下面的的问题, 如果发现不合适
+                整个树的分支都skip 掉. 是一种优化的brute force 解法
 
 
-            ### v8
-                * https://v8.dev/docs/embed#advanced-guide
-                * 如何正确地使用v8嵌入到我们的C++应用中 - https://blog.5udou.cn/#/blog/detail/Ru-He-Zheng-Que-Di-Shi-Yong-v8Qian-Ru-Dao-Wo-Men-De-CYing-Yong-Zhong-19
 
 
-        ### encryption
-            [](http://security.stackexchange.com/questions/20129/how-and-when-do-i-use-hmac)
-                 You use HMAC whenever you want integrity of the data maintained (and authenticity)
-            https://en.wikipedia.org/wiki/Hash-based_message_authentication_code#Design_principles
+        ## data structure:
+            ![](https://www.tutorialspoint.com/data_structures_algorithms)
+            [trie](https://www.youtube.com/watch?v=RIUY7ieyH40)
+            ! [10 Common Data Structures Explained with Videos + Exercises](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
+            [Let’s Implement a Bloom Filter in Go](https://codeburst.io/lets-implement-a-bloom-filter-in-go-b2da8a4b849f)
+            [Radix tree](https://en.wikipedia.org/wiki/Radix_tree)
+            [weakmap in es6](https://github.com/medikoo/es6-weak-map/blob/master/polyfill.js)
+            [The Little AVL Tree That Could](https://medium.com/basecs/the-little-avl-tree-that-could-86a3cae410c7)
+            [Painting Nodes Black With Red-Black Trees](https://medium.com/basecs/painting-nodes-black-with-red-black-trees-60eacb2be9a5)
 
-        ### DNS
-            https://pressable.com/blog/2014/12/04/dns-management-basics/
-            https://pressable.com/blog/2014/12/11/understanding-dns-record-types/
-            https://pressable.com/blog/2014/12/23/dns-record-types-explained/
-            [DNS Records (NS, A, CNAME, MX) Explained](https://sg.godaddy.com/zh/help/dns-680)
+            [Huffman Coding](https://www.youtube.com/watch?v=fPthQE7Li8M&list=PLJse9iV6ReqgfKUeMQK2LWPt4sEu0SIxO)
+                之所以能成功, 变长的2进制, 是因为每一个2进制的值都是独特的叶子节点, 如果能从对照表中找到的话
+
+            ## Graph
+                [Spinning Around In Cycles With Directed Acyclic Graphs](https://medium.com/basecs/spinning-around-in-cycles-with-directed-acyclic-graphs-a233496d4688)
+                    DFS 方式是因为这种方式减少内存, 缓存完最大深度对应的stack信息就可以被释放掉了. 而 WFS 这种方式会占用过多资源
+
+                [Finding The Shortest Path, With A Little Help From Dijkstra](https://medium.com/basecs/finding-the-shortest-path-with-a-little-help-from-dijkstra-613149fbdc8e)
+
+                [Speeding Up The Traveling Salesman Using Dynamic Programming](https://medium.com/basecs/speeding-up-the-traveling-salesman-using-dynamic-programming-b76d7552e8dd)
+                [Travelling Salesman Problem](https://www.youtube.com/watch?v=_51ot-Ri0ng)
+                    这两篇文章讲的就是如何有效的解决 Traveling Sales man 的问题, 就是用 Dynamic Programming 寻找最小的解决办法, 去重, 然后做 memorization, 
+                    后面的这个youtube视频, 很好的解释了采用DP的算法复杂度是2^n * n, Power Set 是 2^n
+
+
+
+            ## set
+                [Set Theory: the Method To Database Madness](https://medium.com/basecs/set-theory-the-method-to-database-madness-5ec4b4f05d79)
+
+
+            ## grap
+                [Königsberg: Seven Small Bridges, One Giant Graph Problem](https://medium.com/basecs/k%C3%B6nigsberg-seven-small-bridges-one-giant-graph-problem-2275d1670a12)
+
+            ## heap
+                [Learning to Love Heaps](https://medium.com/basecs/learning-to-love-heaps-cef2b273a238)
+                    implemented using arry, used for priority queue, that is FIFO with priority embeded.
+                [Heapify All The Things With Heap Sort](https://medium.com/basecs/heapify-all-the-things-with-heap-sort-55ee1c93af82)
+                    heapify 实现 for (i = length - 1 / 2, i>=0; i--) heapify(i), 这个过程是从最后面一排节点按个向上排序.
+
+            ## compiler
+                [Leveling Up One’s Parsing Game With ASTs](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff)
+                    很好的解释了 AST 和 CST 的区别 
+
+                [ast 工具](https://astexplorer.net/)
                 
 
-        ### devops
-            https://blog.risingstack.com/moving-node-js-from-paas-to-kubernetes-tutorial/
-            [](https://www.digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers)
-            Understanding Linux CPU Load - https://scoutapm.com/blog/understanding-load-averages
-                15mins mark / (number of cpu) >= 0.7
-
-        ### native modules:
-            [](https://blog.risingstack.com/node-js-native-modules-with-rust/)
 
-        ### others
-            [Concurrent Servers: Part 3 - Event-driven](https://eli.thegreenplace.net/2017/concurrent-servers-part-3-event-driven/)
-            [自己动手开发网络服务器（三）](http://codingpy.com/article/build-a-simple-web-server-part-three/)
-                python fork 会复制文件描述符, 子进程需要及时关闭从父进程copy过来的 file descriptor
-                父进程需要等待子进程的关闭(os.wait, os.waitpid), 否则会出现僵尸进程
-                    > 僵尸进程其实是已经结束了的进程，但是它的父进程并没有等待进程结束，所以没有接收到进程结束的状态信息。当子进程在父进程之前退出，系统就会将子进程变成一个僵尸进程，保留原子进程的部分信息，方便父进程之后获取。系统所保留的信息通常包括进程ID、进程结束状态和进程的资源使用情况。
-                ulimit 查看系统进程默认可以使用的资源
-                python signal 处理可能会引起的主进程的 interrupted error.
-                进程 pid 和 ppid 的关系, 子进程创建会有一个 ppid 指向父进程
-
-            [Json Web Token (JWT)]
-                ! [使用JWT](http://haomou.net/2014/08/13/2014_web_token/)
-                [JWT introduction](https://jwt.io/introduction/)
-                [node simple jwt implemetation](https://github.com/hokaccha/node-jwt-simple/blob/master/lib/jwt.js)
-                [JWT Server端的认证](https://zhuanlan.zhihu.com/p/27370773?hmsr=toutiao.io)
-
-            [Oauth 2]
-                ! [](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
-                    you only need this to understand oauth2
-
-            [AWS]
-                ! [](https://www.expeditedssl.com/aws-in-plain-english)
-
-            [GraphQL]
-                GraphQL tutorial - https://www.youtube.com/watch?v=PEcJxkylcRM&index=1&list=PLillGF-RfqbYZty73_PHBqKRDnv7ikh68
-
-    ## desktop app:
-        [slack - Building Hybrid Applications with Electron](https://slack.engineering/building-hybrid-applications-with-electron-dc67686de5fb#.fs6sprhni)
-
-    ## aws
-        [The Complete AWS Web Boilerplate](https://medium.freecodecamp.org/the-complete-aws-web-boilerplate-d0ca89d1691f)
-
-
-    ## tools
-        chrome dev:
-            [Debugging The Web](https://www.youtube.com/watch?v=HF1luRD4Qmk)
-                nodejs, ProgressWebApp, realtime editing with workspace
+    # machine learning:
+        !![A Friendly Introduction to Machine Learning](https://www.youtube.com/watch?v=IpGxLWOIZy4&t=2s)
+        ![Machine Learning :: Text feature extraction (tf-idf) – Part I](http://blog.christianperone.com/2011/09/machine-learning-text-feature-extraction-tf-idf-part-i/)
 
+        ! [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
+            ORC-(图像转文字)
+            make sure dev & test dataset from same distribution - @43 mins mark
+        ![Machine Learning: Measuring Similarity and Distance](https://dzone.com/articles/machine-learning-measuring)
+        [一文读懂遗传算法工作原理（附Python实现）](http://mp.weixin.qq.com/s/rXDj5ryRvjbkenp9IEokDQ)
+        [Generative Adversarial Networks (GANs) in 50 lines of code (PyTorch)](https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f)
 
-# Architecture & System design:
-    [view-counting-at-reddit](https://redditblog.com/2017/05/24/view-counting-at-reddit/)
-
-# Tools
-    [tmux](https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340)
-
-    IDEA
-        http://laobie.github.io/android/2016/02/14/android-studio-tips.html
-
-    [wire shark]
-        http://fangxin.blog.51cto.com/1125131/735178
-        http://www.cnblogs.com/TankXiao/archive/2012/10/10/2711777.html
-
-    [mitmproxy]
-        App爬虫神器mitmproxy和mitmdump的使用 - https://juejin.im/post/5ac9ea6d518825364001b5b9
-        [mitmproxy 来搞定 mac 的代理](https://blogs.msdn.microsoft.com/aaddevsup/2018/04/11/tracing-all-network-machine-traffic-using-mitmproxy-for-mac-osx/)
-            ```plain
-            mitmproxy --mode socks5 --showhost --listen-port 8888
-            ```
-            
-    ## version control
-        git
-            [undo-the-last-git-commit] http://stackoverflow.com/questions/927358/undo-the-last-git-commit
-            [图解Git](https://marklodato.github.io/visual-git-guide/index-zh-cn.html)
-            [atlassian git tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
-            [Git 版本控制与工作流  ](http://www.jianshu.com/p/67afe711c731)
-            [让你的Git水平更上一层楼的10个小贴士](http://blog.jobbole.com/75348/)
-            [git flow]
-                [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
 
-            ! [闯过这 54 关，点亮你的 Git 技能树 ](https://codingstyle.cn/topics/181)
-            [git submodule]
-                https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
-                https://git-scm.com/book/en/v2/Git-Tools-Submodules
+        ## Deep Leaning
+            !! [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
+            [A super simple introduction to neural networks](http://www.mattzeunert.com/2016/12/09/neural-networks-super-simple-introduction.html)
+            [How backpropagation works, and how you can use Python to build a neural network](https://medium.freecodecamp.org/build-a-flexible-neural-network-with-backpropagation-in-python-acffeb7846d0)
 
-            [git hook](https://www.atlassian.com/git/tutorials/git-hooks/conceptual-overview)
-                Local hook vs Server hook
 
-            [git rebase vs merge](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
+    # Operating System
 
-# native mobile
+        [locale的设定及LANG、LC_CTYPE、LC_ALL环境变量](http://www.cnblogs.com/xlmeng1988/archive/2013/01/16/locale.html)
+        [](http://stackoverflow.com/questions/8238860/maximum-number-of-files-folders-on-linux)
+        [](https://askubuntu.com/questions/611528/why-cant-sudo-find-a-command-after-i-added-it-to-path)
 
-    # android
-        [anroid 程序设计经验](http://blog.csdn.net/ahence/article/details/47154419)
-        [android 技术开发应用堆栈](http://www.jianshu.com/p/c8c6dbe00787)
-        [Jenkin+Git+Gradle为Android项目搭建CI环境](http://blogs.cyning.me/2015/08/16/jenkins-CI-android/)
-        [移动端前端开发真机调试攻略](http://www.anchengjian.com/post/3217ba_8c8e9f1)
-        ! [The Busy Coder's Guide to Android Development](https://github.com/commonsguy/cw-omnibus)
-        ! [android 资源列表](http://www.jianshu.com/p/e961f1633d7a)
-        ! [android cheetsheet](http://inthecheesefactory.com/aca/The%20Android%20Cheese%20Sheet%20rev%204.pdf)
-        [Android Studio插件整理](https://ydmmocoo.github.io/2016/06/28/Android-Studio%E6%8F%92%E4%BB%B6%E6%95%B4%E7%90%86/)
+        [ /etc/rc.local file ](https://unix.stackexchange.com/questions/59929/whats-the-difference-between-etc-rc-local-and-etc-init-d-rc-local)
+        [What is the difference between Unix, Linux, BSD and GNU? [closed]](https://unix.stackexchange.com/questions/104714/what-is-the-difference-between-unix-linux-bsd-and-gnu)
 
+        ## linux
+            [linux 工具速查手册](1)
+            [ulimit](https://www.ibm.com/developerworks/cn/linux/l-cn-ulimit/)
+            [cmds]
+                nc - http://www.computerhope.com/unix/nc.htm
+                    用于网络连接测试, tcp, udp, UNIX-domain stream socket, port scanning
 
-    # hydrid mobile dev
-        [cordova](http://cordova.apache.org/)
+            [make file introductions]
+            http://www.ruanyifeng.com/blog/2015/03/build-website-with-make.html
 
+            [Async IO on Linux: select, poll, and epoll](https://jvns.ca/blog/2017/06/03/async-io-on-linux--select--poll--and-epoll/)
+            [深刻理解——real user id, effective user id, saved user id in Linux](https://blog.csdn.net/fmeng23/article/details/23115989)
+            real user 是login的user, effective user 是用来检查进程权限的真实凭据. save user id 默认是从 effective user id copy过来的.
+            set-user-id 文件位设置上之后, 允许用户以其文件usr id来执行进程. 也就是说effective user id这个时候就是文件的id. 这种方式允许
+            用户以另一个用户的身份执行程序. effective user id 只允许被设置为 real user id 或者 saved user id .
 
+    # System Programming:
+        [ANSI转义序列](https://zh.wikipedia.org/wiki/ANSI%E8%BD%AC%E4%B9%89%E5%BA%8F%E5%88%97)
+        [using libraries](https://rufflewind.com/2017-02-25/using-libraries)
+        [An Intro to Compilers - LLVM](https://nicoleorchard.com/blog/compilers)
 
-# math
-    ! [List of mathematical symbols](https://en.wikipedia.org/wiki/List_of_mathematical_symbols)
-    
-    [数学收敛]http://zh.wikipedia.org/zh/%E6%9E%81%E9%99%90_%28%E6%95%B0%E5%AD%A6%29
-    [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
-    http://www.ruanyifeng.com/blog/2011/07/mathematical_constant_e.html
-    [数学科普文章](http://betterexplained.com/)
-    [Fourier Transform, Fourier Series, and frequency spectrum](https://www.youtube.com/watch?v=r18Gi8lSkfM)
-    [傅里叶变换]
-        http://blog.rainy.im/2015/11/03/fourier-transform-in-image-processing/
-        http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
-    [Taxicab_geometry](https://en.wikipedia.org/wiki/Taxicab_geometry) - 计算LP-space (P是向量的空间维度)的向量的最小距离, 不唯一
-    [mod arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
-    [Basic Linear Algebra for Deep Learning](https://towardsdatascience.com/linear-algebra-for-deep-learning-f21d7e7d7f23)
-    [Kleene star](https://en.wikipedia.org/wiki/Kleene_star)
-        就是一个Set中的元素各种互相排列组合, 无限次数, 除了 Empty Set 和 Singleton Set, 其他形式的 Kleene star over other set 都是 infinite set.
+        [Build System]
+            [cmake vs make](https://www.quora.com/What-is-the-difference-between-CMake-and-make)
 
-    
+        [memory alignment](https://en.wikipedia.org/wiki/Data_structure_alignment)
+        [Understanding C by learning assembly](https://www.recurse.com/blog/7-understanding-c-by-learning-assembly)
+        [install gdb on mac, for security reason, i skip it](http://panks.me/posts/2013/11/install-gdb-on-os-x-mavericks-from-source/)
+        [linux 的c header files 检索](http://elixir.free-electrons.com/linux/v4.13-rc7/source/lib/bch.c)
+            /user/include 下面也可以
+        [认真分析mmap：是什么 为什么 怎么用](http://www.cnblogs.com/huxiao-tee/p/4660352.html)
+        ! [code section](https://en.wikipedia.org/wiki/Data_segment)
 
-# Algorithms & [data structure]:
-    ## basic math for algorithms
-        [power set](https://en.wikipedia.org/wiki/Power_set)
-        [Deterministic pushdown automaton](https://en.wikipedia.org/wiki/Deterministic_pushdown_automaton)
-            我的理解就是任何当前状态到下一个状态的转换都是 deterministic 的(唯一的一个解)
+        ## clang 
+        * Introduction to C / C++ Programming
 
+    Advanced Pointers - https://www.cs.uic.edu/~jbell/CourseNotes/C_Programming/AdvancedPointers.html
 
+        Assembly 
+            [intel software manual, for reference assembly](https://software.intel.com/en-us/articles/intel-sdm)
+            [Linux 汇编语言开发指南](https://www.ibm.com/developerworks/cn/linux/l-assembly/index.html)
+            [tail call optimiztion](https://spin.atomicobject.com/2014/11/05/tail-call-recursion-optimization/)
+                直接跳到最后，优化说白了就是直接利用jmp, 跳转到对应位置再重新执行，可以完全理解为将代码优化成了 for-loop
+            [x86 Assembly Guide](http://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
 
 
-    ## Algorithms:
-        [](https://en.wikipedia.org/wiki/Perfect_hash_function)
-        [Randomized_algorithm](https://en.wikipedia.org/wiki/Randomized_algorithm)
-        [Backtracking](https://en.wikipedia.org/wiki/Backtracking)
-            Description of the method 这一节解释的非常清楚, 就是先假设一个解, 根据这个假设去解下面的的问题, 如果发现不合适
-            整个树的分支都skip 掉. 是一种优化的brute force 解法
+        [What is LLVM? The power behind Swift, Rust, Clang, and more](https://www.infoworld.com/article/3247799/development-tools/what-is-llvm-the-power-behind-swift-rust-clang-and-more.html)
 
 
+    # Graphic Programming:
 
+        [vulkan tutorial]( https://vulkan-tutorial.com/Introduction)
 
-    ## data structure:
-        ![](https://www.tutorialspoint.com/data_structures_algorithms)
-        [trie](https://www.youtube.com/watch?v=RIUY7ieyH40)
-        ! [10 Common Data Structures Explained with Videos + Exercises](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
-        [Let’s Implement a Bloom Filter in Go](https://codeburst.io/lets-implement-a-bloom-filter-in-go-b2da8a4b849f)
-        [Radix tree](https://en.wikipedia.org/wiki/Radix_tree)
-        [weakmap in es6](https://github.com/medikoo/es6-weak-map/blob/master/polyfill.js)
-        [The Little AVL Tree That Could](https://medium.com/basecs/the-little-avl-tree-that-could-86a3cae410c7)
-        [Painting Nodes Black With Red-Black Trees](https://medium.com/basecs/painting-nodes-black-with-red-black-trees-60eacb2be9a5)
 
-        [Huffman Coding](https://www.youtube.com/watch?v=fPthQE7Li8M&list=PLJse9iV6ReqgfKUeMQK2LWPt4sEu0SIxO)
-            之所以能成功, 变长的2进制, 是因为每一个2进制的值都是独特的叶子节点, 如果能从对照表中找到的话
+    # computer network:
+        IPv6: Unicast 单播地址的组成与分类 - http://lesca.me/archives/ipv6-unicast-address.html
 
-        ## Graph
-            [Spinning Around In Cycles With Directed Acyclic Graphs](https://medium.com/basecs/spinning-around-in-cycles-with-directed-acyclic-graphs-a233496d4688)
-                DFS 方式是因为这种方式减少内存, 缓存完最大深度对应的stack信息就可以被释放掉了. 而 WFS 这种方式会占用过多资源
+            Unique_local_address： 
+                专用网络 - https://zh.wikipedia.org/wiki/%E4%B8%93%E7%94%A8%E7%BD%91%E7%BB%9C
+                https://en.wikipedia.org/wiki/Unique_local_address
 
-            [Finding The Shortest Path, With A Little Help From Dijkstra](https://medium.com/basecs/finding-the-shortest-path-with-a-little-help-from-dijkstra-613149fbdc8e)
 
-            [Speeding Up The Traveling Salesman Using Dynamic Programming](https://medium.com/basecs/speeding-up-the-traveling-salesman-using-dynamic-programming-b76d7552e8dd)
-            [Travelling Salesman Problem](https://www.youtube.com/watch?v=_51ot-Ri0ng)
-                这两篇文章讲的就是如何有效的解决 Traveling Sales man 的问题, 就是用 Dynamic Programming 寻找最小的解决办法, 去重, 然后做 memorization, 
-                后面的这个youtube视频, 很好的解释了采用DP的算法复杂度是2^n * n, Power Set 是 2^n
+            Link-local_address:
+                https://en.wikipedia.org/wiki/Link-local_address
 
+        # HTTP_PROTOCOL:
+            [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+                限定的是server端的资源的
 
-
-        ## set
-            [Set Theory: the Method To Database Madness](https://medium.com/basecs/set-theory-the-method-to-database-madness-5ec4b4f05d79)
-
-
-        ## grap
-            [Königsberg: Seven Small Bridges, One Giant Graph Problem](https://medium.com/basecs/k%C3%B6nigsberg-seven-small-bridges-one-giant-graph-problem-2275d1670a12)
-
-        ## heap
-            [Learning to Love Heaps](https://medium.com/basecs/learning-to-love-heaps-cef2b273a238)
-                implemented using arry, used for priority queue, that is FIFO with priority embeded.
-            [Heapify All The Things With Heap Sort](https://medium.com/basecs/heapify-all-the-things-with-heap-sort-55ee1c93af82)
-                heapify 实现 for (i = length - 1 / 2, i>=0; i--) heapify(i), 这个过程是从最后面一排节点按个向上排序.
-
-        ## compiler
-            [Leveling Up One’s Parsing Game With ASTs](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff)
-                很好的解释了 AST 和 CST 的区别 
-
-            [ast 工具](https://astexplorer.net/)
-            
-
-
-# machine learning:
-    !![A Friendly Introduction to Machine Learning](https://www.youtube.com/watch?v=IpGxLWOIZy4&t=2s)
-    ![Machine Learning :: Text feature extraction (tf-idf) – Part I](http://blog.christianperone.com/2011/09/machine-learning-text-feature-extraction-tf-idf-part-i/)
-
-    ! [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
-        ORC-(图像转文字)
-        make sure dev & test dataset from same distribution - @43 mins mark
-    ![Machine Learning: Measuring Similarity and Distance](https://dzone.com/articles/machine-learning-measuring)
-    [一文读懂遗传算法工作原理（附Python实现）](http://mp.weixin.qq.com/s/rXDj5ryRvjbkenp9IEokDQ)
-    [Generative Adversarial Networks (GANs) in 50 lines of code (PyTorch)](https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f)
-
-
-    ## Deep Leaning
-        !! [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
-        [A super simple introduction to neural networks](http://www.mattzeunert.com/2016/12/09/neural-networks-super-simple-introduction.html)
-        [How backpropagation works, and how you can use Python to build a neural network](https://medium.freecodecamp.org/build-a-flexible-neural-network-with-backpropagation-in-python-acffeb7846d0)
-
-
-
-# Operating System
-
-    [locale的设定及LANG、LC_CTYPE、LC_ALL环境变量](http://www.cnblogs.com/xlmeng1988/archive/2013/01/16/locale.html)
-    [](http://stackoverflow.com/questions/8238860/maximum-number-of-files-folders-on-linux)
-    [](https://askubuntu.com/questions/611528/why-cant-sudo-find-a-command-after-i-added-it-to-path)
-
-    [ /etc/rc.local file ](https://unix.stackexchange.com/questions/59929/whats-the-difference-between-etc-rc-local-and-etc-init-d-rc-local)
-    [What is the difference between Unix, Linux, BSD and GNU? [closed]](https://unix.stackexchange.com/questions/104714/what-is-the-difference-between-unix-linux-bsd-and-gnu)
-
-    ## linux
-        [linux 工具速查手册](1)
-          [ulimit](https://www.ibm.com/developerworks/cn/linux/l-cn-ulimit/)
-          [cmds]
-              nc - http://www.computerhope.com/unix/nc.htm
-                  用于网络连接测试, tcp, udp, UNIX-domain stream socket, port scanning
-
-        [make file introductions]
-          http://www.ruanyifeng.com/blog/2015/03/build-website-with-make.html
-
-        [Async IO on Linux: select, poll, and epoll](https://jvns.ca/blog/2017/06/03/async-io-on-linux--select--poll--and-epoll/)
-        [深刻理解——real user id, effective user id, saved user id in Linux](https://blog.csdn.net/fmeng23/article/details/23115989)
-          real user 是login的user, effective user 是用来检查进程权限的真实凭据. save user id 默认是从 effective user id copy过来的.
-          set-user-id 文件位设置上之后, 允许用户以其文件usr id来执行进程. 也就是说effective user id这个时候就是文件的id. 这种方式允许
-          用户以另一个用户的身份执行程序. effective user id 只允许被设置为 real user id 或者 saved user id .
-
-# System Programming:
-    [using libraries](https://rufflewind.com/2017-02-25/using-libraries)
-    [An Intro to Compilers - LLVM](https://nicoleorchard.com/blog/compilers)
-
-    [Build System]
-        [cmake vs make](https://www.quora.com/What-is-the-difference-between-CMake-and-make)
-
-    [memory alignment](https://en.wikipedia.org/wiki/Data_structure_alignment)
-    [Understanding C by learning assembly](https://www.recurse.com/blog/7-understanding-c-by-learning-assembly)
-    [install gdb on mac, for security reason, i skip it](http://panks.me/posts/2013/11/install-gdb-on-os-x-mavericks-from-source/)
-    [linux 的c header files 检索](http://elixir.free-electrons.com/linux/v4.13-rc7/source/lib/bch.c)
-        /user/include 下面也可以
-    [认真分析mmap：是什么 为什么 怎么用](http://www.cnblogs.com/huxiao-tee/p/4660352.html)
-    ! [code section](https://en.wikipedia.org/wiki/Data_segment)
-
-    ## clang 
-      * Introduction to C / C++ Programming
-Advanced Pointers - https://www.cs.uic.edu/~jbell/CourseNotes/C_Programming/AdvancedPointers.html
-
-    Assembly 
-        [intel software manual, for reference assembly](https://software.intel.com/en-us/articles/intel-sdm)
-        [Linux 汇编语言开发指南](https://www.ibm.com/developerworks/cn/linux/l-assembly/index.html)
-        [tail call optimiztion](https://spin.atomicobject.com/2014/11/05/tail-call-recursion-optimization/)
-            直接跳到最后，优化说白了就是直接利用jmp, 跳转到对应位置再重新执行，可以完全理解为将代码优化成了 for-loop
-        [x86 Assembly Guide](http://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
-
-
-    [What is LLVM? The power behind Swift, Rust, Clang, and more](https://www.infoworld.com/article/3247799/development-tools/what-is-llvm-the-power-behind-swift-rust-clang-and-more.html)
-
-
-# Graphic Programming:
-
-    [vulkan tutorial]( https://vulkan-tutorial.com/Introduction)
-
-
-# computer network:
-    IPv6: Unicast 单播地址的组成与分类 - http://lesca.me/archives/ipv6-unicast-address.html
-
-        Unique_local_address： 
-            专用网络 - https://zh.wikipedia.org/wiki/%E4%B8%93%E7%94%A8%E7%BD%91%E7%BB%9C
-            https://en.wikipedia.org/wiki/Unique_local_address
-
-
-        Link-local_address:
-            https://en.wikipedia.org/wiki/Link-local_address
-
-    # HTTP_PROTOCOL:
-        [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
-            限定的是server端的资源的
-
-    [ip routing]
-        http://www.thegeekstuff.com/2012/04/ip-routing-intro/
-    [netstat ](http://www.thegeekstuff.com/2010/03/netstat-command-examples/)
-        netstat -rn #view routers
-
-    route
-        [! route examples](http://www.thegeekstuff.com/2012/04/route-examples)
-            http://www.thegeekstuff.com/2012/04/route-examples
-
-    DHCP - https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
-    网络(arp 和 ip 介绍) - https://bryantchang.github.io/2019/06/02/net-protocol1/
-    
-
-# security
-    web_security:
-        [](https://blog.haschek.at/2017/how-to-defend-your-website-with-zip-bombs.html)
-            用gzip产生的10m压缩文件，返回html内容，产生巨大的html内容样客户端过载
-
-    # crypto
-        [Cryptography—What Is It and How Does It Work?](https://medium.com/@ahjuice/cryptography-what-is-it-and-how-does-it-work-2a21a730d694)
-        [](https://codahale.com/how-to-safely-store-a-password/)
-        [salt](https://en.wikipedia.org/wiki/Salt_(cryptography))
-        [bcrpt](https://en.wikipedia.org/wiki/Bcrypt)
-            记住这一句就够用了:
-                bcrypt is an adaptive function: over time, the iteration count can be increased to make it slower, so it remains resistant to brute-force search attacks even with increasing computation power.
-
-
-# Programming Language & methodolgy
-    
-    ## PROGRAMMING LANGUAGE
-        ### JAVA
-            [RESTful Web services: The basics](http://www.ibm.com/developerworks/webservices/library/ws-restful/)
-            [Apache ActiveMQ介绍](http://blog.csdn.net/qq7342272/article/details/8585048)
-
-        ### scala
-            [Understanding Scala Streams through Fibonacci](http://derekwyatt.org/2011/07/29/understanding-scala-streams-through-fibonacci.html)
-            [5 years of Scala and counting – debunking some myths about the language and its environment](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
-            [scala 魔法函数](http://colobu.com/2016/01/04/Scala-magic-functions/)
-            [The Neophyte's Guide to Scala Part 2: Extracting Sequences](http://danielwestheide.com/blog/2012/11/28/the-neophytes-guide-to-scala-part-2-extracting-sequences.html)
-            [A Deep Dive into Scalac — Chris Birchall](https://www.youtube.com/watch?v=2742pWdUm6c)
-            [implicit parameter precedence](http://eed3si9n.com/implicit-parameter-precedence-again)
-
-            [scala-partial-functions](http://blog.bruchez.name/2011/10/scala-partial-functions-without-phd.html)
-            ! [The Neophyte's Guide to Scala]http://danielwestheide.com/scala/neophytes.html
-
-            [scala type class](http://www.cakesolutions.net/teamblogs/demystifying-implicits-and-typeclasses-in-scala)
-                http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
-
-            ! scala cake pattern
-                http://www.cakesolutions.net/teamblogs/2011/12/19/cake-pattern-in-depth
-                https://coderwall.com/p/t_rapw/cake-pattern-in-scala-self-type-annotations-explicitly-typed-self-references-explained
-
-            ! scala style guide
-                http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html
-
-
-            ! [Functional Programming is Terrible](https://www.youtube.com/watch?v=hzf3hTUKk8U)
-
-            ! [Function Method and eta expression](https://gleichmann.wordpress.com/2011/01/09/functional-scala-turning-methods-into-functions/)
-
-
-            [scala compiler options](http://pedrorijo.com/blog/scala-compiler-review-code-warnings/)
-            
-            scalaz
-              [scalaz Task](http://timperrett.com/2014/07/20/scalaz-task-the-missing-documentation/)
-
-
-        ### nodejs
-            #### ! nodejs at scale
+        [ip routing]
+            http://www.thegeekstuff.com/2012/04/ip-routing-intro/
+        [netstat ](http://www.thegeekstuff.com/2010/03/netstat-command-examples/)
+            netstat -rn #view routers
+
+        route
+            [! route examples](http://www.thegeekstuff.com/2012/04/route-examples)
+                http://www.thegeekstuff.com/2012/04/route-examples
+
+        DHCP - https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
+        网络(arp 和 ip 介绍) - https://bryantchang.github.io/2019/06/02/net-protocol1/
+        
+
+    # security
+        web_security:
+            [](https://blog.haschek.at/2017/how-to-defend-your-website-with-zip-bombs.html)
+                用gzip产生的10m压缩文件，返回html内容，产生巨大的html内容样客户端过载
+
+        # crypto
+            [Cryptography—What Is It and How Does It Work?](https://medium.com/@ahjuice/cryptography-what-is-it-and-how-does-it-work-2a21a730d694)
+            [](https://codahale.com/how-to-safely-store-a-password/)
+            [salt](https://en.wikipedia.org/wiki/Salt_(cryptography))
+            [bcrpt](https://en.wikipedia.org/wiki/Bcrypt)
+                记住这一句就够用了:
+                    bcrypt is an adaptive function: over time, the iteration count can be increased to make it slower, so it remains resistant to brute-force search attacks even with increasing computation power.
+
+
+    # Programming Language & methodolgy
+        
+        ## PROGRAMMING LANGUAGE
+            ### JAVA
+                [RESTful Web services: The basics](http://www.ibm.com/developerworks/webservices/library/ws-restful/)
+                [Apache ActiveMQ介绍](http://blog.csdn.net/qq7342272/article/details/8585048)
+
+            ### scala
+                [Understanding Scala Streams through Fibonacci](http://derekwyatt.org/2011/07/29/understanding-scala-streams-through-fibonacci.html)
+                [5 years of Scala and counting – debunking some myths about the language and its environment](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
+                [scala 魔法函数](http://colobu.com/2016/01/04/Scala-magic-functions/)
+                [The Neophyte's Guide to Scala Part 2: Extracting Sequences](http://danielwestheide.com/blog/2012/11/28/the-neophytes-guide-to-scala-part-2-extracting-sequences.html)
+                [A Deep Dive into Scalac — Chris Birchall](https://www.youtube.com/watch?v=2742pWdUm6c)
+                [implicit parameter precedence](http://eed3si9n.com/implicit-parameter-precedence-again)
+
+                [scala-partial-functions](http://blog.bruchez.name/2011/10/scala-partial-functions-without-phd.html)
+                ! [The Neophyte's Guide to Scala]http://danielwestheide.com/scala/neophytes.html
+
+                [scala type class](http://www.cakesolutions.net/teamblogs/demystifying-implicits-and-typeclasses-in-scala)
+                    http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
+
+                ! scala cake pattern
+                    http://www.cakesolutions.net/teamblogs/2011/12/19/cake-pattern-in-depth
+                    https://coderwall.com/p/t_rapw/cake-pattern-in-scala-self-type-annotations-explicitly-typed-self-references-explained
+
+                ! scala style guide
+                    http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html
+
+
+                ! [Functional Programming is Terrible](https://www.youtube.com/watch?v=hzf3hTUKk8U)
+
+                ! [Function Method and eta expression](https://gleichmann.wordpress.com/2011/01/09/functional-scala-turning-methods-into-functions/)
+
+
+                [scala compiler options](http://pedrorijo.com/blog/scala-compiler-review-code-warnings/)
+                
+                scalaz
+                [scalaz Task](http://timperrett.com/2014/07/20/scalaz-task-the-missing-documentation/)
+
+
+            ### nodejs
+                #### ! nodejs at scale
+                    [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
+                    [Hunting a Ghost - Finding a Memory Leak in Node.js](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/)
+                    Node.js at Scale:
+                        [Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/)
+                        https://blog.risingstack.com/nodejs-at-scale-npm-publish-tutorial/
+
+                # nodejs production & performanc
+                    [Keeping Node.js Fast: Tools, Techniques, And Tips For Making High-Performance Node.js Servers](https://medium.com/@smashingmag/keeping-node-js-fast-tools-techniques-and-tips-for-making-high-performance-node-js-servers-8cfcb55e3d7)
+                        讲了 AutoCannon 和 Clinic 两种工具识别线上问题的方式方法
+                        --trace-warnings, tag 的使用
+                        
+                [nodejs 模块加载机制]
+                    http://www.infoq.com/cn/articles/nodejs-module-mechanism
+                [nodejs 7 tips](http://dev.oupeng.com/articles/7-tips-for-a-nodejs-padawan)
+                [深入浅出Nodejs读书笔记](http://tw93.github.io/2015-03-01/shen-ru-qian-chu-nodejs-reading-mind-map.html)
+                [node js best practices](http://blog.risingstack.com/node-js-best-practices/)
+                [node-best-practices](https://devcenter.heroku.com/articles/node-best-practices#use-npm-scripts-to-run-custom-build-steps)
+                [Browserify：浏览器加载Node.js模块](http://javascript.ruanyifeng.com/tool/browserify.html)
+                [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
+                [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
+                [stream handbook](https://github.com/substack/stream-handbook)
+                [详解Node.js的http模块之http模块概述](http://itbilu.com/nodejs/core/N1okQ7Eh.html)
+                [npm best practice](https://blog.risingstack.com/nodejs-at-scale-npm-best-practices/)
+                [19 things I learnt reading the NodeJS docs](https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.ibos50cqi)
+                [fiber](https://bjouhier.wordpress.com/2012/03/11/fibers-and-threads-in-node-js-what-for/)
                 [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
-                [Hunting a Ghost - Finding a Memory Leak in Node.js](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/)
-                Node.js at Scale:
-                    [Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/)
-                    https://blog.risingstack.com/nodejs-at-scale-npm-publish-tutorial/
-
-            # nodejs production & performanc
-                [Keeping Node.js Fast: Tools, Techniques, And Tips For Making High-Performance Node.js Servers](https://medium.com/@smashingmag/keeping-node-js-fast-tools-techniques-and-tips-for-making-high-performance-node-js-servers-8cfcb55e3d7)
-                    讲了 AutoCannon 和 Clinic 两种工具识别线上问题的方式方法
-                    --trace-warnings, tag 的使用
-                    
-            [nodejs 模块加载机制]
-                http://www.infoq.com/cn/articles/nodejs-module-mechanism
-            [nodejs 7 tips](http://dev.oupeng.com/articles/7-tips-for-a-nodejs-padawan)
-            [深入浅出Nodejs读书笔记](http://tw93.github.io/2015-03-01/shen-ru-qian-chu-nodejs-reading-mind-map.html)
-            [node js best practices](http://blog.risingstack.com/node-js-best-practices/)
-            [node-best-practices](https://devcenter.heroku.com/articles/node-best-practices#use-npm-scripts-to-run-custom-build-steps)
-            [Browserify：浏览器加载Node.js模块](http://javascript.ruanyifeng.com/tool/browserify.html)
-            [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
-            [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
-            [stream handbook](https://github.com/substack/stream-handbook)
-            [详解Node.js的http模块之http模块概述](http://itbilu.com/nodejs/core/N1okQ7Eh.html)
-            [npm best practice](https://blog.risingstack.com/nodejs-at-scale-npm-best-practices/)
-            [19 things I learnt reading the NodeJS docs](https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.ibos50cqi)
-            [fiber](https://bjouhier.wordpress.com/2012/03/11/fibers-and-threads-in-node-js-what-for/)
-            [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
 
 
-            #### nodejs devops
-                [Don't Let Just Node.js Take the Blame! by Daniel Khan, Dynatrace](https://www.youtube.com/watch?v=FocrqytWkjM)
+                #### nodejs devops
+                    [Don't Let Just Node.js Take the Blame! by Daniel Khan, Dynatrace](https://www.youtube.com/watch?v=FocrqytWkjM)
 
 
-        ### Python
-            [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
+            ### Python
+                [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
 
-            [python web crawler]
-                http://blog.csdn.net/column/details/why-bug.html
-                http://www.zhihu.com/question/20899988
+                [python web crawler]
+                    http://blog.csdn.net/column/details/why-bug.html
+                    http://www.zhihu.com/question/20899988
 
-            [how to structure large flask application](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
-            [Python 语言在企业应用方面遭遇的十大谬误](http://www.oschina.net/translate/10-myths-of-enterprise-python)
-            [python 日报](http://py.memect.com/)
-            [Python初学者的资源总结](http://www.jianshu.com/p/9a3e1229c810)
-            [python3 feature](http://www.asmeurer.com/python3-presentation/slides.html#1)
+                [how to structure large flask application](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
+                [Python 语言在企业应用方面遭遇的十大谬误](http://www.oschina.net/translate/10-myths-of-enterprise-python)
+                [python 日报](http://py.memect.com/)
+                [Python初学者的资源总结](http://www.jianshu.com/p/9a3e1229c810)
+                [python3 feature](http://www.asmeurer.com/python3-presentation/slides.html#1)
 
-        ### javascript
-            mixins: 
-                https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes
-                https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41
+            ### javascript
+                mixins: 
+                    https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes
+                    https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41
 
-            [requirejs] require js [http://www.ruanyifeng.com/blog/2012/11/require_js.html]
-            [javascript inheritance]http://javascript.info/tutorial/inheritance
-            generators & async/await
-                https://ponyfoo.com/articles/es6-generators-in-depth#generators-the-del-weird-del-ins-awesome-ins-parts
-                ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
-                [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
-                ! [The Hidden Power of ES6 Generators: Observable Async Flow Control](https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435)
+                [requirejs] require js [http://www.ruanyifeng.com/blog/2012/11/require_js.html]
+                [javascript inheritance]http://javascript.info/tutorial/inheritance
+                generators & async/await
+                    https://ponyfoo.com/articles/es6-generators-in-depth#generators-the-del-weird-del-ins-awesome-ins-parts
+                    ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
+                    [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
+                    ! [The Hidden Power of ES6 Generators: Observable Async Flow Control](https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435)
 
-            ! [Metaprogramming in ES6: Symbols and why they're awesome](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/)
-            ! [es6 reflect](https://www.keithcirkel.co.uk/metaprogramming-in-es6-part-2-reflect/)
-            !! [es7 decorator](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41)
-                decorator as mixins.
+                ! [Metaprogramming in ES6: Symbols and why they're awesome](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/)
+                ! [es6 reflect](https://www.keithcirkel.co.uk/metaprogramming-in-es6-part-2-reflect/)
+                !! [es7 decorator](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41)
+                    decorator as mixins.
 
-            ! [prototype vs __proto__](http://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
-                简单来说new Function 的时候会自动创建一个 prototype 对象, 这个对象保存着所有 class instance 的methods和inheritated properties
-                , 这个prototype 和 Function 互相引用。 而__proto__是更内部的Link。
-                具体看下面es6 classes的链接
+                ! [prototype vs __proto__](http://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
+                    简单来说new Function 的时候会自动创建一个 prototype 对象, 这个对象保存着所有 class instance 的methods和inheritated properties
+                    , 这个prototype 和 Function 互相引用。 而__proto__是更内部的Link。
+                    具体看下面es6 classes的链接
 
-            !! [es6 classes](http://exploringjs.com/es6/ch_classes.html)
-                [new.target](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target)
+                !! [es6 classes](http://exploringjs.com/es6/ch_classes.html)
+                    [new.target](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target)
 
-        ### typescript
-            write ambient types:
-                [](http://definitelytyped.org/guides/creating.html)
-                [How to create your own TypeScript type definition files (.d.ts) and contribute to DefinitelyTyped on GitHub](http://blog.wolksoftware.com/contributing-to-definitelytyped)
+            ### typescript
+                write ambient types:
+                    [](http://definitelytyped.org/guides/creating.html)
+                    [How to create your own TypeScript type definition files (.d.ts) and contribute to DefinitelyTyped on GitHub](http://blog.wolksoftware.com/contributing-to-definitelytyped)
 
-        ### Rust
-            ! [system programming tutorial](http://rust-class.org/pages/pages.html)
-            http://killercup.github.io/trpl-ebook/
-            [Rust语言入门、关键技术与实战经验](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=405037902&idx=1&sn=97d9af490eefc5d6158cb6b6a70f67e5)
-            [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/)
-            [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg)
-            [What Are Tokio and Async IO All About?](https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about/)
-            [Rust不让你做的那些事](https://zhuanlan.zhihu.com/p/62642244)
-                挺复杂的看了一大半, 算了不看了.
-            [硬核！Rust异步编程方式重大升级：新版Tokio如何提升10倍性能详解](https://mp.weixin.qq.com/s/qLVKxzorLvFYxfjol01xNA)
-                有点难搞后面的部分
+            ### Rust
+                ! [system programming tutorial](http://rust-class.org/pages/pages.html)
+                http://killercup.github.io/trpl-ebook/
+                [Rust语言入门、关键技术与实战经验](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=405037902&idx=1&sn=97d9af490eefc5d6158cb6b6a70f67e5)
+                [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/)
+                [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg)
+                [What Are Tokio and Async IO All About?](https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about/)
+                [Rust不让你做的那些事](https://zhuanlan.zhihu.com/p/62642244)
+                    挺复杂的看了一大半, 算了不看了.
+                [硬核！Rust异步编程方式重大升级：新版Tokio如何提升10倍性能详解](https://mp.weixin.qq.com/s/qLVKxzorLvFYxfjol01xNA)
+                    有点难搞后面的部分
 
-            Language itself:
-              [](https://blog.rust-lang.org/2015/05/11/traits.html)
+                Language itself:
+                [](https://blog.rust-lang.org/2015/05/11/traits.html)
 
-                ### lifetime
-                    ! https://doc.rust-lang.org/nomicon/lifetimes.html
-                    [](https://mobiarch.wordpress.com/2015/06/29/understanding-lifetime-in-rust-part-i/)
-                    [](https://mobiarch.wordpress.com/2015/07/08/understanding-lifetime-in-rust-part-ii-3/)
-
-
-                closure with trait:
-                    http://huonw.github.io/blog/2015/05/finding-closure-in-rust/
-                    
-
-            [A Critique of Rust's `std::collections`](http://ticki.github.io/blog/horrible/)
-            ! [Fighting the Borrow Checker](https://m-decoster.github.io/2017/01/16/fighting-borrowchk/)
-            ! [Cow, str -> String, into, From/Into trait](https://jwilm.io/blog/from-str-to-cow/)
-
-            [performance]
-                https://llogiq.github.io/2017/06/01/perf-pitfalls.html
+                    ### lifetime
+                        ! https://doc.rust-lang.org/nomicon/lifetimes.html
+                        [](https://mobiarch.wordpress.com/2015/06/29/understanding-lifetime-in-rust-part-i/)
+                        [](https://mobiarch.wordpress.com/2015/07/08/understanding-lifetime-in-rust-part-ii-3/)
 
 
-       
+                    closure with trait:
+                        http://huonw.github.io/blog/2015/05/finding-closure-in-rust/
+                        
+
+                [A Critique of Rust's `std::collections`](http://ticki.github.io/blog/horrible/)
+                ! [Fighting the Borrow Checker](https://m-decoster.github.io/2017/01/16/fighting-borrowchk/)
+                ! [Cow, str -> String, into, From/Into trait](https://jwilm.io/blog/from-str-to-cow/)
+
+                [performance]
+                    https://llogiq.github.io/2017/06/01/perf-pitfalls.html
 
 
-        ### golang
-            [go by example](https://gobyexample.com/)
-            [Go并发机制.md](https://github.com/k2huang/blogpost/blob/master/golang/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6/Go%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6.md)
-            [HTTP(S) Proxy in Golang in less than 100 lines of code](https://medium.com/@mlowicki/http-s-proxy-in-golang-in-less-than-100-lines-of-code-6a51c2f2c38c)
-            ! [The complete guide to Go net/http timeouts](https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/)
-                讲了golang中的timeout机制，需要注意的是文中提及的不要使用package level的serveAndListen，应该是先create 一个server instance， then call server instance's method to listen http request. or you'll be 
-                bypassing the timeout rules
-            [10 things you (probably) don't know about Go](https://talks.golang.org/2012/10things.slide#1)
+        
 
-            [golang in production]
-                https://stackshare.io/stream/stream-and-go-news-feeds-for-over-300-million-end-users
-            [Testing in Golang](https://medium.com/@thejasbabu/testing-in-golang-c378b351002d)
-            [如何写出优雅的 Golang 代码](https://draveness.me/golang-101.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+            ### golang
+                [go by example](https://gobyexample.com/)
+                [Go并发机制.md](https://github.com/k2huang/blogpost/blob/master/golang/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6/Go%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6.md)
+                [HTTP(S) Proxy in Golang in less than 100 lines of code](https://medium.com/@mlowicki/http-s-proxy-in-golang-in-less-than-100-lines-of-code-6a51c2f2c38c)
+                ! [The complete guide to Go net/http timeouts](https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/)
+                    讲了golang中的timeout机制，需要注意的是文中提及的不要使用package level的serveAndListen，应该是先create 一个server instance， then call server instance's method to listen http request. or you'll be 
+                    bypassing the timeout rules
+                [10 things you (probably) don't know about Go](https://talks.golang.org/2012/10things.slide#1)
+
+                [golang in production]
+                    https://stackshare.io/stream/stream-and-go-news-feeds-for-over-300-million-end-users
+                [Testing in Golang](https://medium.com/@thejasbabu/testing-in-golang-c378b351002d)
+                [如何写出优雅的 Golang 代码](https://draveness.me/golang-101.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
+                [mod management]
+                    [! go mod使用](https://www.jianshu.com/p/760c97ff644c)
+                    [Package Management With Go Modules: The Pragmatic Guide](https://medium.com/@adiach3nko/package-management-with-go-modules-the-pragmatic-guide-c831b4eaaf31)
 
 
-    ## programming methodolgy
-        patterns:
-            [Replacing_Recursion_With_a_Stack](http://haacked.com/archive/2007/03/04/Replacing_Recursion_With_a_Stack.aspx/)
-                Any recursive algorithm can be replaced with a non-recursive algorithm by using a Stack.
+        ## programming methodolgy
+            patterns:
+                [Replacing_Recursion_With_a_Stack](http://haacked.com/archive/2007/03/04/Replacing_Recursion_With_a_Stack.aspx/)
+                    Any recursive algorithm can be replaced with a non-recursive algorithm by using a Stack.
 
-        deal with concurrency:
-            [copy on write](https://en.wikipedia.org/wiki/Copy-on-write)
+            deal with concurrency:
+                [copy on write](https://en.wikipedia.org/wiki/Copy-on-write)
 
-        compiler:
-            [](https://medium.com/@kosamari/how-to-be-a-compiler-make-a-compiler-with-javascript-4a8a13d473b4)
-            [ReactNL 2016 James Kyle - How to Build a Compiler](https://www.youtube.com/watch?v=ZYFOWesCm_0)
+            compiler:
+                [](https://medium.com/@kosamari/how-to-be-a-compiler-make-a-compiler-with-javascript-4a8a13d473b4)
+                [ReactNL 2016 James Kyle - How to Build a Compiler](https://www.youtube.com/watch?v=ZYFOWesCm_0)
 
-        Reactive Programming:
-            [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+            Reactive Programming:
+                [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 
-        Functional Programming:
-            [Functional Programming]: http://en.wikipedia.org/wiki/Functional_programming
-            [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
-            [](https://bartoszmilewski.com/2014/11/24/types-and-functions/)
-            [Functional Programming: Type Systems](https://www.youtube.com/watch?v=hy1wjkcIBCU)
-                type class: 就是先定义type行为, 然后可以吧行为引入, 动态扩充对象行为. 而传统的 class 方式需要将type和行为结合到一起.
+            Functional Programming:
+                [Functional Programming]: http://en.wikipedia.org/wiki/Functional_programming
+                [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
+                [](https://bartoszmilewski.com/2014/11/24/types-and-functions/)
+                [Functional Programming: Type Systems](https://www.youtube.com/watch?v=hy1wjkcIBCU)
+                    type class: 就是先定义type行为, 然后可以吧行为引入, 动态扩充对象行为. 而传统的 class 方式需要将type和行为结合到一起.
+                
+
+    # hacking:
+
+        [Hack WPA/WPA2 Wi-Fi with Fluxion tool]
+            (https://www.youtube.com/watch?v=xzv5Vy9ghrg)
+            https://www.youtube.com/watch?v=Pc8JCiRZ-4w
+        [Kali Linux on Raspberry Pi 3](https://www.youtube.com/watch?v=6xXnUGR_e4E)
+        [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
+
+
+    # compiler & parser
+        # basics
+            [Terminal and nonterminal symbols](https://en.wikipedia.org/wiki/Terminal_and_nonterminal_symbols)
+                terminal(终结): EBNF 右侧不好含左侧定义的节点 
+                non-terminal(非终结): 包含左侧定义的节点, 就是非终结态, 内部可以继续延展
+                这段描述其实不严格准确, 准确的描述见上面的wiki
+
+
+            [Production (computer science)](https://en.wikipedia.org/wiki/Production_(computer_science))
+                Production 我的理解就是non-terminal节点的所有 terminal 情况的一个排列组合, 就类似笛卡尔积
+
+            # notation
+                https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form
+                https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form
+                    这个还好理解些, 其实说到底就是一种语法标注的形式, 用于标注 Context-free 的 gramma, 
+
+            [LL parser](https://en.wikipedia.org/wiki/LL_parser)
+                Constructing an LL(1) parsing table 和后面的一节都没有看懂
+            
+            [Shift-reduce parser](https://en.wikipedia.org/wiki/Shift-reduce_parser)
+                我的理解就是Bottom-Up 的parser的一种, peek 后面的input, 然后选择shift, error, stop or reduce 操作. 在reduce过程中, 会将已经parse
+                的tree和右边的input进行整合, 这种parser的好处在于资源利用率低
             
 
- # hacking:
-
-    [Hack WPA/WPA2 Wi-Fi with Fluxion tool]
-        (https://www.youtube.com/watch?v=xzv5Vy9ghrg)
-        https://www.youtube.com/watch?v=Pc8JCiRZ-4w
-    [Kali Linux on Raspberry Pi 3](https://www.youtube.com/watch?v=6xXnUGR_e4E)
-    [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
+        [Parser Ast lexier]
+            https://en.wikipedia.org/wiki/Syntax_(programming_languages)
 
 
-# compiler & parser
-    # basics
-        [Terminal and nonterminal symbols](https://en.wikipedia.org/wiki/Terminal_and_nonterminal_symbols)
-            terminal(终结): EBNF 右侧不好含左侧定义的节点 
-            non-terminal(非终结): 包含左侧定义的节点, 就是非终结态, 内部可以继续延展
-            这段描述其实不严格准确, 准确的描述见上面的wiki
+
+    # embeded system
+        # raspberry pi
+            https://www.toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server
+            树莓派:
+            树莓派---GPIO应用详解 - https://www.jianshu.com/p/f31b90cc756f  
+            GPIO introduction - https://www.makeuseof.com/tag/raspberry-pi-gpio- pins-guide/
+            GPIO Refs - https://pinout.xyz/pinout/pin2_5v_power
+            install IOS - https://linuxconfig.org/install-ubuntu-16-04-mate-or-ubuntu-18-04-on-raspberry-pi
+            max voltage & current - https://raspberrypi.A.com/questions/3209/what-are-the-min-max-voltage-current-values-the-gpio-pins-can-handle
+
+        # arduino
 
 
-        [Production (computer science)](https://en.wikipedia.org/wiki/Production_(computer_science))
-            Production 我的理解就是non-terminal节点的所有 terminal 情况的一个排列组合, 就类似笛卡尔积
+    # Perspective:
+        [The Programmer’s Guide to Booking a Concert](https://medium.com/@sinahab/the-programmers-guide-to-booking-a-concert-e048a580735f#.f71f1v2mo)
+        ![What are the greatest programming tips and tricks you have learned on your own by years of coding?](https://www.quora.com/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding/answer/Jerome-Terry-1)
+        [build a MVP: the right way to do it](https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83#.h0erw5m0u)
+        [What are some of the most basic things every programmer should know](http://brianknapp.me/most-basic-things-every-programmer-should-know/)
 
-        # notation
-            https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form
-            https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form
-                这个还好理解些, 其实说到底就是一种语法标注的形式, 用于标注 Context-free 的 gramma, 
 
-        [LL parser](https://en.wikipedia.org/wiki/LL_parser)
-            Constructing an LL(1) parsing table 和后面的一节都没有看懂
+    # others
+        ! [各种 cheatsheet](http://overapi.com/javascript/)
+
+        java 性能优化
+            http://item.jd.com/11099999.html
+        [程序的本质复杂性和元语言抽象] http://coolshell.cn/articles/10652.html#more-10652
+
+        [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm)
+        [如何选择开源许可证](http://oklai.name/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81%EF%BC%9F/)
+
+        [collaborative filtering recommendation engine implementation in python](http://dataaspirant.com/2015/05/25/collaborative-filtering-recommendation-engine-implementation-in-python/)
+
+        [python 统计入门教程](http://work.thaslwanter.at/Stats/html/)
+        [python 科学入门](http://nbviewer.ipython.org/gist/rpmuller/5920182#)
+        [python 算法教程](http://interactivepython.org/runestone/static/pythonds/index.html)
+        [color in terminal](http://jafrog.com/2013/11/23/colors-in-terminal.html)
+        [force-files-to-download-not-open-in-browser](https://css-tricks.com/snippets/htaccess/force-files-to-download-not-open-in-browser/)
+        [涉及 工作方面的思想](http://open.leancloud.cn/)
+
+
+
+
+        [state machine](http://blog.markshead.com/869/state-machines-computer-science/)
+        [Non-deterministic Finite Automata](https://www.youtube.com/watch?v=ehy0jGIYRtE)
+        [Beginner's guide to git rebasing and squashing](https://shinglyu.github.io/web/2016/11/08/servo-rebase-and-squash-guide.html)
+        [A Most Perfect Union: Just-In-Time Compilers](https://medium.com/basecs/a-most-perfect-union-just-in-time-compilers-2938712a9f6a)
+            很好的解释了 baseline compilation & opt-compliation 的概念, 还有 hotness 的概念, 
+            讲的还是比较浅的, 适合初学者吧
+
+
+
+        [encoding utf16 vs utf8](https://stackoverflow.com/questions/2241348/what-is-unicode-utf-8-utf-16)
+        [负数的带符号和不带符号的右移运算](https://blog.csdn.net/quzhongxin/article/details/47299511)
+            
         
-        [Shift-reduce parser](https://en.wikipedia.org/wiki/Shift-reduce_parser)
-            我的理解就是Bottom-Up 的parser的一种, peek 后面的input, 然后选择shift, error, stop or reduce 操作. 在reduce过程中, 会将已经parse
-            的tree和右边的input进行整合, 这种parser的好处在于资源利用率低
-        
-
-    [Parser Ast lexier]
-        https://en.wikipedia.org/wiki/Syntax_(programming_languages)
-
-
-
-
-# embeded system
-    # raspberry pi
-        https://www.toptal.com/raspberry-pi/how-to-turn-your-raspberry-pi-into-a-development-server
-        树莓派:
-        树莓派---GPIO应用详解 - https://www.jianshu.com/p/f31b90cc756f  
-        GPIO introduction - https://www.makeuseof.com/tag/raspberry-pi-gpio- pins-guide/
-        GPIO Refs - https://pinout.xyz/pinout/pin2_5v_power
-        install IOS - https://linuxconfig.org/install-ubuntu-16-04-mate-or-ubuntu-18-04-on-raspberry-pi
-        max voltage & current - https://raspberrypi.A.com/questions/3209/what-are-the-min-max-voltage-current-values-the-gpio-pins-can-handle
-
-    # arduino
-
-
-# Perspective:
-    [The Programmer’s Guide to Booking a Concert](https://medium.com/@sinahab/the-programmers-guide-to-booking-a-concert-e048a580735f#.f71f1v2mo)
-    ![What are the greatest programming tips and tricks you have learned on your own by years of coding?](https://www.quora.com/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding/answer/Jerome-Terry-1)
-    [build a MVP: the right way to do it](https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83#.h0erw5m0u)
-    [What are some of the most basic things every programmer should know](http://brianknapp.me/most-basic-things-every-programmer-should-know/)
-
-
-# others
-    ! [各种 cheatsheet](http://overapi.com/javascript/)
-
-    java 性能优化
-        http://item.jd.com/11099999.html
-    [程序的本质复杂性和元语言抽象] http://coolshell.cn/articles/10652.html#more-10652
-
-    [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm)
-    [如何选择开源许可证](http://oklai.name/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81%EF%BC%9F/)
-
-    [collaborative filtering recommendation engine implementation in python](http://dataaspirant.com/2015/05/25/collaborative-filtering-recommendation-engine-implementation-in-python/)
-
-    [python 统计入门教程](http://work.thaslwanter.at/Stats/html/)
-    [python 科学入门](http://nbviewer.ipython.org/gist/rpmuller/5920182#)
-    [python 算法教程](http://interactivepython.org/runestone/static/pythonds/index.html)
-    [color in terminal](http://jafrog.com/2013/11/23/colors-in-terminal.html)
-    [force-files-to-download-not-open-in-browser](https://css-tricks.com/snippets/htaccess/force-files-to-download-not-open-in-browser/)
-    [涉及 工作方面的思想](http://open.leancloud.cn/)
-
-
-
-
-    [state machine](http://blog.markshead.com/869/state-machines-computer-science/)
-    [Non-deterministic Finite Automata](https://www.youtube.com/watch?v=ehy0jGIYRtE)
-    [Beginner's guide to git rebasing and squashing](https://shinglyu.github.io/web/2016/11/08/servo-rebase-and-squash-guide.html)
-    [A Most Perfect Union: Just-In-Time Compilers](https://medium.com/basecs/a-most-perfect-union-just-in-time-compilers-2938712a9f6a)
-        很好的解释了 baseline compilation & opt-compliation 的概念, 还有 hotness 的概念, 
-        讲的还是比较浅的, 适合初学者吧
-
-
-
-    [encoding utf16 vs utf8](https://stackoverflow.com/questions/2241348/what-is-unicode-utf-8-utf-16)
-    [负数的带符号和不带符号的右移运算](https://blog.csdn.net/quzhongxin/article/details/47299511)
-        
-      
 
 # economics & finance
     [How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0)
@@ -1199,6 +1206,9 @@ Advanced Pointers - https://www.cs.uic.edu/~jbell/CourseNotes/C_Programming/Adva
                 current assets & liabilities, current ratio, book value, Market-to-book multiple
             []()
 
+
+    ## stock 
+        []()
 
 
 
