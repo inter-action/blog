@@ -49,6 +49,7 @@
 
 [system]
     [Beginning.Linux.Programming 4th]|2017.01.10-2017.03.20|:D
+    [The Linux Programming Interface: A Linux and UNIX System Programming Handbook]|2019.08-2019.10|:D
 
 [nginx]
 
@@ -146,6 +147,11 @@
     [道路与梦想：我与万科（1983~1999）] 2015.05-2015.06|:D
     [颠覆者, 周鸿祎自传]|2018.03.03-2018.04.30|:D
 
+[Finance & stock]
+    [股市真规则-帕特.多尔西]|2021.07.01~2021.08.01|:D
+    [一本书读懂财务报表-文洋]|2021.08.01~2021.08.20|:D
+      not a good one , this book
+    
 
 [OHTERS]
 
@@ -163,6 +169,9 @@
     [住宅设计解剖书2 -  饭冢丰]|2018.06-2018.10|:D
     [走出荒野 - Cheryl Strayed]|2018.08-2018.10|:D
     [我不管，我就是要开咖啡馆-童铃]|2017.12.17-2018|:D
+    [别说你懂买房-徐斌]|2021|D
+    [这样装修你不后悔-姥姥]|2020|:D
+    
 
     
 
@@ -216,7 +225,11 @@
     [像哲学家一样思考. 卷2]|2017.06-~
     ! [Apress.Low-Level.Programming]|2017.08-~
     [Manning.Linux.in.Action]|2019.07.31-~
-    [The Linux Programming Interface: A Linux and UNIX System Programming Handbook]|2019.08-~  
+    [学会估值, 轻松投资-阿斯沃斯.达摩兰大]|2020-~
+    ! [Manning.Math for Programmer]|2021.10-~
+    [Compilers, principles, Techniques & Tools]|2021.10~
+    [Head first statistics]|2022.02-~
+    [Manning. Kafa in action]|2022.02-~
 
   
     
