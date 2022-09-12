@@ -51,6 +51,7 @@
     [!Servers.for.Hackers.2016.7]|2018.01-~
 
 [system]
+
     [Beginning.Linux.Programming 4th]|2017.01.10-2017.03.20|:D
     [The Linux Programming Interface: A Linux and UNIX System Programming Handbook]|2019.08-2019.10|:D
 
@@ -95,8 +96,15 @@
     [Packt.Go.Building.Web.Applications.2016.8]|2017.10-2017:11.20|:D
 
 [rust]
+
     [OReilly.Programming.Rust]|2017.12-2019|:D
 
+
+[android]
+
+    [Learning.Android(2nd,2014.1)].Marko.Gargenta..文字版.pdf|2015.10:D
+    [Building.Hybrid.Android.Apps.with.Java.and.JavaScript(2013.7)].Nizamettin.Gok.文字版|2015.11:D
+    [Android.Programming.Pushing.the.Limits][2013.11].Erik.Hellman.文字版|2016.03.17-2016.03.20:P(finish 10 chapter)
 
 --------------- UNCATEGORIZED TECH --------------- 
 [other tech related]
@@ -114,12 +122,8 @@
     [Learn You a Haskell for Great Good]|2019.03-2019.05|:D
     [ Learn Vimscript the Hard Way ]|2019.08|:D
       http://learnvimscriptthehardway.stevelosh.com/ 
+    [DSLs.in.Action.Debasish.Ghosh]|2022.05-2022.09|:D
 
-[android]
-
-    [Learning.Android(2nd,2014.1)].Marko.Gargenta..文字版.pdf|2015.10:D
-    [Building.Hybrid.Android.Apps.with.Java.and.JavaScript(2013.7)].Nizamettin.Gok.文字版|2015.11:D
-    [Android.Programming.Pushing.the.Limits][2013.11].Erik.Hellman.文字版|2016.03.17-2016.03.20:P(finish 10 chapter)
 
 --------------- NON TECH --------------- 
 
