@@ -69,6 +69,7 @@
 [Web Service]
 
     [Build.APIs.You.Wont.Hate.2015.8]|2016.02.16-2016.02.24:D
+    [Manning. Kafka in action]|2022.02-2022.03|D
 
 
 --------------- PROGRAMMING LANGUAGE ---------------
@@ -107,6 +108,7 @@
     [Android.Programming.Pushing.the.Limits][2013.11].Erik.Hellman.文字版|2016.03.17-2016.03.20:P(finish 10 chapter)
 
 --------------- UNCATEGORIZED TECH --------------- 
+
 [other tech related]
 
     Oreilly. Http the Definitive Guide| 2014.08-2015|:D:80%
@@ -224,19 +226,19 @@
     [OReilly C in a Nutshell.2nd.Edition]|2018.11-~
     [TCP/IP 详解卷一]|2017.05-~
     [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
+    [Manning.Linux.in.Action]|2019.07.31-~
+    [The Intelligent Investor by Benjamin Graham]|2016.11.16-~
+    [像哲学家一样思考. 卷2]|2017.06-~
 
 
 [ONGOING]
     
-    [The Intelligent Investor by Benjamin Graham]|2016.11.16-~
-    [像哲学家一样思考. 卷2]|2017.06-~
     ! [Apress.Low-Level.Programming]|2017.08-~
-    [Manning.Linux.in.Action]|2019.07.31-~
     [学会估值, 轻松投资-阿斯沃斯.达摩兰大]|2020-~
     ! [Manning.Math for Programmer]|2021.10-~
     [Compilers, principles, Techniques & Tools]|2021.10~
     [Head first statistics]|2022.02-~
-    [Manning. Kafa in action]|2022.02-~
+    [iOS.Programming.The.Big.Nerd.Ranch.Guide.7th.Edition]|2022-09-~
 
   
     
