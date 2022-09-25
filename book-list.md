@@ -238,7 +238,7 @@
     ! [Manning.Math for Programmer]|2021.10-~
     [Compilers, principles, Techniques & Tools]|2021.10~
     [Head first statistics]|2022.02-~
-    [iOS.Programming.The.Big.Nerd.Ranch.Guide.7th.Edition]|2022-09-~
+    [iOS.Programming.The.Big.Nerd.Ranch.Guide.7th.Edition]|2022.09.18-2022.09.25
 
   
     
