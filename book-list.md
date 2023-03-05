@@ -106,6 +106,12 @@
     [Learning.Android(2nd,2014.1)].Marko.Gargenta..文字版.pdf|2015.10:D
     [Building.Hybrid.Android.Apps.with.Java.and.JavaScript(2013.7)].Nizamettin.Gok.文字版|2015.11:D
     [Android.Programming.Pushing.the.Limits][2013.11].Erik.Hellman.文字版|2016.03.17-2016.03.20:P(finish 10 chapter)
+    [Android Programming: The Big Nerd Ranch Guide (Big Nerd Ranch Guides).4th]|2023.02-2023-02|:D
+    [OReilly.Programming.Android.with.Kotlin.2022.12]|2023.02-2023.03|:D
+
+
+[IOS]
+    [iOS.Programming.The.Big.Nerd.Ranch.Guide.7th.Edition]|2022.09.18-2022.09.25|:D
 
 --------------- UNCATEGORIZED TECH --------------- 
 
@@ -184,52 +190,6 @@
 
     
 
-[SUSPENDED] - clean books that is no more appealing
-
-    [sbt-reference]|2016.03.22-~
-    ActiveMQ in Action(Manning-2011)|2013-~|:S
-    Being Geek|2013-~:S
-    Lucene in Action(2nd, 2010.7)|2013-~|:S
-    [Redis.in.Action(2013.6)].Josiah.L.Carlson|2014.05-~|44%
-    [MongoDB.Applied.Design.Patterns(2013.3)].Rick.Copeland|2014.06-~:S
-    [MongoDB: the definitive guide]|2014.09-2014.11:S:40%
-    On china.Henry Kissinger|2014.10-~
-    [赤裸裸的统计学]|2015.06-~
-    [machine learning in action]|2015.11.13-~
-    [OReilly.using docker]|2015.12-~
-    ! [Manning.Go.in.Action.2015.11]|2016.01.18-~
-    [跟任何人都聊得来.迈克·贝克特尔]|2016.01-~
-    [101 classic short stories]|2015-~
-    !! [Learning.Web.Design(4th,2012.8).Jennifer.Niederst.Robbins]
-    [Manning.Building.the.Web.of.Things.2016.6] | 2016.07.01-~
-    [Think.Stats(第1版)].(Think.Stats).Allen.B.Downey |2014.05-~:S
-    ! [Android.Programming.The.Big.Nerd.Ranch.Guide.2nd.Edition.2015.8] | 2016.05.01-~
-
-    !! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
-    [Linux.in.a.Nutshell(6th.2009).D.Ellen.Siever] | 2016-08-01-~
-    [Manning.Grokking.Algorithms.2016.5] | 2016.08.01 - ~
-    [The Rust Programming Language](https://doc.rust-lang.org/book/README.html) | 2016.08.01-~
-    [Programming in Scala - Third Edition] | 2016.09.06-~
-    [OReilly.Building.Isomorphic.JavaScript.Apps.2016.9] | 2016.09.20-~
-    [akka-scala](http://doc.akka.io/docs/akka/2.4.10/scala.html) | 2016.09.28-~
-    [Lucene 4 Cookbook] | 2016.10.06-~
-    ! [learning scalaz](http://eed3si9n.com/learning-scalaz/) | 2016.08 - ~
-    Introduction to Algorithms(3rd)|2012.12-~|
-    [OReilly.Think.Stats.2nd.Edition.2014.10]|2016.11.06-~
-    [Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition.2016.8] | 2016.10.27-~
-    [Algorithms of the Intelligent Web]|2014 - ~
-    [Manning.Functional.Programming.in.JavaScript]|2016.11.24-~
-    [stock investing for dummies]|2017.06-~
-    [investment for dummies]|2017.02-~
-    [OReilly.Hello.Startup.2015.10]|2016.10 - ~
-    [30 days to a better man, by Brett McKay]|2016.11.05-~
-    [OReilly C in a Nutshell.2nd.Edition]|2018.11-~
-    [TCP/IP 详解卷一]|2017.05-~
-    [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
-    [Manning.Linux.in.Action]|2019.07.31-~
-    [The Intelligent Investor by Benjamin Graham]|2016.11.16-~
-    [像哲学家一样思考. 卷2]|2017.06-~
-
 
 [ONGOING]
     
@@ -238,51 +198,116 @@
     ! [Manning.Math for Programmer]|2021.10-~
     [Compilers, principles, Techniques & Tools]|2021.10~
     [Head first statistics]|2022.02-~
-    [iOS.Programming.The.Big.Nerd.Ranch.Guide.7th.Edition]|2022.09.18-2022.09.25
+    [OReilly.iOS.15.Programming.Fundamentals.with.Swift]|2022.10-~
+    [AWP.Algorithms.Part.II.4th]|2022.10-~
 
   
+[SUSPENDED] - clean books that is no more appealing
+
+    !! [Manning.Functional.Programming.in.Scala.2014.8] | 2015.06-~
+    
+    
+    [OReilly.Think.Stats.2nd.Edition.2014.10]|2016.11.06-~
+    
+    [OReilly.Hello.Startup.2015.10]|2016.10 - ~
+    
+    [Linux.in.a.Nutshell(6th.2009).D.Ellen.Siever] | 2016-08-01-~
+    [Manning.Linux.in.Action]|2019.07.31-~
+    
+    [TCP/IP 详解卷一]|2017.05-~
+    
+    [OReilly C in a Nutshell.2nd.Edition]|2018.11-~
+    
+    [The Intelligent Investor by Benjamin Graham]|2016.11.16-~
+    
+    [Linear Algebra and Its Applications by David C.Lay]|2016.11.17-~
+    
+    [像哲学家一样思考. 卷2]|2017.06-~
+
+    
     
 
-    
-
-
-[NO MORE INTERESTED] - THIS SHOULD ALL MARK WITH NOT-RECOMMENDED (-)
+[NO MORE INTERESTED] - THIS SHOULD ALL MARK WITH NOT-RECOMMENDED (-) all the interesting ones should list above
 
     [Java]
       Java Network Programming(4th)|2013-~|:S
       Thinking In Java 4th:P:S
+      
+      [GRAILS]
+        [Apress] The Definitive Guide to Grails 2|2014.04-~:D
+        [Programming.Grails(2013.4)].Burt.Beckwith|2014.04-~:D
+
+      [Groovy]
+        Groovy.in.Action:P
+        [Programming.Groovy.2(2013.7)].Venkat.Subramaniam|2014.02-~:S
+
+      [struts2]
+        [Apress.J2EE系列].Apress.Practical.Apache.Struts2.Web.2.0.Projects:D
+        [Manning.系列图书].Manning.Struts2.In.Action:D
+        [Manning.系列图书].Manning.Java.Persistence.with.Hibernate:D
+        [Spring实战(第3版)].(Spring.in.Action.3rd.Edition).Craig.Walls:P
+        轻量级JavaEE企业应用实战:D
+        JUnit in Action 2nd Edition:P:S
+        Ant in Action 2nd Edition:P:S
+        [Apress.J2EE系列].Beginning.JSP.JSF.and.Tomcat.Web.Development.From.Novice.to.Professional:P:S
+      
+      [others]
+        [Lucene 4 Cookbook] | 2016.10.06-~
+      
 
     [scala]
       [Scala.in.Action(2013.4)].Nilanjan.Raychaudhuri|2014.05-~
       [Scala.in.Depth(2012.5)].Joshua.D.Suereth.文字版.pdf|2014.08-~:S
+      [sbt-reference]|2016.03.22-~
+      [Programming in Scala - Third Edition] | 2016.09.06-~
+      [akka-scala](http://doc.akka.io/docs/akka/2.4.10/scala.html) | 2016.09.28-~
+      ! [learning scalaz](http://eed3si9n.com/learning-scalaz/) | 2016.08 - ~
 
     [python]
       [Learning.Python(5th,2013.6)].Mark.Lutz.文字版:P
       Expert.Python.Programming:P
     
+
+    [web front end]
+      [OReilly.Building.Isomorphic.JavaScript.Apps.2016.9] | 2016.09.20-~
+      [Manning.Functional.Programming.in.JavaScript]|2016.11.24-~
+    
+    [Algorithms]
+      [Manning.Algorithms.of.the.Intelligent.Web.2nd.Edition.2016.8] | 2016.10.27-~
+      [Manning.Grokking.Algorithms.2016.5] | 2016.08.01 - ~
+      Introduction to Algorithms(3rd)|2012.12-~|
+      [Algorithms of the Intelligent Web]|2014 - ~
+      
+    [Android]
+      ! [Android.Programming.The.Big.Nerd.Ranch.Guide.2nd.Edition.2015.8] | 2016.05.01-~
+
+    [rust]
+      [The Rust Programming Language](https://doc.rust-lang.org/book/README.html) | 2016.08.01-~
+      
     [other techs]
       [Computer.Science：An.Overview.(11th.2011)].J.Glenn.Brookshear:P
       [Wiley.Linux.Bible.2010.Edition].Christopher.Negus:P
-
+      [Manning.Building.the.Web.of.Things.2016.6] | 2016.07.01-~
+      [ActiveMQ in Action(Manning-2011)]|2013-~|:S
+      [Lucene in Action(2nd, 2010.7)]|2013-~|:S
+      [Redis.in.Action(2013.6)].Josiah.L.Carlson|2014.05-~|44%
+      [MongoDB.Applied.Design.Patterns(2013.3)].Rick.Copeland|2014.06-~:S
+      [MongoDB: the definitive guide]|2014.09-2014.11:S:40%
+      [赤裸裸的统计学]|2015.06-~
+      [machine learning in action]|2015.11.13-~
+      [OReilly.using docker]|2015.12-~
+      ! [Manning.Go.in.Action.2015.11]|2016.01.18-~
+      [101 classic short stories]|2015-~
+      !! [Learning.Web.Design(4th,2012.8).Jennifer.Niederst.Robbins]
+      [Think.Stats(第1版)].(Think.Stats).Allen.B.Downey |2014.05-~:S
+      
     [non-tech]
       叔本华的人生智慧|2014.02-~|:S
       [你的第一本哲学书]|2014.11-~
       The Game of Life Florence Scovel Shinn Touchstone|2014.04-~:S
-
-    [GRAILS]
-      [Apress] The Definitive Guide to Grails 2|2014.04-~:D
-      [Programming.Grails(2013.4)].Burt.Beckwith|2014.04-~:D
-
-    [Groovy]
-      Groovy.in.Action:P
-      [Programming.Groovy.2(2013.7)].Venkat.Subramaniam|2014.02-~:S
-
-    [struts2]
-      [Apress.J2EE系列].Apress.Practical.Apache.Struts2.Web.2.0.Projects:D
-      [Manning.系列图书].Manning.Struts2.In.Action:D
-      [Manning.系列图书].Manning.Java.Persistence.with.Hibernate:D
-      [Spring实战(第3版)].(Spring.in.Action.3rd.Edition).Craig.Walls:P
-      轻量级JavaEE企业应用实战:D
-      JUnit in Action 2nd Edition:P:S
-      Ant in Action 2nd Edition:P:S
-      [Apress.J2EE系列].Beginning.JSP.JSF.and.Tomcat.Web.Development.From.Novice.to.Professional:P:S
+      Being Geek|2013-~:S
+      On china.Henry Kissinger|2014.10-~
+      [跟任何人都聊得来.迈克·贝克特尔]|2016.01-~
+      [investment for dummies]|2017.02-~
+      [stock investing for dummies]|2017.06-~
+      [30 days to a better man, by Brett McKay]|2016.11.05-~
