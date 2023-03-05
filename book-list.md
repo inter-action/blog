@@ -1,5 +1,3 @@
->说实在的我真是个懒人，大三之前就没有怎么好好的看过书，真正好好看书也才是从这两年开始。在此做个记录。也算是对我的人生钉下一些锚点吧。
-
 [STATUS]
 
     PARTIAL           :       P, progress >= 60%
@@ -227,7 +225,7 @@
     
     
 
-[NO MORE INTERESTED] - THIS SHOULD ALL MARK WITH NOT-RECOMMENDED (-) all the interesting ones should list above
+[NO MORE INTERESTED & SUSPENDED] - THIS SHOULD ALL MARK WITH NOT-RECOMMENDED (-) all the interesting ones should list above
 
     [Java]
       Java Network Programming(4th)|2013-~|:S
