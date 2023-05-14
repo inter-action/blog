@@ -48,7 +48,7 @@
 
     [!Servers.for.Hackers.2016.7]|2018.01-~
 
-[system]
+[system programming]
 
     [Beginning.Linux.Programming 4th]|2017.01.10-2017.03.20|:D
     [The Linux Programming Interface: A Linux and UNIX System Programming Handbook]|2019.08-2019.10|:D
@@ -129,7 +129,14 @@
     [ Learn Vimscript the Hard Way ]|2019.08|:D
       http://learnvimscriptthehardway.stevelosh.com/ 
     [DSLs.in.Action.Debasish.Ghosh]|2022.05-2022.09|:D
+    
+    ! [Apress.Low-Level.Programming]|2017.08-2023.05|:D
+        * read it the second time at | 2023.05
+    
+    !! [Crafting interpreter]|2023.03-2023.05|:D
+        * https://craftinginterpreters.com/contents.html
 
+    
 
 --------------- NON TECH --------------- 
 
@@ -191,13 +198,18 @@
 
 [ONGOING]
     
-    ! [Apress.Low-Level.Programming]|2017.08-~
     [学会估值, 轻松投资-阿斯沃斯.达摩兰大]|2020-~
     ! [Manning.Math for Programmer]|2021.10-~
     [Compilers, principles, Techniques & Tools]|2021.10~
     [Head first statistics]|2022.02-~
     [OReilly.iOS.15.Programming.Fundamentals.with.Swift]|2022.10-~
     [AWP.Algorithms.Part.II.4th]|2022.10-~
+    
+    [The Rustonomicon]|2023.04-~
+        * https://doc.rust-lang.org/nomicon/vec/vec-layout.html
+    [The Little Book of Rust Macros]|2023.05-~
+        * https://veykril.github.io/tlborm/decl-macros/macros-practical.html
+    
 
   
 [SUSPENDED] - clean books that is no more appealing

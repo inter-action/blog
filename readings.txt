@@ -23,8 +23,6 @@
         golang:
             - https://rakyll.org/
     
-    
-
 
     ## JS
         [](https://scotch.io/tutorials/the-many-ways-to-use-ngclass)
@@ -45,6 +43,7 @@
         https://dribbble.com/hzlzh/projects/380016-WeFlow
         [产品之器・ Sketch](https://zhuanlan.zhihu.com/p/21386019)
 
+----------------------------------------
 # tech 
 
     # web
@@ -568,25 +567,24 @@
                 mitmproxy --mode socks5 --showhost --listen-port 8888
                 ```
                 
-        ## version control
-            git
-                [undo-the-last-git-commit] http://stackoverflow.com/questions/927358/undo-the-last-git-commit
-                [图解Git](https://marklodato.github.io/visual-git-guide/index-zh-cn.html)
-                [atlassian git tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
-                [Git 版本控制与工作流  ](http://www.jianshu.com/p/67afe711c731)
-                [让你的Git水平更上一层楼的10个小贴士](http://blog.jobbole.com/75348/)
-                [git flow]
-                    [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
+        git
+            [undo-the-last-git-commit] http://stackoverflow.com/questions/927358/undo-the-last-git-commit
+            [图解Git](https://marklodato.github.io/visual-git-guide/index-zh-cn.html)
+            [atlassian git tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
+            [Git 版本控制与工作流  ](http://www.jianshu.com/p/67afe711c731)
+            [让你的Git水平更上一层楼的10个小贴士](http://blog.jobbole.com/75348/)
+            [git flow]
+                [git-flow 备忘清单](http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
 
-                ! [闯过这 54 关，点亮你的 Git 技能树 ](https://codingstyle.cn/topics/181)
-                [git submodule]
-                    https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
-                    https://git-scm.com/book/en/v2/Git-Tools-Submodules
+            ! [闯过这 54 关，点亮你的 Git 技能树 ](https://codingstyle.cn/topics/181)
+            [git submodule]
+                https://chrisjean.com/git-submodules-adding-using-removing-and-updating/
+                https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
-                [git hook](https://www.atlassian.com/git/tutorials/git-hooks/conceptual-overview)
-                    Local hook vs Server hook
+            [git hook](https://www.atlassian.com/git/tutorials/git-hooks/conceptual-overview)
+                Local hook vs Server hook
 
-                [git rebase vs merge](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+            [git rebase vs merge](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 
     # native mobile
@@ -606,23 +604,6 @@
             [cordova](http://cordova.apache.org/)
 
 
-
-    # math
-        ! [List of mathematical symbols](https://en.wikipedia.org/wiki/List_of_mathematical_symbols)
-        
-        [数学收敛]http://zh.wikipedia.org/zh/%E6%9E%81%E9%99%90_%28%E6%95%B0%E5%AD%A6%29
-        [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
-        http://www.ruanyifeng.com/blog/2011/07/mathematical_constant_e.html
-        [数学科普文章](http://betterexplained.com/)
-        [Fourier Transform, Fourier Series, and frequency spectrum](https://www.youtube.com/watch?v=r18Gi8lSkfM)
-        [傅里叶变换]
-            http://blog.rainy.im/2015/11/03/fourier-transform-in-image-processing/
-            http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
-        [Taxicab_geometry](https://en.wikipedia.org/wiki/Taxicab_geometry) - 计算LP-space (P是向量的空间维度)的向量的最小距离, 不唯一
-        [mod arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
-        [Basic Linear Algebra for Deep Learning](https://towardsdatascience.com/linear-algebra-for-deep-learning-f21d7e7d7f23)
-        [Kleene star](https://en.wikipedia.org/wiki/Kleene_star)
-            就是一个Set中的元素各种互相排列组合, 无限次数, 除了 Empty Set 和 Singleton Set, 其他形式的 Kleene star over other set 都是 infinite set.
 
         
 
@@ -751,26 +732,21 @@
             /user/include 下面也可以
         [认真分析mmap：是什么 为什么 怎么用](http://www.cnblogs.com/huxiao-tee/p/4660352.html)
         ! [code section](https://en.wikipedia.org/wiki/Data_segment)
-
-        ## clang 
-        * Introduction to C / C++ Programming
-
-    Advanced Pointers - https://www.cs.uic.edu/~jbell/CourseNotes/C_Programming/AdvancedPointers.html
-
-        Assembly 
-            [intel software manual, for reference assembly](https://software.intel.com/en-us/articles/intel-sdm)
-            [Linux 汇编语言开发指南](https://www.ibm.com/developerworks/cn/linux/l-assembly/index.html)
-            [tail call optimiztion](https://spin.atomicobject.com/2014/11/05/tail-call-recursion-optimization/)
-                直接跳到最后，优化说白了就是直接利用jmp, 跳转到对应位置再重新执行，可以完全理解为将代码优化成了 for-loop
-            [x86 Assembly Guide](http://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
-
-
         [What is LLVM? The power behind Swift, Rust, Clang, and more](https://www.infoworld.com/article/3247799/development-tools/what-is-llvm-the-power-behind-swift-rust-clang-and-more.html)
 
 
-    # Graphic Programming:
+        ## c language
+            * Introduction to C / C++ Programming
 
-        [vulkan tutorial]( https://vulkan-tutorial.com/Introduction)
+            Advanced Pointers - https://www.cs.uic.edu/~jbell/CourseNotes/C_Programming/AdvancedPointers.html
+
+            Assembly 
+                [intel software manual, for reference assembly](https://software.intel.com/en-us/articles/intel-sdm)
+                [Linux 汇编语言开发指南](https://www.ibm.com/developerworks/cn/linux/l-assembly/index.html)
+                [tail call optimiztion](https://spin.atomicobject.com/2014/11/05/tail-call-recursion-optimization/)
+                    直接跳到最后，优化说白了就是直接利用jmp, 跳转到对应位置再重新执行，可以完全理解为将代码优化成了 for-loop
+                [x86 Assembly Guide](http://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
+
 
 
     # computer network:
@@ -813,210 +789,203 @@
             [bcrpt](https://en.wikipedia.org/wiki/Bcrypt)
                 记住这一句就够用了:
                     bcrypt is an adaptive function: over time, the iteration count can be increased to make it slower, so it remains resistant to brute-force search attacks even with increasing computation power.
+---
+
+    # PROGRAMMING LANGUAGE
+        JAVA
+            [RESTful Web services: The basics](http://www.ibm.com/developerworks/webservices/library/ws-restful/)
+            [Apache ActiveMQ介绍](http://blog.csdn.net/qq7342272/article/details/8585048)
 
 
-    # Programming Language & methodolgy
-        
-        ## PROGRAMMING LANGUAGE
-            ### JAVA
-                [RESTful Web services: The basics](http://www.ibm.com/developerworks/webservices/library/ws-restful/)
-                [Apache ActiveMQ介绍](http://blog.csdn.net/qq7342272/article/details/8585048)
+        scala
+            [Understanding Scala Streams through Fibonacci](http://derekwyatt.org/2011/07/29/understanding-scala-streams-through-fibonacci.html)
+            [5 years of Scala and counting – debunking some myths about the language and its environment](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
+            [scala 魔法函数](http://colobu.com/2016/01/04/Scala-magic-functions/)
+            [The Neophyte's Guide to Scala Part 2: Extracting Sequences](http://danielwestheide.com/blog/2012/11/28/the-neophytes-guide-to-scala-part-2-extracting-sequences.html)
+            [A Deep Dive into Scalac — Chris Birchall](https://www.youtube.com/watch?v=2742pWdUm6c)
+            [implicit parameter precedence](http://eed3si9n.com/implicit-parameter-precedence-again)
 
-            ### scala
-                [Understanding Scala Streams through Fibonacci](http://derekwyatt.org/2011/07/29/understanding-scala-streams-through-fibonacci.html)
-                [5 years of Scala and counting – debunking some myths about the language and its environment](http://manuel.bernhardt.io/2015/11/13/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
-                [scala 魔法函数](http://colobu.com/2016/01/04/Scala-magic-functions/)
-                [The Neophyte's Guide to Scala Part 2: Extracting Sequences](http://danielwestheide.com/blog/2012/11/28/the-neophytes-guide-to-scala-part-2-extracting-sequences.html)
-                [A Deep Dive into Scalac — Chris Birchall](https://www.youtube.com/watch?v=2742pWdUm6c)
-                [implicit parameter precedence](http://eed3si9n.com/implicit-parameter-precedence-again)
+            [scala-partial-functions](http://blog.bruchez.name/2011/10/scala-partial-functions-without-phd.html)
+            ! [The Neophyte's Guide to Scala]http://danielwestheide.com/scala/neophytes.html
 
-                [scala-partial-functions](http://blog.bruchez.name/2011/10/scala-partial-functions-without-phd.html)
-                ! [The Neophyte's Guide to Scala]http://danielwestheide.com/scala/neophytes.html
+            [scala type class](http://www.cakesolutions.net/teamblogs/demystifying-implicits-and-typeclasses-in-scala)
+                http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
 
-                [scala type class](http://www.cakesolutions.net/teamblogs/demystifying-implicits-and-typeclasses-in-scala)
-                    http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
+            ! scala cake pattern
+                http://www.cakesolutions.net/teamblogs/2011/12/19/cake-pattern-in-depth
+                https://coderwall.com/p/t_rapw/cake-pattern-in-scala-self-type-annotations-explicitly-typed-self-references-explained
 
-                ! scala cake pattern
-                    http://www.cakesolutions.net/teamblogs/2011/12/19/cake-pattern-in-depth
-                    https://coderwall.com/p/t_rapw/cake-pattern-in-scala-self-type-annotations-explicitly-typed-self-references-explained
-
-                ! scala style guide
-                    http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html
+            ! scala style guide
+                http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html
 
 
-                ! [Functional Programming is Terrible](https://www.youtube.com/watch?v=hzf3hTUKk8U)
+            ! [Functional Programming is Terrible](https://www.youtube.com/watch?v=hzf3hTUKk8U)
 
-                ! [Function Method and eta expression](https://gleichmann.wordpress.com/2011/01/09/functional-scala-turning-methods-into-functions/)
-
-
-                [scala compiler options](http://pedrorijo.com/blog/scala-compiler-review-code-warnings/)
-                
-                scalaz
-                [scalaz Task](http://timperrett.com/2014/07/20/scalaz-task-the-missing-documentation/)
+            ! [Function Method and eta expression](https://gleichmann.wordpress.com/2011/01/09/functional-scala-turning-methods-into-functions/)
 
 
-            ### nodejs
-                #### ! nodejs at scale
-                    [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
-                    [Hunting a Ghost - Finding a Memory Leak in Node.js](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/)
-                    Node.js at Scale:
-                        [Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/)
-                        https://blog.risingstack.com/nodejs-at-scale-npm-publish-tutorial/
+            [scala compiler options](http://pedrorijo.com/blog/scala-compiler-review-code-warnings/)
+            
+            scalaz
+            [scalaz Task](http://timperrett.com/2014/07/20/scalaz-task-the-missing-documentation/)
 
-                # nodejs production & performanc
-                    [Keeping Node.js Fast: Tools, Techniques, And Tips For Making High-Performance Node.js Servers](https://medium.com/@smashingmag/keeping-node-js-fast-tools-techniques-and-tips-for-making-high-performance-node-js-servers-8cfcb55e3d7)
-                        讲了 AutoCannon 和 Clinic 两种工具识别线上问题的方式方法
-                        --trace-warnings, tag 的使用
-                        
-                [nodejs 模块加载机制]
-                    http://www.infoq.com/cn/articles/nodejs-module-mechanism
-                [nodejs 7 tips](http://dev.oupeng.com/articles/7-tips-for-a-nodejs-padawan)
-                [深入浅出Nodejs读书笔记](http://tw93.github.io/2015-03-01/shen-ru-qian-chu-nodejs-reading-mind-map.html)
-                [node js best practices](http://blog.risingstack.com/node-js-best-practices/)
-                [node-best-practices](https://devcenter.heroku.com/articles/node-best-practices#use-npm-scripts-to-run-custom-build-steps)
-                [Browserify：浏览器加载Node.js模块](http://javascript.ruanyifeng.com/tool/browserify.html)
-                [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
-                [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
-                [stream handbook](https://github.com/substack/stream-handbook)
-                [详解Node.js的http模块之http模块概述](http://itbilu.com/nodejs/core/N1okQ7Eh.html)
-                [npm best practice](https://blog.risingstack.com/nodejs-at-scale-npm-best-practices/)
-                [19 things I learnt reading the NodeJS docs](https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.ibos50cqi)
-                [fiber](https://bjouhier.wordpress.com/2012/03/11/fibers-and-threads-in-node-js-what-for/)
+
+        nodejs
+            #### ! nodejs at scale
                 [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
+                [Hunting a Ghost - Finding a Memory Leak in Node.js](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/)
+                Node.js at Scale:
+                    [Node.js Garbage Collection Explained](https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection/)
+                    https://blog.risingstack.com/nodejs-at-scale-npm-publish-tutorial/
+
+            # nodejs production & performanc
+                [Keeping Node.js Fast: Tools, Techniques, And Tips For Making High-Performance Node.js Servers](https://medium.com/@smashingmag/keeping-node-js-fast-tools-techniques-and-tips-for-making-high-performance-node-js-servers-8cfcb55e3d7)
+                    讲了 AutoCannon 和 Clinic 两种工具识别线上问题的方式方法
+                    --trace-warnings, tag 的使用
+                    
+            [nodejs 模块加载机制]
+                http://www.infoq.com/cn/articles/nodejs-module-mechanism
+            [nodejs 7 tips](http://dev.oupeng.com/articles/7-tips-for-a-nodejs-padawan)
+            [深入浅出Nodejs读书笔记](http://tw93.github.io/2015-03-01/shen-ru-qian-chu-nodejs-reading-mind-map.html)
+            [node js best practices](http://blog.risingstack.com/node-js-best-practices/)
+            [node-best-practices](https://devcenter.heroku.com/articles/node-best-practices#use-npm-scripts-to-run-custom-build-steps)
+            [Browserify：浏览器加载Node.js模块](http://javascript.ruanyifeng.com/tool/browserify.html)
+            [Gulp思维 —— Gulp高级技巧](http://lingyu.wang/2014/10/07/getting-gulpy/)
+            [nodejs streaming](http://ejohn.org/blog/node-js-stream-playground/#postcomment)
+            [stream handbook](https://github.com/substack/stream-handbook)
+            [详解Node.js的http模块之http模块概述](http://itbilu.com/nodejs/core/N1okQ7Eh.html)
+            [npm best practice](https://blog.risingstack.com/nodejs-at-scale-npm-best-practices/)
+            [19 things I learnt reading the NodeJS docs](https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.ibos50cqi)
+            [fiber](https://bjouhier.wordpress.com/2012/03/11/fibers-and-threads-in-node-js-what-for/)
+            [Node.js at Scale - Understanding the Node.js Event Loop](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
 
 
-                #### nodejs devops
-                    [Don't Let Just Node.js Take the Blame! by Daniel Khan, Dynatrace](https://www.youtube.com/watch?v=FocrqytWkjM)
+            #### nodejs devops
+                [Don't Let Just Node.js Take the Blame! by Daniel Khan, Dynatrace](https://www.youtube.com/watch?v=FocrqytWkjM)
 
 
-            ### Python
-                [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
+        Python
+            [A FEW THINGS TO REMEMBER WHILE CODING IN PYTHON](http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html)
 
-                [python web crawler]
-                    http://blog.csdn.net/column/details/why-bug.html
-                    http://www.zhihu.com/question/20899988
+            [python web crawler]
+                http://blog.csdn.net/column/details/why-bug.html
+                http://www.zhihu.com/question/20899988
 
-                [how to structure large flask application](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
-                [Python 语言在企业应用方面遭遇的十大谬误](http://www.oschina.net/translate/10-myths-of-enterprise-python)
-                [python 日报](http://py.memect.com/)
-                [Python初学者的资源总结](http://www.jianshu.com/p/9a3e1229c810)
-                [python3 feature](http://www.asmeurer.com/python3-presentation/slides.html#1)
+            [how to structure large flask application](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
+            [Python 语言在企业应用方面遭遇的十大谬误](http://www.oschina.net/translate/10-myths-of-enterprise-python)
+            [python 日报](http://py.memect.com/)
+            [Python初学者的资源总结](http://www.jianshu.com/p/9a3e1229c810)
+            [python3 feature](http://www.asmeurer.com/python3-presentation/slides.html#1)
 
-            ### javascript
-                mixins: 
-                    https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes
-                    https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41
+        javascript
+            mixins: 
+                https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes
+                https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41
 
-                [requirejs] require js [http://www.ruanyifeng.com/blog/2012/11/require_js.html]
-                [javascript inheritance]http://javascript.info/tutorial/inheritance
-                generators & async/await
-                    https://ponyfoo.com/articles/es6-generators-in-depth#generators-the-del-weird-del-ins-awesome-ins-parts
-                    ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
-                    [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
-                    ! [The Hidden Power of ES6 Generators: Observable Async Flow Control](https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435)
+            [requirejs] require js [http://www.ruanyifeng.com/blog/2012/11/require_js.html]
+            [javascript inheritance]http://javascript.info/tutorial/inheritance
+            generators & async/await
+                https://ponyfoo.com/articles/es6-generators-in-depth#generators-the-del-weird-del-ins-awesome-ins-parts
+                ! [The Evolution of Asynchronous JavaScript](https://blog.risingstack.com/asynchronous-javascript/)
+                [async await](https://ponyfoo.com/articles/understanding-javascript-async-await)
+                ! [The Hidden Power of ES6 Generators: Observable Async Flow Control](https://medium.com/javascript-scene/the-hidden-power-of-es6-generators-observable-async-flow-control-cfa4c7f31435)
 
-                ! [Metaprogramming in ES6: Symbols and why they're awesome](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/)
-                ! [es6 reflect](https://www.keithcirkel.co.uk/metaprogramming-in-es6-part-2-reflect/)
-                !! [es7 decorator](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41)
-                    decorator as mixins.
+            ! [Metaprogramming in ES6: Symbols and why they're awesome](https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/)
+            ! [es6 reflect](https://www.keithcirkel.co.uk/metaprogramming-in-es6-part-2-reflect/)
+            !! [es7 decorator](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841#.m9olqtn41)
+                decorator as mixins.
 
-                ! [prototype vs __proto__](http://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
-                    简单来说new Function 的时候会自动创建一个 prototype 对象, 这个对象保存着所有 class instance 的methods和inheritated properties
-                    , 这个prototype 和 Function 互相引用。 而__proto__是更内部的Link。
-                    具体看下面es6 classes的链接
+            ! [prototype vs __proto__](http://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript)
+                简单来说new Function 的时候会自动创建一个 prototype 对象, 这个对象保存着所有 class instance 的methods和inheritated properties
+                , 这个prototype 和 Function 互相引用。 而__proto__是更内部的Link。
+                具体看下面es6 classes的链接
 
-                !! [es6 classes](http://exploringjs.com/es6/ch_classes.html)
-                    [new.target](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target)
+            !! [es6 classes](http://exploringjs.com/es6/ch_classes.html)
+                [new.target](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target)
 
-            ### typescript
-                write ambient types:
-                    [](http://definitelytyped.org/guides/creating.html)
-                    [How to create your own TypeScript type definition files (.d.ts) and contribute to DefinitelyTyped on GitHub](http://blog.wolksoftware.com/contributing-to-definitelytyped)
+        typescript
+            write ambient types:
+                [](http://definitelytyped.org/guides/creating.html)
+                [How to create your own TypeScript type definition files (.d.ts) and contribute to DefinitelyTyped on GitHub](http://blog.wolksoftware.com/contributing-to-definitelytyped)
 
-            ### Rust
-                ! [system programming tutorial](http://rust-class.org/pages/pages.html)
-                http://killercup.github.io/trpl-ebook/
-                [Rust语言入门、关键技术与实战经验](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=405037902&idx=1&sn=97d9af490eefc5d6158cb6b6a70f67e5)
-                [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/)
-                [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg)
-                [What Are Tokio and Async IO All About?](https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about/)
-                [Rust不让你做的那些事](https://zhuanlan.zhihu.com/p/62642244)
-                    挺复杂的看了一大半, 算了不看了.
-                [硬核！Rust异步编程方式重大升级：新版Tokio如何提升10倍性能详解](https://mp.weixin.qq.com/s/qLVKxzorLvFYxfjol01xNA)
-                    有点难搞后面的部分
+        Rust
+            ! [system programming tutorial](http://rust-class.org/pages/pages.html)
+            http://killercup.github.io/trpl-ebook/
+            [Rust语言入门、关键技术与实战经验](http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=405037902&idx=1&sn=97d9af490eefc5d6158cb6b6a70f67e5)
+            [Zero-cost futures in Rust](http://aturon.github.io/blog/2016/08/11/futures/)
+            [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg)
+            [What Are Tokio and Async IO All About?](https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about/)
+            [Rust不让你做的那些事](https://zhuanlan.zhihu.com/p/62642244)
+                挺复杂的看了一大半, 算了不看了.
+            [硬核！Rust异步编程方式重大升级：新版Tokio如何提升10倍性能详解](https://mp.weixin.qq.com/s/qLVKxzorLvFYxfjol01xNA)
+                有点难搞后面的部分
+            [What Can Coerce, and Where, in Rust](https://www.possiblerust.com/guide/what-can-coerce-and-where-in-rust)
 
-                Language itself:
-                [](https://blog.rust-lang.org/2015/05/11/traits.html)
+            Language itself:
+            [](https://blog.rust-lang.org/2015/05/11/traits.html)
 
-                    ### lifetime
-                        ! https://doc.rust-lang.org/nomicon/lifetimes.html
-                        [](https://mobiarch.wordpress.com/2015/06/29/understanding-lifetime-in-rust-part-i/)
-                        [](https://mobiarch.wordpress.com/2015/07/08/understanding-lifetime-in-rust-part-ii-3/)
-
-
-                    closure with trait:
-                        http://huonw.github.io/blog/2015/05/finding-closure-in-rust/
-                        
-
-                [A Critique of Rust's `std::collections`](http://ticki.github.io/blog/horrible/)
-                ! [Fighting the Borrow Checker](https://m-decoster.github.io/2017/01/16/fighting-borrowchk/)
-                ! [Cow, str -> String, into, From/Into trait](https://jwilm.io/blog/from-str-to-cow/)
-
-                [performance]
-                    https://llogiq.github.io/2017/06/01/perf-pitfalls.html
+                ### lifetime
+                    ! https://doc.rust-lang.org/nomicon/lifetimes.html
+                    [](https://mobiarch.wordpress.com/2015/06/29/understanding-lifetime-in-rust-part-i/)
+                    [](https://mobiarch.wordpress.com/2015/07/08/understanding-lifetime-in-rust-part-ii-3/)
 
 
-        
+                closure with trait:
+                    http://huonw.github.io/blog/2015/05/finding-closure-in-rust/
+                    
 
-            ### golang
-                [go by example](https://gobyexample.com/)
-                [Go并发机制.md](https://github.com/k2huang/blogpost/blob/master/golang/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6/Go%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6.md)
-                [HTTP(S) Proxy in Golang in less than 100 lines of code](https://medium.com/@mlowicki/http-s-proxy-in-golang-in-less-than-100-lines-of-code-6a51c2f2c38c)
-                ! [The complete guide to Go net/http timeouts](https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/)
-                    讲了golang中的timeout机制，需要注意的是文中提及的不要使用package level的serveAndListen，应该是先create 一个server instance， then call server instance's method to listen http request. or you'll be 
-                    bypassing the timeout rules
-                [10 things you (probably) don't know about Go](https://talks.golang.org/2012/10things.slide#1)
+            [A Critique of Rust's `std::collections`](http://ticki.github.io/blog/horrible/)
+            ! [Fighting the Borrow Checker](https://m-decoster.github.io/2017/01/16/fighting-borrowchk/)
+            ! [Cow, str -> String, into, From/Into trait](https://jwilm.io/blog/from-str-to-cow/)
 
-                [golang in production]
-                    https://stackshare.io/stream/stream-and-go-news-feeds-for-over-300-million-end-users
-                [Testing in Golang](https://medium.com/@thejasbabu/testing-in-golang-c378b351002d)
-                [如何写出优雅的 Golang 代码](https://draveness.me/golang-101.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-
-                [mod management]
-                    [! go mod使用](https://www.jianshu.com/p/760c97ff644c)
-                    [Package Management With Go Modules: The Pragmatic Guide](https://medium.com/@adiach3nko/package-management-with-go-modules-the-pragmatic-guide-c831b4eaaf31)
+            [performance]
+                https://llogiq.github.io/2017/06/01/perf-pitfalls.html
 
 
-        ## programming methodolgy
-            patterns:
-                [Replacing_Recursion_With_a_Stack](http://haacked.com/archive/2007/03/04/Replacing_Recursion_With_a_Stack.aspx/)
-                    Any recursive algorithm can be replaced with a non-recursive algorithm by using a Stack.
+    
 
-            deal with concurrency:
-                [copy on write](https://en.wikipedia.org/wiki/Copy-on-write)
+        golang
+            [go by example](https://gobyexample.com/)
+            [Go并发机制.md](https://github.com/k2huang/blogpost/blob/master/golang/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6/Go%E5%B9%B6%E5%8F%91%E6%9C%BA%E5%88%B6.md)
+            [HTTP(S) Proxy in Golang in less than 100 lines of code](https://medium.com/@mlowicki/http-s-proxy-in-golang-in-less-than-100-lines-of-code-6a51c2f2c38c)
+            ! [The complete guide to Go net/http timeouts](https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/)
+                讲了golang中的timeout机制，需要注意的是文中提及的不要使用package level的serveAndListen，应该是先create 一个server instance， then call server instance's method to listen http request. or you'll be 
+                bypassing the timeout rules
+            [10 things you (probably) don't know about Go](https://talks.golang.org/2012/10things.slide#1)
 
-            compiler:
-                [](https://medium.com/@kosamari/how-to-be-a-compiler-make-a-compiler-with-javascript-4a8a13d473b4)
-                [ReactNL 2016 James Kyle - How to Build a Compiler](https://www.youtube.com/watch?v=ZYFOWesCm_0)
+            [golang in production]
+                https://stackshare.io/stream/stream-and-go-news-feeds-for-over-300-million-end-users
+            [Testing in Golang](https://medium.com/@thejasbabu/testing-in-golang-c378b351002d)
+            [如何写出优雅的 Golang 代码](https://draveness.me/golang-101.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
-            Reactive Programming:
-                [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+            [mod management]
+                [! go mod使用](https://www.jianshu.com/p/760c97ff644c)
+                [Package Management With Go Modules: The Pragmatic Guide](https://medium.com/@adiach3nko/package-management-with-go-modules-the-pragmatic-guide-c831b4eaaf31)
 
-            Functional Programming:
-                [Functional Programming]: http://en.wikipedia.org/wiki/Functional_programming
-                [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
-                [](https://bartoszmilewski.com/2014/11/24/types-and-functions/)
-                [Functional Programming: Type Systems](https://www.youtube.com/watch?v=hy1wjkcIBCU)
-                    type class: 就是先定义type行为, 然后可以吧行为引入, 动态扩充对象行为. 而传统的 class 方式需要将type和行为结合到一起.
+
+    # programming methodolgy
+        patterns:
+            [Replacing_Recursion_With_a_Stack](http://haacked.com/archive/2007/03/04/Replacing_Recursion_With_a_Stack.aspx/)
+                Any recursive algorithm can be replaced with a non-recursive algorithm by using a Stack.
+
+        deal with concurrency:
+            [copy on write](https://en.wikipedia.org/wiki/Copy-on-write)
+
+        compiler:
+            [](https://medium.com/@kosamari/how-to-be-a-compiler-make-a-compiler-with-javascript-4a8a13d473b4)
+            [ReactNL 2016 James Kyle - How to Build a Compiler](https://www.youtube.com/watch?v=ZYFOWesCm_0)
+
+        Reactive Programming:
+            [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+
+        Functional Programming:
+            [Functional Programming]: http://en.wikipedia.org/wiki/Functional_programming
+            [John Hughes - Why Functional Programming Matters]https://www.youtube.com/watch?v=Z35Tt87pIpg
+            [](https://bartoszmilewski.com/2014/11/24/types-and-functions/)
+            [Functional Programming: Type Systems](https://www.youtube.com/watch?v=hy1wjkcIBCU)
+                type class: 就是先定义type行为, 然后可以吧行为引入, 动态扩充对象行为. 而传统的 class 方式需要将type和行为结合到一起.
                 
 
-    # hacking:
-
-        [Hack WPA/WPA2 Wi-Fi with Fluxion tool]
-            (https://www.youtube.com/watch?v=xzv5Vy9ghrg)
-            https://www.youtube.com/watch?v=Pc8JCiRZ-4w
-        [Kali Linux on Raspberry Pi 3](https://www.youtube.com/watch?v=6xXnUGR_e4E)
-        [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
 
 
     # compiler & parser
@@ -1058,15 +1027,14 @@
             install IOS - https://linuxconfig.org/install-ubuntu-16-04-mate-or-ubuntu-18-04-on-raspberry-pi
             max voltage & current - https://raspberrypi.A.com/questions/3209/what-are-the-min-max-voltage-current-values-the-gpio-pins-can-handle
 
-        # arduino
 
+    # hacking:
 
-    # Perspective:
-        [The Programmer’s Guide to Booking a Concert](https://medium.com/@sinahab/the-programmers-guide-to-booking-a-concert-e048a580735f#.f71f1v2mo)
-        ![What are the greatest programming tips and tricks you have learned on your own by years of coding?](https://www.quora.com/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding/answer/Jerome-Terry-1)
-        [build a MVP: the right way to do it](https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83#.h0erw5m0u)
-        [What are some of the most basic things every programmer should know](http://brianknapp.me/most-basic-things-every-programmer-should-know/)
-
+        [Hack WPA/WPA2 Wi-Fi with Fluxion tool]
+            (https://www.youtube.com/watch?v=xzv5Vy9ghrg)
+            https://www.youtube.com/watch?v=Pc8JCiRZ-4w
+        [Kali Linux on Raspberry Pi 3](https://www.youtube.com/watch?v=6xXnUGR_e4E)
+        [](https://breakdev.org/how-i-hacked-an-android-app-to-get-free-beer/)
 
     # others
         ! [各种 cheatsheet](http://overapi.com/javascript/)
@@ -1103,7 +1071,29 @@
         [负数的带符号和不带符号的右移运算](https://blog.csdn.net/quzhongxin/article/details/47299511)
             
         
+----------------------------------------
+# math
 
+    ! [List of mathematical symbols](https://en.wikipedia.org/wiki/List_of_mathematical_symbols)
+    
+    [数学收敛]http://zh.wikipedia.org/zh/%E6%9E%81%E9%99%90_%28%E6%95%B0%E5%AD%A6%29
+    [Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics))
+    http://www.ruanyifeng.com/blog/2011/07/mathematical_constant_e.html
+    [数学科普文章](http://betterexplained.com/)
+    [Fourier Transform, Fourier Series, and frequency spectrum](https://www.youtube.com/watch?v=r18Gi8lSkfM)
+    [傅里叶变换]
+        http://blog.rainy.im/2015/11/03/fourier-transform-in-image-processing/
+        http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/
+    [Taxicab_geometry](https://en.wikipedia.org/wiki/Taxicab_geometry) - 计算LP-space (P是向量的空间维度)的向量的最小距离, 不唯一
+    [mod arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)
+    [Basic Linear Algebra for Deep Learning](https://towardsdatascience.com/linear-algebra-for-deep-learning-f21d7e7d7f23)
+    [Kleene star](https://en.wikipedia.org/wiki/Kleene_star)
+        就是一个Set中的元素各种互相排列组合, 无限次数, 除了 Empty Set 和 Singleton Set, 其他形式的 Kleene star over other set 都是 infinite set.
+
+
+
+
+----------------------------------------
 # economics & finance
     [How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0)
     [经济学书籍推荐]http://mp.weixin.qq.com/s?__biz=MzI4OTEwOTQ3MA==&mid=402562477&idx=1&sn=6cab2420c95317a692f0c96a66b4654f&scene=4#wechat_redirect
@@ -1232,7 +1222,7 @@
         http://www.baldingsworld.com/2016/11/18/the-strange-world-of-chinese-real-estate-liquidity/
 
 
-# Life:
+# Life & Career:
 
     ![The Philosophy of BOJACK HORSEMAN – Wisecrack Edition](https://www.youtube.com/watch?v=rORIDYHOFTQ)
     [What reality are you creating for yourself? | Isaac Lidsky](https://www.youtube.com/watch?v=cmpu58yv8-g)
@@ -1254,6 +1244,11 @@
         [公司上市，对于普通员工来说意味着什么？](https://cn.100offer.com/blog/posts/372)
         [期权和 RSU，哪个能让你的收益最大化？](https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzkwNQ==&mid=2649517643&idx=1&sn=2f6823adaa74ad827c82fca5214f30ec&chksm=88815315bff6da03ca59d463b4e85ffba15ac5f36ac45a29108010b6a776f3a4ae56971ee857&scene=21#wechat_redirect)
         [Fearless Interview](https://www.youtube.com/watch?v=Lf3fNS-hnKs)
+        [The Programmer’s Guide to Booking a Concert](https://medium.com/@sinahab/the-programmers-guide-to-booking-a-concert-e048a580735f#.f71f1v2mo)
+        ![What are the greatest programming tips and tricks you have learned on your own by years of coding?](https://www.quora.com/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding/answer/Jerome-Terry-1)
+        [build a MVP: the right way to do it](https://medium.com/unboxd/how-i-built-an-app-with-500-000-users-in-5-days-on-a-100-server-77deeb238e83#.h0erw5m0u)
+        [What are some of the most basic things every programmer should know](http://brianknapp.me/most-basic-things-every-programmer-should-know/)
+
 
     # 管理
         技术团队风格指南 - https://zhuanlan.zhihu.com/p/22266609
