@@ -31,6 +31,7 @@
     [OReilly.Beautiful.JavaScript.2015.8.pdf] | 2016.04.23-2016.08.01:D
 
 [NodeJS]
+
     [Node.js.the.Right.Way(2013.11)].Jim.R.Wilson.文字版.pdf|2014.12-:D
     ! [深入浅出nodejs]|2015-2016.10
         buffer, fork child process, cluster, bench mark, load test(ab). server side logging & alert
@@ -109,6 +110,7 @@
 
 
 [IOS]
+
     [iOS.Programming.The.Big.Nerd.Ranch.Guide.7th.Edition]|2022.09.18-2022.09.25|:D
 
 --------------- UNCATEGORIZED TECH --------------- 
@@ -163,11 +165,13 @@
 
 
 [自传]
+
     [刷新. Satya Nadella]|2018.10.20-~2018.11.31
     [道路与梦想：我与万科（1983~1999）] 2015.05-2015.06|:D
     [颠覆者, 周鸿祎自传]|2018.03.03-2018.04.30|:D
 
 [Finance & stock]
+
     [股市真规则-帕特.多尔西]|2021.07.01~2021.08.01|:D
     [一本书读懂财务报表-文洋]|2021.08.01~2021.08.20|:D
       not a good one , this book
