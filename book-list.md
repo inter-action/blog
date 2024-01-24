@@ -112,6 +112,7 @@
 [IOS]
 
     [iOS.Programming.The.Big.Nerd.Ranch.Guide.7th.Edition]|2022.09.18-2022.09.25|:D
+    ![OReilly.iOS.15.Programming.Fundamentals.with.Swift]|2022.10-2023.08|:D
 
 --------------- UNCATEGORIZED TECH --------------- 
 
@@ -124,7 +125,7 @@
     [angular2 guide](https://angular.io/docs/ts/latest/guide/) | 2016.09.20-2016.10|:D(only guide section)
     [UNIX Tutorial](https://www.tutorialspoint.com/unix/index.htm) | 2016.11-2016.12:D
     [Servers.for.Hackers.2016.7]|2018.01-2018.02|:D
-    [爱上Arduino/Getting Started with Arduino 3rd edition]|2018.10-2018.10|:D
+    [Getting Started with Arduino 3rd edition]|2018.10-2018.10|:D
     [Packet.Guide.to.Core.Network.Protocols Bruce.Hartpence]|2018.10-2018.10|:D
     [Computer Systems A Programmer's Perspective]|2016.12.03-2018.06|:D
     [Learn You a Haskell for Great Good]|2019.03-2019.05|:D
@@ -206,7 +207,7 @@
     ! [Manning.Math for Programmer]|2021.10-~
     [Compilers, principles, Techniques & Tools]|2021.10~
     [Head first statistics]|2022.02-~
-    [OReilly.iOS.15.Programming.Fundamentals.with.Swift]|2022.10-~
+    
     [AWP.Algorithms.Part.II.4th]|2022.10-~
     
     [The Rustonomicon]|2023.04-~
@@ -214,6 +215,12 @@
     [The Little Book of Rust Macros]|2023.05-~
         * https://veykril.github.io/tlborm/decl-macros/macros-practical.html
     
+    [C++.Crash.Course.2019.9.pdf]|2023.07-~
+    ! [Effective Modern C++, Scott Meyers]|2023.11-~
+    [OReilly.Getting.Started.With.Arduino.4th.Edition.2022.2.pdf]|2023.07-~
+    [Advanced.Apple.Debugging.&.Reverse.Engineering.4th.2023.7.pdf]|2023.09-~
+    [投资最重要的事-Howard Marks-中信出版社]|2023.12-~
+    [OReilly.Designing.Distributed.Systems]|2023.12-~
 
   
 [SUSPENDED] - clean books that is no more appealing
