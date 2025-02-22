@@ -58,6 +58,10 @@
 
     [Ngix Http Server]|2015.11:50%
     
+[linux]
+
+    [OReilly.Learning.Modern.Linux]|2024.06-2024.06|:D
+
 --------------- BACKEND WEB  --------------- 
 
 [Database]
@@ -221,6 +225,9 @@
     [Advanced.Apple.Debugging.&.Reverse.Engineering.4th.2023.7.pdf]|2023.09-~
     [投资最重要的事-Howard Marks-中信出版社]|2023.12-~
     [OReilly.Designing.Distributed.Systems]|2023.12-~
+    [Manning.Spring.in.Action.6th.Edition]|2024.06.15-~
+    [How.Linux.Works.3rd.Edition]|2024.06.16
+    [iOS.17.App.Development.Essentials]|2024.05-~
 
   
 [SUSPENDED] - clean books that is no more appealing
